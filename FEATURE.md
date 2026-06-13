@@ -8,6 +8,8 @@ theme: use system dark/light mode for the app theme.
 we already have picked a shadcn preset for the UI components.
 should naturally look good on mobile and desktop, let's use as many shadcn components as possible to speed up development and ensure a good user experience across devices while minimizing dev work.
 
+basic nav header that looks good on mobile and desktop.
+
 two pages: 
 rankings/atp
 rankings/wta
