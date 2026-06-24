@@ -1,6 +1,9 @@
 <script lang="ts">
-	import { atpPlayers } from '$lib/data/atp';
 	import PlayerRow from '$lib/components/PlayerRow.svelte';
+	import type { PageData } from './$types';
+
+	let { data }: { data: PageData } = $props();
+	const players = $derived(data.snapshot.players);
 </script>
 
 <svelte:head>
@@ -47,7 +50,7 @@
 
 	<!-- Players -->
 	<div class="divide-y divide-border/40 rounded-2xl border border-border/60 bg-card/60">
-		{#each atpPlayers as player}
+		{#each players as player}
 			<PlayerRow {player} />
 		{/each}
 	</div>
