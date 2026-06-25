@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-23T09:51:12.715Z",
+  "updated_at": "2026-06-25T21:57:07.220Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -2751,6 +2751,14 @@
           "event_date_end": "2026-06-07",
           "result": "R64",
           "points_earned": 50
+        },
+        {
+          "event_name": "Mallorca Championships",
+          "event_type": "250",
+          "event_date_start": "2026-06-22",
+          "event_date_end": "2026-06-25",
+          "result": "QF",
+          "points_earned": 50
         }
       ]
     },
@@ -4216,6 +4224,14 @@
           "event_date_end": "2026-06-21",
           "result": "QF",
           "points_earned": 100
+        },
+        {
+          "event_name": "Mallorca Championships",
+          "event_type": "250",
+          "event_date_start": "2026-06-22",
+          "event_date_end": "2026-06-25",
+          "result": "QF",
+          "points_earned": 50
         }
       ]
     },
@@ -5101,6 +5117,14 @@
           "event_date_end": "2026-06-21",
           "result": "SF",
           "points_earned": 200
+        },
+        {
+          "event_name": "Lexus Eastbourne Open",
+          "event_type": "250",
+          "event_date_start": "2026-06-22",
+          "event_date_end": "2026-06-25",
+          "result": "QF",
+          "points_earned": 50
         }
       ]
     },
@@ -5535,6 +5559,14 @@
           "event_date_end": "2026-06-21",
           "result": "R32",
           "points_earned": 25
+        },
+        {
+          "event_name": "Lexus Eastbourne Open",
+          "event_type": "250",
+          "event_date_start": "2026-06-22",
+          "event_date_end": "2026-06-25",
+          "result": "R16",
+          "points_earned": 25
         }
       ]
     },
@@ -5712,6 +5744,14 @@
           "event_date_end": "2026-06-21",
           "result": "R32",
           "points_earned": 25
+        },
+        {
+          "event_name": "Mallorca Championships",
+          "event_type": "250",
+          "event_date_start": "2026-06-22",
+          "event_date_end": "2026-06-25",
+          "result": "R16",
+          "points_earned": 25
         }
       ]
     },
@@ -5833,6 +5873,14 @@
           "event_date_end": "2026-06-21",
           "result": "R16",
           "points_earned": 50
+        },
+        {
+          "event_name": "Mallorca Championships",
+          "event_type": "250",
+          "event_date_start": "2026-06-22",
+          "event_date_end": "2026-06-25",
+          "result": "R16",
+          "points_earned": 25
         }
       ]
     },
@@ -5978,6 +6026,14 @@
           "event_date_end": "2026-06-07",
           "result": "QF",
           "points_earned": 400
+        },
+        {
+          "event_name": "Lexus Eastbourne Open",
+          "event_type": "250",
+          "event_date_start": "2026-06-22",
+          "event_date_end": "2026-06-25",
+          "result": "R32",
+          "points_earned": 0
         }
       ]
     },
@@ -6208,9 +6264,9 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-22",
-          "result": "R16",
-          "points_earned": 25
+          "event_date_end": "2026-06-25",
+          "result": "R32",
+          "points_earned": 0
         }
       ]
     },
@@ -6490,9 +6546,9 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-22",
-          "result": "R16",
-          "points_earned": 25
+          "event_date_end": "2026-06-25",
+          "result": "R32",
+          "points_earned": 0
         }
       ]
     },
@@ -6932,9 +6988,9 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-22",
-          "result": "R16",
-          "points_earned": 25
+          "event_date_end": "2026-06-25",
+          "result": "R32",
+          "points_earned": 0
         }
       ]
     },
@@ -7455,9 +7511,9 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-22",
-          "result": "R16",
-          "points_earned": 25
+          "event_date_end": "2026-06-25",
+          "result": "R32",
+          "points_earned": 0
         }
       ]
     },
@@ -7632,9 +7688,9 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-22",
-          "result": "R16",
-          "points_earned": 25
+          "event_date_end": "2026-06-25",
+          "result": "R32",
+          "points_earned": 0
         }
       ]
     },
@@ -7761,9 +7817,9 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-22",
-          "result": "R16",
-          "points_earned": 25
+          "event_date_end": "2026-06-25",
+          "result": "QF",
+          "points_earned": 50
         }
       ]
     },
@@ -8308,9 +8364,9 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-22",
-          "result": "R16",
-          "points_earned": 25
+          "event_date_end": "2026-06-25",
+          "result": "QF",
+          "points_earned": 50
         }
       ]
     },
@@ -8662,9 +8718,9 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-22",
-          "result": "R16",
-          "points_earned": 25
+          "event_date_end": "2026-06-25",
+          "result": "R32",
+          "points_earned": 0
         }
       ]
     },
@@ -8903,9 +8959,9 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-22",
-          "result": "R16",
-          "points_earned": 25
+          "event_date_end": "2026-06-25",
+          "result": "QF",
+          "points_earned": 50
         }
       ]
     },
@@ -9321,9 +9377,9 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-22",
-          "result": "R16",
-          "points_earned": 25
+          "event_date_end": "2026-06-25",
+          "result": "QF",
+          "points_earned": 50
         }
       ]
     },
@@ -9421,6 +9477,14 @@
           "event_date_end": "2026-06-07",
           "result": "R32",
           "points_earned": 100
+        },
+        {
+          "event_name": "Lexus Eastbourne Open",
+          "event_type": "250",
+          "event_date_start": "2026-06-22",
+          "event_date_end": "2026-06-25",
+          "result": "R16",
+          "points_earned": 25
         }
       ]
     },
@@ -9563,7 +9627,7 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-22",
+          "event_date_end": "2026-06-25",
           "result": "R16",
           "points_earned": 25
         }
@@ -10086,9 +10150,9 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-22",
-          "result": "R16",
-          "points_earned": 25
+          "event_date_end": "2026-06-25",
+          "result": "R32",
+          "points_earned": 0
         }
       ]
     },
@@ -10338,6 +10402,14 @@
           "event_date_end": "2026-06-21",
           "result": "SF",
           "points_earned": 200
+        },
+        {
+          "event_name": "Lexus Eastbourne Open",
+          "event_type": "250",
+          "event_date_start": "2026-06-22",
+          "event_date_end": "2026-06-25",
+          "result": "R16",
+          "points_earned": 25
         }
       ]
     },
@@ -10858,9 +10930,9 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-22",
-          "result": "R16",
-          "points_earned": 25
+          "event_date_end": "2026-06-25",
+          "result": "QF",
+          "points_earned": 50
         }
       ]
     },
@@ -11059,9 +11131,9 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-22",
-          "result": "R16",
-          "points_earned": 25
+          "event_date_end": "2026-06-25",
+          "result": "QF",
+          "points_earned": 50
         }
       ]
     },
@@ -11384,6 +11456,14 @@
           "event_date_end": "2026-06-21",
           "result": "R16",
           "points_earned": 50
+        },
+        {
+          "event_name": "Lexus Eastbourne Open",
+          "event_type": "250",
+          "event_date_start": "2026-06-22",
+          "event_date_end": "2026-06-25",
+          "result": "R32",
+          "points_earned": 0
         }
       ]
     },
@@ -11457,6 +11537,14 @@
           "event_date_end": "2026-06-07",
           "result": "R64",
           "points_earned": 50
+        },
+        {
+          "event_name": "Lexus Eastbourne Open",
+          "event_type": "250",
+          "event_date_start": "2026-06-22",
+          "event_date_end": "2026-06-25",
+          "result": "R32",
+          "points_earned": 0
         }
       ]
     },
@@ -11650,6 +11738,14 @@
           "event_date_end": "2026-06-21",
           "result": "R16",
           "points_earned": 50
+        },
+        {
+          "event_name": "Lexus Eastbourne Open",
+          "event_type": "250",
+          "event_date_start": "2026-06-22",
+          "event_date_end": "2026-06-25",
+          "result": "R16",
+          "points_earned": 25
         }
       ]
     },
@@ -11819,6 +11915,14 @@
           "event_date_end": "2026-06-21",
           "result": "R32",
           "points_earned": 25
+        },
+        {
+          "event_name": "Mallorca Championships",
+          "event_type": "250",
+          "event_date_start": "2026-06-22",
+          "event_date_end": "2026-06-25",
+          "result": "QF",
+          "points_earned": 50
         }
       ]
     },
@@ -12149,6 +12253,14 @@
           "event_date_end": "2026-06-21",
           "result": "R32",
           "points_earned": 25
+        },
+        {
+          "event_name": "Lexus Eastbourne Open",
+          "event_type": "250",
+          "event_date_start": "2026-06-22",
+          "event_date_end": "2026-06-25",
+          "result": "R32",
+          "points_earned": 0
         }
       ]
     },
@@ -12436,7 +12548,7 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-22",
+          "event_date_end": "2026-06-25",
           "result": "R16",
           "points_earned": 25
         }
@@ -12485,9 +12597,9 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-22",
-          "result": "R16",
-          "points_earned": 25
+          "event_date_end": "2026-06-25",
+          "result": "R32",
+          "points_earned": 0
         }
       ]
     },
@@ -12807,9 +12919,9 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-22",
-          "result": "R16",
-          "points_earned": 25
+          "event_date_end": "2026-06-25",
+          "result": "R32",
+          "points_earned": 0
         }
       ]
     },
@@ -13129,7 +13241,7 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-22",
+          "event_date_end": "2026-06-25",
           "result": "R16",
           "points_earned": 25
         }
@@ -14202,9 +14314,9 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-22",
-          "result": "R16",
-          "points_earned": 25
+          "event_date_end": "2026-06-25",
+          "result": "R32",
+          "points_earned": 0
         }
       ]
     },
@@ -14495,6 +14607,14 @@
           "event_date_end": "2026-06-07",
           "result": "R64",
           "points_earned": 50
+        },
+        {
+          "event_name": "Mallorca Championships",
+          "event_type": "250",
+          "event_date_start": "2026-06-22",
+          "event_date_end": "2026-06-25",
+          "result": "R32",
+          "points_earned": 0
         }
       ]
     },
@@ -14983,9 +15103,9 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-22",
-          "result": "R16",
-          "points_earned": 25
+          "event_date_end": "2026-06-25",
+          "result": "QF",
+          "points_earned": 50
         }
       ]
     },
@@ -15160,7 +15280,7 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-22",
+          "event_date_end": "2026-06-25",
           "result": "R16",
           "points_earned": 25
         }
@@ -15354,9 +15474,9 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-22",
-          "result": "R16",
-          "points_earned": 25
+          "event_date_end": "2026-06-25",
+          "result": "R32",
+          "points_earned": 0
         }
       ]
     },
@@ -16048,9 +16168,9 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-22",
-          "result": "R16",
-          "points_earned": 25
+          "event_date_end": "2026-06-25",
+          "result": "R32",
+          "points_earned": 0
         }
       ]
     }
