@@ -37,6 +37,7 @@
 				<span class="text-xs text-muted-foreground">{label}</span>
 			</div>
 		{/each}
+		<span class="text-xs font-medium text-muted-foreground">*ITF Events being added soon!</span>
 		<div class="ml-auto hidden text-xs text-muted-foreground md:block">← older points &nbsp;|&nbsp; newer points →</div>
 	</div>
 
