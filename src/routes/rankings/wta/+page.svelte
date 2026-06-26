@@ -38,7 +38,7 @@
 				<span class="text-xs text-muted-foreground">{label}</span>
 			</div>
 		{/each}
-		<div class="ml-auto hidden text-xs text-muted-foreground md:block">← older points &nbsp;|&nbsp; newer points →</div>
+		<div class="ml-auto hidden text-xs text-muted-foreground md:block">← this year's points &nbsp;|&nbsp; defending from last year →</div>
 	</div>
 
 	<!-- Column headers (md+) -->
