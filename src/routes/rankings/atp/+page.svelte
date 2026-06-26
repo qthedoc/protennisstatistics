@@ -4,6 +4,7 @@
 
 	let { data }: { data: PageData } = $props();
 	const players = $derived(data.snapshot.players);
+	let selectedName = $state<string | null>(null);
 </script>
 
 <svelte:head>
@@ -51,7 +52,7 @@
 	<!-- Players -->
 	<div class="divide-y divide-border/40 rounded-2xl border border-border/60 bg-card/60">
 		{#each players as player}
-			<PlayerRow {player} />
+			<PlayerRow {player} {selectedName} onselect={(name) => selectedName = name} />
 		{/each}
 	</div>
 
