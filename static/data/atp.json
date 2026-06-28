@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-27T07:07:04.930Z",
+  "updated_at": "2026-06-28T07:23:28.831Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -2716,7 +2716,7 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "QF",
           "points_earned": 50
         }
@@ -4157,9 +4157,9 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
-          "result": "SF",
-          "points_earned": 100
+          "event_date_end": "2026-06-27",
+          "result": "W",
+          "points_earned": 250
         }
       ]
     },
@@ -5637,7 +5637,7 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R16",
           "points_earned": 25
         }
@@ -5766,7 +5766,7 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R16",
           "points_earned": 25
         }
@@ -6144,7 +6144,7 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -6426,7 +6426,7 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -6860,7 +6860,7 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -8799,7 +8799,7 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "QF",
           "points_earned": 50
         }
@@ -9209,7 +9209,7 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "SF",
           "points_earned": 100
         }
@@ -9459,7 +9459,7 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R16",
           "points_earned": 25
         }
@@ -9974,7 +9974,7 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -10738,7 +10738,7 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "SF",
           "points_earned": 100
         }
@@ -10931,9 +10931,9 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
-          "result": "SF",
-          "points_earned": 100
+          "event_date_end": "2026-06-27",
+          "result": "F",
+          "points_earned": 165
         }
       ]
     },
@@ -11696,7 +11696,7 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "QF",
           "points_earned": 50
         }
@@ -12316,7 +12316,7 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R16",
           "points_earned": 25
         }
@@ -12365,7 +12365,7 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -12687,7 +12687,7 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -13009,7 +13009,7 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R16",
           "points_earned": 25
         }
@@ -14356,7 +14356,7 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -15008,7 +15008,7 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R16",
           "points_earned": 25
         }

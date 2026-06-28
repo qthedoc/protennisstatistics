@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-27T07:07:11.556Z",
+  "updated_at": "2026-06-28T07:23:36.545Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -423,7 +423,7 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R16",
           "points_earned": 60
         }
@@ -729,7 +729,7 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R16",
           "points_earned": 60
         }
@@ -1124,7 +1124,7 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R16",
           "points_earned": 60
         }
@@ -1462,7 +1462,7 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -1615,9 +1615,9 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
-          "result": "SF",
-          "points_earned": 195
+          "event_date_end": "2026-06-27",
+          "result": "W",
+          "points_earned": 500
         }
       ]
     },
@@ -2042,7 +2042,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -2163,9 +2163,9 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
-          "result": "SF",
-          "points_earned": 195
+          "event_date_end": "2026-06-27",
+          "result": "F",
+          "points_earned": 325
         }
       ]
     },
@@ -2364,7 +2364,7 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -2951,7 +2951,7 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "QF",
           "points_earned": 108
         }
@@ -3136,7 +3136,7 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R16",
           "points_earned": 60
         }
@@ -3595,7 +3595,7 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R16",
           "points_earned": 60
         }
@@ -3780,7 +3780,7 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "QF",
           "points_earned": 108
         }
@@ -3973,7 +3973,7 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "QF",
           "points_earned": 108
         }
@@ -4158,7 +4158,7 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R16",
           "points_earned": 60
         }
@@ -4279,9 +4279,9 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
-          "result": "SF",
-          "points_earned": 98
+          "event_date_end": "2026-06-27",
+          "result": "W",
+          "points_earned": 250
         }
       ]
     },
@@ -4665,7 +4665,7 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -4858,7 +4858,7 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -5486,7 +5486,7 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -5663,7 +5663,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "SF",
           "points_earned": 98
         }
@@ -5961,7 +5961,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -6524,7 +6524,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -6701,7 +6701,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -6910,7 +6910,7 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R16",
           "points_earned": 60
         }
@@ -7103,7 +7103,7 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -7256,7 +7256,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -7369,7 +7369,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -7756,7 +7756,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R16",
           "points_earned": 30
         }
@@ -8014,7 +8014,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "QF",
           "points_earned": 54
         }
@@ -8111,7 +8111,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "SF",
           "points_earned": 98
         }
@@ -8312,7 +8312,7 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "SF",
           "points_earned": 195
         }
@@ -8505,7 +8505,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -8682,7 +8682,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "QF",
           "points_earned": 54
         }
@@ -8843,7 +8843,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -8988,7 +8988,7 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -9117,7 +9117,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -9479,7 +9479,7 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -9648,7 +9648,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -9769,7 +9769,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "QF",
           "points_earned": 54
         }
@@ -9954,7 +9954,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "QF",
           "points_earned": 54
         }
@@ -10968,7 +10968,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -11202,7 +11202,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R16",
           "points_earned": 30
         }
@@ -11315,7 +11315,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R16",
           "points_earned": 30
         }
@@ -11597,7 +11597,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R16",
           "points_earned": 30
         }
@@ -11863,7 +11863,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -12000,7 +12000,7 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -12153,7 +12153,7 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -12202,7 +12202,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -13535,7 +13535,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R16",
           "points_earned": 30
         }
@@ -13657,7 +13657,7 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -14214,7 +14214,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-26",
+          "event_date_end": "2026-06-27",
           "result": "R16",
           "points_earned": 30
         }
