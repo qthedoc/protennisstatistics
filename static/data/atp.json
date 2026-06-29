@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25T21:57:07.220Z",
+  "updated_at": "2026-06-28T07:23:28.831Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -405,14 +405,6 @@
       "current_points": 4440,
       "points_distribution": [
         {
-          "event_name": "Mallorca Championships",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "SF",
-          "points_earned": 100
-        },
-        {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
           "event_date_start": "2025-06-30",
@@ -597,14 +589,6 @@
       "country_code": "US",
       "current_points": 4160,
       "points_distribution": [
-        {
-          "event_name": "Mallorca Championships",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R16",
-          "points_earned": 25
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -975,14 +959,6 @@
       "country_code": "US",
       "current_points": 3915,
       "points_distribution": [
-        {
-          "event_name": "Rothesay International",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "W",
-          "points_earned": 250
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -1410,14 +1386,6 @@
       "country_code": "IT",
       "current_points": 3460,
       "points_distribution": [
-        {
-          "event_name": "Rothesay International",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -2529,14 +2497,6 @@
       "current_points": 2300,
       "points_distribution": [
         {
-          "event_name": "Rothesay International",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
           "event_date_start": "2025-06-30",
@@ -2756,7 +2716,7 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "QF",
           "points_earned": 50
         }
@@ -2769,14 +2729,6 @@
       "country_code": "CZ",
       "current_points": 2295,
       "points_distribution": [
-        {
-          "event_name": "Rothesay International",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "QF",
-          "points_earned": 50
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -2930,14 +2882,6 @@
       "country_code": "US",
       "current_points": 2290,
       "points_distribution": [
-        {
-          "event_name": "Mallorca Championships",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "QF",
-          "points_earned": 50
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -3881,14 +3825,6 @@
       "current_points": 1925,
       "points_distribution": [
         {
-          "event_name": "Rothesay International",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R16",
-          "points_earned": 25
-        },
-        {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
           "event_date_start": "2025-06-30",
@@ -4025,14 +3961,6 @@
       "country_code": "ES",
       "current_points": 1910,
       "points_distribution": [
-        {
-          "event_name": "Rothesay International",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "SF",
-          "points_earned": 100
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -4229,9 +4157,9 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
-          "result": "QF",
-          "points_earned": 50
+          "event_date_end": "2026-06-27",
+          "result": "W",
+          "points_earned": 250
         }
       ]
     },
@@ -4339,14 +4267,6 @@
       "country_code": "BR",
       "current_points": 1735,
       "points_distribution": [
-        {
-          "event_name": "Rothesay International",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R16",
-          "points_earned": 25
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -4500,14 +4420,6 @@
       "country_code": "FR",
       "current_points": 1688,
       "points_distribution": [
-        {
-          "event_name": "Mallorca Championships",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R16",
-          "points_earned": 25
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -4709,14 +4621,6 @@
       "country_code": "GB",
       "current_points": 1595,
       "points_distribution": [
-        {
-          "event_name": "Rothesay International",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -4927,14 +4831,6 @@
       "current_points": 1510,
       "points_distribution": [
         {
-          "event_name": "Rothesay International",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "SF",
-          "points_earned": 100
-        },
-        {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
           "event_date_start": "2025-06-30",
@@ -5122,9 +5018,9 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
-          "result": "QF",
-          "points_earned": 50
+          "event_date_end": "2026-06-26",
+          "result": "SF",
+          "points_earned": 100
         }
       ]
     },
@@ -5345,14 +5241,6 @@
       "current_points": 1460,
       "points_distribution": [
         {
-          "event_name": "Mallorca Championships",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
           "event_date_start": "2025-06-30",
@@ -5564,7 +5452,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-26",
           "result": "R16",
           "points_earned": 25
         }
@@ -5749,7 +5637,7 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R16",
           "points_earned": 25
         }
@@ -5878,7 +5766,7 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R16",
           "points_earned": 25
         }
@@ -6031,7 +5919,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-26",
           "result": "R32",
           "points_earned": 0
         }
@@ -6044,14 +5932,6 @@
       "country_code": "FR",
       "current_points": 1278,
       "points_distribution": [
-        {
-          "event_name": "Mallorca Championships",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "F",
-          "points_earned": 165
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -6264,7 +6144,7 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -6546,7 +6426,7 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -6559,14 +6439,6 @@
       "country_code": "NL",
       "current_points": 1165,
       "points_distribution": [
-        {
-          "event_name": "Mallorca Championships",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "W",
-          "points_earned": 250
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -6988,7 +6860,7 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -7194,14 +7066,6 @@
       "country_code": "US",
       "current_points": 1115,
       "points_distribution": [
-        {
-          "event_name": "Mallorca Championships",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "SF",
-          "points_earned": 100
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -7511,7 +7375,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-26",
           "result": "R32",
           "points_earned": 0
         }
@@ -7524,14 +7388,6 @@
       "country_code": "ES",
       "current_points": 1065,
       "points_distribution": [
-        {
-          "event_name": "Mallorca Championships",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -7688,7 +7544,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-26",
           "result": "R32",
           "points_earned": 0
         }
@@ -7817,7 +7673,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-26",
           "result": "QF",
           "points_earned": 50
         }
@@ -8169,14 +8025,6 @@
       "current_points": 1010,
       "points_distribution": [
         {
-          "event_name": "Rothesay International",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
           "event_date_start": "2025-06-30",
@@ -8364,9 +8212,9 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
-          "result": "QF",
-          "points_earned": 50
+          "event_date_end": "2026-06-26",
+          "result": "SF",
+          "points_earned": 100
         }
       ]
     },
@@ -8718,7 +8566,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-26",
           "result": "R32",
           "points_earned": 0
         }
@@ -8731,14 +8579,6 @@
       "country_code": "RS",
       "current_points": 980,
       "points_distribution": [
-        {
-          "event_name": "Rothesay International",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -8959,7 +8799,7 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "QF",
           "points_earned": 50
         }
@@ -9157,14 +8997,6 @@
       "country_code": "PT",
       "current_points": 945,
       "points_distribution": [
-        {
-          "event_name": "Rothesay International",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R16",
-          "points_earned": 25
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -9377,9 +9209,9 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
-          "result": "QF",
-          "points_earned": 50
+          "event_date_end": "2026-06-27",
+          "result": "SF",
+          "points_earned": 100
         }
       ]
     },
@@ -9482,7 +9314,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-26",
           "result": "R16",
           "points_earned": 25
         }
@@ -9627,7 +9459,7 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R16",
           "points_earned": 25
         }
@@ -9849,14 +9681,6 @@
       "country_code": "AR",
       "current_points": 930,
       "points_distribution": [
-        {
-          "event_name": "Mallorca Championships",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -10150,7 +9974,7 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -10163,14 +9987,6 @@
       "country_code": "DE",
       "current_points": 924,
       "points_distribution": [
-        {
-          "event_name": "Mallorca Championships",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R16",
-          "points_earned": 25
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -10407,7 +10223,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-26",
           "result": "R16",
           "points_earned": 25
         }
@@ -10727,14 +10543,6 @@
       "current_points": 895,
       "points_distribution": [
         {
-          "event_name": "Rothesay International",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
           "event_date_start": "2025-06-30",
@@ -10930,9 +10738,9 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
-          "result": "QF",
-          "points_earned": 50
+          "event_date_end": "2026-06-27",
+          "result": "SF",
+          "points_earned": 100
         }
       ]
     },
@@ -10943,14 +10751,6 @@
       "country_code": "US",
       "current_points": 894,
       "points_distribution": [
-        {
-          "event_name": "Mallorca Championships",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R16",
-          "points_earned": 25
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -11131,9 +10931,9 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
-          "result": "QF",
-          "points_earned": 50
+          "event_date_end": "2026-06-27",
+          "result": "F",
+          "points_earned": 165
         }
       ]
     },
@@ -11144,14 +10944,6 @@
       "country_code": "RS",
       "current_points": 894,
       "points_distribution": [
-        {
-          "event_name": "Mallorca Championships",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "QF",
-          "points_earned": 50
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -11297,14 +11089,6 @@
       "country_code": "IT",
       "current_points": 876,
       "points_distribution": [
-        {
-          "event_name": "Rothesay International",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R16",
-          "points_earned": 25
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -11461,7 +11245,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-26",
           "result": "R32",
           "points_earned": 0
         }
@@ -11542,7 +11326,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-26",
           "result": "R32",
           "points_earned": 0
         }
@@ -11555,14 +11339,6 @@
       "country_code": "US",
       "current_points": 867,
       "points_distribution": [
-        {
-          "event_name": "Rothesay International",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "F",
-          "points_earned": 165
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -11743,7 +11519,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-26",
           "result": "R16",
           "points_earned": 25
         }
@@ -11920,7 +11696,7 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "QF",
           "points_earned": 50
         }
@@ -12258,7 +12034,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-26",
           "result": "R32",
           "points_earned": 0
         }
@@ -12368,14 +12144,6 @@
       "country_code": "IT",
       "current_points": 833,
       "points_distribution": [
-        {
-          "event_name": "Rothesay International",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R16",
-          "points_earned": 25
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -12548,7 +12316,7 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R16",
           "points_earned": 25
         }
@@ -12597,7 +12365,7 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -12919,7 +12687,7 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -13241,7 +13009,7 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R16",
           "points_earned": 25
         }
@@ -13254,14 +13022,6 @@
       "country_code": "AU",
       "current_points": 776,
       "points_distribution": [
-        {
-          "event_name": "Rothesay International",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R16",
-          "points_earned": 25
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -13684,14 +13444,6 @@
       "current_points": 717,
       "points_distribution": [
         {
-          "event_name": "Mallorca Championships",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
           "event_date_start": "2025-06-30",
@@ -14095,14 +13847,6 @@
       "current_points": 705,
       "points_distribution": [
         {
-          "event_name": "Rothesay International",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "QF",
-          "points_earned": 50
-        },
-        {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
           "event_date_start": "2025-06-30",
@@ -14314,7 +14058,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-26",
           "result": "R32",
           "points_earned": 0
         }
@@ -14612,7 +14356,7 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -14690,14 +14434,6 @@
       "country_code": "AR",
       "current_points": 688,
       "points_distribution": [
-        {
-          "event_name": "Rothesay International",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -14891,14 +14627,6 @@
       "country_code": "CA",
       "current_points": 685,
       "points_distribution": [
-        {
-          "event_name": "Mallorca Championships",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "QF",
-          "points_earned": 50
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -15103,7 +14831,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-26",
           "result": "QF",
           "points_earned": 50
         }
@@ -15280,7 +15008,7 @@
           "event_name": "Mallorca Championships",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R16",
           "points_earned": 25
         }
@@ -15293,14 +15021,6 @@
       "country_code": "FR",
       "current_points": 673,
       "points_distribution": [
-        {
-          "event_name": "Mallorca Championships",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -15474,7 +15194,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-26",
           "result": "R32",
           "points_earned": 0
         }
@@ -16168,7 +15888,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-26",
           "result": "R32",
           "points_earned": 0
         }

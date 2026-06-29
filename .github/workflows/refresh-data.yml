@@ -6,7 +6,7 @@ name: Refresh ranking data
 
 on:
   schedule:
-    - cron: '0 6 * * *' # daily 06:00 UTC
+    - cron: '0 6 * * 1' # monday @ 06:00 UTC
   workflow_dispatch: # allow manual runs from the Actions tab
 
 permissions:

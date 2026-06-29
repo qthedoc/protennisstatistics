@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-25T21:57:13.810Z",
+  "updated_at": "2026-06-28T07:23:36.545Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -292,14 +292,6 @@
       "current_points": 6733,
       "points_distribution": [
         {
-          "event_name": "Bad Homburg Open",
-          "event_type": "500",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "F",
-          "points_earned": 325
-        },
-        {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
           "event_date_start": "2025-06-30",
@@ -431,7 +423,7 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R16",
           "points_earned": 60
         }
@@ -444,14 +436,6 @@
       "country_code": "US",
       "current_points": 6380,
       "points_distribution": [
-        {
-          "event_name": "Bad Homburg Open",
-          "event_type": "500",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "W",
-          "points_earned": 500
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -597,14 +581,6 @@
       "country_code": "RU",
       "current_points": 5751,
       "points_distribution": [
-        {
-          "event_name": "Bad Homburg Open",
-          "event_type": "500",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "QF",
-          "points_earned": 108
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -753,7 +729,7 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R16",
           "points_earned": 60
         }
@@ -1025,14 +1001,6 @@
       "current_points": 4423,
       "points_distribution": [
         {
-          "event_name": "Bad Homburg Open",
-          "event_type": "500",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R16",
-          "points_earned": 60
-        },
-        {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
           "event_date_start": "2025-06-30",
@@ -1156,7 +1124,7 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R16",
           "points_earned": 60
         }
@@ -1322,14 +1290,6 @@
       "country_code": "CZ",
       "current_points": 3489,
       "points_distribution": [
-        {
-          "event_name": "Bad Homburg Open",
-          "event_type": "500",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "SF",
-          "points_earned": 195
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -1502,7 +1462,7 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -1655,9 +1615,9 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
-          "result": "QF",
-          "points_earned": 108
+          "event_date_end": "2026-06-27",
+          "result": "W",
+          "points_earned": 500
         }
       ]
     },
@@ -1668,14 +1628,6 @@
       "country_code": "CH",
       "current_points": 3385,
       "points_distribution": [
-        {
-          "event_name": "Bad Homburg Open",
-          "event_type": "500",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -1830,14 +1782,6 @@
       "current_points": 3157,
       "points_distribution": [
         {
-          "event_name": "Bad Homburg Open",
-          "event_type": "500",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
           "event_date_start": "2025-06-30",
@@ -1958,14 +1902,6 @@
       "country_code": "IT",
       "current_points": 2617,
       "points_distribution": [
-        {
-          "event_name": "Bad Homburg Open",
-          "event_type": "500",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "SF",
-          "points_earned": 195
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -2106,7 +2042,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -2119,14 +2055,6 @@
       "country_code": "JP",
       "current_points": 2571,
       "points_distribution": [
-        {
-          "event_name": "Bad Homburg Open",
-          "event_type": "500",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R16",
-          "points_earned": 60
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -2235,9 +2163,9 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
-          "result": "QF",
-          "points_earned": 108
+          "event_date_end": "2026-06-27",
+          "result": "F",
+          "points_earned": 325
         }
       ]
     },
@@ -2248,14 +2176,6 @@
       "country_code": "RU",
       "current_points": 2458,
       "points_distribution": [
-        {
-          "event_name": "Bad Homburg Open",
-          "event_type": "500",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -2444,7 +2364,7 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -2820,14 +2740,6 @@
       "current_points": 2411,
       "points_distribution": [
         {
-          "event_name": "Bad Homburg Open",
-          "event_type": "500",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "QF",
-          "points_earned": 108
-        },
-        {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
           "event_date_start": "2025-06-30",
@@ -3039,7 +2951,7 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "QF",
           "points_earned": 108
         }
@@ -3224,7 +3136,7 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R16",
           "points_earned": 60
         }
@@ -3270,14 +3182,6 @@
       "country_code": "CZ",
       "current_points": 1849,
       "points_distribution": [
-        {
-          "event_name": "Rothesay International",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -3471,14 +3375,6 @@
       "country_code": "CA",
       "current_points": 1844,
       "points_distribution": [
-        {
-          "event_name": "Bad Homburg Open",
-          "event_type": "500",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R16",
-          "points_earned": 60
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -3699,7 +3595,7 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R16",
           "points_earned": 60
         }
@@ -3712,14 +3608,6 @@
       "country_code": "US",
       "current_points": 1784,
       "points_distribution": [
-        {
-          "event_name": "Bad Homburg Open",
-          "event_type": "500",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "QF",
-          "points_earned": 108
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -3892,7 +3780,7 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "QF",
           "points_earned": 108
         }
@@ -3905,14 +3793,6 @@
       "country_code": "DK",
       "current_points": 1756,
       "points_distribution": [
-        {
-          "event_name": "Bad Homburg Open",
-          "event_type": "500",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R16",
-          "points_earned": 60
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -4093,7 +3973,7 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "QF",
           "points_earned": 108
         }
@@ -4106,14 +3986,6 @@
       "country_code": "BE",
       "current_points": 1728,
       "points_distribution": [
-        {
-          "event_name": "Bad Homburg Open",
-          "event_type": "500",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -4286,7 +4158,7 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R16",
           "points_earned": 60
         }
@@ -4407,9 +4279,9 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
-          "result": "QF",
-          "points_earned": 54
+          "event_date_end": "2026-06-27",
+          "result": "W",
+          "points_earned": 250
         }
       ]
     },
@@ -4573,14 +4445,6 @@
       "country_code": "US",
       "current_points": 1625,
       "points_distribution": [
-        {
-          "event_name": "Rothesay International",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -4801,7 +4665,7 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -4814,14 +4678,6 @@
       "country_code": "PHI",
       "current_points": 1557,
       "points_distribution": [
-        {
-          "event_name": "Rothesay International",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "F",
-          "points_earned": 163
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -5002,7 +4858,7 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -5193,14 +5049,6 @@
       "current_points": 1458,
       "points_distribution": [
         {
-          "event_name": "Rothesay International",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R16",
-          "points_earned": 30
-        },
-        {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
           "event_date_start": "2025-06-30",
@@ -5354,14 +5202,6 @@
       "current_points": 1431,
       "points_distribution": [
         {
-          "event_name": "Bad Homburg Open",
-          "event_type": "500",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R16",
-          "points_earned": 60
-        },
-        {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
           "event_date_start": "2025-06-30",
@@ -5498,14 +5338,6 @@
       "country_code": "CZ",
       "current_points": 1422,
       "points_distribution": [
-        {
-          "event_name": "Bad Homburg Open",
-          "event_type": "500",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R16",
-          "points_earned": 60
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -5654,7 +5486,7 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -5667,14 +5499,6 @@
       "country_code": "LV",
       "current_points": 1404,
       "points_distribution": [
-        {
-          "event_name": "Rothesay International",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R16",
-          "points_earned": 30
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -5839,9 +5663,9 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
-          "result": "QF",
-          "points_earned": 54
+          "event_date_end": "2026-06-27",
+          "result": "SF",
+          "points_earned": 98
         }
       ]
     },
@@ -6030,14 +5854,6 @@
       "current_points": 1373,
       "points_distribution": [
         {
-          "event_name": "Rothesay International",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R16",
-          "points_earned": 30
-        },
-        {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
           "event_date_start": "2025-06-30",
@@ -6145,7 +5961,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -6158,14 +5974,6 @@
       "country_code": "RO",
       "current_points": 1324,
       "points_distribution": [
-        {
-          "event_name": "Rothesay International",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -6384,14 +6192,6 @@
       "current_points": 1299,
       "points_distribution": [
         {
-          "event_name": "Bad Homburg Open",
-          "event_type": "500",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R16",
-          "points_earned": 60
-        },
-        {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
           "event_date_start": "2025-06-30",
@@ -6585,14 +6385,6 @@
       "current_points": 1272,
       "points_distribution": [
         {
-          "event_name": "Bad Homburg Open",
-          "event_type": "500",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
           "event_date_start": "2025-06-30",
@@ -6732,7 +6524,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -6909,7 +6701,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -7118,7 +6910,7 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R16",
           "points_earned": 60
         }
@@ -7131,14 +6923,6 @@
       "country_code": "PL",
       "current_points": 1208,
       "points_distribution": [
-        {
-          "event_name": "Bad Homburg Open",
-          "event_type": "500",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -7319,7 +7103,7 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -7332,14 +7116,6 @@
       "country_code": "IT",
       "current_points": 1192,
       "points_distribution": [
-        {
-          "event_name": "Rothesay International",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -7480,7 +7256,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -7593,7 +7369,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -7980,7 +7756,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R16",
           "points_earned": 30
         }
@@ -8238,7 +8014,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "QF",
           "points_earned": 54
         }
@@ -8335,9 +8111,9 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
-          "result": "QF",
-          "points_earned": 54
+          "event_date_end": "2026-06-27",
+          "result": "SF",
+          "points_earned": 98
         }
       ]
     },
@@ -8536,9 +8312,9 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
-          "result": "R16",
-          "points_earned": 60
+          "event_date_end": "2026-06-27",
+          "result": "SF",
+          "points_earned": 195
         }
       ]
     },
@@ -8549,14 +8325,6 @@
       "country_code": "AU",
       "current_points": 1096,
       "points_distribution": [
-        {
-          "event_name": "Rothesay International",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "W",
-          "points_earned": 250
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -8737,7 +8505,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -8914,7 +8682,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "QF",
           "points_earned": 54
         }
@@ -9075,7 +8843,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -9220,7 +8988,7 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -9349,7 +9117,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -9362,14 +9130,6 @@
       "country_code": "PL",
       "current_points": 1051,
       "points_distribution": [
-        {
-          "event_name": "Rothesay International",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -9719,7 +9479,7 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -9888,7 +9648,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -10009,7 +9769,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "QF",
           "points_earned": 54
         }
@@ -10194,7 +9954,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "QF",
           "points_earned": 54
         }
@@ -10207,14 +9967,6 @@
       "country_code": "US",
       "current_points": 1035,
       "points_distribution": [
-        {
-          "event_name": "Rothesay International",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R16",
-          "points_earned": 30
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -10514,14 +10266,6 @@
       "current_points": 1023,
       "points_distribution": [
         {
-          "event_name": "Rothesay International",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "QF",
-          "points_earned": 54
-        },
-        {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
           "event_date_start": "2025-06-30",
@@ -10698,14 +10442,6 @@
       "country_code": "UA",
       "current_points": 1017,
       "points_distribution": [
-        {
-          "event_name": "Rothesay International",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "QF",
-          "points_earned": 54
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -11085,14 +10821,6 @@
       "current_points": 1009,
       "points_distribution": [
         {
-          "event_name": "Rothesay International",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
           "event_date_start": "2025-06-30",
@@ -11240,7 +10968,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -11253,14 +10981,6 @@
       "country_code": "CO",
       "current_points": 988,
       "points_distribution": [
-        {
-          "event_name": "Rothesay International",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -11482,7 +11202,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R16",
           "points_earned": 30
         }
@@ -11595,7 +11315,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R16",
           "points_earned": 30
         }
@@ -11608,14 +11328,6 @@
       "country_code": "FR",
       "current_points": 959,
       "points_distribution": [
-        {
-          "event_name": "Rothesay International",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "SF",
-          "points_earned": 98
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -11737,14 +11449,6 @@
       "country_code": "AU",
       "current_points": 939,
       "points_distribution": [
-        {
-          "event_name": "Rothesay International",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R16",
-          "points_earned": 30
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -11893,7 +11597,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R16",
           "points_earned": 30
         }
@@ -12159,7 +11863,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -12296,7 +12000,7 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -12449,7 +12153,7 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -12498,7 +12202,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -13085,14 +12789,6 @@
       "current_points": 859,
       "points_distribution": [
         {
-          "event_name": "Rothesay International",
-          "event_type": "250",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
           "event_date_start": "2025-06-30",
@@ -13181,14 +12877,6 @@
       "country_code": "KZ",
       "current_points": 855,
       "points_distribution": [
-        {
-          "event_name": "Bad Homburg Open",
-          "event_type": "500",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -13847,7 +13535,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R16",
           "points_earned": 30
         }
@@ -13969,7 +13657,7 @@
           "event_name": "Bad Homburg Open",
           "event_type": "500",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R32",
           "points_earned": 0
         }
@@ -14056,14 +13744,6 @@
       "country_code": "US",
       "current_points": 798,
       "points_distribution": [
-        {
-          "event_name": "Bad Homburg Open",
-          "event_type": "500",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
@@ -14355,14 +14035,6 @@
       "current_points": 797,
       "points_distribution": [
         {
-          "event_name": "Bad Homburg Open",
-          "event_type": "500",
-          "event_date_start": "2025-06-23",
-          "event_date_end": "2025-06-28",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
           "event_date_start": "2025-06-30",
@@ -14542,7 +14214,7 @@
           "event_name": "Lexus Eastbourne Open",
           "event_type": "250",
           "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-25",
+          "event_date_end": "2026-06-27",
           "result": "R16",
           "points_earned": 30
         }
