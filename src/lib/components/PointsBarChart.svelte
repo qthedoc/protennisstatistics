@@ -5,7 +5,7 @@
 
 	let { results, isHovering = false }: { results: TournamentResult[]; isHovering?: boolean } = $props();
 
-	const W = 400;
+	let containerW = $state(400);
 	const CHART_H = 52;
 	const BASELINE_Y = CHART_H;
 	const ROUND_Y = BASELINE_Y + 11;  // round label baseline
@@ -69,8 +69,6 @@
 
 	function color(result: TournamentResult): string {
 		if (result.event_type === 'Grand Slam') {
-			const brand = gsBrand(result.event_name);
-			if (brand) return isDark ? brand.dark : brand.light;
 			return isDark ? GS_FALLBACK.dark : GS_FALLBACK.light;
 		}
 		return isDark
@@ -118,7 +116,7 @@
 	function xPos(dateStr: string): number {
 		const d = new Date(dateStr);
 		const ratio = (d.getTime() - yearStart.getTime()) / span;
-		return Math.max(0, Math.min(W - BAR_W, ratio * (W - BAR_W)));
+		return Math.max(0, Math.min(containerW - BAR_W, ratio * (containerW - BAR_W)));
 	}
 
 	function barH(points: number): number {
@@ -132,18 +130,18 @@
 
 	function logoX(dateStr: string): number {
 		const cx = xPos(dateStr) + BAR_W / 2;
-		return Math.max(0, Math.min(W - LOGO_W, cx - LOGO_W / 2));
+		return Math.max(0, Math.min(containerW - LOGO_W, cx - LOGO_W / 2));
 	}
 
-	const todayX = ((today.getTime() - yearStart.getTime()) / span) * W;
+	const todayX = $derived(((today.getTime() - yearStart.getTime()) / span) * containerW);
 
 	const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov'];
 
 	function monthStartX(m: number): number {
-		return ((new Date(YEAR, m, 1).getTime() - yearStart.getTime()) / span) * W;
+		return ((new Date(YEAR, m, 1).getTime() - yearStart.getTime()) / span) * containerW;
 	}
 
-	type TooltipData = { clientX: number; clientY: number; result: TournamentResult; isDefend: boolean };
+	type TooltipData = { clientX: number; clientY: number; result: TournamentResult };
 	let tooltip = $state<TooltipData | null>(null);
 
 	function shortResult(r: string): string {
@@ -155,9 +153,9 @@
 	}
 </script>
 
-<div class="relative w-full select-none">
+<div class="relative w-full select-none" bind:clientWidth={containerW}>
 	<svg
-		viewBox="0 0 {W} {H}"
+		viewBox="0 0 {containerW} {H}"
 		class="w-full overflow-visible"
 		style="height: 5.5rem"
 		role="img"
@@ -165,7 +163,7 @@
 	>
 		<!-- Y-axis max label (top-right, animates with tween) -->
 		<text
-			x={W - 2}
+			x={containerW - 2}
 			y={7}
 			font-size="10"
 			fill="currentColor"
@@ -188,7 +186,7 @@
 		{/each}
 
 		<!-- Baseline -->
-		<line x1="0" y1={BASELINE_Y} x2={W} y2={BASELINE_Y} stroke="currentColor" stroke-width="0.8" class="text-border" />
+		<line x1="0" y1={BASELINE_Y} x2={containerW} y2={BASELINE_Y} stroke="currentColor" stroke-width="0.8" class="text-border" />
 
 		<!-- Tier-max background for earned events (visual only, fades on zoom) -->
 		{#each earnedResults as result}
@@ -203,8 +201,8 @@
 			{@const h = barH(result.points_earned)}
 			{@const c = color(result)}
 			<rect {x} y={BASELINE_Y - tierH(result.event_type)} width={BAR_W} height={tierH(result.event_type)} fill={c} fill-opacity="0.08" opacity={tierOpacity} rx="2" pointer-events="none" />
-			<rect {x} y={BASELINE_Y - h} width={BAR_W} height={h} fill={c} fill-opacity="0.45" rx="2" pointer-events="none" />
-			<text x={x + BAR_W / 2} y={ROUND_Y} font-size="9" fill={c} fill-opacity="0.60" text-anchor="middle" pointer-events="none">{shortResult(result.result)}</text>
+			<rect {x} y={BASELINE_Y - h} width={BAR_W} height={h} fill={c} rx="2" opacity="0.92" pointer-events="none" />
+			<text x={x + BAR_W / 2} y={ROUND_Y} font-size="9" fill={c} fill-opacity="0.85" text-anchor="middle" pointer-events="none">{shortResult(result.result)}</text>
 		{/each}
 
 		<!-- Earned bars (visual only) -->
@@ -227,7 +225,7 @@
 				tabindex="0"
 				aria-label={result.event_name}
 				class="cursor-pointer"
-				onmouseenter={(e) => { tooltip = { clientX: e.clientX, clientY: e.clientY, result, isDefend: false }; }}
+				onmouseenter={(e) => { tooltip = { clientX: e.clientX, clientY: e.clientY, result }; }}
 				onmouseleave={() => { tooltip = null; }}
 				onmousemove={(e) => { if (tooltip) tooltip = { ...tooltip, clientX: e.clientX, clientY: e.clientY }; }}
 			/>
@@ -239,17 +237,17 @@
 				{x} y={BASELINE_Y - maxH} width={BAR_W} height={maxH}
 				fill="transparent"
 				role="button"
-				aria-label="{result.event_name} — to defend"
+				aria-label={result.event_name}
 				tabindex="0"
 				class="cursor-pointer"
-				onmouseenter={(e) => { tooltip = { clientX: e.clientX, clientY: e.clientY, result, isDefend: true }; }}
+				onmouseenter={(e) => { tooltip = { clientX: e.clientX, clientY: e.clientY, result }; }}
 				onmouseleave={() => { tooltip = null; }}
 				onmousemove={(e) => { if (tooltip) tooltip = { ...tooltip, clientX: e.clientX, clientY: e.clientY }; }}
 			/>
 		{/each}
 
 		<!-- Today indicator -->
-		{#if todayX >= 0 && todayX <= W}
+		{#if todayX >= 0 && todayX <= containerW}
 			<line x1={todayX} y1="0" x2={todayX} y2={BASELINE_Y} stroke="currentColor" stroke-width="1.2" stroke-dasharray="2,2" class="text-foreground/50" />
 			<polygon points="{todayX - 3},0 {todayX + 3},0 {todayX},5" fill="currentColor" class="text-foreground/60" />
 		{/if}
@@ -279,17 +277,12 @@
 			class="pointer-events-none fixed z-50 min-w-40 rounded-lg border border-border bg-popover px-3 py-2 shadow-lg"
 			style="left: {tooltip.clientX}px; top: {tooltip.clientY - 115}px; transform: translateX(-50%)"
 		>
-			{#if tooltip.isDefend}
-				<div class="mb-1">
-					<span class="rounded-sm bg-muted px-1 py-0.5 text-[9px] font-semibold uppercase tracking-wide text-muted-foreground">Defend</span>
-				</div>
-			{/if}
 			<p class="text-xs font-semibold text-popover-foreground">{tooltip.result.event_name}</p>
 			<p class="mt-0.5 text-xs text-muted-foreground">{tooltip.result.event_type}</p>
 			<div class="mt-1.5 flex items-center justify-between gap-3">
 				<span class="text-xs text-muted-foreground">{tooltip.result.event_date_start.slice(0, 7)}</span>
 				<span class="text-xs font-bold text-foreground">{tooltip.result.result}</span>
-				<span class="text-xs font-semibold {tooltip.isDefend ? 'text-muted-foreground' : 'text-primary'}">{tooltip.isDefend ? '−' : '+'}{tooltip.result.points_earned.toLocaleString()} pts</span>
+				<span class="text-xs font-semibold text-primary">+{tooltip.result.points_earned.toLocaleString()} pts</span>
 			</div>
 		</div>
 	{/if}
