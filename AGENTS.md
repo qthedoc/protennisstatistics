@@ -120,9 +120,11 @@ If you change it in one place, change it in all three. `RankingsHeader.svelte` i
 
 - Uses `bind:clientWidth={containerW}` to size the SVG viewBox dynamically — bars always fill their column
 - `earnedResults`: current-year events already played
-- `defendResults`: last-year events projected into current-year dates, shown for upcoming defenses
-- Both render identically (no faded styling for defend bars)
-- Tooltip uses fixed positioning relative to `clientX/Y`
+- `defendResults`: last-year events projected into current-year dates, shown for upcoming defenses (start in future)
+- `currentResults`: in-progress event — projected last-year date range straddles today. Renders special live UI: faded tier-max ceiling + wider faded "defending meter" bar at last year's points (the threshold to hold rank) + a dashed threshold line + a full-opacity live bar (height = live points, **0 until the live feed is piped in**). Fills the gap where a bar used to vanish once a tournament started.
+- `defendResults`/`earnedResults` render identically (no faded styling)
+- Tooltip uses fixed positioning relative to `clientX/Y`. `currentResults` bars use a two-column tooltip (Live left / Defending right), each with tournament name, result/round, points
+- FUTURE DATA ROUTING: live side currently mirrors the defended tournament; once a real live feed lands the defended event may be a *different* tournament than the one playing — see `currentTip()` / `currentResults` comments
 
 ---
 
