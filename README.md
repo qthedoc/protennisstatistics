@@ -1,42 +1,20 @@
-# sv
+# Pro Tennis Statistics
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Welcome to Pro Tennis Statistics. Quinn here. I love tennis and I love stats. I had a few ideas for some cool tennis data visualizations and made this app to bring them to life.
 
-## Creating a project
+Unique Visualizations:
+- **Rankings with 52 week Point Distribution**: You can see how points are distributed over the year, what points need to be defended and when.
+- More to come!
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Development
+AI Note: Without AI this would have taken too long to justify spending on a side project; so a huge thanks to AI; I was able to throw this together within a non-ridiculous amount of time.
 
-```sh
-# create a new project
-npx sv create my-app
-```
+This project was also an excuse for me to branch out from React and learn Svelte. Gotta say, I don't love the locked in file structure being tied to the routes, but is is really simple.
 
-To recreate this project with the same configuration:
+## Data
+API Host: `tennis-api-atp-wta-itf.p.rapidapi.com`
+API Docs: `https://docs.tennis-api.com/`
+Great full set of data!
 
-```sh
-# recreate this project
-pnpm dlx sv@0.15.3 create --template demo --types ts --add tailwindcss="plugins:none" --install pnpm protennisstatistics
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+## Contributing
+If you have any cool tennis stat ideas, reach out or make a PR!
