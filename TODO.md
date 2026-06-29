@@ -26,7 +26,6 @@ big features:
     - live points, this week points, defending points (both hover to show tournament/round/points)
 
 
-
 fixes:
 - style home page
 - hover card for each tournament bar needs a UI on mobile

@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { page } from '$app/state';
-	import { Sun, Moon, Trophy } from '@lucide/svelte';
+	import { Sun, Moon } from '@lucide/svelte';
 
 	let isDark = $state(false);
 
@@ -29,10 +29,8 @@
 <header class="sticky top-0 z-50 border-b border-border/60 bg-background/80 backdrop-blur-md">
 	<div class="mx-auto flex h-14 w-full max-w-7xl items-center justify-between px-4 md:px-6">
 		<a href="/" class="flex items-center gap-2 font-semibold tracking-tight text-foreground">
-			<div class="flex size-7 items-center justify-center rounded-md bg-primary text-primary-foreground">
-				<Trophy class="size-4" />
-			</div>
-			<span class="hidden sm:inline">Pro Tennis Stats</span>
+			<img src="/images/logo.svg" alt="PTS logo" class="size-7" />
+			<span class="hidden sm:inline">Pro Tennis Statistics</span>
 			<span class="sm:hidden">PTS</span>
 		</a>
 
