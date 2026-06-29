@@ -1,5 +1,6 @@
 <script lang="ts">
 	import WtaLogo from '$lib/components/WtaLogo.svelte';
+	import AtpLogo from '$lib/components/AtpLogo.svelte';
 	import PlayerRow from '$lib/components/PlayerRow.svelte';
 	import RankingsHeader from '$lib/components/RankingsHeader.svelte';
 	import { ChevronRight } from '@lucide/svelte';
@@ -34,7 +35,7 @@
 			href="/rankings/atp"
 			class="group relative overflow-hidden rounded-2xl border border-border/70 bg-card/80 p-6 shadow-sm transition-all hover:border-border hover:shadow-md"
 		>
-			<img src="/images/tour-atp.png" alt="atp logo" class="h-10 object-contain opacity-80 transition-opacity group-hover:opacity-100" />
+			<AtpLogo class="h-10 w-auto text-foreground opacity-80 transition-opacity group-hover:opacity-100" />
 			<p class="mt-4 text-sm text-muted-foreground">Top 100 ATP players with points breakdown</p>
 			<div class="mt-4 flex items-center gap-1.5 text-sm font-semibold text-primary opacity-80 transition-opacity group-hover:opacity-100">
 				View rankings
