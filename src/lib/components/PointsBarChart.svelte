@@ -2,6 +2,7 @@
 	import type { TournamentResult } from '$lib/types';
 	import { Tween } from 'svelte/motion';
 	import { cubicOut } from 'svelte/easing';
+	import { Badge } from '$lib/components/ui/badge';
 
 	let { results, isHovering = false }: { results: TournamentResult[]; isHovering?: boolean } = $props();
 
@@ -14,7 +15,6 @@
 	const LOGO_W = 32;
 	const H = LOGO_Y + LOGO_H + 2;    // 88
 	const BAR_W = 10;
-	const METER_PAD = 3;              // defending-meter bar overhang each side
 
 	const today = new Date();
 	const YEAR = today.getFullYear();
@@ -77,58 +77,53 @@
 			: (TYPE_COLORS_LIGHT[result.event_type] ?? TYPE_COLORS_LIGHT['Other']);
 	}
 
-	const earnedResults = $derived(
-		results.filter((r) => {
-			const d = new Date(r.event_date_start);
-			return d.getFullYear() === YEAR && d <= yearEnd;
-		})
-	);
+	// Monday on or after a given date (the ATP drop-off anchor).
+	function mondayOnOrAfter(d: Date): Date {
+		const day = d.getDay(); // 0=Sun, 1=Mon … 6=Sat
+		const offset = day === 1 ? 0 : day === 0 ? 1 : 8 - day;
+		return new Date(d.getTime() + offset * 86_400_000);
+	}
 
-	// Last-year results projected onto this year's calendar (start + end).
-	// FUTURE DATA ROUTING: the "defending" points may eventually come from a
-	// DIFFERENT tournament than the one being played live. For now we assume the
-	// same event (last year's same tournament), which is correct for the UI.
-	function projectDate(dateStr: string): string {
+	// Project any date to the same month/day in the current year (for x-positioning).
+	function toThisYear(dateStr: string): string {
 		const d = new Date(dateStr);
 		const mm = String(d.getMonth() + 1).padStart(2, '0');
 		const dd = String(d.getDate()).padStart(2, '0');
 		return `${YEAR}-${mm}-${dd}`;
 	}
 
-	const projectedLastYear = $derived(
+	// A result is visible until: 52 weeks after the Monday on-or-after its end date.
+	// This mirrors exactly how ATP ranking points expire.
+	const visibleResults = $derived(
 		results
-			.filter((r) => new Date(r.event_date_start).getFullYear() < YEAR)
+			.filter((r) => {
+				const endDate = new Date(r.event_date_end);
+				const expiry = mondayOnOrAfter(endDate);
+				expiry.setDate(expiry.getDate() + 364); // 52 weeks
+				return today < expiry;
+			})
 			.map((r) => ({
 				...r,
-				event_date_start: projectDate(r.event_date_start),
-				event_date_end: projectDate(r.event_date_end),
+				// Original dates preserved for tooltip display.
+				// pos_* are projected to current year for x-axis positioning only.
+				pos_start: toThisYear(r.event_date_start),
+				pos_end: toThisYear(r.event_date_end),
 			}))
 	);
 
-	// Tournament in progress right now — projected date range straddles today.
-	// This fills the gap where a bar used to vanish between "upcoming defend"
-	// (start in future) and "earned live result" (not piped in yet).
-	const currentResults = $derived(
-		projectedLastYear.filter((r) => {
-			const s = new Date(r.event_date_start);
-			const e = new Date(r.event_date_end);
-			return s <= today && today <= e;
-		})
-	);
+	type VisibleResult = (typeof visibleResults)[number];
 
-	const defendResults = $derived(
-		projectedLastYear.filter((r) => {
-			const s = new Date(r.event_date_start);
-			return s > today && s <= yearEnd;
-		})
-	);
+	// Tournament whose projected window straddles today — the event currently being played.
+	function isCurrent(r: VisibleResult): boolean {
+		return new Date(r.pos_start) <= today && today <= new Date(r.pos_end);
+	}
+
+	// TODO: replace livePoints with real feed data per event_name when available.
+	const livePoints = 0;
 
 	// Per-player peak (zoom target)
 	const playerPeak = $derived(
-		Math.max(
-			100,
-			...[...earnedResults, ...defendResults, ...currentResults].map((r) => r.points_earned)
-		)
+		Math.max(100, ...visibleResults.map((r) => r.points_earned))
 	);
 
 	// Animates between 2000 (default) and playerPeak (zoomed)
@@ -169,22 +164,19 @@
 		return ((new Date(YEAR, m, 1).getTime() - yearStart.getTime()) / span) * containerW;
 	}
 
-	type TipSide = { name: string; type: string; result: string | null; points: number };
 	type TooltipData =
 		| { clientX: number; clientY: number; kind: 'single'; result: TournamentResult }
-		| { clientX: number; clientY: number; kind: 'current'; live: TipSide; defend: TipSide };
+		| { clientX: number; clientY: number; kind: 'current'; result: TournamentResult; livePts: number };
 	let tooltip = $state<TooltipData | null>(null);
 
-	// Tooltip for an in-progress event: live side (placeholder until feed lands)
-	// + defending side (last year's result being defended). Same event for now.
 	function currentTip(e: MouseEvent, r: TournamentResult): TooltipData {
-		return {
-			clientX: e.clientX,
-			clientY: e.clientY,
-			kind: 'current',
-			live: { name: r.event_name, type: r.event_type, result: null, points: 0 },
-			defend: { name: r.event_name, type: r.event_type, result: r.result, points: r.points_earned },
-		};
+		return { clientX: e.clientX, clientY: e.clientY, kind: 'current', result: r, livePts: livePoints };
+	}
+
+	// "2026-06-30" → "Jun-30"
+	function fmtMD(dateStr: string): string {
+		const d = new Date(dateStr + 'T12:00:00');
+		return d.toLocaleString('en-US', { month: 'short', day: 'numeric' });
 	}
 
 	function shortResult(r: string): string {
@@ -231,53 +223,32 @@
 		<!-- Baseline -->
 		<line x1="0" y1={BASELINE_Y} x2={containerW} y2={BASELINE_Y} stroke="currentColor" stroke-width="0.8" class="text-border" />
 
-		<!-- Tier-max background for earned events (visual only, fades on zoom) -->
-		{#each earnedResults as result}
-			{@const x = xPos(result.event_date_start)}
+		<!-- Tier-max background (visual only, fades on zoom) -->
+		{#each visibleResults as result}
+			{@const x = xPos(result.pos_start)}
 			{@const maxH = tierH(result.event_type)}
 			<rect {x} y={BASELINE_Y - maxH} width={BAR_W} height={maxH} fill={color(result)} fill-opacity="0.08" opacity={tierOpacity} rx="2" pointer-events="none" />
 		{/each}
 
-		<!-- Defend bars (visual only) -->
-		{#each defendResults as result}
-			{@const x = xPos(result.event_date_start)}
-			{@const h = barH(result.points_earned)}
-			{@const c = color(result)}
-			<rect {x} y={BASELINE_Y - tierH(result.event_type)} width={BAR_W} height={tierH(result.event_type)} fill={c} fill-opacity="0.08" opacity={tierOpacity} rx="2" pointer-events="none" />
-			<rect {x} y={BASELINE_Y - h} width={BAR_W} height={h} fill={c} rx="2" opacity="0.92" pointer-events="none" />
-			<text x={x + BAR_W / 2} y={ROUND_Y} font-size="9" fill={c} fill-opacity="0.85" text-anchor="middle" pointer-events="none">{shortResult(result.result)}</text>
-		{/each}
-
-		<!-- Earned bars (visual only) -->
-		{#each earnedResults as result}
-			{@const x = xPos(result.event_date_start)}
+		<!-- Points bars + round labels + live threshold line for in-progress events -->
+		{#each visibleResults as result}
+			{@const x = xPos(result.pos_start)}
 			{@const h = barH(result.points_earned)}
 			{@const c = color(result)}
 			<rect {x} y={BASELINE_Y - h} width={BAR_W} height={h} fill={c} rx="2" opacity="0.92" pointer-events="none" />
 			<text x={x + BAR_W / 2} y={ROUND_Y} font-size="9" fill={c} fill-opacity="0.85" text-anchor="middle" pointer-events="none">{shortResult(result.result)}</text>
-		{/each}
-
-		<!-- Current (in-progress) events: faded tier-max ceiling + defend threshold line + live bar -->
-		{#each currentResults as result}
-			{@const x = xPos(result.event_date_start)}
-			{@const c = color(result)}
-			{@const tierMaxH = tierH(result.event_type)}
-			{@const defendH = barH(result.points_earned)}
-			{@const livePoints = 0}
-			{@const liveH = (livePoints / maxPts.current) * CHART_H}
-			<!-- tier-max ceiling (faded, fades on zoom like earned bg) -->
-			<rect {x} y={BASELINE_Y - tierMaxH} width={BAR_W} height={tierMaxH} fill={c} fill-opacity="0.08" opacity={tierOpacity} rx="2" pointer-events="none" />
-			<!-- defend threshold line: solid, marks points player must reach to hold rank -->
-			<line x1={x - METER_PAD} x2={x + BAR_W + METER_PAD} y1={BASELINE_Y - defendH} y2={BASELINE_Y - defendH} stroke={c} stroke-width="2" stroke-opacity="0.8" pointer-events="none" />
-			<!-- live points bar (full opacity, 0 until live data piped in) -->
-			{#if liveH > 0}
-				<rect {x} y={BASELINE_Y - liveH} width={BAR_W} height={liveH} fill={c} rx="2" opacity="0.95" pointer-events="none" />
+			{#if isCurrent(result)}
+				<!-- Live points bar. livePoints=0 until feed is wired in. -->
+				{@const liveH = (livePoints / maxPts.current) * CHART_H}
+				{#if liveH > 0}
+					<rect {x} y={BASELINE_Y - liveH} width={BAR_W} height={liveH} fill={c} rx="2" opacity="0.95" pointer-events="none" />
+				{/if}
 			{/if}
 		{/each}
 
-		<!-- Hit areas — transparent rects covering full tier-max height for each bar -->
-		{#each earnedResults as result}
-			{@const x = xPos(result.event_date_start)}
+		<!-- Hit areas — transparent rects covering full tier-max height -->
+		{#each visibleResults as result}
+			{@const x = xPos(result.pos_start)}
 			{@const maxH = tierH(result.event_type)}
 			<rect
 				{x} y={BASELINE_Y - maxH} width={BAR_W} height={maxH}
@@ -286,37 +257,7 @@
 				tabindex="0"
 				aria-label={result.event_name}
 				class="cursor-pointer"
-				onmouseenter={(e) => { tooltip = { clientX: e.clientX, clientY: e.clientY, kind: 'single', result }; }}
-				onmouseleave={() => { tooltip = null; }}
-				onmousemove={(e) => { if (tooltip) tooltip = { ...tooltip, clientX: e.clientX, clientY: e.clientY }; }}
-			/>
-		{/each}
-		{#each defendResults as result}
-			{@const x = xPos(result.event_date_start)}
-			{@const maxH = tierH(result.event_type)}
-			<rect
-				{x} y={BASELINE_Y - maxH} width={BAR_W} height={maxH}
-				fill="transparent"
-				role="button"
-				aria-label={result.event_name}
-				tabindex="0"
-				class="cursor-pointer"
-				onmouseenter={(e) => { tooltip = { clientX: e.clientX, clientY: e.clientY, kind: 'single', result }; }}
-				onmouseleave={() => { tooltip = null; }}
-				onmousemove={(e) => { if (tooltip) tooltip = { ...tooltip, clientX: e.clientX, clientY: e.clientY }; }}
-			/>
-		{/each}
-		{#each currentResults as result}
-			{@const x = xPos(result.event_date_start)}
-			{@const maxH = tierH(result.event_type)}
-			<rect
-				x={x - METER_PAD} y={BASELINE_Y - maxH} width={BAR_W + METER_PAD * 2} height={maxH}
-				fill="transparent"
-				role="button"
-				tabindex="0"
-				aria-label={result.event_name}
-				class="cursor-pointer"
-				onmouseenter={(e) => { tooltip = currentTip(e, result); }}
+				onmouseenter={(e) => { tooltip = isCurrent(result) ? currentTip(e, result) : { clientX: e.clientX, clientY: e.clientY, kind: 'single', result }; }}
 				onmouseleave={() => { tooltip = null; }}
 				onmousemove={(e) => { if (tooltip) tooltip = { ...tooltip, clientX: e.clientX, clientY: e.clientY }; }}
 			/>
@@ -328,73 +269,54 @@
 			<polygon points="{todayX - 3},0 {todayX + 3},0 {todayX},5" fill="currentColor" class="text-foreground/60" />
 		{/if}
 
-		<!-- Grand Slam logos below round labels — full opacity for both earned and defend -->
-		{#each earnedResults as result}
+		<!-- Grand Slam logos below round labels -->
+		{#each visibleResults as result}
 			{#if result.event_type === 'Grand Slam'}
 				{@const brand = gsBrand(result.event_name)}
 				{#if brand}
-					<image href={brand.logo} x={logoX(result.event_date_start)} y={LOGO_Y} width={LOGO_W} height={LOGO_H} preserveAspectRatio="xMidYMid meet" />
-				{/if}
-			{/if}
-		{/each}
-		{#each defendResults as result}
-			{#if result.event_type === 'Grand Slam'}
-				{@const brand = gsBrand(result.event_name)}
-				{#if brand}
-					<image href={brand.logo} x={logoX(result.event_date_start)} y={LOGO_Y} width={LOGO_W} height={LOGO_H} preserveAspectRatio="xMidYMid meet" />
-				{/if}
-			{/if}
-		{/each}
-		{#each currentResults as result}
-			{#if result.event_type === 'Grand Slam'}
-				{@const brand = gsBrand(result.event_name)}
-				{#if brand}
-					<image href={brand.logo} x={logoX(result.event_date_start)} y={LOGO_Y} width={LOGO_W} height={LOGO_H} preserveAspectRatio="xMidYMid meet" />
+					<image href={brand.logo} x={logoX(result.pos_start)} y={LOGO_Y} width={LOGO_W} height={LOGO_H} preserveAspectRatio="xMidYMid meet" />
 				{/if}
 			{/if}
 		{/each}
 	</svg>
 
+	<!-- Reusable tournament card snippet -->
+	{#snippet tournamentCard(r: TournamentResult, resultLabel: string, pts: number, ptsClass: string)}
+		<p class="truncate text-xs font-semibold text-popover-foreground">{r.event_name}</p>
+		<p class="text-xs text-muted-foreground">{r.event_type}</p>
+		<p class="text-xs text-muted-foreground">{fmtMD(r.event_date_start)} – {fmtMD(r.event_date_end)}, {r.event_date_start.slice(0, 4)}</p>
+		<p class="mt-1 text-xs">
+			<span class="font-bold text-foreground">{resultLabel}</span>
+			<span class="ml-1 {ptsClass}">{pts.toLocaleString()} pts</span>
+		</p>
+	{/snippet}
+
 	<!-- Tooltip -->
 	{#if tooltip}
 		{#if tooltip.kind === 'current'}
 			<div
-				class="pointer-events-none fixed z-50 min-w-72 rounded-lg border border-border bg-popover px-3 py-2 shadow-lg"
-				style="left: {tooltip.clientX}px; top: {tooltip.clientY - 115}px; transform: translateX(-50%)"
+				class="pointer-events-none fixed z-50 min-w-80 rounded-lg border border-border bg-popover px-3 py-2 shadow-lg"
+				style="left: {tooltip.clientX}px; top: {tooltip.clientY - 130}px; transform: translateX(-50%)"
 			>
 				<div class="grid grid-cols-2 gap-3">
-					<!-- Live (left) -->
 					<div class="min-w-0">
-						<p class="text-[10px] font-medium uppercase tracking-wide text-muted-foreground">Live</p>
-						<p class="mt-0.5 truncate text-xs font-semibold text-popover-foreground">{tooltip.live.name}</p>
-						<div class="mt-1 flex items-center justify-between gap-2">
-							<span class="text-xs font-bold text-foreground">{tooltip.live.result ?? '—'}</span>
-							<span class="text-xs font-semibold text-primary">+{tooltip.live.points.toLocaleString()} pts</span>
-						</div>
+						<!-- <p class="mb-1 text-[10px] font-medium uppercase tracking-wide text-muted-foreground">Live</p> -->
+						<Badge variant="secondary" class="mb-1 h-4 text-[10px] font-bold uppercase text-green-600 bg-green-500/10">Live</Badge>
+						<p>Live points coming soon!</p>
+						<!-- {@render tournamentCard(tooltip.result, '—', tooltip.livePts, 'font-semibold text-primary')} -->
 					</div>
-					<!-- Defending (right) -->
 					<div class="min-w-0 border-l border-border pl-3">
-						<p class="text-[10px] font-medium uppercase tracking-wide text-muted-foreground">Defending</p>
-						<p class="mt-0.5 truncate text-xs font-semibold text-popover-foreground">{tooltip.defend.name}</p>
-						<div class="mt-1 flex items-center justify-between gap-2">
-							<span class="text-xs font-bold text-foreground">{tooltip.defend.result ?? '—'}</span>
-							<span class="text-xs font-semibold text-muted-foreground">{tooltip.defend.points.toLocaleString()} pts</span>
-						</div>
+						<Badge variant="secondary" class="mb-1 h-4 text-[10px] font-bold uppercase text-muted-foreground">Defending</Badge>
+						{@render tournamentCard(tooltip.result, tooltip.result.result, tooltip.result.points_earned, 'font-semibold text-muted-foreground')}
 					</div>
 				</div>
 			</div>
 		{:else}
 			<div
-				class="pointer-events-none fixed z-50 min-w-40 rounded-lg border border-border bg-popover px-3 py-2 shadow-lg"
+				class="pointer-events-none fixed z-50 min-w-48 rounded-lg border border-border bg-popover px-3 py-2 shadow-lg"
 				style="left: {tooltip.clientX}px; top: {tooltip.clientY - 115}px; transform: translateX(-50%)"
 			>
-				<p class="text-xs font-semibold text-popover-foreground">{tooltip.result.event_name}</p>
-				<p class="mt-0.5 text-xs text-muted-foreground">{tooltip.result.event_type}</p>
-				<div class="mt-1.5 flex items-center justify-between gap-3">
-					<span class="text-xs text-muted-foreground">{tooltip.result.event_date_start.slice(0, 7)}</span>
-					<span class="text-xs font-bold text-foreground">{tooltip.result.result}</span>
-					<span class="text-xs font-semibold text-primary">+{tooltip.result.points_earned.toLocaleString()} pts</span>
-				</div>
+				{@render tournamentCard(tooltip.result, tooltip.result.result, tooltip.result.points_earned, 'font-semibold text-primary')}
 			</div>
 		{/if}
 	{/if}
