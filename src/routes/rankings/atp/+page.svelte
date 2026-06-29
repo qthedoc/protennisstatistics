@@ -1,5 +1,6 @@
 <script lang="ts">
 	import PlayerRow from '$lib/components/PlayerRow.svelte';
+	import RankingsHeader from '$lib/components/RankingsHeader.svelte';
 	import type { PageData } from './$types';
 
 	let { data }: { data: PageData } = $props();
@@ -42,12 +43,7 @@
 	</div>
 
 	<!-- Column headers (md+) -->
-	<div class="hidden grid-cols-[3rem_1.5fr_6rem_minmax(0,1.5fr)] gap-3 px-3 text-xs font-medium uppercase tracking-wider text-muted-foreground md:grid">
-		<span>Rank</span>
-		<span>Player</span>
-		<span class="text-right">Points</span>
-		<span>Points Distribution (12 months)</span>
-	</div>
+	<RankingsHeader />
 
 	<!-- Players -->
 	<div class="divide-y divide-border/40 rounded-2xl border border-border/60 bg-card/60">

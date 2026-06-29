@@ -1,6 +1,11 @@
-<script>
+<script lang="ts">
 	import WtaLogo from '$lib/components/WtaLogo.svelte';
-    import { ChevronRight } from '@lucide/svelte';
+	import PlayerRow from '$lib/components/PlayerRow.svelte';
+	import RankingsHeader from '$lib/components/RankingsHeader.svelte';
+	import { ChevronRight } from '@lucide/svelte';
+	import type { PageData } from './$types';
+
+	let { data }: { data: PageData } = $props();
 </script>
 
 <svelte:head>
@@ -52,13 +57,13 @@
 
 	<!-- Feature callout -->
 	<div class="rounded-2xl border border-border/60 bg-muted/40 p-5">
-		<p class="text-xs font-semibold uppercase tracking-widest text-muted-foreground">How to read the chart</p>
+		<p class="text-xs font-semibold uppercase tracking-widest text-foreground">How to read the chart</p>
 		<p class="mt-2 text-sm text-muted-foreground">
 			Each bar represents points earned at a tournament thru the calendar year. Bars on the <strong class="text-foreground">right</strong> are freshly earned. 
 			Bars on the <strong class="text-foreground">left</strong> are expiring soon and must be defended.
 			<!-- Bars on the <strong class="text-foreground">right</strong> are fresh and safe for months. Hover a bar for event details. -->
 		</p>
-		<div class="mt-3 flex flex-wrap gap-3">
+		<div class="mt-3 mb-4 flex flex-wrap gap-3">
 			{#each [['Grand Slam', 'oklch(0.60 0.22 285)'], ['Masters 1000', 'oklch(0.52 0.20 245)'], ['500', 'oklch(0.56 0.17 160)'], ['250', 'oklch(0.70 0.15 85)']] as [label, color]}
 				<div class="flex items-center gap-1.5">
 					<span class="size-2.5 rounded-sm" style="background:{color}"></span>
@@ -66,5 +71,11 @@
 				</div>
 			{/each}
 		</div>
+		{#if data.topPlayer}
+			<RankingsHeader />
+			<div class="mt-1 rounded-xl border border-border/50 bg-card/60">
+				<PlayerRow player={data.topPlayer} />
+			</div>
+		{/if}
 	</div>
 </div>
