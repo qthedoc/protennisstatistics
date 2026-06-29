@@ -4,9 +4,12 @@
 	import PlayerRow from '$lib/components/PlayerRow.svelte';
 	import RankingsHeader from '$lib/components/RankingsHeader.svelte';
 	import { ChevronRight } from '@lucide/svelte';
+	import { onMount } from 'svelte';
 	import type { PageData } from './$types';
 
 	let { data }: { data: PageData } = $props();
+	let showAtp = $state(true);
+	onMount(() => { showAtp = Math.random() < 0.5; });
 </script>
 
 <svelte:head>
@@ -72,11 +75,9 @@
 				</div>
 			{/each}
 		</div>
-		{#if data.topPlayer}
-			<RankingsHeader />
-			<div class="mt-1 rounded-xl border border-border/50 bg-card/60">
-				<PlayerRow player={data.topPlayer} />
-			</div>
-		{/if}
+		<RankingsHeader />
+		<div class="mt-1 rounded-xl border border-border/50 bg-card/60">
+			<PlayerRow player={showAtp ? data.atpPlayer : data.wtaPlayer} />
+		</div>
 	</div>
 </div>
