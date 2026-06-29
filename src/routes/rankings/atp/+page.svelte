@@ -10,7 +10,7 @@
 
 <svelte:head>
 	<title>ATP Rankings – Pro Tennis Statistics</title>
-	<meta name="description" content="Current ATP rankings with 12-month points distribution for the top 100 players." />
+	<meta name="description" content="Current ATP rankings with 52-week points distribution for the top 100 players." />
 </svelte:head>
 
 <div class="space-y-6">
@@ -23,7 +23,7 @@
 				<span class="text-sm text-foreground">ATP Rankings</span>
 			</div>
 			<h1 class="mt-2 text-2xl font-bold tracking-tight text-foreground md:text-3xl">ATP Rankings</h1>
-			<p class="mt-1 text-sm text-muted-foreground">Ranking points over the last 12 months</p>
+			<p class="mt-1 text-sm text-muted-foreground">Ranking points over the last 52 weeks</p>
 		</div>
 		<span class="shrink-0 rounded-full bg-blue-500/10 px-3 py-1 text-xs font-semibold text-blue-600 dark:text-blue-400">
 			Men's Tour

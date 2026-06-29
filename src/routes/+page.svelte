@@ -11,7 +11,7 @@
 
 <svelte:head>
 	<title>Pro Tennis Statistics</title>
-	<meta name="description" content="Live ATP and WTA rankings with points distribution across the last 12 months." />
+	<meta name="description" content="Live ATP and WTA rankings with points distribution across the last 52 weeks." />
 </svelte:head>
 
 <div class="mx-auto max-w-3xl space-y-10">

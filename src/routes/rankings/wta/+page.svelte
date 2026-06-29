@@ -23,7 +23,7 @@
 				<span class="text-sm text-foreground">WTA Rankings</span>
 			</div>
 			<h1 class="mt-2 text-2xl font-bold tracking-tight text-foreground md:text-3xl">WTA Rankings</h1>
-			<p class="mt-1 text-sm text-muted-foreground">Ranking points over the last 12 months</p>
+			<p class="mt-1 text-sm text-muted-foreground">Ranking points over the last 52 weeks</p>
 		</div>
 		<span class="shrink-0 rounded-full bg-rose-500/10 px-3 py-1 text-xs font-semibold text-rose-600 dark:text-rose-400">
 			Women's Tour

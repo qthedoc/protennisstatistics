@@ -2,5 +2,5 @@
 	<span>Rank</span>
 	<span>Player</span>
 	<span class="text-right">Points</span>
-	<span>Points Distribution (12 months)</span>
+	<span>Points Distribution (52 weeks)</span>
 </div>
