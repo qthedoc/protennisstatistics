@@ -14,6 +14,7 @@
 		"refresh:data": "tsx --env-file=.env scripts/refresh-data.ts"
 	},
 	"devDependencies": {
+		"@floating-ui/dom": "^1.8.0",
 		"@fontsource-variable/inter": "^5.2.8",
 		"@fontsource/fira-mono": "latest",
 		"@internationalized/date": "^3.12.2",

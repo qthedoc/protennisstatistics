@@ -28,7 +28,7 @@
 		</div>
 		<p class="max-w-xl text-base text-muted-foreground">
 			Current tennis rankings <strong class="text-foreground">with point breakdown</strong> for the last 52 weeks. 
-			Finally a way to see <strong class="text-foreground">how many points</strong> a player has to defend and <strong class="text-foreground">when</strong>.
+			Finally a way to see <strong class="text-foreground">how many points</strong> a player must defend and <strong class="text-foreground">when</strong>.
 		</p>
 	</div>
 

@@ -119,12 +119,13 @@ If you change it in one place, change it in all three. `RankingsHeader.svelte` i
 ### PointsBarChart
 
 - Uses `bind:clientWidth={containerW}` to size the SVG viewBox dynamically — bars always fill their column
-- `earnedResults`: current-year events already played
-- `defendResults`: last-year events projected into current-year dates, shown for upcoming defenses (start in future)
-- `currentResults`: in-progress event — projected last-year date range straddles today. Renders special live UI: faded tier-max ceiling + wider faded "defending meter" bar at last year's points (the threshold to hold rank) + a dashed threshold line + a full-opacity live bar (height = live points, **0 until the live feed is piped in**). Fills the gap where a bar used to vanish once a tournament started.
-- `defendResults`/`earnedResults` render identically (no faded styling)
-- Tooltip uses fixed positioning relative to `clientX/Y`. `currentResults` bars use a two-column tooltip (Live left / Defending right), each with tournament name, result/round, points
-- FUTURE DATA ROUTING: live side currently mirrors the defended tournament; once a real live feed lands the defended event may be a *different* tournament than the one playing — see `currentTip()` / `currentResults` comments
+- Main chart spans exactly the trailing 52 weeks (`windowStart → today`); bars sit at raw `event_date_start`, clamped into the window
+- **Feature flag `SHOW_LIVE_POINTS`** (`src/lib/flags.ts`, default **OFF**) gates the entire live section. Exposed as the `showLivePoints` prop on PointsBarChart (defaults to the flag, so it can become a per-user setting later). OFF ⇒ `LIVE_W`/`LIVE_GAP` collapse to 0, `mainW == containerW`, no pane/divider/label/autoscale-bump — a clean 52-week chart. Flip to `true` once the live feed lands.
+- **Live pane** (only when flag ON): a small separated section at the right edge (`LIVE_W` + `LIVE_GAP`, divider line between). Width is *reserved* so the time axis aligns across player rows; an empty pane (blank) = player not in a tournament — intentional, keep it. The live-content gate is `live = showLivePoints ? currentResult : null` (anniversary window straddles today): faded tier ghost, faded live bar, and a round label prefixed with a pulsing red "live" dot ("● SF"), GS logo. Shares the y-axis with the main chart; live points are included in the hover autoscale (`playerPeak`) only when `live`. Live points are a **hardcoded placeholder (800/SF) until the live feed is piped in**
+- Tooltip is positioned by `@floating-ui/dom` (`computePosition` + offset/flip/shift + `autoUpdate`), anchored to the hovered bar's hit-rect — it flips/shifts to never leave the viewport. Live-pane bars get a two-column card (Live left / Defending right); all other bars a single card
+- Year axis: labeled span lines per calendar year — divider-side ends tee cleanly into the Jan-1 vertical line (no end ticks), outer ends have arrowheads (timeline continues), and the latest year's line extends to `containerW` (across the live pane when the flag is ON; equals the main-chart edge when OFF since `mainW == containerW`)
+- FUTURE DATA ROUTING: live side currently mirrors the defended tournament; once a real live feed lands the defended event may be a *different* tournament than the one playing — see `currentTip()` / `currentResult` comments
+- Dev-time clock: `src/lib/now.ts` (`SIM_NOW`) — chart reads `getNow()`, never `new Date()`
 
 ---
 
