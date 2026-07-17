@@ -1,0 +1,402 @@
+{
+  "5992": {
+    "name": "Novak Djokovic",
+    "country": "SRB"
+  },
+  "6101": {
+    "name": "Marin Cilic",
+    "country": "CRO"
+  },
+  "7806": {
+    "name": "Adrian Mannarino",
+    "country": "FRA"
+  },
+  "11517": {
+    "name": "James Duckworth",
+    "country": "AUS"
+  },
+  "12653": {
+    "name": "Marco Trungelliti",
+    "country": "ARG"
+  },
+  "13674": {
+    "name": "Marton Fucsovics",
+    "country": "HUN"
+  },
+  "14177": {
+    "name": "Jan-Lennard Struff",
+    "country": "GER"
+  },
+  "14432": {
+    "name": "Pablo Carreno-Busta",
+    "country": "ESP"
+  },
+  "14856": {
+    "name": "Yannick Hanfmann",
+    "country": "GER"
+  },
+  "18736": {
+    "name": "Marcos Giron",
+    "country": "USA"
+  },
+  "22807": {
+    "name": "Daniil Medvedev",
+    "country": "RUS"
+  },
+  "24008": {
+    "name": "Alexander Zverev",
+    "country": "GER"
+  },
+  "24245": {
+    "name": "Alexander Bublik",
+    "country": "KAZ"
+  },
+  "24249": {
+    "name": "Botic Van De Zandschulp",
+    "country": "NED"
+  },
+  "25171": {
+    "name": "Quentin Halys",
+    "country": "FRA"
+  },
+  "25543": {
+    "name": "Karen Khachanov",
+    "country": "RUS"
+  },
+  "26421": {
+    "name": "Jan Choinski",
+    "country": "GBR"
+  },
+  "26473": {
+    "name": "Hubert Hurkacz",
+    "country": "POL"
+  },
+  "27851": {
+    "name": "Cameron Norrie",
+    "country": "GBR"
+  },
+  "28170": {
+    "name": "Arthur Rinderknech",
+    "country": "FRA"
+  },
+  "28898": {
+    "name": "Kamil Majchrzak",
+    "country": "POL"
+  },
+  "28900": {
+    "name": "Roman Safiullin",
+    "country": "RUS"
+  },
+  "29372": {
+    "name": "Andrey Rublev",
+    "country": "RUS"
+  },
+  "29732": {
+    "name": "Daniel Altmaier",
+    "country": "GER"
+  },
+  "29812": {
+    "name": "Matteo Berrettini",
+    "country": "ITA"
+  },
+  "29932": {
+    "name": "Taylor Fritz",
+    "country": "USA"
+  },
+  "29935": {
+    "name": "Tommy Paul",
+    "country": "USA"
+  },
+  "29939": {
+    "name": "Frances Tiafoe",
+    "country": "USA"
+  },
+  "30087": {
+    "name": "Alejandro Tabilo",
+    "country": "CHI"
+  },
+  "30470": {
+    "name": "Stefanos Tsitsipas",
+    "country": "GRE"
+  },
+  "31358": {
+    "name": "Jaume Antoni Munar Clar",
+    "country": "ESP"
+  },
+  "31392": {
+    "name": "Lorenzo Sonego",
+    "country": "ITA"
+  },
+  "31446": {
+    "name": "Nuno Borges",
+    "country": "POR"
+  },
+  "33502": {
+    "name": "Denis Shapovalov",
+    "country": "CAN"
+  },
+  "33648": {
+    "name": "Casper Ruud",
+    "country": "NOR"
+  },
+  "33860": {
+    "name": "Tallon Griekspoor",
+    "country": "NED"
+  },
+  "34337": {
+    "name": "Miomir Kecmanovic",
+    "country": "SRB"
+  },
+  "36263": {
+    "name": "Corentin Moutet",
+    "country": "FRA"
+  },
+  "36519": {
+    "name": "Alejandro Davidovich Fokina",
+    "country": "ESP"
+  },
+  "36594": {
+    "name": "Valentin Vacherot",
+    "country": "MON"
+  },
+  "37532": {
+    "name": "Tomas Martin Etcheverry",
+    "country": "ARG"
+  },
+  "37741": {
+    "name": "Zizou Bergs",
+    "country": "BEL"
+  },
+  "38911": {
+    "name": "Ugo Humbert",
+    "country": "FRA"
+  },
+  "39152": {
+    "name": "Aleksandar Kovacevic",
+    "country": "USA"
+  },
+  "39309": {
+    "name": "Alex De Minaur",
+    "country": "AUS"
+  },
+  "39863": {
+    "name": "Sho Shimabukuro",
+    "country": "JPN"
+  },
+  "40434": {
+    "name": "Felix Auger Aliassime",
+    "country": "CAN"
+  },
+  "40609": {
+    "name": "Jenson Brooksby",
+    "country": "USA"
+  },
+  "42229": {
+    "name": "Camilo Ugo Carabelli",
+    "country": "ARG"
+  },
+  "42451": {
+    "name": "Sebastian Korda",
+    "country": "USA"
+  },
+  "42971": {
+    "name": "Vit Kopriva",
+    "country": "CZE"
+  },
+  "47275": {
+    "name": "Jannik Sinner",
+    "country": "ITA"
+  },
+  "47752": {
+    "name": "Adam Walton",
+    "country": "AUS"
+  },
+  "52140": {
+    "name": "Fabian Marozsan",
+    "country": "HUN"
+  },
+  "52279": {
+    "name": "Francisco Cerundolo",
+    "country": "ARG"
+  },
+  "52394": {
+    "name": "Thiago Agustin Tirante",
+    "country": "ARG"
+  },
+  "52721": {
+    "name": "Sebastian Baez",
+    "country": "ARG"
+  },
+  "52934": {
+    "name": "Juan Manuel Cerundolo",
+    "country": "ARG"
+  },
+  "56197": {
+    "name": "Emilio Nava",
+    "country": "USA"
+  },
+  "56846": {
+    "name": "Brandon Nakashima",
+    "country": "USA"
+  },
+  "58149": {
+    "name": "Rinky Hijikata",
+    "country": "AUS"
+  },
+  "58327": {
+    "name": "Tomas Machac",
+    "country": "CZE"
+  },
+  "59166": {
+    "name": "Jesper De Jong",
+    "country": "NED"
+  },
+  "61838": {
+    "name": "Jiri Lehecka",
+    "country": "CZE"
+  },
+  "61857": {
+    "name": "Valentin Royer",
+    "country": "FRA"
+  },
+  "61971": {
+    "name": "Francisco Comesana",
+    "country": "ARG"
+  },
+  "63572": {
+    "name": "Lorenzo Musetti",
+    "country": "ITA"
+  },
+  "64891": {
+    "name": "Alexander Shevchenko",
+    "country": "KAZ"
+  },
+  "66828": {
+    "name": "Mariano Navone",
+    "country": "ARG"
+  },
+  "67535": {
+    "name": "Terence Atmane",
+    "country": "FRA"
+  },
+  "67546": {
+    "name": "Flavio Cobolli",
+    "country": "ITA"
+  },
+  "68074": {
+    "name": "Carlos Alcaraz",
+    "country": "ESP"
+  },
+  "68627": {
+    "name": "Gabriel Diallo",
+    "country": "CAN"
+  },
+  "69471": {
+    "name": "Holger Rune",
+    "country": "DEN"
+  },
+  "70705": {
+    "name": "Roman Andres Burruchaga",
+    "country": "ARG"
+  },
+  "70873": {
+    "name": "Arthur Cazaux",
+    "country": "FRA"
+  },
+  "71174": {
+    "name": "Giovanni Mpetshi Perricard",
+    "country": "FRA"
+  },
+  "72578": {
+    "name": "Mattia Bellucci",
+    "country": "ITA"
+  },
+  "73620": {
+    "name": "Zachary Svajda",
+    "country": "USA"
+  },
+  "73956": {
+    "name": "Matteo Arnaldi",
+    "country": "ITA"
+  },
+  "76127": {
+    "name": "Luciano Darderi",
+    "country": "ITA"
+  },
+  "79060": {
+    "name": "Hamad Medjedovic",
+    "country": "SRB"
+  },
+  "79065": {
+    "name": "Arthur Fery",
+    "country": "GBR"
+  },
+  "79113": {
+    "name": "Ignacio Buse",
+    "country": "PER"
+  },
+  "80391": {
+    "name": "Adolfo Daniel Vallejo",
+    "country": "PAR"
+  },
+  "82269": {
+    "name": "Ethan Quinn",
+    "country": "USA"
+  },
+  "82371": {
+    "name": "Luca Van Assche",
+    "country": "FRA"
+  },
+  "83135": {
+    "name": "Arthur Fils",
+    "country": "FRA"
+  },
+  "83223": {
+    "name": "Daniel Merida Aguilar",
+    "country": "ESP"
+  },
+  "83795": {
+    "name": "Jaime Faria",
+    "country": "POR"
+  },
+  "84235": {
+    "name": "Raphael Collignon",
+    "country": "BEL"
+  },
+  "85899": {
+    "name": "Dino Prizmic",
+    "country": "CRO"
+  },
+  "86691": {
+    "name": "Jakub Mensik",
+    "country": "CZE"
+  },
+  "87562": {
+    "name": "Ben Shelton",
+    "country": "USA"
+  },
+  "88766": {
+    "name": "Alexander Blockx",
+    "country": "BEL"
+  },
+  "91521": {
+    "name": "Joao Fonseca",
+    "country": "BRA"
+  },
+  "92985": {
+    "name": "Alex Michelsen",
+    "country": "USA"
+  },
+  "93452": {
+    "name": "Learner Tien",
+    "country": "USA"
+  },
+  "94493": {
+    "name": "Martin Landaluce",
+    "country": "ESP"
+  },
+  "99691": {
+    "name": "Rafael Jodar",
+    "country": "ESP"
+  }
+}

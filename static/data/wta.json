@@ -4820,7 +4820,8 @@
           "event_date_start": "2026-07-13",
           "event_date_end": "2026-07-16",
           "result": "R16",
-          "points_earned": 30
+          "points_earned": 30,
+          "live": true
         }
       ]
     },
@@ -5061,7 +5062,8 @@
           "event_date_start": "2026-07-13",
           "event_date_end": "2026-07-16",
           "result": "R16",
-          "points_earned": 30
+          "points_earned": 30,
+          "live": true
         }
       ]
     },
@@ -5190,7 +5192,8 @@
           "event_date_start": "2026-07-13",
           "event_date_end": "2026-07-16",
           "result": "R16",
-          "points_earned": 30
+          "points_earned": 30,
+          "live": true
         }
       ]
     },
@@ -6075,7 +6078,8 @@
           "event_date_start": "2026-07-13",
           "event_date_end": "2026-07-16",
           "result": "R16",
-          "points_earned": 30
+          "points_earned": 30,
+          "live": true
         }
       ]
     },
@@ -6904,7 +6908,8 @@
           "event_date_start": "2026-07-13",
           "event_date_end": "2026-07-16",
           "result": "R16",
-          "points_earned": 30
+          "points_earned": 30,
+          "live": true
         }
       ]
     },
@@ -7307,7 +7312,8 @@
           "event_date_start": "2026-07-13",
           "event_date_end": "2026-07-16",
           "result": "R16",
-          "points_earned": 30
+          "points_earned": 30,
+          "live": true
         }
       ]
     },
@@ -7935,7 +7941,8 @@
           "event_date_start": "2026-07-13",
           "event_date_end": "2026-07-16",
           "result": "R16",
-          "points_earned": 30
+          "points_earned": 30,
+          "live": true
         }
       ]
     },
@@ -8297,7 +8304,8 @@
           "event_date_start": "2026-07-13",
           "event_date_end": "2026-07-16",
           "result": "R32",
-          "points_earned": 0
+          "points_earned": 0,
+          "live": true
         }
       ]
     },
@@ -8386,7 +8394,8 @@
           "event_date_start": "2026-07-13",
           "event_date_end": "2026-07-16",
           "result": "R16",
-          "points_earned": 30
+          "points_earned": 30,
+          "live": true
         }
       ]
     },
@@ -9273,7 +9282,8 @@
           "event_date_start": "2026-07-13",
           "event_date_end": "2026-07-16",
           "result": "R32",
-          "points_earned": 0
+          "points_earned": 0,
+          "live": true
         }
       ]
     },
@@ -9812,7 +9822,8 @@
           "event_date_start": "2026-07-13",
           "event_date_end": "2026-07-16",
           "result": "R32",
-          "points_earned": 0
+          "points_earned": 0,
+          "live": true
         }
       ]
     },
@@ -11116,7 +11127,8 @@
           "event_date_start": "2026-07-13",
           "event_date_end": "2026-07-16",
           "result": "R16",
-          "points_earned": 30
+          "points_earned": 30,
+          "live": true
         }
       ]
     },
@@ -11245,7 +11257,8 @@
           "event_date_start": "2026-07-13",
           "event_date_end": "2026-07-16",
           "result": "R16",
-          "points_earned": 30
+          "points_earned": 30,
+          "live": true
         }
       ]
     },
@@ -11422,7 +11435,8 @@
           "event_date_start": "2026-07-13",
           "event_date_end": "2026-07-16",
           "result": "R32",
-          "points_earned": 0
+          "points_earned": 0,
+          "live": true
         }
       ]
     },
@@ -11623,7 +11637,8 @@
           "event_date_start": "2026-07-13",
           "event_date_end": "2026-07-16",
           "result": "R16",
-          "points_earned": 30
+          "points_earned": 30,
+          "live": true
         }
       ]
     },
@@ -12589,7 +12604,8 @@
           "event_date_start": "2026-07-13",
           "event_date_end": "2026-07-16",
           "result": "R32",
-          "points_earned": 0
+          "points_earned": 0,
+          "live": true
         }
       ]
     },
@@ -12775,7 +12791,8 @@
           "event_date_start": "2026-07-13",
           "event_date_end": "2026-07-16",
           "result": "R32",
-          "points_earned": 0
+          "points_earned": 0,
+          "live": true
         }
       ]
     },
@@ -12952,7 +12969,8 @@
           "event_date_start": "2026-07-13",
           "event_date_end": "2026-07-16",
           "result": "R16",
-          "points_earned": 30
+          "points_earned": 30,
+          "live": true
         }
       ]
     },
@@ -13170,7 +13188,8 @@
           "event_date_start": "2026-07-13",
           "event_date_end": "2026-07-16",
           "result": "R16",
-          "points_earned": 30
+          "points_earned": 30,
+          "live": true
         }
       ]
     },
@@ -13832,7 +13851,8 @@
           "event_date_start": "2026-07-13",
           "event_date_end": "2026-07-16",
           "result": "R16",
-          "points_earned": 30
+          "points_earned": 30,
+          "live": true
         }
       ]
     },
@@ -14622,7 +14642,8 @@
           "event_date_start": "2026-07-13",
           "event_date_end": "2026-07-16",
           "result": "R32",
-          "points_earned": 0
+          "points_earned": 0,
+          "live": true
         }
       ]
     },
@@ -14679,7 +14700,8 @@
           "event_date_start": "2026-07-13",
           "event_date_end": "2026-07-16",
           "result": "R16",
-          "points_earned": 30
+          "points_earned": 30,
+          "live": true
         }
       ]
     },
@@ -14922,7 +14944,8 @@
           "event_date_start": "2026-07-13",
           "event_date_end": "2026-07-16",
           "result": "R16",
-          "points_earned": 30
+          "points_earned": 30,
+          "live": true
         }
       ]
     }

@@ -49,11 +49,11 @@ Live at ProTennisStatistics.com.
 3. Per tournament: fetch full draw results (one call — has `match_winner`, `roundId`, full field)
 4. Condense to archive record: `{ playerId → { deepest_round, champion, draw-size-aware label } }`
 5. Archive each **finished** tournament in `static/data/archive/{tour}/{tourId}.json` — immutable, never re-fetched
-6. Fetch official ranking (rank, name, total points)
-7. Pivot archive by playerId → `points_distribution[]` over 12 months
+6. Fetch official ranking (rank, name, total points) — archived per publication-Monday under `rankings/{tour}/`, reused within the same week (no call); also dumps `players/{tour}.json` (playerId → name/country)
+7. Pivot archive by playerId → `points_distribution[]` over 12 months (ongoing tournaments carry `live: true` → render in the chart's live pane)
 8. Write top 100 players to `static/data/{tour}.json`
 
-Ongoing refreshes: only fetch tournaments not already in archive (~1–3 calls/run at steady state).
+Ongoing refreshes: only fetch tournaments not already in archive (~1–3 calls/run at steady state). Ranking call is skipped entirely if this week's ranking is already archived. The raw ranking archive is the id↔name join, so a snapshot can be rebuilt offline from archives alone.
 
 ### Runtime (src/lib/server/tennis-api.ts)
 
@@ -161,8 +161,14 @@ static/
     atp.json                   ← prebuilt ATP snapshot (top 100)
     wta.json                   ← prebuilt WTA snapshot
     archive/
-      atp/{tourId}.json        ← immutable tournament records
+      atp/{tourId}.json        ← immutable tournament records (status: finished | ongoing)
       wta/{tourId}.json
+    rankings/
+      atp/{YYYY-MM-DD}.json    ← raw weekly ranking response (id↔name↔rank↔pts), reused within the week
+      wta/{YYYY-MM-DD}.json
+    players/
+      atp.json                 ← playerId → {name, country}, grown each run (ranked players)
+      wta.json
   images/
     logo.svg                   ← site logo (concept 8 design)
     tour-atp.svg               ← ATP tour logo (raw, used as reference)
@@ -184,6 +190,8 @@ pnpm dev                    # dev server
 pnpm build                  # production build
 pnpm check                  # svelte-check + tsc
 pnpm refresh:data           # run ETL (needs RAPIDAPI_KEY in env)
+pnpm refresh:data -- --force    # re-fetch everything incl. archived finished tournaments
+pnpm refresh:data -- --offline  # rebuild snapshots from local archives only, ZERO API calls
 ```
 
 ---

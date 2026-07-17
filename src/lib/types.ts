@@ -8,6 +8,13 @@ export interface TournamentResult {
 	event_date_end: string;
 	result: MatchResult;
 	points_earned: number;
+	/**
+	 * True when this entry comes from a tournament still in progress (source
+	 * archive `status: 'ongoing'`). `result`/`points_earned` are the player's
+	 * furthest round *so far* — a floor, not a final. The chart renders these in
+	 * the separate live pane instead of as a normal completed bar. Absent = finished.
+	 */
+	live?: boolean;
 }
 
 export interface Player {

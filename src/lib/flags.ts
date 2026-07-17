@@ -13,8 +13,8 @@
  * the reserved pane width + divider.
  *
  * OFF hides all of it and the chart reverts to just the trailing 52-week main
- * bars. Currently OFF because the live points are still placeholder data (see
- * `LIVE_PLACEHOLDER` in PointsBarChart.svelte). Flip to `true` once the live
- * feed is wired in.
+ * bars. ON since the live bar now reads real data: entries the ETL flags
+ * `live` (from an ongoing tournament draw) render in the pane with the round +
+ * points the player has reached so far.
  */
-export const SHOW_LIVE_POINTS = false;
+export const SHOW_LIVE_POINTS = true;

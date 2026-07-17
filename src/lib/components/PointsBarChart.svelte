@@ -35,7 +35,6 @@
 
 	const MS_DAY = 86_400_000;
 	const today = getNow(); // dev-simulatable "now" — see $lib/now.ts
-	const YEAR = today.getFullYear();
 
 	// Rolling window: exactly the trailing 52 weeks (windowStart → today).
 	// The in-progress "current" event renders in the separate live pane.
@@ -110,74 +109,42 @@
 		return new Date(d.getTime() + offset * 86_400_000);
 	}
 
-	// Project any date to the same month/day in the current year (for x-positioning).
-	function toThisYear(dateStr: string): string {
-		const d = localDate(dateStr);
-		const mm = String(d.getMonth() + 1).padStart(2, '0');
-		const dd = String(d.getDate()).padStart(2, '0');
-		return `${YEAR}-${mm}-${dd}`;
-	}
-
 	// A result is visible until: 52 weeks after the Monday on-or-after its end date
 	// (points are awarded on that Monday, expire exactly 52 weeks later, dropping
 	// at the start of the expiry Monday). This mirrors how ATP ranking points work.
 	const visibleResults = $derived(
-		results
-			.filter((r) => {
-				const expiry = mondayOnOrAfter(localDate(r.event_date_end));
-				expiry.setDate(expiry.getDate() + 364); // 52 weeks after award Monday
-				expiry.setHours(0, 0, 0, 0); // drop at the start of that Monday
-				return today < expiry;
-			})
-			.map((r) => ({
-				...r,
-				// Original dates preserved for tooltip display.
-				// pos_* are projected to current year for x-axis positioning only.
-				pos_start: toThisYear(r.event_date_start),
-				pos_end: toThisYear(r.event_date_end),
-			}))
+		results.filter((r) => {
+			const expiry = mondayOnOrAfter(localDate(r.event_date_end));
+			expiry.setDate(expiry.getDate() + 364); // 52 weeks after award Monday
+			expiry.setHours(0, 0, 0, 0); // drop at the start of that Monday
+			return today < expiry;
+		})
 	);
 
 	type VisibleResult = (typeof visibleResults)[number];
 
-	// Tournament whose projected (anniversary) window straddles today — the event
-	// currently being played. Its earned bar from last year stays at its real date
-	// (far left of the window); a separate faded "live" bar renders in the future zone.
-	function isCurrent(r: VisibleResult): boolean {
-		return localDate(r.pos_start, 'T00:00:00') <= today && today <= localDate(r.pos_end, 'T23:59:59');
-	}
+	// The in-progress tournament — flagged `live` by the ETL from an ongoing draw.
+	// Its `result`/`points_earned` are the round + points reached SO FAR (a floor).
+	// It renders in the separate live pane, not as a normal completed bar.
+	const liveResult = $derived(
+		showLivePoints ? (visibleResults.find((r) => r.live) ?? null) : null
+	);
 
-	const currentResult = $derived(visibleResults.find(isCurrent) ?? null);
+	// The same tournament one year earlier — the points being defended — if the
+	// player played it and those points are still standing. Matched by name.
+	const defendingResult = $derived(
+		liveResult
+			? (visibleResults.find((r) => !r.live && r.event_name === liveResult.event_name) ?? null)
+			: null
+	);
 
-	// The live section renders only when the feature flag is on AND this player
-	// is actually mid-tournament. Gating everything on `live` keeps the OFF
-	// state a clean 52-week chart (no pane, divider, autoscale bump, or label).
-	const live = $derived(showLivePoints ? currentResult : null);
+	// Main-chart bars exclude the live entry (it lives in the pane instead).
+	const mainResults = $derived(visibleResults.filter((r) => !r.live));
 
-	// PLACEHOLDER live run — hardcoded to build the visual until the live feed is
-	// wired in. TODO: replace with real per-event live data; note the live event
-	// may then be a *different* tournament than the one being defended.
-	const LIVE_PLACEHOLDER = { points: 800, result: 'SF' };
-
-	// Display record for the live (this-year) edition of the current tournament.
-	function liveDisplay(r: VisibleResult): TournamentResult {
-		return {
-			...r,
-			event_date_start: r.pos_start,
-			event_date_end: r.pos_end,
-			result: LIVE_PLACEHOLDER.result as TournamentResult['result'],
-			points_earned: LIVE_PLACEHOLDER.points,
-		};
-	}
-
-	// Per-player peak (zoom target) — includes the live bar so the y-axis
-	// autoscale covers it too.
+	// Per-player peak (zoom target) — spans every visible bar incl. the live one,
+	// so the y-axis autoscale always covers it.
 	const playerPeak = $derived(
-		Math.max(
-			100,
-			...visibleResults.map((r) => r.points_earned),
-			live ? LIVE_PLACEHOLDER.points : 0
-		)
+		Math.max(100, ...visibleResults.map((r) => r.points_earned))
 	);
 
 	// Animates between 2000 (default) and playerPeak (zoomed)
@@ -260,12 +227,13 @@
 
 	type TooltipData =
 		| { anchor: Element; kind: 'single'; result: TournamentResult }
-		| { anchor: Element; kind: 'current'; defending: TournamentResult; live: TournamentResult };
+		| { anchor: Element; kind: 'current'; live: TournamentResult; defending: TournamentResult | null };
 	let tooltip = $state<TooltipData | null>(null);
 
-	// Two-pane tooltip for the live bar: live run (left) + points being defended (right).
-	function currentTip(anchor: Element, r: VisibleResult): TooltipData {
-		return { anchor, kind: 'current', defending: r, live: liveDisplay(r) };
+	// Live-bar tooltip: the in-progress run (left) plus, when the player is also
+	// defending points from last year's edition, that card on the right.
+	function liveTip(anchor: Element, r: VisibleResult): TooltipData {
+		return { anchor, kind: 'current', live: r, defending: defendingResult };
 	}
 
 	// Floating UI positioning — anchored above the hovered bar, auto-flipped and
@@ -365,14 +333,14 @@
 		{/if}
 
 		<!-- Tier-max background (visual only, fades on zoom) -->
-		{#each visibleResults as result}
+		{#each mainResults as result}
 			{@const x = xPos(result.event_date_start)}
 			{@const maxH = tierH(result.event_type)}
 			<rect {x} y={BASELINE_Y - maxH} width={BAR_W} height={maxH} fill={color(result)} fill-opacity="0.08" opacity={tierOpacity} rx="2" pointer-events="none" />
 		{/each}
 
 		<!-- Points bars + round labels -->
-		{#each visibleResults as result}
+		{#each mainResults as result}
 			{@const x = xPos(result.event_date_start)}
 			{@const h = barH(result.points_earned)}
 			{@const c = color(result)}
@@ -380,21 +348,21 @@
 			<text x={x + BAR_W / 2} y={ROUND_Y} font-size="9" fill={c} fill-opacity="0.85" text-anchor="middle" pointer-events="none">{shortResult(result.result)}</text>
 		{/each}
 
-		<!-- Live pane content — the in-progress tournament, faded, with a
-		     breathing red "live" dot. Placeholder points until the live feed lands. -->
-		{#if live}
-			{@const c = color(live)}
-			{@const maxH = tierH(live.event_type)}
-			{@const liveH = barH(LIVE_PLACEHOLDER.points)}
+		<!-- Live pane content — the in-progress tournament (round + points reached so
+		     far), faded, with a breathing red "live" dot. Real data from the ongoing draw. -->
+		{#if liveResult}
+			{@const c = color(liveResult)}
+			{@const maxH = tierH(liveResult.event_type)}
+			{@const liveH = barH(liveResult.points_earned)}
 			<rect x={mainW + LIVE_GAP} y="0" width={LIVE_W} height={BASELINE_Y} rx="3" fill="currentColor" fill-opacity="0.04" pointer-events="none" />
 			<rect x={liveX} y={BASELINE_Y - maxH} width={BAR_W} height={maxH} fill={c} fill-opacity="0.08" opacity={tierOpacity} rx="2" pointer-events="none" />
 			<rect x={liveX} y={BASELINE_Y - liveH} width={BAR_W} height={liveH} fill={c} rx="2" opacity="0.4" pointer-events="none" />
 			<!-- Round label prefixed with a pulsing red "live" dot: "● SF" -->
 			<circle cx={liveCX - 9} cy={ROUND_Y - 3} r="2.5" fill="currentColor" class="live-dot-ring text-red-500" pointer-events="none" />
 			<circle cx={liveCX - 9} cy={ROUND_Y - 3} r="2.5" fill="currentColor" class="live-dot-core text-red-500" pointer-events="none" />
-			<text x={liveCX + 1} y={ROUND_Y} font-size="9" fill={c} fill-opacity="0.5" text-anchor="middle" pointer-events="none">{shortResult(LIVE_PLACEHOLDER.result)}</text>
-			{#if live.event_type === 'Grand Slam'}
-				{@const brand = gsBrand(live.event_name)}
+			<text x={liveCX + 1} y={ROUND_Y} font-size="9" fill={c} fill-opacity="0.5" text-anchor="middle" pointer-events="none">{shortResult(liveResult.result)}</text>
+			{#if liveResult.event_type === 'Grand Slam'}
+				{@const brand = gsBrand(liveResult.event_name)}
 				{#if brand}
 					<image href={brand.logo} x={liveCX - LOGO_W / 2} y={LOGO_Y} width={LOGO_W} height={LOGO_H} opacity="0.7" preserveAspectRatio="xMidYMid meet" />
 				{/if}
@@ -402,7 +370,7 @@
 		{/if}
 
 		<!-- Hit areas — transparent rects covering full tier-max height -->
-		{#each visibleResults as result}
+		{#each mainResults as result}
 			{@const x = xPos(result.event_date_start)}
 			{@const maxH = tierH(result.event_type)}
 			<rect
@@ -418,9 +386,9 @@
 		{/each}
 
 		<!-- Live bar hit area — carries the two-pane (Live | Defending) tooltip -->
-		{#if live}
-			{@const maxH = tierH(live.event_type)}
-			{@const r = live}
+		{#if liveResult}
+			{@const maxH = tierH(liveResult.event_type)}
+			{@const r = liveResult}
 			<rect
 				x={liveX} y={BASELINE_Y - maxH} width={BAR_W} height={maxH}
 				fill="transparent"
@@ -428,13 +396,13 @@
 				tabindex="0"
 				aria-label="{r.event_name} — live"
 				class="cursor-pointer"
-				onmouseenter={(e) => { tooltip = currentTip(e.currentTarget, r); }}
+				onmouseenter={(e) => { tooltip = liveTip(e.currentTarget, r); }}
 				onmouseleave={() => { tooltip = null; }}
 			/>
 		{/if}
 
 		<!-- Grand Slam logos below round labels -->
-		{#each visibleResults as result}
+		{#each mainResults as result}
 			{#if result.event_type === 'Grand Slam'}
 				{@const brand = gsBrand(result.event_name)}
 				{#if brand}
@@ -482,19 +450,21 @@
 	{#if tooltip}
 		<div
 			bind:this={tooltipEl}
-			class="pointer-events-none fixed z-50 rounded-lg border border-border bg-popover px-3 py-2 shadow-lg {tooltip.kind === 'current' ? 'min-w-80' : 'min-w-48'}"
+			class="pointer-events-none fixed z-50 rounded-lg border border-border bg-popover px-3 py-2 shadow-lg {tooltip.kind === 'current' && tooltip.defending ? 'min-w-80' : 'min-w-48'}"
 			style="left: {tooltipXY?.x ?? 0}px; top: {tooltipXY?.y ?? 0}px; visibility: {tooltipXY ? 'visible' : 'hidden'}"
 		>
 			{#if tooltip.kind === 'current'}
-				<div class="grid grid-cols-2 gap-3">
+				<div class="grid gap-3 {tooltip.defending ? 'grid-cols-2' : 'grid-cols-1'}">
 					<div class="min-w-0">
 						<Badge variant="secondary" class="mb-1 h-4 text-[10px] font-bold uppercase text-green-600 bg-green-500/10">Live</Badge>
 						{@render tournamentCard(tooltip.live, tooltip.live.result, tooltip.live.points_earned, 'font-semibold text-primary')}
 					</div>
-					<div class="min-w-0 border-l border-border pl-3">
-						<Badge variant="secondary" class="mb-1 h-4 text-[10px] font-bold uppercase text-muted-foreground">Defending</Badge>
-						{@render tournamentCard(tooltip.defending, tooltip.defending.result, tooltip.defending.points_earned, 'font-semibold text-muted-foreground')}
-					</div>
+					{#if tooltip.defending}
+						<div class="min-w-0 border-l border-border pl-3">
+							<Badge variant="secondary" class="mb-1 h-4 text-[10px] font-bold uppercase text-muted-foreground">Defending</Badge>
+							{@render tournamentCard(tooltip.defending, tooltip.defending.result, tooltip.defending.points_earned, 'font-semibold text-muted-foreground')}
+						</div>
+					{/if}
 				</div>
 			{:else}
 				{@render tournamentCard(tooltip.result, tooltip.result.result, tooltip.result.points_earned, 'font-semibold text-primary')}

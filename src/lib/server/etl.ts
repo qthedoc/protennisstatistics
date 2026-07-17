@@ -15,7 +15,7 @@
  *
  * Reads `process.env.RAPIDAPI_KEY` (NOT SvelteKit's $env — this runs outside the app).
  */
-import { readFile, writeFile, mkdir } from 'node:fs/promises';
+import { readFile, writeFile, mkdir, readdir } from 'node:fs/promises';
 import { join } from 'node:path';
 import type {
 	EventType,
@@ -34,6 +34,8 @@ const WINDOW_DAYS = 364;
 const TOP_N = 100;
 const ARCHIVE_DIR = join(process.cwd(), 'static', 'data', 'archive');
 const DATA_DIR = join(process.cwd(), 'static', 'data');
+const PLAYERS_DIR = join(DATA_DIR, 'players');
+const RANKINGS_DIR = join(DATA_DIR, 'rankings');
 
 type CalendarEntry = {
 	id: number;
@@ -46,17 +48,35 @@ export type RefreshOptions = {
 	apiKey?: string;
 	/** re-fetch even archived finished tournaments (for backfills / schema changes) */
 	force?: boolean;
+	/**
+	 * Rebuild the snapshot from local archives + the newest archived ranking,
+	 * making ZERO API calls. Requires >=1 archived ranking (seed with an online
+	 * run first). Ignores `force` (nothing to fetch).
+	 */
+	offline?: boolean;
 	log?: (msg: string) => void;
 };
 
 export async function refreshTour(tour: Tour, opts: RefreshOptions = {}): Promise<RankingsSnapshot> {
-	const apiKey = opts.apiKey ?? process.env.RAPIDAPI_KEY;
-	if (!apiKey) throw new Error('RAPIDAPI_KEY missing — set it in .env');
 	const log = opts.log ?? (() => {});
-	const headers = { 'x-rapidapi-key': apiKey, 'x-rapidapi-host': RAPIDAPI_HOST };
-
 	const now = Date.now();
 	const windowStartMs = now - WINDOW_DAYS * 864e5;
+
+	// Offline rebuild: no HTTP at all. Tournaments come from the archive dir,
+	// the ranking from the newest archived weekly file. Requires a prior online
+	// run to have seeded static/data/rankings/.
+	if (opts.offline) {
+		log(`[${tour}] OFFLINE rebuild — local archives only, no API calls`);
+		const all = await readAllArchives(tour);
+		const inWindow = all.filter((a) => Date.parse(a.end_date) >= windowStartMs);
+		log(`[${tour}] ${inWindow.length} archived tournaments in window`);
+		const ranking = await loadLatestRanking(tour, log);
+		return finishSnapshot(tour, inWindow, ranking);
+	}
+
+	const apiKey = opts.apiKey ?? process.env.RAPIDAPI_KEY;
+	if (!apiKey) throw new Error('RAPIDAPI_KEY missing — set it in .env');
+	const headers = { 'x-rapidapi-key': apiKey, 'x-rapidapi-host': RAPIDAPI_HOST };
 
 	// 1. tournaments in window (current + previous calendar year), tour-level only
 	const year = new Date().getUTCFullYear();
@@ -94,10 +114,34 @@ export async function refreshTour(tour: Tour, opts: RefreshOptions = {}): Promis
 	// keep only tournaments that actually ended inside the rolling window
 	const inWindow = archives.filter((a) => Date.parse(a.end_date) >= windowStartMs);
 
-	// 3. official ranking (rank + total points + player identity)
-	const ranking = await fetchRanking(tour, headers);
+	// 3. official ranking (rank + total points + player identity).
+	// Archived per publication-Monday: reused within the same week (no API call)
+	// and kept as a weekly history. The raw ranking is the ONLY source of the
+	// id↔name↔rank↔points join, so archiving it means the whole snapshot can be
+	// rebuilt offline from archives alone.
+	const ranking = await loadOrFetchRanking(tour, headers, { force: opts.force, log });
 
-	// 4. pivot archive → per-player distribution
+	return finishSnapshot(tour, inWindow, ranking);
+}
+
+/**
+ * Pivot windowed archives + the raw ranking into the final snapshot. Shared by
+ * the online and offline paths (both arrive here with the same two inputs).
+ */
+async function finishSnapshot(
+	tour: Tour,
+	inWindow: TournamentArchive[],
+	ranking: any[]
+): Promise<RankingsSnapshot> {
+	// Log the id -> name/country map for every ranked player. The archives are
+	// keyed by playerId only (opaque); this makes them human-readable and lets
+	// future features resolve names without a lookup call. Free — the ranking
+	// response already carries the identities.
+	// NOTE: covers ranked players only; draw-only opponents outside the ranking
+	// are not captured here (would need the draw responses, which we condense away).
+	await writePlayersMap(tour, ranking);
+
+	// pivot archive → per-player distribution
 	const ptsScale = tour === 'wta' ? 100 : 1;
 	const players: Player[] = [];
 	for (const row of ranking.slice(0, TOP_N)) {
@@ -138,7 +182,10 @@ function buildDistribution(
 			event_date_start: a.start_date,
 			event_date_end: a.end_date,
 			result: entry.result,
-			points_earned: points
+			points_earned: points,
+			// Ongoing tournament → mark live so the chart renders the in-progress
+			// bar (round + points reached so far) in the live pane.
+			...(a.status === 'ongoing' ? { live: true } : {})
 		});
 	}
 	return out.sort((x, y) => x.event_date_start.localeCompare(y.event_date_start));
@@ -242,6 +289,49 @@ async function fetchRanking(tour: Tour, headers: Record<string, string>): Promis
 	return Array.isArray(json) ? json : (json.data ?? []);
 }
 
+type RankingArchive = {
+	tour: Tour;
+	ranking_date: string; // publication Monday sent to the API (DD.MM.YYYY)
+	fetched_at: string; // ISO timestamp of the fetch
+	data: any[]; // raw ranking rows (id, name, countryAcr, position, pts)
+};
+
+/**
+ * Rankings publish weekly (Monday). Archive each week's raw response under
+ * `static/data/rankings/{tour}/{YYYY-MM-DD}.json` and reuse it within the same
+ * week — a re-run before the next Monday spends NO ranking call. `force`
+ * re-fetches. The archive doubles as a weekly ranking history.
+ */
+async function loadOrFetchRanking(
+	tour: Tour,
+	headers: Record<string, string>,
+	opts: { force?: boolean; log: (msg: string) => void }
+): Promise<any[]> {
+	const date = mostRecentMonday(); // DD.MM.YYYY (API format)
+	const iso = date.split('.').reverse().join('-'); // YYYY-MM-DD (filename)
+	const path = join(RANKINGS_DIR, tour, `${iso}.json`);
+	if (!opts.force) {
+		try {
+			const cached = JSON.parse(await readFile(path, 'utf-8')) as RankingArchive;
+			opts.log(`[${tour}] ranking ${iso} from archive (fetched ${cached.fetched_at}) — no API call`);
+			return cached.data;
+		} catch {
+			// not archived yet — fall through and fetch
+		}
+	}
+	const data = await fetchRanking(tour, headers);
+	const archive: RankingArchive = {
+		tour,
+		ranking_date: date,
+		fetched_at: new Date().toISOString(),
+		data
+	};
+	await mkdir(join(RANKINGS_DIR, tour), { recursive: true });
+	await writeFile(path, JSON.stringify(archive), 'utf-8');
+	opts.log(`[${tour}] ranking ${iso} fetched + archived`);
+	return data;
+}
+
 let lastReqAt = 0;
 async function rateLimitedFetch(url: string, init: RequestInit): Promise<Response> {
 	for (let attempt = 0; attempt <= MAX_RETRIES; attempt++) {
@@ -277,6 +367,66 @@ async function writeArchive(a: TournamentArchive): Promise<void> {
 export async function writeSnapshot(tour: Tour, snapshot: RankingsSnapshot): Promise<void> {
 	await mkdir(DATA_DIR, { recursive: true });
 	await writeFile(join(DATA_DIR, `${tour}.json`), JSON.stringify(snapshot, null, 2), 'utf-8');
+}
+
+/** Every archived tournament for a tour (offline path — no calendar/results calls). */
+async function readAllArchives(tour: Tour): Promise<TournamentArchive[]> {
+	const dir = join(ARCHIVE_DIR, tour);
+	let files: string[];
+	try {
+		files = await readdir(dir);
+	} catch {
+		return [];
+	}
+	const out: TournamentArchive[] = [];
+	for (const f of files) {
+		if (!f.endsWith('.json')) continue;
+		try {
+			out.push(JSON.parse(await readFile(join(dir, f), 'utf-8')) as TournamentArchive);
+		} catch {
+			// skip unreadable/corrupt archive file
+		}
+	}
+	return out;
+}
+
+/** Newest archived weekly ranking (offline path). Throws if none seeded yet. */
+async function loadLatestRanking(tour: Tour, log: (msg: string) => void): Promise<any[]> {
+	const dir = join(RANKINGS_DIR, tour);
+	let files: string[];
+	try {
+		files = (await readdir(dir)).filter((f) => f.endsWith('.json')).sort(); // YYYY-MM-DD sorts chronologically
+	} catch {
+		files = [];
+	}
+	if (!files.length) {
+		throw new Error(
+			`no archived ranking for ${tour} — run an online refresh once to seed static/data/rankings/${tour}/`
+		);
+	}
+	const latest = files[files.length - 1];
+	const archive = JSON.parse(await readFile(join(dir, latest), 'utf-8')) as RankingArchive;
+	log(`[${tour}] ranking from archive ${latest} (fetched ${archive.fetched_at}) — offline`);
+	return archive.data;
+}
+
+/** playerId → identity, merged into the existing map so it grows over time. */
+async function writePlayersMap(tour: Tour, ranking: any[]): Promise<void> {
+	await mkdir(PLAYERS_DIR, { recursive: true });
+	const path = join(PLAYERS_DIR, `${tour}.json`);
+	let map: Record<number, { name: string; country: string }> = {};
+	try {
+		map = JSON.parse(await readFile(path, 'utf-8'));
+	} catch {
+		// no prior map — start fresh
+	}
+	for (const row of ranking) {
+		const pid = row.player?.id;
+		const name = row.player?.name;
+		if (pid == null || !name) continue;
+		map[pid] = { name, country: row.player?.countryAcr ?? '' };
+	}
+	await writeFile(path, JSON.stringify(map, null, 2), 'utf-8');
 }
 
 // ─── derivation ──────────────────────────────────────────────────────────────
