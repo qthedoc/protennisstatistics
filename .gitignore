@@ -27,6 +27,5 @@ vite.config.ts.timestamp-*
 /.vscode
 
 # Local development
-/.agents
 /.claude
 /.idea
