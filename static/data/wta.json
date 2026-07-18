@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T07:28:54.593Z",
+  "updated_at": "2026-07-18T17:10:13.460Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -4818,9 +4818,9 @@
           "event_name": "Athens Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
-          "result": "R16",
-          "points_earned": 30
+          "event_date_end": "2026-07-17",
+          "result": "QF",
+          "points_earned": 54
         }
       ]
     },
@@ -5059,7 +5059,7 @@
           "event_name": "Athens Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
+          "event_date_end": "2026-07-17",
           "result": "R16",
           "points_earned": 30
         }
@@ -5188,9 +5188,9 @@
           "event_name": "Athens Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
-          "result": "R16",
-          "points_earned": 30
+          "event_date_end": "2026-07-17",
+          "result": "QF",
+          "points_earned": 54
         }
       ]
     },
@@ -6073,9 +6073,9 @@
           "event_name": "Athens Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
-          "result": "R16",
-          "points_earned": 30
+          "event_date_end": "2026-07-17",
+          "result": "QF",
+          "points_earned": 54
         }
       ]
     },
@@ -6902,9 +6902,9 @@
           "event_name": "Athens Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
-          "result": "R16",
-          "points_earned": 30
+          "event_date_end": "2026-07-17",
+          "result": "QF",
+          "points_earned": 54
         }
       ]
     },
@@ -7305,9 +7305,9 @@
           "event_name": "UniCredit Iasi Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
-          "result": "R16",
-          "points_earned": 30
+          "event_date_end": "2026-07-18",
+          "result": "QF",
+          "points_earned": 54
         }
       ]
     },
@@ -7933,9 +7933,9 @@
           "event_name": "Athens Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
-          "result": "R16",
-          "points_earned": 30
+          "event_date_end": "2026-07-17",
+          "result": "QF",
+          "points_earned": 54
         }
       ]
     },
@@ -8295,7 +8295,7 @@
           "event_name": "Athens Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
+          "event_date_end": "2026-07-17",
           "result": "R32",
           "points_earned": 0
         }
@@ -8384,9 +8384,9 @@
           "event_name": "UniCredit Iasi Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
-          "result": "R16",
-          "points_earned": 30
+          "event_date_end": "2026-07-18",
+          "result": "SF",
+          "points_earned": 98
         }
       ]
     },
@@ -9271,7 +9271,7 @@
           "event_name": "UniCredit Iasi Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
+          "event_date_end": "2026-07-18",
           "result": "R32",
           "points_earned": 0
         }
@@ -9810,7 +9810,7 @@
           "event_name": "Athens Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
+          "event_date_end": "2026-07-17",
           "result": "R32",
           "points_earned": 0
         }
@@ -11114,9 +11114,9 @@
           "event_name": "Athens Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
-          "result": "R16",
-          "points_earned": 30
+          "event_date_end": "2026-07-17",
+          "result": "QF",
+          "points_earned": 54
         }
       ]
     },
@@ -11243,9 +11243,9 @@
           "event_name": "UniCredit Iasi Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
-          "result": "R16",
-          "points_earned": 30
+          "event_date_end": "2026-07-18",
+          "result": "QF",
+          "points_earned": 54
         }
       ]
     },
@@ -11420,7 +11420,7 @@
           "event_name": "UniCredit Iasi Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
+          "event_date_end": "2026-07-18",
           "result": "R32",
           "points_earned": 0
         }
@@ -11621,7 +11621,7 @@
           "event_name": "UniCredit Iasi Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
+          "event_date_end": "2026-07-18",
           "result": "R16",
           "points_earned": 30
         }
@@ -12587,7 +12587,7 @@
           "event_name": "Athens Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
+          "event_date_end": "2026-07-17",
           "result": "R32",
           "points_earned": 0
         }
@@ -12773,7 +12773,7 @@
           "event_name": "UniCredit Iasi Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
+          "event_date_end": "2026-07-18",
           "result": "R32",
           "points_earned": 0
         }
@@ -12950,9 +12950,9 @@
           "event_name": "UniCredit Iasi Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
-          "result": "R16",
-          "points_earned": 30
+          "event_date_end": "2026-07-18",
+          "result": "QF",
+          "points_earned": 54
         }
       ]
     },
@@ -13168,7 +13168,7 @@
           "event_name": "Athens Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
+          "event_date_end": "2026-07-17",
           "result": "R16",
           "points_earned": 30
         }
@@ -13830,9 +13830,9 @@
           "event_name": "Athens Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
-          "result": "R16",
-          "points_earned": 30
+          "event_date_end": "2026-07-17",
+          "result": "QF",
+          "points_earned": 54
         }
       ]
     },
@@ -14620,7 +14620,7 @@
           "event_name": "UniCredit Iasi Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
+          "event_date_end": "2026-07-18",
           "result": "R32",
           "points_earned": 0
         }
@@ -14677,9 +14677,9 @@
           "event_name": "UniCredit Iasi Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
-          "result": "R16",
-          "points_earned": 30
+          "event_date_end": "2026-07-18",
+          "result": "SF",
+          "points_earned": 98
         }
       ]
     },
@@ -14920,7 +14920,7 @@
           "event_name": "UniCredit Iasi Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
+          "event_date_end": "2026-07-18",
           "result": "R16",
           "points_earned": 30
         }

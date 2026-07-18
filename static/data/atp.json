@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-17T07:28:46.971Z",
+  "updated_at": "2026-07-18T17:10:07.964Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -1429,7 +1429,7 @@
           "event_name": "Plava Laguna Croatia Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
+          "event_date_end": "2026-07-17",
           "result": "R16",
           "points_earned": 25
         }
@@ -1786,6 +1786,14 @@
           "event_date_end": "2026-07-12",
           "result": "R16",
           "points_earned": 200
+        },
+        {
+          "event_name": "EFG Swiss Open",
+          "event_type": "250",
+          "event_date_start": "2026-07-13",
+          "event_date_end": "2026-07-18",
+          "result": "R16",
+          "points_earned": 25
         }
       ]
     },
@@ -2145,9 +2153,9 @@
           "event_name": "EFG Swiss Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
-          "result": "R16",
-          "points_earned": 25
+          "event_date_end": "2026-07-18",
+          "result": "QF",
+          "points_earned": 50
         }
       ]
     },
@@ -2505,14 +2513,6 @@
       "current_points": 2230,
       "points_distribution": [
         {
-          "event_name": "Mifel Tennis Open",
-          "event_type": "250",
-          "event_date_start": "2025-07-14",
-          "event_date_end": "2025-07-19",
-          "result": "SF",
-          "points_earned": 100
-        },
-        {
           "event_name": "Citi Open",
           "event_type": "500",
           "event_date_start": "2025-07-21",
@@ -2692,9 +2692,9 @@
           "event_name": "Nordea Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
-          "result": "R16",
-          "points_earned": 25
+          "event_date_end": "2026-07-18",
+          "result": "QF",
+          "points_earned": 50
         }
       ]
     },
@@ -3102,9 +3102,9 @@
           "event_name": "Nordea Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
-          "result": "R16",
-          "points_earned": 25
+          "event_date_end": "2026-07-18",
+          "result": "SF",
+          "points_earned": 100
         }
       ]
     },
@@ -3268,14 +3268,6 @@
       "country_code": "ES",
       "current_points": 2160,
       "points_distribution": [
-        {
-          "event_name": "Mifel Tennis Open",
-          "event_type": "250",
-          "event_date_start": "2025-07-14",
-          "event_date_end": "2025-07-19",
-          "result": "R16",
-          "points_earned": 25
-        },
         {
           "event_name": "Citi Open",
           "event_type": "500",
@@ -3472,7 +3464,7 @@
           "event_name": "Plava Laguna Croatia Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
+          "event_date_end": "2026-07-17",
           "result": "QF",
           "points_earned": 50
         }
@@ -3593,9 +3585,9 @@
           "event_name": "EFG Swiss Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
-          "result": "R16",
-          "points_earned": 25
+          "event_date_end": "2026-07-18",
+          "result": "QF",
+          "points_earned": 50
         }
       ]
     },
@@ -4672,9 +4664,9 @@
           "event_name": "EFG Swiss Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
-          "result": "R16",
-          "points_earned": 25
+          "event_date_end": "2026-07-18",
+          "result": "QF",
+          "points_earned": 50
         }
       ]
     },
@@ -5106,7 +5098,7 @@
           "event_name": "Plava Laguna Croatia Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
+          "event_date_end": "2026-07-17",
           "result": "R16",
           "points_earned": 25
         }
@@ -5307,7 +5299,7 @@
           "event_name": "Nordea Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
+          "event_date_end": "2026-07-18",
           "result": "R16",
           "points_earned": 25
         }
@@ -5661,7 +5653,7 @@
           "event_name": "EFG Swiss Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
+          "event_date_end": "2026-07-18",
           "result": "R32",
           "points_earned": 0
         }
@@ -5822,7 +5814,7 @@
           "event_name": "Plava Laguna Croatia Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
+          "event_date_end": "2026-07-17",
           "result": "QF",
           "points_earned": 50
         }
@@ -6185,7 +6177,7 @@
           "event_name": "Plava Laguna Croatia Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
+          "event_date_end": "2026-07-17",
           "result": "R32",
           "points_earned": 0
         }
@@ -6407,14 +6399,6 @@
       "country_code": "CA",
       "current_points": 1130,
       "points_distribution": [
-        {
-          "event_name": "Mifel Tennis Open",
-          "event_type": "250",
-          "event_date_start": "2025-07-14",
-          "event_date_end": "2025-07-19",
-          "result": "W",
-          "points_earned": 250
-        },
         {
           "event_name": "National Bank Open",
           "event_type": "1000",
@@ -7102,9 +7086,9 @@
           "event_name": "EFG Swiss Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
-          "result": "R16",
-          "points_earned": 25
+          "event_date_end": "2026-07-18",
+          "result": "SF",
+          "points_earned": 100
         }
       ]
     },
@@ -7424,7 +7408,7 @@
           "event_name": "EFG Swiss Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
+          "event_date_end": "2026-07-18",
           "result": "R32",
           "points_earned": 0
         }
@@ -7569,9 +7553,9 @@
           "event_name": "EFG Swiss Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
-          "result": "R16",
-          "points_earned": 25
+          "event_date_end": "2026-07-18",
+          "result": "SF",
+          "points_earned": 100
         }
       ]
     },
@@ -8156,7 +8140,7 @@
           "event_name": "Nordea Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
+          "event_date_end": "2026-07-18",
           "result": "R16",
           "points_earned": 25
         }
@@ -8169,14 +8153,6 @@
       "country_code": "FR",
       "current_points": 1005,
       "points_distribution": [
-        {
-          "event_name": "Mifel Tennis Open",
-          "event_type": "250",
-          "event_date_start": "2025-07-14",
-          "event_date_end": "2025-07-19",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "National Bank Open",
           "event_type": "1000",
@@ -8759,7 +8735,7 @@
           "event_name": "EFG Swiss Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
+          "event_date_end": "2026-07-18",
           "result": "R16",
           "points_earned": 25
         }
@@ -8992,9 +8968,9 @@
           "event_name": "Nordea Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
-          "result": "R16",
-          "points_earned": 25
+          "event_date_end": "2026-07-18",
+          "result": "QF",
+          "points_earned": 50
         }
       ]
     },
@@ -9555,7 +9531,7 @@
           "event_name": "Nordea Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
+          "event_date_end": "2026-07-18",
           "result": "R16",
           "points_earned": 25
         }
@@ -9772,9 +9748,9 @@
           "event_name": "Nordea Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
-          "result": "R16",
-          "points_earned": 25
+          "event_date_end": "2026-07-18",
+          "result": "QF",
+          "points_earned": 50
         }
       ]
     },
@@ -10206,7 +10182,7 @@
           "event_name": "Plava Laguna Croatia Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
+          "event_date_end": "2026-07-17",
           "result": "QF",
           "points_earned": 50
         }
@@ -10447,7 +10423,7 @@
           "event_name": "EFG Swiss Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
+          "event_date_end": "2026-07-18",
           "result": "R16",
           "points_earned": 25
         }
@@ -10460,14 +10436,6 @@
       "country_code": "DE",
       "current_points": 924,
       "points_distribution": [
-        {
-          "event_name": "Mifel Tennis Open",
-          "event_type": "250",
-          "event_date_start": "2025-07-14",
-          "event_date_end": "2025-07-19",
-          "result": "R16",
-          "points_earned": 25
-        },
         {
           "event_name": "Citi Open",
           "event_type": "500",
@@ -10704,7 +10672,7 @@
           "event_name": "Nordea Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
+          "event_date_end": "2026-07-18",
           "result": "R16",
           "points_earned": 25
         }
@@ -10825,7 +10793,7 @@
           "event_name": "Nordea Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
+          "event_date_end": "2026-07-18",
           "result": "R16",
           "points_earned": 25
         }
@@ -11244,7 +11212,7 @@
           "event_name": "Plava Laguna Croatia Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
+          "event_date_end": "2026-07-17",
           "result": "R32",
           "points_earned": 0
         }
@@ -11357,7 +11325,7 @@
           "event_name": "Plava Laguna Croatia Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
+          "event_date_end": "2026-07-17",
           "result": "R16",
           "points_earned": 25
         }
@@ -11623,9 +11591,9 @@
           "event_name": "Plava Laguna Croatia Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
-          "result": "QF",
-          "points_earned": 50
+          "event_date_end": "2026-07-17",
+          "result": "SF",
+          "points_earned": 100
         }
       ]
     },
@@ -11894,14 +11862,6 @@
       "country_code": "US",
       "current_points": 837,
       "points_distribution": [
-        {
-          "event_name": "Mifel Tennis Open",
-          "event_type": "250",
-          "event_date_start": "2025-07-14",
-          "event_date_end": "2025-07-19",
-          "result": "F",
-          "points_earned": 165
-        },
         {
           "event_name": "Citi Open",
           "event_type": "500",
@@ -12187,9 +12147,9 @@
           "event_name": "Nordea Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
-          "result": "R16",
-          "points_earned": 25
+          "event_date_end": "2026-07-18",
+          "result": "SF",
+          "points_earned": 100
         }
       ]
     },
@@ -12421,7 +12381,7 @@
           "event_name": "Nordea Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
+          "event_date_end": "2026-07-18",
           "result": "R16",
           "points_earned": 25
         }
@@ -12434,14 +12394,6 @@
       "country_code": "AU",
       "current_points": 788,
       "points_distribution": [
-        {
-          "event_name": "Mifel Tennis Open",
-          "event_type": "250",
-          "event_date_start": "2025-07-14",
-          "event_date_end": "2025-07-19",
-          "result": "QF",
-          "points_earned": 50
-        },
         {
           "event_name": "National Bank Open",
           "event_type": "1000",
@@ -12615,7 +12567,7 @@
           "event_name": "Nordea Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
+          "event_date_end": "2026-07-18",
           "result": "R32",
           "points_earned": 0
         }
@@ -13017,7 +12969,7 @@
           "event_name": "Plava Laguna Croatia Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
+          "event_date_end": "2026-07-17",
           "result": "R32",
           "points_earned": 0
         }
@@ -13199,14 +13151,6 @@
       "country_code": "AU",
       "current_points": 754,
       "points_distribution": [
-        {
-          "event_name": "Mifel Tennis Open",
-          "event_type": "250",
-          "event_date_start": "2025-07-14",
-          "event_date_end": "2025-07-19",
-          "result": "SF",
-          "points_earned": 100
-        },
         {
           "event_name": "National Bank Open",
           "event_type": "1000",
@@ -13646,9 +13590,9 @@
           "event_name": "Plava Laguna Croatia Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
-          "result": "QF",
-          "points_earned": 50
+          "event_date_end": "2026-07-17",
+          "result": "SF",
+          "points_earned": 100
         }
       ]
     },
@@ -13839,7 +13783,7 @@
           "event_name": "EFG Swiss Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
+          "event_date_end": "2026-07-18",
           "result": "R16",
           "points_earned": 25
         }
@@ -13952,7 +13896,7 @@
           "event_name": "Plava Laguna Croatia Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
+          "event_date_end": "2026-07-17",
           "result": "R16",
           "points_earned": 25
         }
@@ -14121,9 +14065,9 @@
           "event_name": "EFG Swiss Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
-          "result": "R16",
-          "points_earned": 25
+          "event_date_end": "2026-07-18",
+          "result": "SF",
+          "points_earned": 100
         }
       ]
     },
@@ -14170,7 +14114,7 @@
           "event_name": "Plava Laguna Croatia Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
+          "event_date_end": "2026-07-17",
           "result": "R16",
           "points_earned": 25
         }
@@ -14803,14 +14747,6 @@
       "current_points": 706,
       "points_distribution": [
         {
-          "event_name": "Mifel Tennis Open",
-          "event_type": "250",
-          "event_date_start": "2025-07-14",
-          "event_date_end": "2025-07-19",
-          "result": "R16",
-          "points_earned": 25
-        },
-        {
           "event_name": "Citi Open",
           "event_type": "500",
           "event_date_start": "2025-07-21",
@@ -14982,9 +14918,9 @@
           "event_name": "EFG Swiss Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
-          "result": "R32",
-          "points_earned": 0
+          "event_date_end": "2026-07-18",
+          "result": "QF",
+          "points_earned": 50
         }
       ]
     },
@@ -14995,14 +14931,6 @@
       "country_code": "US",
       "current_points": 701,
       "points_distribution": [
-        {
-          "event_name": "Mifel Tennis Open",
-          "event_type": "250",
-          "event_date_start": "2025-07-14",
-          "event_date_end": "2025-07-19",
-          "result": "QF",
-          "points_earned": 50
-        },
         {
           "event_name": "Citi Open",
           "event_type": "500",
@@ -15208,7 +15136,7 @@
           "event_name": "EFG Swiss Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
+          "event_date_end": "2026-07-18",
           "result": "R16",
           "points_earned": 25
         }
@@ -16055,7 +15983,7 @@
           "event_name": "Plava Laguna Croatia Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
+          "event_date_end": "2026-07-17",
           "result": "R16",
           "points_earned": 25
         }
@@ -16208,9 +16136,9 @@
           "event_name": "EFG Swiss Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-16",
-          "result": "R32",
-          "points_earned": 0
+          "event_date_end": "2026-07-18",
+          "result": "SF",
+          "points_earned": 100
         }
       ]
     }
