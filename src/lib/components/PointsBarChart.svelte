@@ -4,8 +4,15 @@
 	import { cubicOut } from 'svelte/easing';
 	import { computePosition, offset, flip, shift, autoUpdate } from '@floating-ui/dom';
 	import { Badge } from '$lib/components/ui/badge';
+	import TournamentCard from './TournamentCard.svelte';
 	import { getNow } from '$lib/now';
 	import { SHOW_LIVE_POINTS } from '$lib/flags';
+	import {
+		visibleResults as computeVisible,
+		findLive,
+		findDefending,
+		localDate
+	} from '$lib/live-points';
 
 	// `showLivePoints` defaults to the module-level feature flag but is a prop,
 	// so it could later be driven per-user (a setting overriding the default).
@@ -95,48 +102,22 @@
 			: (TYPE_COLORS_LIGHT[result.event_type] ?? TYPE_COLORS_LIGHT['Other']);
 	}
 
-	// Parse a YYYY-MM-DD string as LOCAL time. Date-only strings parse as UTC
-	// midnight, which shifts the calendar day in negative-offset timezones and
-	// breaks day-of-week / month-day math.
-	function localDate(dateStr: string, time = 'T12:00:00'): Date {
-		return new Date(dateStr + time);
-	}
-
-	// Monday on or after a given date (the ATP drop-off anchor).
-	function mondayOnOrAfter(d: Date): Date {
-		const day = d.getDay(); // 0=Sun, 1=Mon … 6=Sat
-		const offset = day === 1 ? 0 : day === 0 ? 1 : 8 - day;
-		return new Date(d.getTime() + offset * 86_400_000);
-	}
-
-	// A result is visible until: 52 weeks after the Monday on-or-after its end date
-	// (points are awarded on that Monday, expire exactly 52 weeks later, dropping
-	// at the start of the expiry Monday). This mirrors how ATP ranking points work.
-	const visibleResults = $derived(
-		results.filter((r) => {
-			const expiry = mondayOnOrAfter(localDate(r.event_date_end));
-			expiry.setDate(expiry.getDate() + 364); // 52 weeks after award Monday
-			expiry.setHours(0, 0, 0, 0); // drop at the start of that Monday
-			return today < expiry;
-		})
-	);
+	// Visible-window + live/defending logic lives in $lib/live-points so the chart
+	// and the ranking-row columns can never disagree. `localDate` (imported) is
+	// reused below for bar x-positioning. A result is visible until 52 weeks after
+	// the Monday on-or-after its end date — see the util for the full rule.
+	const visibleResults = $derived(computeVisible(results, today));
 
 	type VisibleResult = (typeof visibleResults)[number];
 
 	// The in-progress tournament — flagged `live` by the ETL from an ongoing draw.
 	// Its `result`/`points_earned` are the round + points reached SO FAR (a floor).
 	// It renders in the separate live pane, not as a normal completed bar.
-	const liveResult = $derived(
-		showLivePoints ? (visibleResults.find((r) => r.live) ?? null) : null
-	);
+	const liveResult = $derived(showLivePoints ? findLive(visibleResults) : null);
 
 	// The same tournament one year earlier — the points being defended — if the
 	// player played it and those points are still standing. Matched by name.
-	const defendingResult = $derived(
-		liveResult
-			? (visibleResults.find((r) => !r.live && r.event_name === liveResult.event_name) ?? null)
-			: null
-	);
+	const defendingResult = $derived(findDefending(visibleResults, liveResult));
 
 	// Main-chart bars exclude the live entry (it lives in the pane instead).
 	const mainResults = $derived(visibleResults.filter((r) => !r.live));
@@ -259,12 +240,6 @@
 			});
 		});
 	});
-
-	// "2026-06-30" → "Jun-30"
-	function fmtMD(dateStr: string): string {
-		const d = new Date(dateStr + 'T12:00:00');
-		return d.toLocaleString('en-US', { month: 'short', day: 'numeric' });
-	}
 
 	function shortResult(r: string): string {
 		if (r === 'W') return '🏆';
@@ -434,17 +409,6 @@
 		{/each}
 	</svg>
 
-	<!-- Reusable tournament card snippet -->
-	{#snippet tournamentCard(r: TournamentResult, resultLabel: string, pts: number, ptsClass: string)}
-		<p class="truncate text-xs font-semibold text-popover-foreground">{r.event_name}</p>
-		<p class="text-xs text-muted-foreground">{r.event_type}</p>
-		<p class="text-xs text-muted-foreground">{fmtMD(r.event_date_start)} – {fmtMD(r.event_date_end)}, {r.event_date_start.slice(0, 4)}</p>
-		<p class="mt-1 text-xs">
-			<span class="font-bold text-foreground">{resultLabel}</span>
-			<span class="ml-1 {ptsClass}">{pts.toLocaleString()} pts</span>
-		</p>
-	{/snippet}
-
 	<!-- Tooltip — positioned by Floating UI (see the $effect above); hidden
 	     until the first computePosition resolves to avoid a flash at 0,0 -->
 	{#if tooltip}
@@ -457,17 +421,17 @@
 				<div class="grid gap-3 {tooltip.defending ? 'grid-cols-2' : 'grid-cols-1'}">
 					<div class="min-w-0">
 						<Badge variant="secondary" class="mb-1 h-4 text-[10px] font-bold uppercase text-green-600 bg-green-500/10">Live</Badge>
-						{@render tournamentCard(tooltip.live, tooltip.live.result, tooltip.live.points_earned, 'font-semibold text-primary')}
+						<TournamentCard result={tooltip.live} resultLabel={tooltip.live.result} pts={tooltip.live.points_earned} ptsClass="font-semibold text-primary" />
 					</div>
 					{#if tooltip.defending}
 						<div class="min-w-0 border-l border-border pl-3">
 							<Badge variant="secondary" class="mb-1 h-4 text-[10px] font-bold uppercase text-muted-foreground">Defending</Badge>
-							{@render tournamentCard(tooltip.defending, tooltip.defending.result, tooltip.defending.points_earned, 'font-semibold text-muted-foreground')}
+							<TournamentCard result={tooltip.defending} resultLabel={tooltip.defending.result} pts={tooltip.defending.points_earned} ptsClass="font-semibold text-muted-foreground" />
 						</div>
 					{/if}
 				</div>
 			{:else}
-				{@render tournamentCard(tooltip.result, tooltip.result.result, tooltip.result.points_earned, 'font-semibold text-primary')}
+				<TournamentCard result={tooltip.result} resultLabel={tooltip.result.result} pts={tooltip.result.points_earned} ptsClass="font-semibold text-primary" />
 			{/if}
 		</div>
 	{/if}

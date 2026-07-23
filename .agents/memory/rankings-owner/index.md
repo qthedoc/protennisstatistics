@@ -34,3 +34,9 @@ You are responsible for keeping your own memory files (.md) in this directory fo
     - e.g. "Logged in memory: [topic], [topic], [topic]"
 
 ## Entry Instruction (maintained by agent)
+
+**Start here:** read [./2026-07-17-rankings-context.md] — the living doc (architecture, chart mechanics, current work state). Read before touching `PointsBarChart.svelte`, `PlayerRow.svelte`, `src/lib/live-points.ts`, or rankings data. Also read repo `AGENTS.md` for project-wide context.
+
+Memory layout: dated files `YYYY-MM-DD-topic.md` (date = last updated). Newest date = active; old dates = archive (fall out of context naturally). Living doc is the single index — spin off a dated decision file when it grows too big.
+
+Recent (2026-07-23): live-points columns UI v6 — **THIS WEEK** col = inline `+earned / defpts` slash layout (dropped DEF chip); each side a long-dash `—` placeholder when absent, big `—` when neither; breathing green dot iff player IN event (`liveIn` from ETL `out`/`alive`, derived from draw `match_winner`). DEFENDING now DECOUPLED from playing via `ongoingEventNames(players)` + 3-arg `findDefending` (a non-entered player still bleeds last-yr pts) — pages pass `ongoingNames` to PlayerRow; 0-pt defends filtered. Hover card = two tournament cards SIDE BY SIDE. GOTCHA: `getRankings` caches snapshot in-mem — restart dev after patching `{tour}.json`. Dots dark on committed data (no `out` till refresh). See living doc top.

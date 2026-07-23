@@ -184,8 +184,10 @@ function buildDistribution(
 			result: entry.result,
 			points_earned: points,
 			// Ongoing tournament → mark live so the chart renders the in-progress
-			// bar (round + points reached so far) in the live pane.
-			...(a.status === 'ongoing' ? { live: true } : {})
+			// bar (round + points reached so far) in the live pane. `out` records
+			// whether the player is already eliminated (result now final) vs still
+			// alive in the running draw — drives the breathing "still playing" dot.
+			...(a.status === 'ongoing' ? { live: true, out: !entry.alive } : {})
 		});
 	}
 	return out.sort((x, y) => x.event_date_start.localeCompare(y.event_date_start));
@@ -199,7 +201,7 @@ function condenseTournament(
 	resultsJson: any
 ): TournamentArchive {
 	const singles: any[] = resultsJson?.data?.singles ?? [];
-	const raw: Record<number, { deepest: number; champion: boolean }> = {};
+	const raw: Record<number, { deepest: number; champion: boolean; alive: boolean }> = {};
 	const earlyRounds = new Set<number>(); // pre-QF rounds present in THIS draw
 	let endMs = Date.parse(meta.date);
 	let hasFinal = false;
@@ -215,12 +217,15 @@ function condenseTournament(
 			if (pid == null) continue;
 			const cur = raw[pid];
 			if (!cur || roundDepth(m.roundId) > roundDepth(cur.deepest)) {
-				raw[pid] = { deepest: m.roundId, champion: cur?.champion ?? false };
+				// alive at the deepest match = it has no decided winner yet (in play)
+				// OR this player is that winner (advanced). Lost it → eliminated.
+				const alive = m.match_winner == null || m.match_winner === pid;
+				raw[pid] = { deepest: m.roundId, champion: cur?.champion ?? false, alive };
 			}
 		}
 		// champion = won the final
 		if (m.roundId === 12 && m.match_winner != null) {
-			raw[m.match_winner] = { deepest: 12, champion: true };
+			raw[m.match_winner] = { deepest: 12, champion: true, alive: true };
 		}
 	}
 
@@ -230,7 +235,7 @@ function condenseTournament(
 	for (const [pid, e] of Object.entries(raw)) {
 		const result = labelFor(e.deepest, e.champion);
 		if (!result) continue;
-		players[+pid] = { deepest: e.deepest, champion: e.champion, result };
+		players[+pid] = { deepest: e.deepest, champion: e.champion, result, alive: e.alive };
 	}
 
 	const startOld = Date.now() - Date.parse(meta.date) > 28 * 864e5;

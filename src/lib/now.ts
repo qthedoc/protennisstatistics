@@ -2,14 +2,9 @@
  * App clock with a dev-time override.
  *
  * SIM_NOW freezes "now" so time-dependent visuals (rolling 52-week window,
- * expiry, the live in-progress tournament bar) can be built and tested as if
- * we were at a specific moment.
- *
- * Currently simulating mid-Wimbledon 2026 (day 10 of the fortnight) so the
- * live-bar UI is exercisable: Wimbledon 2025 points (drop Mon 2026-07-13)
- * are still standing, and the anniversary window straddles "today".
- *
- * Set to `null` to use the real clock.
+ * point expiry, the live in-progress tournament) can be built and tested as if
+ * we were at a specific moment. Set to an ISO string to reproduce a live moment;
+ * `null` (the default) uses the real clock.
  */
 export const SIM_NOW: string | null = null;
 

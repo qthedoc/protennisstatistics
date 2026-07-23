@@ -15,6 +15,14 @@ export interface TournamentResult {
 	 * the separate live pane instead of as a normal completed bar. Absent = finished.
 	 */
 	live?: boolean;
+	/**
+	 * For a `live` entry only: true once the player is OUT of the event (lost
+	 * their deepest match), so `points_earned` is now final rather than a floor.
+	 * Absent/false means still alive (advancing, or a match in play). Distinct
+	 * from whether the *event* is over — a player can be eliminated while the
+	 * tournament continues. Only set on next refresh; absent on pre-refresh data.
+	 */
+	out?: boolean;
 }
 
 export interface Player {
@@ -50,7 +58,9 @@ export interface TournamentArchive {
 	/**
 	 * playerId → furthest round reached. `result` is the draw-size-aware label
 	 * (computed at condense time, when the full draw is known); `deepest` keeps the
-	 * raw roundId so derivation can be revisited without re-fetching.
+	 * raw roundId so derivation can be revisited without re-fetching. `alive` = the
+	 * player won (or hasn't yet finished) their deepest match — meaningful only for
+	 * an `ongoing` archive, where false = eliminated with the event still running.
 	 */
-	players: Record<number, { deepest: number; champion: boolean; result: MatchResult }>;
+	players: Record<number, { deepest: number; champion: boolean; result: MatchResult; alive: boolean }>;
 }

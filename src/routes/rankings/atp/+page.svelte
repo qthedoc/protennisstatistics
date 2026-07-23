@@ -1,10 +1,16 @@
 <script lang="ts">
 	import PlayerRow from '$lib/components/PlayerRow.svelte';
 	import RankingsHeader from '$lib/components/RankingsHeader.svelte';
+	import { liveRanks, ongoingEventNames } from '$lib/live-points';
 	import type { PageData } from './$types';
 
 	let { data }: { data: PageData } = $props();
 	const players = $derived(data.snapshot.players);
+	// Live rank per player (name → rank) from re-ranking the field on live points.
+	const rankMap = $derived(liveRanks(players));
+	// In-progress events across the whole field — lets a row show points a player
+	// is defending at a tournament they didn't re-enter.
+	const ongoing = $derived(ongoingEventNames(players));
 	let selectedName = $state<string | null>(null);
 </script>
 
@@ -47,7 +53,7 @@
 	<!-- Players -->
 	<div class="divide-y divide-border/40 rounded-2xl border border-border/60 bg-card/60">
 		{#each players as player}
-			<PlayerRow {player} {selectedName} onselect={(name) => selectedName = name} />
+			<PlayerRow {player} {selectedName} ongoingNames={ongoing} rankDelta={player.rank - (rankMap.get(player.name) ?? player.rank)} onselect={(name) => selectedName = name} />
 		{/each}
 	</div>
 
