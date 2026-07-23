@@ -1,0 +1,402 @@
+{
+  "4110": {
+    "name": "Tatjana Maria",
+    "country": "GER"
+  },
+  "4177": {
+    "name": "Laura Siegemund",
+    "country": "GER"
+  },
+  "4263": {
+    "name": "Shuai Zhang",
+    "country": "CHN"
+  },
+  "6019": {
+    "name": "Sorana Cirstea",
+    "country": "ROU"
+  },
+  "7982": {
+    "name": "Karolina Pliskova",
+    "country": "CZE"
+  },
+  "9357": {
+    "name": "Magda Linette",
+    "country": "POL"
+  },
+  "9503": {
+    "name": "Ajla Tomljanovic",
+    "country": "AUS"
+  },
+  "10749": {
+    "name": "Viktorija Golubic",
+    "country": "SUI"
+  },
+  "11371": {
+    "name": "Elina Svitolina",
+    "country": "UKR"
+  },
+  "11672": {
+    "name": "Madison Keys",
+    "country": "USA"
+  },
+  "11712": {
+    "name": "Jessica Pegula",
+    "country": "USA"
+  },
+  "12390": {
+    "name": "Yulia Putintseva",
+    "country": "KAZ"
+  },
+  "13267": {
+    "name": "Barbora Krejcikova",
+    "country": "CZE"
+  },
+  "13351": {
+    "name": "Elise Mertens",
+    "country": "BEL"
+  },
+  "13498": {
+    "name": "Donna Vekic",
+    "country": "CRO"
+  },
+  "13541": {
+    "name": "Maria Sakkari",
+    "country": "GRE"
+  },
+  "13621": {
+    "name": "Taylor Townsend",
+    "country": "USA"
+  },
+  "13706": {
+    "name": "Mayar Sherif",
+    "country": "EGY"
+  },
+  "14054": {
+    "name": "Ekaterina Alexandrova",
+    "country": "RUS"
+  },
+  "14056": {
+    "name": "Belinda Bencic",
+    "country": "SUI"
+  },
+  "14175": {
+    "name": "Katie Boulter",
+    "country": "GBR"
+  },
+  "14362": {
+    "name": "Jasmine Paolini",
+    "country": "ITA"
+  },
+  "14694": {
+    "name": "Tamara Korpatsch",
+    "country": "GER"
+  },
+  "16043": {
+    "name": "Anhelina Kalinina",
+    "country": "UKR"
+  },
+  "16430": {
+    "name": "Naomi Osaka",
+    "country": "JPN"
+  },
+  "16628": {
+    "name": "Jelena Ostapenko",
+    "country": "LAT"
+  },
+  "17142": {
+    "name": "Paula Badosa Gibert",
+    "country": "ESP"
+  },
+  "17155": {
+    "name": "Magdalena Frech",
+    "country": "POL"
+  },
+  "17501": {
+    "name": "Katerina Siniakova",
+    "country": "CZE"
+  },
+  "17503": {
+    "name": "Daria Kasatkina",
+    "country": "AUS"
+  },
+  "17614": {
+    "name": "Jaqueline Cristian",
+    "country": "ROU"
+  },
+  "17774": {
+    "name": "Elena Gabriela Ruse",
+    "country": "ROU"
+  },
+  "18403": {
+    "name": "Renata Zarazua",
+    "country": "MEX"
+  },
+  "18427": {
+    "name": "Kimberly Birrell",
+    "country": "AUS"
+  },
+  "18455": {
+    "name": "Aryna Sabalenka",
+    "country": "BLR"
+  },
+  "18482": {
+    "name": "Karolina Muchova",
+    "country": "CZE"
+  },
+  "24344": {
+    "name": "Cristina Bucsa",
+    "country": "ESP"
+  },
+  "24368": {
+    "name": "Liudmila Samsonova",
+    "country": "RUS"
+  },
+  "24572": {
+    "name": "Marie Bouzkova",
+    "country": "CZE"
+  },
+  "31728": {
+    "name": "Anna Bondar",
+    "country": "HUN"
+  },
+  "32480": {
+    "name": "Anna Kalinskaya",
+    "country": "RUS"
+  },
+  "36558": {
+    "name": "Elena Rybakina",
+    "country": "KAZ"
+  },
+  "37266": {
+    "name": "Dayana Yastremska",
+    "country": "UKR"
+  },
+  "39540": {
+    "name": "Emiliana Arango",
+    "country": "COL"
+  },
+  "40156": {
+    "name": "Anastasia Potapova",
+    "country": "AUT"
+  },
+  "41564": {
+    "name": "Amanda Anisimova",
+    "country": "USA"
+  },
+  "41569": {
+    "name": "Caty McNally",
+    "country": "USA"
+  },
+  "41888": {
+    "name": "Yuliia Starodubtseva",
+    "country": "UKR"
+  },
+  "42098": {
+    "name": "Emma Navarro",
+    "country": "USA"
+  },
+  "43323": {
+    "name": "Maja Chwalinska",
+    "country": "POL"
+  },
+  "43866": {
+    "name": "Panna Udvardy",
+    "country": "HUN"
+  },
+  "43872": {
+    "name": "Xiyu Wang",
+    "country": "CHN"
+  },
+  "44040": {
+    "name": "Maria Camila Osorio Serrano",
+    "country": "COL"
+  },
+  "44349": {
+    "name": "Simona Waltert",
+    "country": "SUI"
+  },
+  "44510": {
+    "name": "Varvara Gracheva",
+    "country": "FRA"
+  },
+  "44525": {
+    "name": "Eva Lys",
+    "country": "GER"
+  },
+  "45072": {
+    "name": "Kamilla Rakhimova",
+    "country": "UZB"
+  },
+  "45540": {
+    "name": "Alycia Parks",
+    "country": "USA"
+  },
+  "45854": {
+    "name": "Iga Swiatek",
+    "country": "POL"
+  },
+  "45866": {
+    "name": "Ann Li",
+    "country": "USA"
+  },
+  "47152": {
+    "name": "Xinyu Wang",
+    "country": "CHN"
+  },
+  "47742": {
+    "name": "Marta Kostyuk",
+    "country": "UKR"
+  },
+  "48254": {
+    "name": "Hailey Baptiste",
+    "country": "USA"
+  },
+  "48900": {
+    "name": "Mccartney Kessler",
+    "country": "USA"
+  },
+  "49081": {
+    "name": "Leylah Annie Fernandez",
+    "country": "CAN"
+  },
+  "49991": {
+    "name": "Zeynep Sonmez",
+    "country": "TUR"
+  },
+  "50943": {
+    "name": "Sinja Kraus",
+    "country": "AUT"
+  },
+  "51151": {
+    "name": "Diane Parry",
+    "country": "FRA"
+  },
+  "51696": {
+    "name": "Oleksandra Oliynykova",
+    "country": "UKR"
+  },
+  "52790": {
+    "name": "Katie Volynets",
+    "country": "USA"
+  },
+  "53487": {
+    "name": "Emma Raducanu",
+    "country": "GBR"
+  },
+  "53793": {
+    "name": "Peyton Stearns",
+    "country": "USA"
+  },
+  "54393": {
+    "name": "Veronika Erjavec",
+    "country": "SLO"
+  },
+  "54663": {
+    "name": "Cori Gauff",
+    "country": "USA"
+  },
+  "54664": {
+    "name": "Elisabetta Cocciaretto",
+    "country": "ITA"
+  },
+  "54989": {
+    "name": "Clara Tauson",
+    "country": "DEN"
+  },
+  "55173": {
+    "name": "Daria Snigur",
+    "country": "UKR"
+  },
+  "57090": {
+    "name": "Jessica Bouzas Maneiro",
+    "country": "ESP"
+  },
+  "59448": {
+    "name": "Oksana Selekhmeteva",
+    "country": "ESP"
+  },
+  "60341": {
+    "name": "Janice Tjen",
+    "country": "INA"
+  },
+  "60792": {
+    "name": "Maria Timofeeva",
+    "country": "UZB"
+  },
+  "61881": {
+    "name": "Solana Sierra",
+    "country": "ARG"
+  },
+  "63749": {
+    "name": "Talia Gibson",
+    "country": "AUS"
+  },
+  "64343": {
+    "name": "Ashlyn Krueger",
+    "country": "USA"
+  },
+  "65417": {
+    "name": "Antonia Ruzic",
+    "country": "CRO"
+  },
+  "65911": {
+    "name": "Diana Shnaider",
+    "country": "RUS"
+  },
+  "66597": {
+    "name": "Linda Noskova",
+    "country": "CZE"
+  },
+  "66626": {
+    "name": "Lanlana Tararudee",
+    "country": "THA"
+  },
+  "67792": {
+    "name": "Alexandra Eala",
+    "country": "PHI"
+  },
+  "71092": {
+    "name": "Nikola Bartunkova",
+    "country": "CZE"
+  },
+  "71163": {
+    "name": "Sara Bejlek",
+    "country": "CZE"
+  },
+  "72414": {
+    "name": "Maya Joint",
+    "country": "AUS"
+  },
+  "73203": {
+    "name": "Petra Marcinko",
+    "country": "CRO"
+  },
+  "73274": {
+    "name": "Tereza Valentova",
+    "country": "CZE"
+  },
+  "73836": {
+    "name": "Hanne Vandewinkel",
+    "country": "BEL"
+  },
+  "74280": {
+    "name": "Victoria Mboko",
+    "country": "CAN"
+  },
+  "75858": {
+    "name": "Alina Korneeva",
+    "country": "RUS"
+  },
+  "77934": {
+    "name": "Mirra Andreeva",
+    "country": "RUS"
+  },
+  "79778": {
+    "name": "Lilli Tagger",
+    "country": "AUT"
+  },
+  "80381": {
+    "name": "Iva Jovic",
+    "country": "USA"
+  }
+}
