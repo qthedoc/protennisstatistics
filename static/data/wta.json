@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-27T07:20:43.692Z",
+  "updated_at": "2026-07-29T20:06:52.575Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -2882,6 +2882,16 @@
           "event_date_end": "2026-07-11",
           "result": "R32",
           "points_earned": 130
+        },
+        {
+          "event_name": "The Memphis Classic",
+          "event_type": "250",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R32",
+          "points_earned": 0,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -3059,6 +3069,16 @@
           "event_date_end": "2026-07-11",
           "result": "R32",
           "points_earned": 130
+        },
+        {
+          "event_name": "Mubadala DC Open",
+          "event_type": "500",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R32",
+          "points_earned": 0,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -3213,6 +3233,16 @@
           "event_date_end": "2026-07-11",
           "result": "R16",
           "points_earned": 240
+        },
+        {
+          "event_name": "Mubadala DC Open",
+          "event_type": "500",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R32",
+          "points_earned": 0,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -3905,6 +3935,16 @@
           "event_date_end": "2026-07-11",
           "result": "R32",
           "points_earned": 130
+        },
+        {
+          "event_name": "Mubadala DC Open",
+          "event_type": "500",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R32",
+          "points_earned": 0,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -4058,6 +4098,16 @@
           "event_date_end": "2026-07-11",
           "result": "R64",
           "points_earned": 70
+        },
+        {
+          "event_name": "Mubadala DC Open",
+          "event_type": "500",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R32",
+          "points_earned": 0,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -4251,6 +4301,16 @@
           "event_date_end": "2026-07-11",
           "result": "R16",
           "points_earned": 240
+        },
+        {
+          "event_name": "Mubadala DC Open",
+          "event_type": "500",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R16",
+          "points_earned": 60,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -4621,6 +4681,16 @@
           "event_date_end": "2026-07-19",
           "result": "SF",
           "points_earned": 98
+        },
+        {
+          "event_name": "Mubadala DC Open",
+          "event_type": "500",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R32",
+          "points_earned": 0,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -4846,6 +4916,16 @@
           "event_date_end": "2026-07-19",
           "result": "R16",
           "points_earned": 30
+        },
+        {
+          "event_name": "Mubadala DC Open",
+          "event_type": "500",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R32",
+          "points_earned": 0,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -5425,6 +5505,16 @@
           "event_date_end": "2026-07-11",
           "result": "R64",
           "points_earned": 70
+        },
+        {
+          "event_name": "Mubadala DC Open",
+          "event_type": "500",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R16",
+          "points_earned": 60,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -5900,6 +5990,16 @@
           "event_date_end": "2026-07-11",
           "result": "R64",
           "points_earned": 70
+        },
+        {
+          "event_name": "Mubadala DC Open",
+          "event_type": "500",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R32",
+          "points_earned": 0,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -6407,6 +6507,16 @@
           "event_date_end": "2026-06-06",
           "result": "R64",
           "points_earned": 70
+        },
+        {
+          "event_name": "Mubadala DC Open",
+          "event_type": "500",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R32",
+          "points_earned": 0,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -6705,6 +6815,16 @@
           "event_date_end": "2026-07-11",
           "result": "R64",
           "points_earned": 70
+        },
+        {
+          "event_name": "Mubadala DC Open",
+          "event_type": "500",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R16",
+          "points_earned": 60,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -7214,6 +7334,16 @@
           "event_date_end": "2026-07-11",
           "result": "R64",
           "points_earned": 70
+        },
+        {
+          "event_name": "The Memphis Classic",
+          "event_type": "250",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R32",
+          "points_earned": 0,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -7399,6 +7529,16 @@
           "event_date_end": "2026-07-11",
           "result": "R64",
           "points_earned": 70
+        },
+        {
+          "event_name": "Mubadala DC Open",
+          "event_type": "500",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R32",
+          "points_earned": 0,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -7714,6 +7854,16 @@
           "event_date_end": "2026-07-11",
           "result": "R64",
           "points_earned": 70
+        },
+        {
+          "event_name": "The Memphis Classic",
+          "event_type": "250",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R32",
+          "points_earned": 0,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -7891,6 +8041,16 @@
           "event_date_end": "2026-07-11",
           "result": "R64",
           "points_earned": 70
+        },
+        {
+          "event_name": "The Memphis Classic",
+          "event_type": "250",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R32",
+          "points_earned": 0,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -8447,6 +8607,16 @@
           "event_date_end": "2026-07-11",
           "result": "R64",
           "points_earned": 70
+        },
+        {
+          "event_name": "The Memphis Classic",
+          "event_type": "250",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R32",
+          "points_earned": 0,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -8777,6 +8947,16 @@
           "event_date_end": "2026-07-11",
           "result": "R64",
           "points_earned": 70
+        },
+        {
+          "event_name": "The Memphis Classic",
+          "event_type": "250",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R32",
+          "points_earned": 0,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -9252,6 +9432,16 @@
           "event_date_end": "2026-07-11",
           "result": "R32",
           "points_earned": 130
+        },
+        {
+          "event_name": "Mubadala DC Open",
+          "event_type": "500",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R32",
+          "points_earned": 0,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -9405,6 +9595,16 @@
           "event_date_end": "2026-07-11",
           "result": "R64",
           "points_earned": 70
+        },
+        {
+          "event_name": "The Memphis Classic",
+          "event_type": "250",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R32",
+          "points_earned": 0,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -9800,6 +10000,16 @@
           "event_date_end": "2026-07-19",
           "result": "R32",
           "points_earned": 0
+        },
+        {
+          "event_name": "Mubadala DC Open",
+          "event_type": "500",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R32",
+          "points_earned": 0,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -9961,6 +10171,16 @@
           "event_date_end": "2026-07-11",
           "result": "R64",
           "points_earned": 70
+        },
+        {
+          "event_name": "The Memphis Classic",
+          "event_type": "250",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R32",
+          "points_earned": 0,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -10106,6 +10326,16 @@
           "event_date_end": "2026-07-11",
           "result": "R16",
           "points_earned": 240
+        },
+        {
+          "event_name": "Mubadala DC Open",
+          "event_type": "500",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R32",
+          "points_earned": 0,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -10492,6 +10722,16 @@
           "event_date_end": "2026-07-11",
           "result": "R64",
           "points_earned": 70
+        },
+        {
+          "event_name": "Mubadala DC Open",
+          "event_type": "500",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R32",
+          "points_earned": 0,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -10701,6 +10941,16 @@
           "event_date_end": "2026-07-11",
           "result": "R32",
           "points_earned": 130
+        },
+        {
+          "event_name": "Mubadala DC Open",
+          "event_type": "500",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R16",
+          "points_earned": 60,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -10846,6 +11096,16 @@
           "event_date_end": "2026-07-11",
           "result": "R64",
           "points_earned": 70
+        },
+        {
+          "event_name": "Mubadala DC Open",
+          "event_type": "500",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R32",
+          "points_earned": 0,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -10975,6 +11235,16 @@
           "event_date_end": "2026-07-11",
           "result": "R64",
           "points_earned": 70
+        },
+        {
+          "event_name": "The Memphis Classic",
+          "event_type": "250",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R32",
+          "points_earned": 0,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -11160,6 +11430,16 @@
           "event_date_end": "2026-07-11",
           "result": "R64",
           "points_earned": 70
+        },
+        {
+          "event_name": "The Memphis Classic",
+          "event_type": "250",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R32",
+          "points_earned": 0,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -11651,6 +11931,16 @@
           "event_date_end": "2026-07-26",
           "result": "R16",
           "points_earned": 30
+        },
+        {
+          "event_name": "The Memphis Classic",
+          "event_type": "250",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R32",
+          "points_earned": 0,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -12134,6 +12424,16 @@
           "event_date_end": "2026-07-11",
           "result": "R64",
           "points_earned": 70
+        },
+        {
+          "event_name": "The Memphis Classic",
+          "event_type": "250",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R32",
+          "points_earned": 0,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -12706,6 +13006,16 @@
           "event_date_end": "2026-07-11",
           "result": "R64",
           "points_earned": 70
+        },
+        {
+          "event_name": "The Memphis Classic",
+          "event_type": "250",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R32",
+          "points_earned": 0,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -13149,6 +13459,16 @@
           "event_date_end": "2026-07-11",
           "result": "R64",
           "points_earned": 70
+        },
+        {
+          "event_name": "The Memphis Classic",
+          "event_type": "250",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R32",
+          "points_earned": 0,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -14052,6 +14372,16 @@
           "event_date_end": "2026-06-21",
           "result": "R16",
           "points_earned": 30
+        },
+        {
+          "event_name": "The Memphis Classic",
+          "event_type": "250",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R16",
+          "points_earned": 30,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -14109,6 +14439,16 @@
           "event_date_end": "2026-06-06",
           "result": "R16",
           "points_earned": 240
+        },
+        {
+          "event_name": "The Memphis Classic",
+          "event_type": "250",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R32",
+          "points_earned": 0,
+          "live": true,
+          "out": true
         }
       ]
     },

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-27T07:20:35.975Z",
+  "updated_at": "2026-07-29T20:06:48.182Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -1191,6 +1191,16 @@
           "event_date_end": "2026-07-12",
           "result": "R64",
           "points_earned": 50
+        },
+        {
+          "event_name": "Citi Open",
+          "event_type": "500",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-28",
+          "result": "R16",
+          "points_earned": 50,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -1545,6 +1555,16 @@
           "event_date_end": "2026-07-12",
           "result": "QF",
           "points_earned": 400
+        },
+        {
+          "event_name": "Citi Open",
+          "event_type": "500",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-28",
+          "result": "R16",
+          "points_earned": 50,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -2430,6 +2450,16 @@
           "event_date_end": "2026-05-17",
           "result": "R16",
           "points_earned": 100
+        },
+        {
+          "event_name": "Citi Open",
+          "event_type": "500",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-28",
+          "result": "R16",
+          "points_earned": 50,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -2615,6 +2645,16 @@
           "event_date_end": "2026-07-12",
           "result": "R64",
           "points_earned": 50
+        },
+        {
+          "event_name": "Citi Open",
+          "event_type": "500",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-28",
+          "result": "R16",
+          "points_earned": 50,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -2768,6 +2808,16 @@
           "event_date_end": "2026-07-12",
           "result": "R64",
           "points_earned": 50
+        },
+        {
+          "event_name": "Citi Open",
+          "event_type": "500",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-28",
+          "result": "R16",
+          "points_earned": 50,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -3058,6 +3108,16 @@
           "event_date_end": "2026-07-12",
           "result": "R32",
           "points_earned": 100
+        },
+        {
+          "event_name": "Citi Open",
+          "event_type": "500",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-28",
+          "result": "R16",
+          "points_earned": 50,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -3372,6 +3432,16 @@
           "event_date_end": "2026-07-12",
           "result": "R32",
           "points_earned": 100
+        },
+        {
+          "event_name": "Citi Open",
+          "event_type": "500",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-28",
+          "result": "R16",
+          "points_earned": 50,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -3461,6 +3531,16 @@
           "event_date_end": "2026-07-12",
           "result": "R64",
           "points_earned": 50
+        },
+        {
+          "event_name": "Citi Open",
+          "event_type": "500",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-28",
+          "result": "R16",
+          "points_earned": 50,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -3799,6 +3879,16 @@
           "event_date_end": "2026-07-12",
           "result": "R32",
           "points_earned": 100
+        },
+        {
+          "event_name": "Citi Open",
+          "event_type": "500",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-28",
+          "result": "R16",
+          "points_earned": 50,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -4748,6 +4838,16 @@
           "event_date_end": "2026-07-12",
           "result": "R64",
           "points_earned": 50
+        },
+        {
+          "event_name": "Citi Open",
+          "event_type": "500",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-28",
+          "result": "R16",
+          "points_earned": 50,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -4957,6 +5057,16 @@
           "event_date_end": "2026-07-26",
           "result": "R16",
           "points_earned": 25
+        },
+        {
+          "event_name": "Citi Open",
+          "event_type": "500",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-28",
+          "result": "R16",
+          "points_earned": 50,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -5182,6 +5292,16 @@
           "event_date_end": "2026-07-25",
           "result": "SF",
           "points_earned": 100
+        },
+        {
+          "event_name": "Citi Open",
+          "event_type": "500",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-28",
+          "result": "R16",
+          "points_earned": 50,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -5496,6 +5616,16 @@
           "event_date_end": "2026-07-12",
           "result": "R64",
           "points_earned": 50
+        },
+        {
+          "event_name": "Citi Open",
+          "event_type": "500",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-28",
+          "result": "R16",
+          "points_earned": 50,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -5786,6 +5916,16 @@
           "event_date_end": "2026-07-18",
           "result": "QF",
           "points_earned": 50
+        },
+        {
+          "event_name": "Citi Open",
+          "event_type": "500",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-28",
+          "result": "R16",
+          "points_earned": 50,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -5979,6 +6119,16 @@
           "event_date_end": "2026-07-12",
           "result": "R32",
           "points_earned": 100
+        },
+        {
+          "event_name": "Citi Open",
+          "event_type": "500",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-28",
+          "result": "R16",
+          "points_earned": 50,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -6366,6 +6516,16 @@
           "event_date_end": "2026-07-12",
           "result": "R64",
           "points_earned": 50
+        },
+        {
+          "event_name": "Mifel Tennis Open",
+          "event_type": "250",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R16",
+          "points_earned": 25,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -6551,6 +6711,16 @@
           "event_date_end": "2026-07-12",
           "result": "R64",
           "points_earned": 50
+        },
+        {
+          "event_name": "Citi Open",
+          "event_type": "500",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-28",
+          "result": "R16",
+          "points_earned": 50,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -7766,6 +7936,16 @@
           "event_date_end": "2026-07-12",
           "result": "R64",
           "points_earned": 50
+        },
+        {
+          "event_name": "Citi Open",
+          "event_type": "500",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-28",
+          "result": "R16",
+          "points_earned": 50,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -9327,6 +9507,16 @@
           "event_date_end": "2026-07-12",
           "result": "R64",
           "points_earned": 50
+        },
+        {
+          "event_name": "Citi Open",
+          "event_type": "500",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-28",
+          "result": "R16",
+          "points_earned": 50,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -9544,6 +9734,16 @@
           "event_date_end": "2026-07-12",
           "result": "R64",
           "points_earned": 50
+        },
+        {
+          "event_name": "Mifel Tennis Open",
+          "event_type": "250",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R16",
+          "points_earned": 25,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -10430,6 +10630,16 @@
           "event_date_end": "2026-07-12",
           "result": "R64",
           "points_earned": 50
+        },
+        {
+          "event_name": "Mifel Tennis Open",
+          "event_type": "250",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R16",
+          "points_earned": 25,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -10938,6 +11148,16 @@
           "event_date_end": "2026-07-12",
           "result": "R64",
           "points_earned": 50
+        },
+        {
+          "event_name": "Citi Open",
+          "event_type": "500",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-28",
+          "result": "R16",
+          "points_earned": 50,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -11123,6 +11343,16 @@
           "event_date_end": "2026-07-12",
           "result": "R64",
           "points_earned": 50
+        },
+        {
+          "event_name": "Mifel Tennis Open",
+          "event_type": "250",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R16",
+          "points_earned": 25,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -11751,6 +11981,16 @@
           "event_date_end": "2026-07-12",
           "result": "R64",
           "points_earned": 50
+        },
+        {
+          "event_name": "Citi Open",
+          "event_type": "500",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-28",
+          "result": "R16",
+          "points_earned": 50,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -12267,6 +12507,16 @@
           "event_date_end": "2026-07-12",
           "result": "R32",
           "points_earned": 100
+        },
+        {
+          "event_name": "Citi Open",
+          "event_type": "500",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-28",
+          "result": "R16",
+          "points_earned": 50,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -12452,6 +12702,16 @@
           "event_date_end": "2026-07-12",
           "result": "R32",
           "points_earned": 100
+        },
+        {
+          "event_name": "Mifel Tennis Open",
+          "event_type": "250",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R16",
+          "points_earned": 25,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -13258,6 +13518,16 @@
           "event_date_end": "2026-07-12",
           "result": "R64",
           "points_earned": 50
+        },
+        {
+          "event_name": "Mifel Tennis Open",
+          "event_type": "250",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R16",
+          "points_earned": 25,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -13636,6 +13906,16 @@
           "event_date_end": "2026-07-12",
           "result": "R32",
           "points_earned": 100
+        },
+        {
+          "event_name": "Citi Open",
+          "event_type": "500",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-28",
+          "result": "R16",
+          "points_earned": 50,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -14628,6 +14908,16 @@
           "event_date_end": "2026-07-12",
           "result": "R64",
           "points_earned": 50
+        },
+        {
+          "event_name": "Mifel Tennis Open",
+          "event_type": "250",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R16",
+          "points_earned": 25,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -14701,6 +14991,16 @@
           "event_date_end": "2026-07-12",
           "result": "R64",
           "points_earned": 50
+        },
+        {
+          "event_name": "Mifel Tennis Open",
+          "event_type": "250",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R16",
+          "points_earned": 25,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -14926,6 +15226,16 @@
           "event_date_end": "2026-07-12",
           "result": "R64",
           "points_earned": 50
+        },
+        {
+          "event_name": "Mifel Tennis Open",
+          "event_type": "250",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R16",
+          "points_earned": 25,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -15095,6 +15405,16 @@
           "event_date_end": "2026-07-12",
           "result": "R64",
           "points_earned": 50
+        },
+        {
+          "event_name": "Mifel Tennis Open",
+          "event_type": "250",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R16",
+          "points_earned": 25,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -15538,6 +15858,16 @@
           "event_date_end": "2026-07-12",
           "result": "R64",
           "points_earned": 50
+        },
+        {
+          "event_name": "Mifel Tennis Open",
+          "event_type": "250",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-07-29",
+          "result": "R16",
+          "points_earned": 25,
+          "live": true,
+          "out": true
         }
       ]
     },
