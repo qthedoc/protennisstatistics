@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T01:37:14.565Z",
+  "updated_at": "2026-08-08T06:16:13.904Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -777,8 +777,8 @@
           "event_type": "1000",
           "event_date_start": "2026-08-03",
           "event_date_end": "2026-08-08",
-          "result": "R32",
-          "points_earned": 65,
+          "result": "R16",
+          "points_earned": 120,
           "live": true,
           "out": false
         }
@@ -1169,8 +1169,8 @@
           "event_type": "1000",
           "event_date_start": "2026-08-03",
           "event_date_end": "2026-08-08",
-          "result": "R32",
-          "points_earned": 65,
+          "result": "R16",
+          "points_earned": 120,
           "live": true,
           "out": false
         }
@@ -4183,10 +4183,10 @@
           "event_type": "1000",
           "event_date_start": "2026-08-03",
           "event_date_end": "2026-08-08",
-          "result": "R32",
-          "points_earned": 65,
+          "result": "R16",
+          "points_earned": 120,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
