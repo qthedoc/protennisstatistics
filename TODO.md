@@ -32,3 +32,8 @@ fixes:
     - idea: hold down, can move across bars will moving
     - idea: selecting row opens details below
 - rounded bottom border between players
+
+
+- add results key: W, F, SF, QF, R16, R32, R64, R128
+- Live on mobile
+- deal with 53 week years
