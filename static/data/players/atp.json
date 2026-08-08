@@ -279,6 +279,10 @@
     "name": "Lorenzo Musetti",
     "country": "ITA"
   },
+  "64741": {
+    "name": "Facundo Diaz Acosta",
+    "country": "ARG"
+  },
   "64891": {
     "name": "Alexander Shevchenko",
     "country": "KAZ"
@@ -315,9 +319,17 @@
     "name": "Arthur Cazaux",
     "country": "FRA"
   },
+  "71166": {
+    "name": "Chak Lam Coleman Wong",
+    "country": "HKG"
+  },
   "71174": {
     "name": "Giovanni Mpetshi Perricard",
     "country": "FRA"
+  },
+  "72574": {
+    "name": "Martin Damm",
+    "country": "USA"
   },
   "72578": {
     "name": "Mattia Bellucci",
@@ -382,6 +394,10 @@
   "86691": {
     "name": "Jakub Mensik",
     "country": "CZE"
+  },
+  "87277": {
+    "name": "Arthur Gea",
+    "country": "FRA"
   },
   "87562": {
     "name": "Ben Shelton",
