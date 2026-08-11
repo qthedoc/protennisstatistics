@@ -27,7 +27,10 @@ jobs:
 
       - run: pnpm install --frozen-lockfile
 
-      - name: Build snapshots
+      # writeSnapshot() validates the data and THROWS on a degraded/empty result, so
+      # this step fails and the commit step below is skipped — the last good committed
+      # data stays live. Outdated data beats wrong data.
+      - name: Build + validate snapshots
         env:
           RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}
         run: pnpm tsx scripts/refresh-data.ts

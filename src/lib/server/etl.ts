@@ -15,7 +15,7 @@
  *
  * Reads `process.env.RAPIDAPI_KEY` (NOT SvelteKit's $env — this runs outside the app).
  */
-import { readFile, writeFile, mkdir, readdir } from 'node:fs/promises';
+import { readFile, writeFile, mkdir, readdir, rename } from 'node:fs/promises';
 import { join } from 'node:path';
 import type {
 	EventType,
@@ -108,8 +108,16 @@ export async function refreshTour(tour: Tour, opts: RefreshOptions = {}): Promis
 			try {
 				const resultsJson = await fetchResults(tour, c.id, headers);
 				const fresh = condenseTournament(tour, c, resultsJson);
-				await writeArchive(fresh);
-				log(`[${tour}] fetched ${c.name} (${fresh.status})`);
+				// A draw with no parsed players is a bad/empty results response, not a real
+				// result. Never persist it — writing it as `finished` would freeze the glitch
+				// (finished archives are never re-fetched) and, on --force, overwrite a good
+				// archive with an empty one. Skip; the last good archive stays, retried next run.
+				if (Object.keys(fresh.players).length === 0) {
+					log(`[${tour}] SKIP ${c.name} (${c.id}): empty draw (${fresh.status}) — keeping any prior archive`);
+				} else {
+					await writeArchive(fresh);
+					log(`[${tour}] fetched ${c.name} (${fresh.status})`);
+				}
 			} catch (err) {
 				log(`[${tour}] FAILED ${c.name} (${c.id}): ${(err as Error).message}`);
 			}
@@ -171,13 +179,8 @@ async function finishSnapshot(
 		});
 	}
 
-	// Never emit an empty snapshot — it would overwrite good committed data and 500
-	// the site. An empty ranking should already have been caught upstream; this is the
-	// backstop.
-	if (players.length === 0) {
-		throw new Error(`[${tour}] refused to build empty snapshot (0 players) — aborting to protect committed data`);
-	}
-
+	// A degraded/empty snapshot is rejected at the write gate (validateSnapshot in
+	// writeSnapshot), which protects local runs and CI alike.
 	return {
 		updated_at: new Date().toISOString(),
 		source: 'rapidapi-tennis-api-atp-wta-itf',
@@ -185,7 +188,7 @@ async function finishSnapshot(
 	};
 }
 
-function buildDistribution(
+export function buildDistribution(
 	playerId: number,
 	tour: Tour,
 	archives: TournamentArchive[]
@@ -214,7 +217,7 @@ function buildDistribution(
 
 // ─── condense ──────────────────────────────────────────────────────────────
 
-function condenseTournament(
+export function condenseTournament(
 	tour: Tour,
 	meta: CalendarEntry,
 	resultsJson: any
@@ -426,9 +429,46 @@ async function writeArchive(a: TournamentArchive): Promise<void> {
 	await writeFile(archivePath(a.tour, a.tour_id), JSON.stringify(a), 'utf-8');
 }
 
+// Sanity floors for a healthy snapshot. Well below the real numbers (100 players,
+// ~1880 total bars) but far above a degraded one (bug 1 was ~450 bars; an empty
+// ranking is 0 players) — the point is to reject WRONG data, not to be precise.
+const MIN_PLAYERS = 90;
+const MIN_TOTAL_BARS = 800;
+
+/**
+ * Reject a snapshot that looks degraded rather than let it overwrite good data —
+ * outdated data beats wrong data. Absolute floors (no comparison to the previous
+ * file needed). Returns the list of problems; empty = healthy.
+ */
+export function validateSnapshot(snapshot: RankingsSnapshot): string[] {
+	const problems: string[] = [];
+	const players = snapshot.players ?? [];
+	if (players.length < MIN_PLAYERS) {
+		problems.push(`only ${players.length} players (min ${MIN_PLAYERS})`);
+	}
+	const totalBars = players.reduce((n, p) => n + (p.points_distribution?.length ?? 0), 0);
+	if (totalBars < MIN_TOTAL_BARS) {
+		problems.push(`only ${totalBars} total tournament bars (min ${MIN_TOTAL_BARS}) — distributions look collapsed`);
+	}
+	const bad = players.find((p) => !p.name || !Array.isArray(p.points_distribution));
+	if (bad) problems.push(`malformed player row (${JSON.stringify(bad).slice(0, 80)}…)`);
+	return problems;
+}
+
 export async function writeSnapshot(tour: Tour, snapshot: RankingsSnapshot): Promise<void> {
+	// The single data-quality gate: a degraded snapshot throws here, so the refresh
+	// script (and CI) fails BEFORE committing and the last good file is kept.
+	const problems = validateSnapshot(snapshot);
+	if (problems.length) {
+		throw new Error(`[${tour}] refusing to write degraded snapshot — ${problems.join('; ')}`);
+	}
 	await mkdir(DATA_DIR, { recursive: true });
-	await writeFile(join(DATA_DIR, `${tour}.json`), JSON.stringify(snapshot, null, 2), 'utf-8');
+	// Write to a temp file then rename so a crash mid-write can't leave truncated JSON
+	// that would 500 every page (rename is atomic on the same filesystem).
+	const dest = join(DATA_DIR, `${tour}.json`);
+	const tmp = `${dest}.tmp`;
+	await writeFile(tmp, JSON.stringify(snapshot, null, 2), 'utf-8');
+	await rename(tmp, dest);
 }
 
 /** Every archived tournament for a tour (offline path — no calendar/results calls). */
@@ -532,7 +572,7 @@ function roundLabeler(earlyRounds: Set<number>): (roundId: number, champion: boo
 
 // The calendar's `tier` is rich enough to classify directly, e.g. "Grand Slam",
 // "ATP Masters 1000", "ATP 500", "ATP 250", "WTA 1000", "Finals". No 250-vs-500 guessing.
-function mapTier(tier: string | undefined): EventType {
+export function mapTier(tier: string | undefined): EventType {
 	const t = (tier ?? '').toLowerCase();
 	if (t.includes('grand slam')) return 'Grand Slam';
 	if (t.includes('masters') || t.includes('1000')) return '1000';

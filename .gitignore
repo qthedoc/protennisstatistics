@@ -29,3 +29,6 @@ vite.config.ts.timestamp-*
 # Local development
 /.claude
 /.idea
+
+# Atomic-write temp files from the ETL (write-then-rename)
+static/data/**/*.tmp

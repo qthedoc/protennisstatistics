@@ -49,5 +49,20 @@ Live incremental run hit `ranking 504: gateway timed out` → OLD code (and my f
 - `loadOrFetchRanking` wraps `fetchRanking` in try/catch: on throw OR empty → fall back to newest non-empty archived ranking. A ranking hiccup can no longer zero OR crash the refresh.
 - Observed 2026-08-10: RapidAPI gateway was broadly 504-flaky (ranking + results), so an incremental re-run ground on retries — external API problem, not our code. On-disk data stayed the good version (snapshot only writes after ranking resolves).
 
+## Round 2 — robustness review + tests + CI (2026-08-10)
+Boss: codebase not robust enough; find other break points, add tight tests + CI; "outdated data better than wrong data".
+More fragilities found & fixed in `etl.ts`:
+- **Data-quality gate (the big one):** `validateSnapshot(snapshot)` (exported) + called in `writeSnapshot` → THROWS on degraded data (floors: `MIN_PLAYERS=90`, `MIN_TOTAL_BARS=800`; healthy = 100 players / ~1875 atp / ~1784 wta bars). One gate protects local + CI. A partial ranking (e.g. 12 rows) or a distribution collapse now fails the refresh step → commit skipped → last good data stays. Replaced the weaker `finishSnapshot` 0-player throw.
+- **Fragile-archive fix:** the fetch loop now SKIPS `writeArchive` when a condensed draw has 0 players — a 200-with-empty-`singles` was being frozen as `finished` (never re-fetched) and, on `--force`, overwriting a good archive with an empty one.
+- **Atomic snapshot write:** `writeSnapshot` writes `{tour}.json.tmp` then `rename` — a crash mid-write can't leave truncated JSON that 500s every page. `.tmp` gitignored.
+- Deferred (low): `writePlayersMap` resets the accumulated id→name map to just this week's on a corrupt read.
+
+**Testing/CI (two separate gates — answer to boss's Q):**
+- **Code CI** `.github/workflows/ci.yml` (push/PR, `paths-ignore: static/data/**`): `pnpm check` + `pnpm test`. No API key. Blocks bad code.
+- **Data CI** `.github/workflows/refresh-data.yml` (daily cron): refresh → `validateSnapshot` throws on bad data → build step fails → commit step skipped → outdated-but-good data kept. No workflow logic change needed; the throw does it.
+- **Tests:** `vitest` (standalone `vitest.config.ts`, no SvelteKit plugin — etl's only `$lib` import is `import type`, erased). One file `src/lib/server/etl.test.ts`, 11 tests: `validateSnapshot` (healthy/empty/collapsed/malformed), `condenseTournament` (32-draw R32→W labels, alive flag, empty draw), `buildDistribution` (pivot/sort/points/live+out), `mapTier`. `pnpm test` = `vitest run`.
+- Exported for tests: `validateSnapshot`, `condenseTournament`, `buildDistribution`, `mapTier`.
+- Verified: `pnpm check` 0/0, `pnpm test` 11/11, offline rebuild writes 100/tour through the gate, gate proven to reject a collapsed snapshot while leaving the good file intact (1875 bars).
+
 ## Gotcha for future
 `mostRecentMonday()` returns the CURRENT Monday; querying it before publication (early Monday UTC) returns `[]`. The empty-guard is the safety net — do NOT re-introduce archiving of empty ranking responses.
