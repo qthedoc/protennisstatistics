@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-11T06:20:27.618Z",
+  "updated_at": "2026-08-11T06:24:56.036Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -7,7 +7,7 @@
       "name": "Aryna Sabalenka",
       "country": "Belarus",
       "country_code": "BY",
-      "current_points": 86,
+      "current_points": 8550,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -122,7 +122,7 @@
       "name": "Elena Rybakina",
       "country": "Kazakhstan",
       "country_code": "KZ",
-      "current_points": 81,
+      "current_points": 8056,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -293,7 +293,7 @@
       "name": "Jessica Pegula",
       "country": "United States",
       "country_code": "US",
-      "current_points": 66,
+      "current_points": 6625,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -437,10 +437,10 @@
     },
     {
       "rank": 4,
-      "name": "Cori Gauff",
+      "name": "Coco Gauff",
       "country": "United States",
       "country_code": "US",
-      "current_points": 56,
+      "current_points": 5649,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -587,7 +587,7 @@
       "name": "Mirra Andreeva",
       "country": "Russia",
       "country_code": "RU",
-      "current_points": 53,
+      "current_points": 5293,
       "points_distribution": [
         {
           "event_name": "U.S. Open",
@@ -750,7 +750,7 @@
       "name": "Karolina Muchova",
       "country": "Czech Republic",
       "country_code": "CZ",
-      "current_points": 52,
+      "current_points": 5168,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -895,7 +895,7 @@
       "name": "Linda Noskova",
       "country": "Czech Republic",
       "country_code": "CZ",
-      "current_points": 50,
+      "current_points": 5016,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -1074,7 +1074,7 @@
       "name": "Iga Swiatek",
       "country": "Poland",
       "country_code": "PL",
-      "current_points": 45,
+      "current_points": 4539,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -1221,7 +1221,7 @@
       "name": "Elina Svitolina",
       "country": "Ukraine",
       "country_code": "UA",
-      "current_points": 45,
+      "current_points": 4459,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -1368,7 +1368,7 @@
       "name": "Amanda Anisimova",
       "country": "United States",
       "country_code": "US",
-      "current_points": 44,
+      "current_points": 4353,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -1483,7 +1483,7 @@
       "name": "Marta Kostyuk",
       "country": "Ukraine",
       "country_code": "UA",
-      "current_points": 39,
+      "current_points": 3925,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -1598,7 +1598,7 @@
       "name": "Victoria Mboko",
       "country": "Canada",
       "country_code": "CA",
-      "current_points": 35,
+      "current_points": 3520,
       "points_distribution": [
         {
           "event_name": "U.S. Open",
@@ -1727,7 +1727,7 @@
       "name": "Naomi Osaka",
       "country": "Japan",
       "country_code": "JP",
-      "current_points": 33,
+      "current_points": 3281,
       "points_distribution": [
         {
           "event_name": "U.S. Open",
@@ -1850,7 +1850,7 @@
       "name": "Belinda Bencic",
       "country": "Switzerland",
       "country_code": "CH",
-      "current_points": 28,
+      "current_points": 2845,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -2005,7 +2005,7 @@
       "name": "Jasmine Paolini",
       "country": "Italy",
       "country_code": "IT",
-      "current_points": 28,
+      "current_points": 2783,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -2150,7 +2150,7 @@
       "name": "Iva Jovic",
       "country": "United States",
       "country_code": "US",
-      "current_points": 26,
+      "current_points": 2636,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -2329,7 +2329,7 @@
       "name": "Diana Shnaider",
       "country": "Russia",
       "country_code": "RU",
-      "current_points": 26,
+      "current_points": 2593,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -2540,7 +2540,7 @@
       "name": "Sorana Cirstea",
       "country": "Romania",
       "country_code": "RO",
-      "current_points": 25,
+      "current_points": 2502,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -2727,7 +2727,7 @@
       "name": "Ekaterina Alexandrova",
       "country": "Russia",
       "country_code": "RU",
-      "current_points": 23,
+      "current_points": 2301,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -2954,7 +2954,7 @@
       "name": "Alexandra Eala",
       "country": "PHI",
       "country_code": "PHI",
-      "current_points": 21,
+      "current_points": 2106,
       "points_distribution": [
         {
           "event_name": "U.S. Open",
@@ -3157,7 +3157,7 @@
       "name": "Anna Kalinskaya",
       "country": "Russia",
       "country_code": "RU",
-      "current_points": 21,
+      "current_points": 2083,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -3344,7 +3344,7 @@
       "name": "Maja Chwalinska",
       "country": "Poland",
       "country_code": "PL",
-      "current_points": 20,
+      "current_points": 1975,
       "points_distribution": [
         {
           "event_name": "Transylvania Open",
@@ -3387,7 +3387,7 @@
       "name": "Madison Keys",
       "country": "United States",
       "country_code": "US",
-      "current_points": 20,
+      "current_points": 1964,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -3518,7 +3518,7 @@
       "name": "Elise Mertens",
       "country": "Belgium",
       "country_code": "BE",
-      "current_points": 19,
+      "current_points": 1948,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -3705,7 +3705,7 @@
       "name": "Marie Bouzkova",
       "country": "Czech Republic",
       "country_code": "CZ",
-      "current_points": 18,
+      "current_points": 1829,
       "points_distribution": [
         {
           "event_name": "Abierto GNP Seguros",
@@ -3900,7 +3900,7 @@
       "name": "Barbora Krejcikova",
       "country": "Czech Republic",
       "country_code": "CZ",
-      "current_points": 18,
+      "current_points": 1776,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -4039,7 +4039,7 @@
       "name": "Anastasia Potapova",
       "country": "Austria",
       "country_code": "AT",
-      "current_points": 17,
+      "current_points": 1726,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -4202,7 +4202,7 @@
       "name": "Emma Navarro",
       "country": "United States",
       "country_code": "US",
-      "current_points": 17,
+      "current_points": 1724,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -4389,7 +4389,7 @@
       "name": "Jelena Ostapenko",
       "country": "Latvia",
       "country_code": "LV",
-      "current_points": 16,
+      "current_points": 1592,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -4568,7 +4568,7 @@
       "name": "Clara Tauson",
       "country": "Denmark",
       "country_code": "DK",
-      "current_points": 16,
+      "current_points": 1564,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -4771,7 +4771,7 @@
       "name": "Ann Li",
       "country": "United States",
       "country_code": "US",
-      "current_points": 15,
+      "current_points": 1541,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -5006,7 +5006,7 @@
       "name": "Hailey Baptiste",
       "country": "United States",
       "country_code": "US",
-      "current_points": 14,
+      "current_points": 1372,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -5159,7 +5159,7 @@
       "name": "Maria Sakkari",
       "country": "Greece",
       "country_code": "GR",
-      "current_points": 14,
+      "current_points": 1355,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -5354,7 +5354,7 @@
       "name": "Leylah Annie Fernandez",
       "country": "Canada",
       "country_code": "CA",
-      "current_points": 13,
+      "current_points": 1344,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -5589,7 +5589,7 @@
       "name": "Donna Vekic",
       "country": "Croatia",
       "country_code": "HR",
-      "current_points": 13,
+      "current_points": 1326,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -5736,7 +5736,7 @@
       "name": "Janice Tjen",
       "country": "INA",
       "country_code": "INA",
-      "current_points": 13,
+      "current_points": 1312,
       "points_distribution": [
         {
           "event_name": "U.S. Open",
@@ -5939,7 +5939,7 @@
       "name": "Katerina Siniakova",
       "country": "Czech Republic",
       "country_code": "CZ",
-      "current_points": 13,
+      "current_points": 1285,
       "points_distribution": [
         {
           "event_name": "U.S. Open",
@@ -6102,7 +6102,7 @@
       "name": "Sara Bejlek",
       "country": "Czech Republic",
       "country_code": "CZ",
-      "current_points": 13,
+      "current_points": 1269,
       "points_distribution": [
         {
           "event_name": "ASB Classic",
@@ -6241,7 +6241,7 @@
       "name": "Jaqueline Cristian",
       "country": "Romania",
       "country_code": "RO",
-      "current_points": 13,
+      "current_points": 1256,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -6442,7 +6442,7 @@
       "name": "Cristina Bucsa",
       "country": "Spain",
       "country_code": "ES",
-      "current_points": 12,
+      "current_points": 1244,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -6621,7 +6621,7 @@
       "name": "Xinyu Wang",
       "country": "China",
       "country_code": "CN",
-      "current_points": 12,
+      "current_points": 1238,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -6832,7 +6832,7 @@
       "name": "Nikola Bartunkova",
       "country": "Czech Republic",
       "country_code": "CZ",
-      "current_points": 12,
+      "current_points": 1231,
       "points_distribution": [
         {
           "event_name": "Guadalajara Open Akron",
@@ -6947,7 +6947,7 @@
       "name": "Daria Snigur",
       "country": "Ukraine",
       "country_code": "UA",
-      "current_points": 12,
+      "current_points": 1172,
       "points_distribution": [
         {
           "event_name": "Transylvania Open",
@@ -7012,7 +7012,7 @@
       "name": "Oleksandra Oliynykova",
       "country": "Ukraine",
       "country_code": "UA",
-      "current_points": 12,
+      "current_points": 1171,
       "points_distribution": [
         {
           "event_name": "Australian Open",
@@ -7119,7 +7119,7 @@
       "name": "Magdalena Frech",
       "country": "Poland",
       "country_code": "PL",
-      "current_points": 12,
+      "current_points": 1160,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -7314,7 +7314,7 @@
       "name": "Lilli Tagger",
       "country": "Austria",
       "country_code": "AT",
-      "current_points": 12,
+      "current_points": 1160,
       "points_distribution": [
         {
           "event_name": "Jiangxi Open",
@@ -7403,7 +7403,7 @@
       "name": "Tamara Korpatsch",
       "country": "Germany",
       "country_code": "DE",
-      "current_points": 11,
+      "current_points": 1134,
       "points_distribution": [
         {
           "event_name": "Jiangxi Open",
@@ -7494,7 +7494,7 @@
       "name": "Mccartney Kessler",
       "country": "United States",
       "country_code": "US",
-      "current_points": 11,
+      "current_points": 1125,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -7681,7 +7681,7 @@
       "name": "Emma Raducanu",
       "country": "United Kingdom",
       "country_code": "GB",
-      "current_points": 11,
+      "current_points": 1105,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -7810,7 +7810,7 @@
       "name": "Mayar Sherif",
       "country": "Egypt",
       "country_code": "EG",
-      "current_points": 11,
+      "current_points": 1105,
       "points_distribution": [
         {
           "event_name": "U.S. Open",
@@ -7867,7 +7867,7 @@
       "name": "Viktorija Golubic",
       "country": "Switzerland",
       "country_code": "CH",
-      "current_points": 11,
+      "current_points": 1088,
       "points_distribution": [
         {
           "event_name": "Tennis in the Land",
@@ -8006,7 +8006,7 @@
       "name": "Zeynep Sonmez",
       "country": "TUR",
       "country_code": "TUR",
-      "current_points": 11,
+      "current_points": 1077,
       "points_distribution": [
         {
           "event_name": "Abierto GNP Seguros",
@@ -8201,7 +8201,7 @@
       "name": "Petra Marcinko",
       "country": "Croatia",
       "country_code": "HR",
-      "current_points": 11,
+      "current_points": 1074,
       "points_distribution": [
         {
           "event_name": "ASB Classic",
@@ -8314,7 +8314,7 @@
       "name": "Anhelina Kalinina",
       "country": "Ukraine",
       "country_code": "UA",
-      "current_points": 11,
+      "current_points": 1072,
       "points_distribution": [
         {
           "event_name": "Australian Open",
@@ -8413,7 +8413,7 @@
       "name": "Liudmila Samsonova",
       "country": "Russia",
       "country_code": "RU",
-      "current_points": 11,
+      "current_points": 1068,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -8632,7 +8632,7 @@
       "name": "Antonia Ruzic",
       "country": "Croatia",
       "country_code": "HR",
-      "current_points": 11,
+      "current_points": 1062,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -8819,7 +8819,7 @@
       "name": "Peyton Stearns",
       "country": "United States",
       "country_code": "US",
-      "current_points": 11,
+      "current_points": 1061,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -8990,7 +8990,7 @@
       "name": "Ashlyn Krueger",
       "country": "United States",
       "country_code": "US",
-      "current_points": 11,
+      "current_points": 1055,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -9135,7 +9135,7 @@
       "name": "Elisabetta Cocciaretto",
       "country": "Italy",
       "country_code": "IT",
-      "current_points": 11,
+      "current_points": 1055,
       "points_distribution": [
         {
           "event_name": "Abierto GNP Seguros",
@@ -9298,7 +9298,7 @@
       "name": "Maria Camila Osorio Serrano",
       "country": "Colombia",
       "country_code": "CO",
-      "current_points": 10,
+      "current_points": 1048,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -9477,7 +9477,7 @@
       "name": "Daria Kasatkina",
       "country": "Australia",
       "country_code": "AU",
-      "current_points": 10,
+      "current_points": 1033,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -9648,7 +9648,7 @@
       "name": "Shuai Zhang",
       "country": "China",
       "country_code": "CN",
-      "current_points": 10,
+      "current_points": 1020,
       "points_distribution": [
         {
           "event_name": "U.S. Open",
@@ -9827,7 +9827,7 @@
       "name": "Jessica Bouzas Maneiro",
       "country": "Spain",
       "country_code": "ES",
-      "current_points": 10,
+      "current_points": 1014,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -10046,7 +10046,7 @@
       "name": "Diane Parry",
       "country": "France",
       "country_code": "FR",
-      "current_points": 10,
+      "current_points": 1011,
       "points_distribution": [
         {
           "event_name": "U.S. Open",
@@ -10153,7 +10153,7 @@
       "name": "Yuliia Starodubtseva",
       "country": "Ukraine",
       "country_code": "UA",
-      "current_points": 10,
+      "current_points": 1008,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -10316,7 +10316,7 @@
       "name": "Karolina Pliskova",
       "country": "Czech Republic",
       "country_code": "CZ",
-      "current_points": 10,
+      "current_points": 1006,
       "points_distribution": [
         {
           "event_name": "Australian Open",
@@ -10407,7 +10407,7 @@
       "name": "Tereza Valentova",
       "country": "Czech Republic",
       "country_code": "CZ",
-      "current_points": 10,
+      "current_points": 1003,
       "points_distribution": [
         {
           "event_name": "U.S. Open",
@@ -10554,7 +10554,7 @@
       "name": "Magda Linette",
       "country": "Poland",
       "country_code": "PL",
-      "current_points": 10,
+      "current_points": 1001,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -10741,7 +10741,7 @@
       "name": "Kimberly Birrell",
       "country": "Australia",
       "country_code": "AU",
-      "current_points": 10,
+      "current_points": 999,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -10912,7 +10912,7 @@
       "name": "Caty McNally",
       "country": "United States",
       "country_code": "US",
-      "current_points": 10,
+      "current_points": 990,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -11107,7 +11107,7 @@
       "name": "Alycia Parks",
       "country": "United States",
       "country_code": "US",
-      "current_points": 10,
+      "current_points": 989,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -11318,7 +11318,7 @@
       "name": "Katie Boulter",
       "country": "United Kingdom",
       "country_code": "GB",
-      "current_points": 10,
+      "current_points": 987,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -11505,7 +11505,7 @@
       "name": "Renata Zarazua",
       "country": "Mexico",
       "country_code": "MX",
-      "current_points": 10,
+      "current_points": 971,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -11652,7 +11652,7 @@
       "name": "Talia Gibson",
       "country": "Australia",
       "country_code": "AU",
-      "current_points": 10,
+      "current_points": 958,
       "points_distribution": [
         {
           "event_name": "Tennis in the Land",
@@ -11799,7 +11799,7 @@
       "name": "Maya Joint",
       "country": "Australia",
       "country_code": "AU",
-      "current_points": 10,
+      "current_points": 956,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -12002,7 +12002,7 @@
       "name": "Panna Udvardy",
       "country": "Hungary",
       "country_code": "HU",
-      "current_points": 10,
+      "current_points": 953,
       "points_distribution": [
         {
           "event_name": "SP Open",
@@ -12141,7 +12141,7 @@
       "name": "Elena Gabriela Ruse",
       "country": "Romania",
       "country_code": "RO",
-      "current_points": 9,
+      "current_points": 941,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -12312,7 +12312,7 @@
       "name": "Anna Bondar",
       "country": "Hungary",
       "country_code": "HU",
-      "current_points": 9,
+      "current_points": 936,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -12523,7 +12523,7 @@
       "name": "Lanlana Tararudee",
       "country": "THA",
       "country_code": "THA",
-      "current_points": 9,
+      "current_points": 916,
       "points_distribution": [
         {
           "event_name": "Chennai Open",
@@ -12582,7 +12582,7 @@
       "name": "Tatjana Maria",
       "country": "Germany",
       "country_code": "DE",
-      "current_points": 9,
+      "current_points": 913,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -12825,7 +12825,7 @@
       "name": "Sinja Kraus",
       "country": "Austria",
       "country_code": "AT",
-      "current_points": 9,
+      "current_points": 907,
       "points_distribution": [
         {
           "event_name": "ASB Classic",
@@ -12914,7 +12914,7 @@
       "name": "Yulia Putintseva",
       "country": "Kazakhstan",
       "country_code": "KZ",
-      "current_points": 9,
+      "current_points": 904,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -13093,7 +13093,7 @@
       "name": "Kamilla Rakhimova",
       "country": "UZB",
       "country_code": "UZB",
-      "current_points": 9,
+      "current_points": 894,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -13264,7 +13264,7 @@
       "name": "Paula Badosa Gibert",
       "country": "Spain",
       "country_code": "ES",
-      "current_points": 9,
+      "current_points": 885,
       "points_distribution": [
         {
           "event_name": "China Open",
@@ -13409,7 +13409,7 @@
       "name": "Eva Lys",
       "country": "Germany",
       "country_code": "DE",
-      "current_points": 9,
+      "current_points": 871,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -13564,7 +13564,7 @@
       "name": "Solana Sierra",
       "country": "Argentina",
       "country_code": "AR",
-      "current_points": 9,
+      "current_points": 867,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -13727,7 +13727,7 @@
       "name": "Dayana Yastremska",
       "country": "Ukraine",
       "country_code": "UA",
-      "current_points": 9,
+      "current_points": 867,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -13920,7 +13920,7 @@
       "name": "Laura Siegemund",
       "country": "Germany",
       "country_code": "DE",
-      "current_points": 9,
+      "current_points": 852,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -14065,7 +14065,7 @@
       "name": "Alina Korneeva",
       "country": "Russia",
       "country_code": "RU",
-      "current_points": 8,
+      "current_points": 849,
       "points_distribution": [
         {
           "event_name": "Guangzhou Open",
@@ -14132,7 +14132,7 @@
       "name": "Simona Waltert",
       "country": "Switzerland",
       "country_code": "CH",
-      "current_points": 8,
+      "current_points": 846,
       "points_distribution": [
         {
           "event_name": "Australian Open",
@@ -14221,7 +14221,7 @@
       "name": "Katie Volynets",
       "country": "United States",
       "country_code": "US",
-      "current_points": 8,
+      "current_points": 843,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -14382,7 +14382,7 @@
       "name": "Darja Vidmanova",
       "country": "Czech Republic",
       "country_code": "CZ",
-      "current_points": 8,
+      "current_points": 842,
       "points_distribution": [
         {
           "event_name": "Guadalajara Open Akron",
@@ -14447,7 +14447,7 @@
       "name": "Hanne Vandewinkel",
       "country": "Belgium",
       "country_code": "BE",
-      "current_points": 8,
+      "current_points": 833,
       "points_distribution": [
         {
           "event_name": "Copa Colsanitas",
@@ -14496,7 +14496,7 @@
       "name": "Kaitlin Quevedo",
       "country": "Spain",
       "country_code": "ES",
-      "current_points": 8,
+      "current_points": 819,
       "points_distribution": [
         {
           "event_name": "ASB Classic",
@@ -14553,7 +14553,7 @@
       "name": "Ajla Tomljanovic",
       "country": "Australia",
       "country_code": "AU",
-      "current_points": 8,
+      "current_points": 815,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -14738,7 +14738,7 @@
       "name": "Xiyu Wang",
       "country": "China",
       "country_code": "CN",
-      "current_points": 8,
+      "current_points": 809,
       "points_distribution": [
         {
           "event_name": "U.S. Open",
@@ -14813,7 +14813,7 @@
       "name": "Emiliana Arango",
       "country": "Colombia",
       "country_code": "CO",
-      "current_points": 8,
+      "current_points": 808,
       "points_distribution": [
         {
           "event_name": "Cincinnati Open",
@@ -14998,7 +14998,7 @@
       "name": "Maria Timofeeva",
       "country": "UZB",
       "country_code": "UZB",
-      "current_points": 8,
+      "current_points": 806,
       "points_distribution": [
         {
           "event_name": "Chennai Open",
@@ -15055,7 +15055,7 @@
       "name": "Anastasia Zakharova",
       "country": "Russia",
       "country_code": "RU",
-      "current_points": 8,
+      "current_points": 792,
       "points_distribution": [
         {
           "event_name": "Tennis in the Land",
@@ -15232,7 +15232,7 @@
       "name": "Oksana Selekhmeteva",
       "country": "Spain",
       "country_code": "ES",
-      "current_points": 8,
+      "current_points": 786,
       "points_distribution": [
         {
           "event_name": "U.S. Open",

@@ -3,7 +3,8 @@ import {
 	validateSnapshot,
 	condenseTournament,
 	buildDistribution,
-	mapTier
+	mapTier,
+	displayName
 } from './etl';
 import type { Player, RankingsSnapshot, TournamentArchive } from '$lib/types';
 
@@ -147,6 +148,21 @@ describe('validateSnapshot', () => {
 		const players = Array.from({ length: 100 }, () => player());
 		players[7] = player({ name: '' });
 		expect(validateSnapshot(snapshot(players)).join()).toMatch(/malformed/);
+	});
+
+	it('rejects a points scale error (e.g. an erroneous /100 on WTA)', () => {
+		// top player with 86 pts instead of ~8600 → scale looks wrong
+		const players = Array.from({ length: 100 }, () => player({ current_points: 86 }));
+		expect(validateSnapshot(snapshot(players)).join()).toMatch(/scale/);
+	});
+});
+
+// ─── displayName (legal → common name overrides) ─────────────────────────────
+
+describe('displayName', () => {
+	it('maps a legal name to the common one and passes others through', () => {
+		expect(displayName('Cori Gauff')).toBe('Coco Gauff');
+		expect(displayName('Aryna Sabalenka')).toBe('Aryna Sabalenka');
 	});
 });
 

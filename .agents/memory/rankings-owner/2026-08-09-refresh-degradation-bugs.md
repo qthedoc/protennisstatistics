@@ -64,5 +64,12 @@ More fragilities found & fixed in `etl.ts`:
 - Exported for tests: `validateSnapshot`, `condenseTournament`, `buildDistribution`, `mapTier`.
 - Verified: `pnpm check` 0/0, `pnpm test` 11/11, offline rebuild writes 100/tour through the gate, gate proven to reject a collapsed snapshot while leaving the good file intact (1875 bars).
 
+## Round 3 — WTA points scale + player name overrides (2026-08-10)
+Boss spotted two value bugs (validator floors didn't catch either — both were plausible-but-wrong):
+- **WTA points were 100× too small** (Sabalenka 86 vs 8550). Cause: `finishSnapshot` had `ptsScale = tour==='wta' ? 100 : 1` dividing `current_points` by 100. But raw WTA ranking `pts` are on the SAME scale as ATP (Sabalenka raw 8550, Sinner raw 13450) AND the distribution bars always used real `POINTS_TABLE` values → the divisor was self-inconsistent. **Fix: dropped the divisor** (`current_points: Math.round(row.pts ?? 0)` for both tours).
+- **Legal names, not common ones** (API returns "Cori Gauff" for Coco Gauff). Added `NAME_OVERRIDES` map + exported `displayName(name)`, applied in `finishSnapshot` AND `writePlayersMap`. Currently just `Cori Gauff → Coco Gauff`; extend as more surface.
+- **Validator now catches scale errors:** `validateSnapshot` also fails if `players[0].current_points < 1000` (the #1 player always has thousands) — would have caught the /100 bug.
+- Tests now 13 (added scale-error + displayName). Regenerated wta.json (8550, Coco Gauff) + players/wta.json. ATP unchanged. Both tours on the 2026-08-03 ranking (08-10 still unpublished → empty-fallback).
+
 ## Gotcha for future
 `mostRecentMonday()` returns the CURRENT Monday; querying it before publication (early Monday UTC) returns `[]`. The empty-guard is the safety net — do NOT re-introduce archiving of empty ranking responses.

@@ -162,7 +162,6 @@ async function finishSnapshot(
 	await writePlayersMap(tour, ranking);
 
 	// pivot archive → per-player distribution
-	const ptsScale = tour === 'wta' ? 100 : 1;
 	const players: Player[] = [];
 	for (const row of ranking.slice(0, TOP_N)) {
 		const pid = row.player?.id;
@@ -171,10 +170,13 @@ async function finishSnapshot(
 		const acr3 = row.player?.countryAcr ?? '';
 		players.push({
 			rank: row.position ?? 0,
-			name,
+			name: displayName(name),
 			country: COUNTRY_NAME[acr3] ?? acr3,
 			country_code: ISO3_TO_ISO2[acr3] ?? acr3,
-			current_points: Math.round((row.pts ?? 0) / ptsScale),
+			// ATP and WTA raw ranking points are on the SAME scale (thousands); use as-is.
+			// (An old /100 WTA divisor was wrong — it also disagreed with the distribution
+			// bars, which have always used real POINTS_TABLE values.)
+			current_points: Math.round(row.pts ?? 0),
 			points_distribution: buildDistribution(pid, tour, inWindow)
 		});
 	}
@@ -452,6 +454,12 @@ export function validateSnapshot(snapshot: RankingsSnapshot): string[] {
 	}
 	const bad = players.find((p) => !p.name || !Array.isArray(p.points_distribution));
 	if (bad) problems.push(`malformed player row (${JSON.stringify(bad).slice(0, 80)}…)`);
+	// The #1 player always has thousands of points on both tours — a much smaller number
+	// means a scale error (e.g. an erroneous /100), which reads as plausible-but-wrong.
+	const topPts = players[0]?.current_points ?? 0;
+	if (players.length && topPts < 1000) {
+		problems.push(`top player has ${topPts} points — scale looks wrong`);
+	}
 	return problems;
 }
 
@@ -528,7 +536,7 @@ async function writePlayersMap(tour: Tour, ranking: any[]): Promise<void> {
 		const pid = row.player?.id;
 		const name = row.player?.name;
 		if (pid == null || !name) continue;
-		map[pid] = { name, country: row.player?.countryAcr ?? '' };
+		map[pid] = { name: displayName(name), country: row.player?.countryAcr ?? '' };
 	}
 	await writeFile(path, JSON.stringify(map, null, 2), 'utf-8');
 }
@@ -585,6 +593,16 @@ export function mapTier(tier: string | undefined): EventType {
 function cleanName(name: string | undefined): string {
 	if (!name) return '';
 	return name.split(' - ')[0].trim();
+}
+
+// The ranking API returns some players' legal names, not the names fans know them by.
+// Map those to the common form. Extend as more surface.
+const NAME_OVERRIDES: Record<string, string> = {
+	'Cori Gauff': 'Coco Gauff'
+};
+
+export function displayName(name: string): string {
+	return NAME_OVERRIDES[name] ?? name;
 }
 
 function toISODate(iso: string | undefined): string {
