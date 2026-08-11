@@ -12,8 +12,10 @@ export const load: PageLoad = async ({ fetch }) => {
 		atpRes.json(),
 		wtaRes.json(),
 	]);
+	// `?? null` so an empty snapshot (bad refresh) degrades to no demo row instead of
+	// crashing the whole homepage on `player.name`.
 	return {
-		atpPlayer: atp.players[0],
-		wtaPlayer: wta.players[0],
+		atpPlayer: atp.players[0] ?? null,
+		wtaPlayer: wta.players[0] ?? null,
 	};
 };

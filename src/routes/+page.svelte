@@ -10,6 +10,7 @@
 	let { data }: { data: PageData } = $props();
 	let showAtp = $state(true);
 	onMount(() => { showAtp = Math.random() < 0.5; });
+	const demoPlayer = $derived(showAtp ? data.atpPlayer : data.wtaPlayer);
 </script>
 
 <svelte:head>
@@ -75,9 +76,11 @@
 				</div>
 			{/each}
 		</div>
-		<RankingsHeader />
-		<div class="mt-1 rounded-xl border border-border/50 bg-card/60">
-			<PlayerRow player={showAtp ? data.atpPlayer : data.wtaPlayer} />
-		</div>
+		{#if demoPlayer}
+			<RankingsHeader />
+			<div class="mt-1 rounded-xl border border-border/50 bg-card/60">
+				<PlayerRow player={demoPlayer} />
+			</div>
+		{/if}
 	</div>
 </div>

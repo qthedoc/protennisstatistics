@@ -78,41 +78,53 @@ export async function refreshTour(tour: Tour, opts: RefreshOptions = {}): Promis
 	if (!apiKey) throw new Error('RAPIDAPI_KEY missing — set it in .env');
 	const headers = { 'x-rapidapi-key': apiKey, 'x-rapidapi-host': RAPIDAPI_HOST };
 
-	// 1. tournaments in window (current + previous calendar year), tour-level only
+	// 1. tournaments in window (current + previous calendar year), tour-level only.
+	// include anything that *started* up to ~3wk before the window opens (could end inside it)
+	const calFloorMs = windowStartMs - 21 * 864e5;
 	const year = new Date().getUTCFullYear();
+	// The calendar API caps a page at ~201 rows (date-descending) and ignores pageSize,
+	// so covering a full year needs ~4 paged calls. New tournaments are always recent
+	// → they land on page 1, and the snapshot is rebuilt from ALL archives regardless,
+	// so an incremental run only needs page 1 (keeps the daily API-call count low).
+	// `--force` pages the whole window for a real backfill / after a long outage.
+	const calPages = opts.force ? 12 : 1;
 	const calendars = [
-		...(await fetchCalendar(tour, year, headers)),
-		...(await fetchCalendar(tour, year - 1, headers))
+		...(await fetchCalendar(tour, year, headers, calFloorMs, calPages)),
+		...(await fetchCalendar(tour, year - 1, headers, calFloorMs, calPages))
 	];
 	const candidates = calendars.filter((c) => {
 		if (mapTier(c.tier) === 'Other') return false; // skip futures / challengers
 		const startMs = Date.parse(c.date);
-		// include anything that *started* up to ~3wk before the window opens (could end inside it)
-		return startMs >= windowStartMs - 21 * 864e5 && startMs <= now + 864e5;
+		return startMs >= calFloorMs && startMs <= now + 864e5;
 	});
 	log(`[${tour}] ${candidates.length} tour-level tournaments in window`);
 
-	// 2. fetch/condense each tournament (skip finished ones already archived)
-	const archives: TournamentArchive[] = [];
+	// 2. fetch/condense each tournament (skip finished ones already archived), writing
+	// each to the immutable archive dir. The snapshot below is rebuilt from that dir,
+	// so a failed fetch just leaves the last good archive in place.
 	for (const c of candidates) {
-		let archive = opts.force ? null : await readArchive(tour, c.id);
+		const archive = opts.force ? null : await readArchive(tour, c.id);
 		if (!archive || archive.status !== 'finished') {
 			try {
 				const resultsJson = await fetchResults(tour, c.id, headers);
-				archive = condenseTournament(tour, c, resultsJson);
-				await writeArchive(archive);
-				log(`[${tour}] fetched ${c.name} (${archive.status})`);
+				const fresh = condenseTournament(tour, c, resultsJson);
+				await writeArchive(fresh);
+				log(`[${tour}] fetched ${c.name} (${fresh.status})`);
 			} catch (err) {
 				log(`[${tour}] FAILED ${c.name} (${c.id}): ${(err as Error).message}`);
-				if (archive) archives.push(archive); // keep stale copy if we had one
-				continue;
 			}
 		}
-		archives.push(archive);
 	}
 
-	// keep only tournaments that actually ended inside the rolling window
-	const inWindow = archives.filter((a) => Date.parse(a.end_date) >= windowStartMs);
+	// Build the pivot from EVERY archived tournament in the window, not just the ones
+	// this run's calendar happened to list. The calendar is only for DISCOVERING /
+	// updating archives; a truncated calendar response must not drop already-archived
+	// events (that collapsed the distributions — see 2026-08-09 memory). The fetch loop
+	// above just wrote the fresh/ongoing archives to disk, so this reads the full,
+	// current set. Same input the offline path uses.
+	const inWindow = (await readAllArchives(tour)).filter(
+		(a) => Date.parse(a.end_date) >= windowStartMs
+	);
 
 	// 3. official ranking (rank + total points + player identity).
 	// Archived per publication-Monday: reused within the same week (no API call)
@@ -157,6 +169,13 @@ async function finishSnapshot(
 			current_points: Math.round((row.pts ?? 0) / ptsScale),
 			points_distribution: buildDistribution(pid, tour, inWindow)
 		});
+	}
+
+	// Never emit an empty snapshot — it would overwrite good committed data and 500
+	// the site. An empty ranking should already have been caught upstream; this is the
+	// backstop.
+	if (players.length === 0) {
+		throw new Error(`[${tour}] refused to build empty snapshot (0 players) — aborting to protect committed data`);
 	}
 
 	return {
@@ -257,17 +276,36 @@ function condenseTournament(
 async function fetchCalendar(
 	tour: Tour,
 	year: number,
-	headers: Record<string, string>
+	headers: Record<string, string>,
+	floorMs: number,
+	maxPages: number
 ): Promise<CalendarEntry[]> {
-	// pageSize is required to get the whole year — the default returns only ~11 events.
-	const res = await rateLimitedFetch(
-		`https://${RAPIDAPI_HOST}/tennis/v2/${tour}/tournament/calendar/${year}?page=1&pageSize=2000`,
-		{ headers }
-	);
-	if (!res.ok) throw new Error(`calendar ${year} ${res.status}`);
-	const json = await res.json();
-	const arr: any[] = Array.isArray(json) ? json : (json.data ?? []);
-	return arr.map((t) => ({ id: t.id, name: t.name, date: t.date, tier: t.tier }));
+	// The API caps a response at ~201 rows sorted date-DESCENDING and ignores a large
+	// pageSize (a single page-1 call returns only the most-recent ~201 events, so it
+	// silently drops the earlier months — this is what collapsed the distributions).
+	// Page through (newest→oldest) until a page reaches past the window floor, comes
+	// back short (last page), or the caller's page cap trips (1 for incremental runs,
+	// higher for a --force backfill).
+	const PAGE_SIZE = 200;
+	const out: CalendarEntry[] = [];
+	for (let page = 1; page <= maxPages; page++) {
+		const res = await rateLimitedFetch(
+			`https://${RAPIDAPI_HOST}/tennis/v2/${tour}/tournament/calendar/${year}?page=${page}&pageSize=${PAGE_SIZE}`,
+			{ headers }
+		);
+		if (!res.ok) throw new Error(`calendar ${year} p${page} ${res.status}`);
+		const json = await res.json();
+		const arr: any[] = Array.isArray(json) ? json : (json.data ?? []);
+		if (arr.length === 0) break;
+		for (const t of arr) out.push({ id: t.id, name: t.name, date: t.date, tier: t.tier });
+		// dates are descending; once the oldest row on this page predates the window
+		// (with a ~3wk buffer for events that end inside it), we've covered enough.
+		const oldestMs = Math.min(
+			...arr.map((t) => (t.date ? Date.parse(t.date) : Infinity)).filter((n) => Number.isFinite(n))
+		);
+		if (oldestMs < floorMs || arr.length < PAGE_SIZE) break;
+	}
+	return out;
 }
 
 async function fetchResults(
@@ -318,13 +356,30 @@ async function loadOrFetchRanking(
 	if (!opts.force) {
 		try {
 			const cached = JSON.parse(await readFile(path, 'utf-8')) as RankingArchive;
-			opts.log(`[${tour}] ranking ${iso} from archive (fetched ${cached.fetched_at}) — no API call`);
-			return cached.data;
+			if (cached.data?.length) {
+				opts.log(`[${tour}] ranking ${iso} from archive (fetched ${cached.fetched_at}) — no API call`);
+				return cached.data;
+			}
+			// archived but empty (an earlier bad fetch) — refetch below
 		} catch {
 			// not archived yet — fall through and fetch
 		}
 	}
-	const data = await fetchRanking(tour, headers);
+	// The ranking publishes weekly (Monday) but LATE in the day: querying the current
+	// Monday too early returns an empty 200; the gateway also 5xx/times-out at random.
+	// A ranking hiccup must NEVER zero or crash the refresh — fall back to the newest
+	// non-empty archived week (last Monday's ranks are a fine stand-in for a day).
+	let data: any[];
+	try {
+		data = await fetchRanking(tour, headers);
+	} catch (err) {
+		opts.log(`[${tour}] ranking ${iso} fetch FAILED (${(err as Error).message}) — using last archived week`);
+		return loadLatestRanking(tour, opts.log);
+	}
+	if (!data.length) {
+		opts.log(`[${tour}] ranking ${iso} came back EMPTY (not published yet?) — using last archived week`);
+		return loadLatestRanking(tour, opts.log);
+	}
 	const archive: RankingArchive = {
 		tour,
 		ranking_date: date,
@@ -344,10 +399,12 @@ async function rateLimitedFetch(url: string, init: RequestInit): Promise<Respons
 		if (wait > 0) await new Promise((r) => setTimeout(r, wait));
 		lastReqAt = Date.now();
 		const res = await fetch(url, init);
-		if (res.status !== 429) return res;
+		// 429 = rate limited; 5xx = transient gateway/API error (the RapidAPI gateway
+		// 504s at random). Back off and retry both; anything else is returned as-is.
+		if (res.status !== 429 && res.status < 500) return res;
 		await new Promise((r) => setTimeout(r, REQ_INTERVAL_MS * 2 ** attempt));
 	}
-	throw new Error(`rate limited after ${MAX_RETRIES} retries: ${url}`);
+	throw new Error(`fetch failed after ${MAX_RETRIES} retries (rate-limit/5xx): ${url}`);
 }
 
 // ─── archive io ──────────────────────────────────────────────────────────────
@@ -404,15 +461,17 @@ async function loadLatestRanking(tour: Tour, log: (msg: string) => void): Promis
 	} catch {
 		files = [];
 	}
-	if (!files.length) {
-		throw new Error(
-			`no archived ranking for ${tour} — run an online refresh once to seed static/data/rankings/${tour}/`
-		);
+	// newest first; skip any empty-data archive (an earlier bad/unpublished fetch)
+	for (let i = files.length - 1; i >= 0; i--) {
+		const archive = JSON.parse(await readFile(join(dir, files[i]), 'utf-8')) as RankingArchive;
+		if (archive.data?.length) {
+			log(`[${tour}] ranking from archive ${files[i]} (fetched ${archive.fetched_at})`);
+			return archive.data;
+		}
 	}
-	const latest = files[files.length - 1];
-	const archive = JSON.parse(await readFile(join(dir, latest), 'utf-8')) as RankingArchive;
-	log(`[${tour}] ranking from archive ${latest} (fetched ${archive.fetched_at}) — offline`);
-	return archive.data;
+	throw new Error(
+		`no non-empty archived ranking for ${tour} — run an online refresh once to seed static/data/rankings/${tour}/`
+	);
 }
 
 /** playerId → identity, merged into the existing map so it grows over time. */
