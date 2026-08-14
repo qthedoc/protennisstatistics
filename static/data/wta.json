@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-13T06:32:27.143Z",
+  "updated_at": "2026-08-14T06:31:21.309Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -109,11 +109,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R16",
-          "points_earned": 120,
-          "live": true,
-          "out": true
+          "points_earned": 120
         }
       ]
     },
@@ -280,11 +278,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
-          "result": "SF",
-          "points_earned": 390,
-          "live": true,
-          "out": false
+          "event_date_end": "2026-08-14",
+          "result": "F",
+          "points_earned": 650
         }
       ]
     },
@@ -427,11 +423,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R16",
-          "points_earned": 120,
-          "live": true,
-          "out": true
+          "points_earned": 120
         }
       ]
     },
@@ -574,11 +568,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "SF",
-          "points_earned": 390,
-          "live": true,
-          "out": true
+          "points_earned": 390
         }
       ]
     },
@@ -737,11 +729,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R32",
-          "points_earned": 65,
-          "live": true,
-          "out": true
+          "points_earned": 65
         }
       ]
     },
@@ -1061,11 +1051,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R64",
-          "points_earned": 10,
-          "live": true,
-          "out": true
+          "points_earned": 10
         }
       ]
     },
@@ -1208,11 +1196,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
-          "result": "SF",
-          "points_earned": 390,
-          "live": true,
-          "out": false
+          "event_date_end": "2026-08-14",
+          "result": "W",
+          "points_earned": 1000
         }
       ]
     },
@@ -1355,11 +1341,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "SF",
-          "points_earned": 390,
-          "live": true,
-          "out": true
+          "points_earned": 390
         }
       ]
     },
@@ -1470,11 +1454,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R16",
-          "points_earned": 120,
-          "live": true,
-          "out": true
+          "points_earned": 120
         }
       ]
     },
@@ -1585,11 +1567,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R16",
-          "points_earned": 120,
-          "live": true,
-          "out": true
+          "points_earned": 120
         }
       ]
     },
@@ -1837,11 +1817,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "QF",
-          "points_earned": 215,
-          "live": true,
-          "out": true
+          "points_earned": 215
         }
       ]
     },
@@ -1992,11 +1970,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R16",
-          "points_earned": 120,
-          "live": true,
-          "out": false
+          "points_earned": 120
         }
       ]
     },
@@ -2316,11 +2292,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R32",
-          "points_earned": 65,
-          "live": true,
-          "out": true
+          "points_earned": 65
         }
       ]
     },
@@ -2527,11 +2501,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "QF",
-          "points_earned": 215,
-          "live": true,
-          "out": true
+          "points_earned": 215
         }
       ]
     },
@@ -2714,11 +2686,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R64",
-          "points_earned": 10,
-          "live": true,
-          "out": true
+          "points_earned": 10
         }
       ]
     },
@@ -2941,11 +2911,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "QF",
-          "points_earned": 215,
-          "live": true,
-          "out": true
+          "points_earned": 215
         }
       ]
     },
@@ -3144,11 +3112,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R16",
-          "points_earned": 120,
-          "live": true,
-          "out": true
+          "points_earned": 120
         }
       ]
     },
@@ -3331,11 +3297,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R32",
-          "points_earned": 65,
-          "live": true,
-          "out": true
+          "points_earned": 65
         }
       ]
     },
@@ -3374,11 +3338,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R64",
-          "points_earned": 10,
-          "live": true,
-          "out": true
+          "points_earned": 10
         }
       ]
     },
@@ -3505,11 +3467,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R32",
-          "points_earned": 65,
-          "live": true,
-          "out": true
+          "points_earned": 65
         }
       ]
     },
@@ -3692,11 +3652,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R32",
-          "points_earned": 65,
-          "live": true,
-          "out": true
+          "points_earned": 65
         }
       ]
     },
@@ -3887,11 +3845,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R64",
-          "points_earned": 10,
-          "live": true,
-          "out": true
+          "points_earned": 10
         }
       ]
     },
@@ -4026,11 +3982,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R64",
-          "points_earned": 10,
-          "live": true,
-          "out": true
+          "points_earned": 10
         }
       ]
     },
@@ -4189,11 +4143,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R32",
-          "points_earned": 65,
-          "live": true,
-          "out": true
+          "points_earned": 65
         }
       ]
     },
@@ -4376,11 +4328,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R64",
-          "points_earned": 10,
-          "live": true,
-          "out": true
+          "points_earned": 10
         }
       ]
     },
@@ -4555,11 +4505,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R64",
-          "points_earned": 10,
-          "live": true,
-          "out": true
+          "points_earned": 10
         }
       ]
     },
@@ -4758,11 +4706,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R64",
-          "points_earned": 10,
-          "live": true,
-          "out": true
+          "points_earned": 10
         }
       ]
     },
@@ -4993,11 +4939,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R32",
-          "points_earned": 65,
-          "live": true,
-          "out": true
+          "points_earned": 65
         }
       ]
     },
@@ -5341,11 +5285,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R32",
-          "points_earned": 65,
-          "live": true,
-          "out": true
+          "points_earned": 65
         }
       ]
     },
@@ -5576,11 +5518,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R16",
-          "points_earned": 120,
-          "live": true,
-          "out": true
+          "points_earned": 120
         }
       ]
     },
@@ -5723,11 +5663,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R64",
-          "points_earned": 10,
-          "live": true,
-          "out": true
+          "points_earned": 10
         }
       ]
     },
@@ -5926,11 +5864,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R64",
-          "points_earned": 10,
-          "live": true,
-          "out": true
+          "points_earned": 10
         }
       ]
     },
@@ -6089,11 +6025,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R64",
-          "points_earned": 10,
-          "live": true,
-          "out": true
+          "points_earned": 10
         }
       ]
     },
@@ -6228,11 +6162,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R64",
-          "points_earned": 10,
-          "live": true,
-          "out": true
+          "points_earned": 10
         }
       ]
     },
@@ -6608,11 +6540,19 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R64",
-          "points_earned": 10,
+          "points_earned": 10
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-14",
+          "result": "R16",
+          "points_earned": 120,
           "live": true,
-          "out": true
+          "out": false
         }
       ]
     },
@@ -6819,11 +6759,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R64",
-          "points_earned": 10,
-          "live": true,
-          "out": true
+          "points_earned": 10
         }
       ]
     },
@@ -6934,11 +6872,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R32",
-          "points_earned": 65,
-          "live": true,
-          "out": true
+          "points_earned": 65
         }
       ]
     },
@@ -7106,11 +7042,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R64",
-          "points_earned": 10,
-          "live": true,
-          "out": true
+          "points_earned": 10
         }
       ]
     },
@@ -7301,11 +7235,19 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R64",
-          "points_earned": 10,
+          "points_earned": 10
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-14",
+          "result": "R16",
+          "points_earned": 120,
           "live": true,
-          "out": true
+          "out": false
         }
       ]
     },
@@ -7481,11 +7423,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R64",
-          "points_earned": 10,
-          "live": true,
-          "out": true
+          "points_earned": 10
         }
       ]
     },
@@ -7668,9 +7608,17 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R64",
-          "points_earned": 10,
+          "points_earned": 10
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-14",
+          "result": "R16",
+          "points_earned": 120,
           "live": true,
           "out": true
         }
@@ -7993,11 +7941,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R32",
-          "points_earned": 65,
-          "live": true,
-          "out": true
+          "points_earned": 65
         }
       ]
     },
@@ -8188,11 +8134,19 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R64",
-          "points_earned": 10,
+          "points_earned": 10
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-14",
+          "result": "R16",
+          "points_earned": 120,
           "live": true,
-          "out": true
+          "out": false
         }
       ]
     },
@@ -8306,6 +8260,16 @@
           "event_date_end": "2026-07-20",
           "result": "QF",
           "points_earned": 54
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-14",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -8400,11 +8364,19 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R64",
-          "points_earned": 10,
+          "points_earned": 10
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-14",
+          "result": "R16",
+          "points_earned": 120,
           "live": true,
-          "out": true
+          "out": false
         }
       ]
     },
@@ -8619,11 +8591,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R16",
-          "points_earned": 120,
-          "live": true,
-          "out": true
+          "points_earned": 120
         }
       ]
     },
@@ -8806,9 +8776,17 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R64",
-          "points_earned": 10,
+          "points_earned": 10
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-14",
+          "result": "R16",
+          "points_earned": 120,
           "live": true,
           "out": true
         }
@@ -8977,11 +8955,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R64",
-          "points_earned": 10,
-          "live": true,
-          "out": true
+          "points_earned": 10
         }
       ]
     },
@@ -9127,6 +9103,16 @@
           "event_date_end": "2026-08-03",
           "result": "R16",
           "points_earned": 60
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-14",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -9285,11 +9271,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R64",
-          "points_earned": 10,
-          "live": true,
-          "out": true
+          "points_earned": 10
         }
       ]
     },
@@ -9464,9 +9448,17 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R64",
-          "points_earned": 10,
+          "points_earned": 10
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-14",
+          "result": "R16",
+          "points_earned": 120,
           "live": true,
           "out": true
         }
@@ -9635,9 +9627,17 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R64",
-          "points_earned": 10,
+          "points_earned": 10
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-14",
+          "result": "R16",
+          "points_earned": 120,
           "live": true,
           "out": true
         }
@@ -9814,11 +9814,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R32",
-          "points_earned": 65,
-          "live": true,
-          "out": true
+          "points_earned": 65
         }
       ]
     },
@@ -10033,11 +10031,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R64",
-          "points_earned": 10,
-          "live": true,
-          "out": true
+          "points_earned": 10
         }
       ]
     },
@@ -10140,11 +10136,19 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R64",
-          "points_earned": 10,
+          "points_earned": 10
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-14",
+          "result": "R16",
+          "points_earned": 120,
           "live": true,
-          "out": true
+          "out": false
         }
       ]
     },
@@ -10303,11 +10307,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R64",
-          "points_earned": 10,
-          "live": true,
-          "out": true
+          "points_earned": 10
         }
       ]
     },
@@ -10394,11 +10396,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R64",
-          "points_earned": 10,
-          "live": true,
-          "out": true
+          "points_earned": 10
         }
       ]
     },
@@ -10541,11 +10541,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R64",
-          "points_earned": 10,
-          "live": true,
-          "out": true
+          "points_earned": 10
         }
       ]
     },
@@ -10728,9 +10726,17 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R64",
-          "points_earned": 10,
+          "points_earned": 10
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-14",
+          "result": "R16",
+          "points_earned": 120,
           "live": true,
           "out": true
         }
@@ -10899,9 +10905,17 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R64",
-          "points_earned": 10,
+          "points_earned": 10
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-14",
+          "result": "R16",
+          "points_earned": 120,
           "live": true,
           "out": true
         }
@@ -11094,11 +11108,19 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R32",
-          "points_earned": 65,
+          "points_earned": 65
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-14",
+          "result": "R16",
+          "points_earned": 120,
           "live": true,
-          "out": true
+          "out": false
         }
       ]
     },
@@ -11305,11 +11327,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R64",
-          "points_earned": 10,
-          "live": true,
-          "out": true
+          "points_earned": 10
         }
       ]
     },
@@ -11492,11 +11512,19 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R64",
-          "points_earned": 10,
+          "points_earned": 10
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-14",
+          "result": "R16",
+          "points_earned": 120,
           "live": true,
-          "out": true
+          "out": false
         }
       ]
     },
@@ -11639,11 +11667,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R64",
-          "points_earned": 10,
-          "live": true,
-          "out": true
+          "points_earned": 10
         }
       ]
     },
@@ -11786,11 +11812,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R32",
-          "points_earned": 65,
-          "live": true,
-          "out": true
+          "points_earned": 65
         }
       ]
     },
@@ -11989,11 +12013,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R32",
-          "points_earned": 65,
-          "live": true,
-          "out": true
+          "points_earned": 65
         }
       ]
     },
@@ -12128,9 +12150,17 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R64",
-          "points_earned": 10,
+          "points_earned": 10
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-14",
+          "result": "R16",
+          "points_earned": 120,
           "live": true,
           "out": true
         }
@@ -12299,11 +12329,19 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R64",
-          "points_earned": 10,
+          "points_earned": 10
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-14",
+          "result": "R16",
+          "points_earned": 120,
           "live": true,
-          "out": true
+          "out": false
         }
       ]
     },
@@ -12510,11 +12548,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R64",
-          "points_earned": 10,
-          "live": true,
-          "out": true
+          "points_earned": 10
         }
       ]
     },
@@ -12569,11 +12605,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R64",
-          "points_earned": 10,
-          "live": true,
-          "out": false
+          "points_earned": 10
         }
       ]
     },
@@ -12812,11 +12846,19 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R64",
-          "points_earned": 10,
+          "points_earned": 10
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-14",
+          "result": "R16",
+          "points_earned": 120,
           "live": true,
-          "out": true
+          "out": false
         }
       ]
     },
@@ -13080,11 +13122,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R64",
-          "points_earned": 10,
-          "live": true,
-          "out": true
+          "points_earned": 10
         }
       ]
     },
@@ -13251,11 +13291,19 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R32",
-          "points_earned": 65,
+          "points_earned": 65
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-14",
+          "result": "R16",
+          "points_earned": 120,
           "live": true,
-          "out": true
+          "out": false
         }
       ]
     },
@@ -13551,11 +13599,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R64",
-          "points_earned": 10,
-          "live": true,
-          "out": true
+          "points_earned": 10
         }
       ]
     },
@@ -13714,11 +13760,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R64",
-          "points_earned": 10,
-          "live": true,
-          "out": true
+          "points_earned": 10
         }
       ]
     },
@@ -13912,6 +13956,16 @@
           "event_date_end": "2026-07-11",
           "result": "R64",
           "points_earned": 70
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-14",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -14119,11 +14173,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R16",
-          "points_earned": 120,
-          "live": true,
-          "out": true
+          "points_earned": 120
         }
       ]
     },
@@ -14213,6 +14265,16 @@
           "event_date_end": "2026-07-26",
           "result": "R32",
           "points_earned": 0
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-14",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -14374,6 +14436,16 @@
           "event_date_end": "2026-08-02",
           "result": "QF",
           "points_earned": 54
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-14",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -14439,6 +14511,16 @@
           "event_date_end": "2026-08-02",
           "result": "F",
           "points_earned": 163
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-14",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -14800,11 +14882,9 @@
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-13",
+          "event_date_end": "2026-08-14",
           "result": "R64",
-          "points_earned": 10,
-          "live": true,
-          "out": true
+          "points_earned": 10
         }
       ]
     },
