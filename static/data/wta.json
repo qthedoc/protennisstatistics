@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-15T06:08:11.773Z",
+  "updated_at": "2026-08-16T06:09:14.523Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -426,6 +426,16 @@
           "event_date_end": "2026-08-14",
           "result": "R16",
           "points_earned": 120
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-16",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -1199,6 +1209,16 @@
           "event_date_end": "2026-08-14",
           "result": "R64",
           "points_earned": 10
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-16",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -1457,6 +1477,16 @@
           "event_date_end": "2026-08-14",
           "result": "R16",
           "points_earned": 120
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-16",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -1723,6 +1753,16 @@
           "event_date_end": "2026-08-14",
           "result": "R16",
           "points_earned": 120
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-16",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -2053,6 +2093,16 @@
           "event_date_end": "2026-08-14",
           "result": "QF",
           "points_earned": 215
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-16",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -2914,6 +2964,16 @@
           "event_date_end": "2026-08-14",
           "result": "R64",
           "points_earned": 10
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-16",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -3115,6 +3175,16 @@
           "event_date_end": "2026-08-14",
           "result": "R16",
           "points_earned": 120
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-16",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -3300,6 +3370,16 @@
           "event_date_end": "2026-08-14",
           "result": "R32",
           "points_earned": 65
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-16",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -3485,6 +3565,16 @@
           "event_date_end": "2026-08-14",
           "result": "R32",
           "points_earned": 65
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-16",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -3526,6 +3616,16 @@
           "event_date_end": "2026-08-14",
           "result": "R64",
           "points_earned": 10
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-16",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -4331,6 +4431,16 @@
           "event_date_end": "2026-08-14",
           "result": "R64",
           "points_earned": 10
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-16",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -4741,6 +4851,16 @@
           "event_date_end": "2026-08-14",
           "result": "R64",
           "points_earned": 10
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-16",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -5167,6 +5287,16 @@
           "event_date_end": "2026-08-14",
           "result": "R32",
           "points_earned": 65
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-16",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -5607,9 +5737,9 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-08-16",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": false
         }
@@ -5826,9 +5956,9 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-08-16",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": false
         }
@@ -6214,11 +6344,11 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
+          "event_date_end": "2026-08-16",
           "result": "R16",
           "points_earned": 120,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -6337,11 +6467,11 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
+          "event_date_end": "2026-08-16",
           "result": "R16",
           "points_earned": 120,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -6741,7 +6871,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
+          "event_date_end": "2026-08-16",
           "result": "R16",
           "points_earned": 120,
           "live": true,
@@ -6947,6 +7077,16 @@
           "event_date_end": "2026-08-14",
           "result": "R64",
           "points_earned": 10
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-16",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -7169,9 +7309,9 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-08-16",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": false
         }
@@ -7405,9 +7545,9 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-08-16",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": false
         }
@@ -7520,9 +7660,9 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-08-16",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": false
         }
@@ -7619,9 +7759,9 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-08-16",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": false
         }
@@ -7718,9 +7858,9 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-08-16",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": true
         }
@@ -7978,11 +8118,11 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
+          "event_date_end": "2026-08-16",
           "result": "R16",
           "points_earned": 120,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -8085,11 +8225,11 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
+          "event_date_end": "2026-08-16",
           "result": "R16",
           "points_earned": 120,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -8232,9 +8372,9 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-08-16",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": false
         }
@@ -8411,11 +8551,11 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
+          "event_date_end": "2026-08-16",
           "result": "R16",
           "points_earned": 120,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -8593,6 +8733,16 @@
           "event_date_end": "2026-08-14",
           "result": "R32",
           "points_earned": 65
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-16",
+          "result": "R32",
+          "points_earned": 65,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -8775,9 +8925,9 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-08-16",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": true
         }
@@ -8930,9 +9080,9 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-08-16",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": true
         }
@@ -9029,9 +9179,9 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-08-16",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": true
         }
@@ -9224,9 +9374,9 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-08-16",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": true
         }
@@ -9524,9 +9674,9 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-08-16",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": true
         }
@@ -9719,9 +9869,9 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-08-16",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": true
         }
@@ -9914,9 +10064,9 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-08-16",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": true
         }
@@ -10133,9 +10283,9 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-08-16",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": true
         }
@@ -10288,9 +10438,9 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-08-16",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": false
         }
@@ -10443,9 +10593,9 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-08-16",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": false
         }
@@ -10558,7 +10708,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
+          "event_date_end": "2026-08-16",
           "result": "R16",
           "points_earned": 120,
           "live": true,
@@ -10769,9 +10919,9 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-08-16",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": true
         }
@@ -10948,9 +11098,9 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-08-16",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": true
         }
@@ -11127,9 +11277,9 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-08-16",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": true
         }
@@ -11330,11 +11480,11 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
+          "event_date_end": "2026-08-16",
           "result": "R16",
           "points_earned": 120,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -11525,11 +11675,11 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
+          "event_date_end": "2026-08-16",
           "result": "R16",
           "points_earned": 120,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -11648,9 +11798,9 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-08-16",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": true
         }
@@ -11972,11 +12122,11 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
+          "event_date_end": "2026-08-16",
           "result": "R16",
           "points_earned": 120,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -12256,9 +12406,9 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-08-16",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": true
         }
@@ -12403,9 +12553,9 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-08-16",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": true
         }
@@ -12574,9 +12724,9 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-08-16",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": true
         }
@@ -12882,11 +13032,11 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
+          "event_date_end": "2026-08-16",
           "result": "R16",
           "points_earned": 120,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -13069,9 +13219,9 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-08-16",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": true
         }
@@ -13128,9 +13278,9 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-08-16",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": true
         }
@@ -13307,11 +13457,11 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
+          "event_date_end": "2026-08-16",
           "result": "R16",
           "points_earned": 120,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -13551,9 +13701,9 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-08-16",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": true
         }
@@ -13811,11 +13961,11 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
+          "event_date_end": "2026-08-16",
           "result": "R16",
           "points_earned": 120,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -13886,9 +14036,9 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-08-16",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": true
         }
@@ -14057,9 +14207,9 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-08-16",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": true
         }
@@ -14284,9 +14434,9 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-08-16",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": false
         }
@@ -14624,9 +14774,9 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-08-16",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": true
         }
@@ -14916,9 +15066,9 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-08-16",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": false
         }
@@ -15111,9 +15261,9 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-08-16",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": false
         }
@@ -15178,9 +15328,9 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-15",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-08-16",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": true
         }
