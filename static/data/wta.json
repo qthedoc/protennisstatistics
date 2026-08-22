@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21T06:10:45.728Z",
+  "updated_at": "2026-08-22T06:08:17.754Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -109,7 +109,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R16",
           "points_earned": 120,
           "live": true,
@@ -280,7 +280,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "QF",
           "points_earned": 215,
           "live": true,
@@ -427,7 +427,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "QF",
           "points_earned": 215,
           "live": true,
@@ -574,9 +574,9 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-08-22",
+          "result": "QF",
+          "points_earned": 215,
           "live": true,
           "out": false
         }
@@ -721,7 +721,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "QF",
           "points_earned": 215,
           "live": true,
@@ -892,7 +892,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R16",
           "points_earned": 120,
           "live": true,
@@ -1044,14 +1044,6 @@
       "country_code": "CZ",
       "current_points": 5016,
       "points_distribution": [
-        {
-          "event_name": "Abierto GNP Seguros",
-          "event_type": "500",
-          "event_date_start": "2025-08-18",
-          "event_date_end": "2025-08-23",
-          "result": "QF",
-          "points_earned": 108
-        },
         {
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
@@ -1208,7 +1200,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R16",
           "points_earned": 120,
           "live": true,
@@ -1355,7 +1347,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -1470,7 +1462,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "QF",
           "points_earned": 215,
           "live": true,
@@ -1585,11 +1577,11 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-08-22",
+          "result": "QF",
+          "points_earned": 215,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -1740,7 +1732,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -1876,14 +1868,6 @@
       "country_code": "RU",
       "current_points": 2798,
       "points_distribution": [
-        {
-          "event_name": "Abierto GNP Seguros",
-          "event_type": "500",
-          "event_date_start": "2025-08-18",
-          "event_date_end": "2025-08-23",
-          "result": "W",
-          "points_earned": 500
-        },
         {
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
@@ -2072,7 +2056,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R16",
           "points_earned": 120,
           "live": true,
@@ -2224,14 +2208,6 @@
       "country_code": "US",
       "current_points": 2691,
       "points_distribution": [
-        {
-          "event_name": "Tennis in the Land",
-          "event_type": "250",
-          "event_date_start": "2025-08-18",
-          "event_date_end": "2025-08-23",
-          "result": "R16",
-          "points_earned": 30
-        },
         {
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
@@ -2388,7 +2364,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R32",
           "points_earned": 65,
           "live": true,
@@ -2532,14 +2508,6 @@
       "country_code": "RU",
       "current_points": 2506,
       "points_distribution": [
-        {
-          "event_name": "Abierto GNP Seguros",
-          "event_type": "500",
-          "event_date_start": "2025-08-18",
-          "event_date_end": "2025-08-23",
-          "result": "F",
-          "points_earned": 325
-        },
         {
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
@@ -2744,7 +2712,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R32",
           "points_earned": 65,
           "live": true,
@@ -2759,14 +2727,6 @@
       "country_code": "RO",
       "current_points": 2502,
       "points_distribution": [
-        {
-          "event_name": "Tennis in the Land",
-          "event_type": "250",
-          "event_date_start": "2025-08-18",
-          "event_date_end": "2025-08-23",
-          "result": "W",
-          "points_earned": 250
-        },
         {
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
@@ -2931,7 +2891,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R16",
           "points_earned": 120,
           "live": true,
@@ -3142,7 +3102,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R32",
           "points_earned": 65,
           "live": true,
@@ -3329,7 +3289,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R32",
           "points_earned": 65,
           "live": true,
@@ -3344,14 +3304,6 @@
       "country_code": "BE",
       "current_points": 2003,
       "points_distribution": [
-        {
-          "event_name": "Abierto GNP Seguros",
-          "event_type": "500",
-          "event_date_start": "2025-08-18",
-          "event_date_end": "2025-08-23",
-          "result": "QF",
-          "points_earned": 108
-        },
         {
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
@@ -3516,7 +3468,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -3567,7 +3519,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R32",
           "points_earned": 65,
           "live": true,
@@ -3698,11 +3650,11 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-08-22",
+          "result": "QF",
+          "points_earned": 215,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -3713,14 +3665,6 @@
       "country_code": "AT",
       "current_points": 1781,
       "points_distribution": [
-        {
-          "event_name": "Tennis in the Land",
-          "event_type": "250",
-          "event_date_start": "2025-08-18",
-          "event_date_end": "2025-08-23",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
@@ -3861,7 +3805,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -4000,7 +3944,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -4015,14 +3959,6 @@
       "country_code": "CZ",
       "current_points": 1774,
       "points_distribution": [
-        {
-          "event_name": "Abierto GNP Seguros",
-          "event_type": "500",
-          "event_date_start": "2025-08-18",
-          "event_date_end": "2025-08-23",
-          "result": "SF",
-          "points_earned": 195
-        },
         {
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
@@ -4203,7 +4139,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R16",
           "points_earned": 120,
           "live": true,
@@ -4218,14 +4154,6 @@
       "country_code": "US",
       "current_points": 1669,
       "points_distribution": [
-        {
-          "event_name": "Abierto GNP Seguros",
-          "event_type": "500",
-          "event_date_start": "2025-08-18",
-          "event_date_end": "2025-08-23",
-          "result": "R16",
-          "points_earned": 60
-        },
         {
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
@@ -4390,7 +4318,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R32",
           "points_earned": 65,
           "live": true,
@@ -4405,14 +4333,6 @@
       "country_code": "US",
       "current_points": 1596,
       "points_distribution": [
-        {
-          "event_name": "Tennis in the Land",
-          "event_type": "250",
-          "event_date_start": "2025-08-18",
-          "event_date_end": "2025-08-23",
-          "result": "F",
-          "points_earned": 163
-        },
         {
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
@@ -4625,7 +4545,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R32",
           "points_earned": 65,
           "live": true,
@@ -4804,7 +4724,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -4819,14 +4739,6 @@
       "country_code": "CA",
       "current_points": 1454,
       "points_distribution": [
-        {
-          "event_name": "Abierto GNP Seguros",
-          "event_type": "500",
-          "event_date_start": "2025-08-18",
-          "event_date_end": "2025-08-23",
-          "result": "R16",
-          "points_earned": 60
-        },
         {
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
@@ -5039,7 +4951,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -5054,14 +4966,6 @@
       "country_code": "GR",
       "current_points": 1385,
       "points_distribution": [
-        {
-          "event_name": "Abierto GNP Seguros",
-          "event_type": "500",
-          "event_date_start": "2025-08-18",
-          "event_date_end": "2025-08-23",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
@@ -5234,7 +5138,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R32",
           "points_earned": 65,
           "live": true,
@@ -5249,14 +5153,6 @@
       "country_code": "US",
       "current_points": 1338,
       "points_distribution": [
-        {
-          "event_name": "Tennis in the Land",
-          "event_type": "250",
-          "event_date_start": "2025-08-18",
-          "event_date_end": "2025-08-23",
-          "result": "R16",
-          "points_earned": 30
-        },
         {
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
@@ -5395,14 +5291,6 @@
       "current_points": 1336,
       "points_distribution": [
         {
-          "event_name": "Abierto GNP Seguros",
-          "event_type": "500",
-          "event_date_start": "2025-08-18",
-          "event_date_end": "2025-08-23",
-          "result": "R16",
-          "points_earned": 60
-        },
-        {
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2025-08-25",
@@ -5526,7 +5414,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -5673,9 +5561,9 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-08-22",
+          "result": "QF",
+          "points_earned": 215,
           "live": true,
           "out": false
         }
@@ -5688,14 +5576,6 @@
       "country_code": "CN",
       "current_points": 1248,
       "points_distribution": [
-        {
-          "event_name": "Tennis in the Land",
-          "event_type": "250",
-          "event_date_start": "2025-08-18",
-          "event_date_end": "2025-08-23",
-          "result": "SF",
-          "points_earned": 98
-        },
         {
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
@@ -5884,7 +5764,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R32",
           "points_earned": 65,
           "live": true,
@@ -6095,7 +5975,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R32",
           "points_earned": 65,
           "live": true,
@@ -6110,14 +5990,6 @@
       "country_code": "ES",
       "current_points": 1224,
       "points_distribution": [
-        {
-          "event_name": "Abierto GNP Seguros",
-          "event_type": "500",
-          "event_date_start": "2025-08-18",
-          "event_date_end": "2025-08-23",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
@@ -6274,7 +6146,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -6397,7 +6269,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -6412,14 +6284,6 @@
       "country_code": "RO",
       "current_points": 1191,
       "points_distribution": [
-        {
-          "event_name": "Abierto GNP Seguros",
-          "event_type": "500",
-          "event_date_start": "2025-08-18",
-          "event_date_end": "2025-08-23",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
@@ -6785,7 +6649,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R32",
           "points_earned": 65,
           "live": true,
@@ -6988,7 +6852,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R32",
           "points_earned": 65,
           "live": true,
@@ -7003,14 +6867,6 @@
       "country_code": "RU",
       "current_points": 1178,
       "points_distribution": [
-        {
-          "event_name": "Tennis in the Land",
-          "event_type": "250",
-          "event_date_start": "2025-08-18",
-          "event_date_end": "2025-08-23",
-          "result": "QF",
-          "points_earned": 54
-        },
         {
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
@@ -7207,7 +7063,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -7378,7 +7234,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R32",
           "points_earned": 65,
           "live": true,
@@ -7453,7 +7309,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -7568,7 +7424,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -7667,7 +7523,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -7766,7 +7622,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -7838,14 +7694,6 @@
       "country_code": "TUR",
       "current_points": 1082,
       "points_distribution": [
-        {
-          "event_name": "Abierto GNP Seguros",
-          "event_type": "500",
-          "event_date_start": "2025-08-18",
-          "event_date_end": "2025-08-23",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
@@ -8026,7 +7874,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -8133,7 +7981,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -8148,14 +7996,6 @@
       "country_code": "CH",
       "current_points": 1072,
       "points_distribution": [
-        {
-          "event_name": "Tennis in the Land",
-          "event_type": "250",
-          "event_date_start": "2025-08-18",
-          "event_date_end": "2025-08-23",
-          "result": "QF",
-          "points_earned": 54
-        },
         {
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
@@ -8280,7 +8120,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -8295,14 +8135,6 @@
       "country_code": "US",
       "current_points": 1061,
       "points_distribution": [
-        {
-          "event_name": "Tennis in the Land",
-          "event_type": "250",
-          "event_date_start": "2025-08-18",
-          "event_date_end": "2025-08-23",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
@@ -8451,7 +8283,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -8638,7 +8470,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -8817,7 +8649,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -8964,7 +8796,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -9063,7 +8895,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -9250,7 +9082,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -9386,14 +9218,6 @@
       "country_code": "IT",
       "current_points": 1035,
       "points_distribution": [
-        {
-          "event_name": "Abierto GNP Seguros",
-          "event_type": "500",
-          "event_date_start": "2025-08-18",
-          "event_date_end": "2025-08-23",
-          "result": "R16",
-          "points_earned": 60
-        },
         {
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
@@ -9542,7 +9366,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -9557,14 +9381,6 @@
       "country_code": "HR",
       "current_points": 1032,
       "points_distribution": [
-        {
-          "event_name": "Abierto GNP Seguros",
-          "event_type": "500",
-          "event_date_start": "2025-08-18",
-          "event_date_end": "2025-08-23",
-          "result": "QF",
-          "points_earned": 108
-        },
         {
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
@@ -9729,7 +9545,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -9916,7 +9732,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -9931,14 +9747,6 @@
       "country_code": "US",
       "current_points": 1014,
       "points_distribution": [
-        {
-          "event_name": "Abierto GNP Seguros",
-          "event_type": "500",
-          "event_date_start": "2025-08-18",
-          "event_date_end": "2025-08-23",
-          "result": "SF",
-          "points_earned": 195
-        },
         {
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
@@ -10127,7 +9935,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -10282,7 +10090,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -10297,14 +10105,6 @@
       "country_code": "AU",
       "current_points": 1010,
       "points_distribution": [
-        {
-          "event_name": "Tennis in the Land",
-          "event_type": "250",
-          "event_date_start": "2025-08-18",
-          "event_date_end": "2025-08-23",
-          "result": "R16",
-          "points_earned": 30
-        },
         {
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
@@ -10437,7 +10237,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -10552,7 +10352,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R16",
           "points_earned": 120,
           "live": true,
@@ -10567,14 +10367,6 @@
       "country_code": "AU",
       "current_points": 1006,
       "points_distribution": [
-        {
-          "event_name": "Tennis in the Land",
-          "event_type": "250",
-          "event_date_start": "2025-08-18",
-          "event_date_end": "2025-08-23",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
@@ -10755,7 +10547,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -10926,7 +10718,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -10941,14 +10733,6 @@
       "country_code": "AU",
       "current_points": 999,
       "points_distribution": [
-        {
-          "event_name": "Tennis in the Land",
-          "event_type": "250",
-          "event_date_start": "2025-08-18",
-          "event_date_end": "2025-08-23",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
@@ -11097,7 +10881,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -11292,7 +11076,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -11307,14 +11091,6 @@
       "country_code": "GB",
       "current_points": 987,
       "points_distribution": [
-        {
-          "event_name": "Tennis in the Land",
-          "event_type": "250",
-          "event_date_start": "2025-08-18",
-          "event_date_end": "2025-08-23",
-          "result": "R16",
-          "points_earned": 30
-        },
         {
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
@@ -11479,7 +11255,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -11602,7 +11378,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -11617,14 +11393,6 @@
       "country_code": "MX",
       "current_points": 971,
       "points_distribution": [
-        {
-          "event_name": "Abierto GNP Seguros",
-          "event_type": "500",
-          "event_date_start": "2025-08-18",
-          "event_date_end": "2025-08-23",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
@@ -11754,14 +11522,6 @@
       "country_code": "RO",
       "current_points": 966,
       "points_distribution": [
-        {
-          "event_name": "Tennis in the Land",
-          "event_type": "250",
-          "event_date_start": "2025-08-18",
-          "event_date_end": "2025-08-23",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
@@ -11910,7 +11670,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -11990,14 +11750,6 @@
       "country_code": "HU",
       "current_points": 961,
       "points_distribution": [
-        {
-          "event_name": "Abierto GNP Seguros",
-          "event_type": "500",
-          "event_date_start": "2025-08-18",
-          "event_date_end": "2025-08-23",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
@@ -12186,7 +11938,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -12333,7 +12085,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -12348,14 +12100,6 @@
       "country_code": "UA",
       "current_points": 953,
       "points_distribution": [
-        {
-          "event_name": "Tennis in the Land",
-          "event_type": "250",
-          "event_date_start": "2025-08-18",
-          "event_date_end": "2025-08-23",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
@@ -12496,7 +12240,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -12568,14 +12312,6 @@
       "country_code": "DE",
       "current_points": 923,
       "points_distribution": [
-        {
-          "event_name": "Abierto GNP Seguros",
-          "event_type": "500",
-          "event_date_start": "2025-08-18",
-          "event_date_end": "2025-08-23",
-          "result": "R16",
-          "points_earned": 60
-        },
         {
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
@@ -12796,7 +12532,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -12975,7 +12711,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -13034,7 +12770,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -13049,14 +12785,6 @@
       "country_code": "UZB",
       "current_points": 894,
       "points_distribution": [
-        {
-          "event_name": "Abierto GNP Seguros",
-          "event_type": "500",
-          "event_date_start": "2025-08-18",
-          "event_date_end": "2025-08-23",
-          "result": "R16",
-          "points_earned": 60
-        },
         {
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
@@ -13205,7 +12933,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -13449,7 +13177,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -13464,14 +13192,6 @@
       "country_code": "AR",
       "current_points": 850,
       "points_distribution": [
-        {
-          "event_name": "Tennis in the Land",
-          "event_type": "250",
-          "event_date_start": "2025-08-18",
-          "event_date_end": "2025-08-23",
-          "result": "R16",
-          "points_earned": 30
-        },
         {
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
@@ -13701,7 +13421,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -13776,7 +13496,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -13939,7 +13659,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -13954,14 +13674,6 @@
       "country_code": "ES",
       "current_points": 834,
       "points_distribution": [
-        {
-          "event_name": "Abierto GNP Seguros",
-          "event_type": "500",
-          "event_date_start": "2025-08-18",
-          "event_date_end": "2025-08-23",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
@@ -14158,7 +13870,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -14173,14 +13885,6 @@
       "country_code": "RU",
       "current_points": 827,
       "points_distribution": [
-        {
-          "event_name": "Tennis in the Land",
-          "event_type": "250",
-          "event_date_start": "2025-08-18",
-          "event_date_end": "2025-08-23",
-          "result": "SF",
-          "points_earned": 98
-        },
         {
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
@@ -14351,14 +14055,6 @@
       "current_points": 816,
       "points_distribution": [
         {
-          "event_name": "Tennis in the Land",
-          "event_type": "250",
-          "event_date_start": "2025-08-18",
-          "event_date_end": "2025-08-23",
-          "result": "R16",
-          "points_earned": 30
-        },
-        {
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2025-08-25",
@@ -14490,7 +14186,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -14505,14 +14201,6 @@
       "country_code": "AU",
       "current_points": 815,
       "points_distribution": [
-        {
-          "event_name": "Abierto GNP Seguros",
-          "event_type": "500",
-          "event_date_start": "2025-08-18",
-          "event_date_end": "2025-08-23",
-          "result": "R16",
-          "points_earned": 60
-        },
         {
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
@@ -14766,7 +14454,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -14953,7 +14641,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -15020,7 +14708,7 @@
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-21",
+          "event_date_end": "2026-08-22",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -15035,14 +14723,6 @@
       "country_code": "UZB",
       "current_points": 788,
       "points_distribution": [
-        {
-          "event_name": "Tennis in the Land",
-          "event_type": "250",
-          "event_date_start": "2025-08-18",
-          "event_date_end": "2025-08-23",
-          "result": "R16",
-          "points_earned": 30
-        },
         {
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
@@ -15390,14 +15070,6 @@
       "country_code": "JP",
       "current_points": 783,
       "points_distribution": [
-        {
-          "event_name": "Tennis in the Land",
-          "event_type": "250",
-          "event_date_start": "2025-08-18",
-          "event_date_end": "2025-08-23",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
