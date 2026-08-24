@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T06:09:52.263Z",
+  "updated_at": "2026-08-24T06:15:19.334Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -369,9 +369,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R16",
-          "points_earned": 100,
-          "live": true,
-          "out": true
+          "points_earned": 100
         }
       ]
     },
@@ -548,9 +546,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R16",
-          "points_earned": 100,
-          "live": true,
-          "out": true
+          "points_earned": 100
         }
       ]
     },
@@ -631,9 +627,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -810,9 +804,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -1005,9 +997,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R32",
-          "points_earned": 50,
-          "live": true,
-          "out": true
+          "points_earned": 50
         }
       ]
     },
@@ -1200,9 +1190,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R16",
-          "points_earned": 100,
-          "live": true,
-          "out": true
+          "points_earned": 100
         }
       ]
     },
@@ -1355,9 +1343,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "QF",
-          "points_earned": 200,
-          "live": true,
-          "out": true
+          "points_earned": 200
         }
       ]
     },
@@ -1566,9 +1552,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "SF",
-          "points_earned": 400,
-          "live": true,
-          "out": true
+          "points_earned": 400
         }
       ]
     },
@@ -1697,9 +1681,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R16",
-          "points_earned": 100,
-          "live": true,
-          "out": true
+          "points_earned": 100
         }
       ]
     },
@@ -1892,9 +1874,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R32",
-          "points_earned": 50,
-          "live": true,
-          "out": true
+          "points_earned": 50
         }
       ]
     },
@@ -2272,9 +2252,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R32",
-          "points_earned": 50,
-          "live": true,
-          "out": true
+          "points_earned": 50
         }
       ]
     },
@@ -2427,9 +2405,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "QF",
-          "points_earned": 200,
-          "live": true,
-          "out": true
+          "points_earned": 200
         }
       ]
     },
@@ -2590,9 +2566,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R16",
-          "points_earned": 100,
-          "live": true,
-          "out": true
+          "points_earned": 100
         }
       ]
     },
@@ -2769,9 +2743,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -2964,9 +2936,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R32",
-          "points_earned": 50,
-          "live": true,
-          "out": true
+          "points_earned": 50
         }
       ]
     },
@@ -3111,9 +3081,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -3354,9 +3322,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -3460,10 +3426,8 @@
           "event_type": "1000",
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
-          "result": "SF",
-          "points_earned": 400,
-          "live": true,
-          "out": false
+          "result": "W",
+          "points_earned": 1000
         }
       ]
     },
@@ -3672,9 +3636,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "SF",
-          "points_earned": 400,
-          "live": true,
-          "out": true
+          "points_earned": 400
         }
       ]
     },
@@ -3842,10 +3804,8 @@
           "event_type": "1000",
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
-          "result": "SF",
-          "points_earned": 400,
-          "live": true,
-          "out": false
+          "result": "F",
+          "points_earned": 650
         }
       ]
     },
@@ -3998,9 +3958,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "QF",
-          "points_earned": 200,
-          "live": true,
-          "out": true
+          "points_earned": 200
         }
       ]
     },
@@ -4193,9 +4151,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -4348,9 +4304,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": false
+          "points_earned": 30
         }
       ]
     },
@@ -4728,9 +4682,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -4955,9 +4907,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R32",
-          "points_earned": 50,
-          "live": true,
-          "out": true
+          "points_earned": 50
         }
       ]
     },
@@ -5174,9 +5124,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -5409,9 +5357,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -5524,9 +5470,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R32",
-          "points_earned": 50,
-          "live": true,
-          "out": true
+          "points_earned": 50
         }
       ]
     },
@@ -5727,9 +5671,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -5882,9 +5824,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -6093,9 +6033,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -6248,9 +6186,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -6315,9 +6251,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R32",
-          "points_earned": 50,
-          "live": true,
-          "out": true
+          "points_earned": 50
         }
       ]
     },
@@ -6454,9 +6388,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -6657,9 +6589,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -6748,9 +6678,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R32",
-          "points_earned": 50,
-          "live": true,
-          "out": true
+          "points_earned": 50
         }
       ]
     },
@@ -6943,9 +6871,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -7106,9 +7032,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -7269,9 +7193,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -7464,9 +7386,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -7675,9 +7595,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R32",
-          "points_earned": 50,
-          "live": true,
-          "out": true
+          "points_earned": 50
         }
       ]
     },
@@ -8055,9 +7973,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R16",
-          "points_earned": 100,
-          "live": true,
-          "out": true
+          "points_earned": 100
         }
       ]
     },
@@ -8250,9 +8166,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -8421,9 +8335,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -8544,9 +8456,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "QF",
-          "points_earned": 200,
-          "live": true,
-          "out": true
+          "points_earned": 200
         }
       ]
     },
@@ -8707,9 +8617,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R32",
-          "points_earned": 50,
-          "live": true,
-          "out": true
+          "points_earned": 50
         }
       ]
     },
@@ -8934,9 +8842,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -9145,9 +9051,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -9220,9 +9124,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -9399,9 +9301,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -9779,9 +9679,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -10143,9 +10041,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -10475,9 +10371,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -10630,9 +10524,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -10833,9 +10725,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -11213,9 +11103,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -11448,9 +11336,17 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
+          "points_earned": 30
+        },
+        {
+          "event_name": "Winston-Salem Open",
+          "event_type": "250",
+          "event_date_start": "2026-08-24",
+          "event_date_end": "2026-08-24",
+          "result": "R16",
+          "points_earned": 25,
           "live": true,
-          "out": true
+          "out": false
         }
       ]
     },
@@ -11555,7 +11451,15 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R32",
-          "points_earned": 50,
+          "points_earned": 50
+        },
+        {
+          "event_name": "Winston-Salem Open",
+          "event_type": "250",
+          "event_date_start": "2026-08-24",
+          "event_date_end": "2026-08-24",
+          "result": "R16",
+          "points_earned": 25,
           "live": true,
           "out": true
         }
@@ -11726,9 +11630,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -11857,9 +11759,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -11948,9 +11848,17 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R32",
-          "points_earned": 50,
+          "points_earned": 50
+        },
+        {
+          "event_name": "Winston-Salem Open",
+          "event_type": "250",
+          "event_date_start": "2026-08-24",
+          "event_date_end": "2026-08-24",
+          "result": "R16",
+          "points_earned": 25,
           "live": true,
-          "out": true
+          "out": false
         }
       ]
     },
@@ -12119,9 +12027,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -12242,7 +12148,15 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
+          "points_earned": 30
+        },
+        {
+          "event_name": "Winston-Salem Open",
+          "event_type": "250",
+          "event_date_start": "2026-08-24",
+          "event_date_end": "2026-08-24",
+          "result": "R16",
+          "points_earned": 25,
           "live": true,
           "out": true
         }
@@ -12389,9 +12303,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -12584,9 +12496,17 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
+          "points_earned": 30
+        },
+        {
+          "event_name": "Winston-Salem Open",
+          "event_type": "250",
+          "event_date_start": "2026-08-24",
+          "event_date_end": "2026-08-24",
+          "result": "R16",
+          "points_earned": 25,
           "live": true,
-          "out": true
+          "out": false
         }
       ]
     },
@@ -12860,9 +12780,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -12935,9 +12853,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -13146,9 +13062,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -13237,9 +13151,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R16",
-          "points_earned": 100,
-          "live": true,
-          "out": true
+          "points_earned": 100
         }
       ]
     },
@@ -13424,9 +13336,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -13579,9 +13489,17 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
+          "points_earned": 30
+        },
+        {
+          "event_name": "Winston-Salem Open",
+          "event_type": "250",
+          "event_date_start": "2026-08-24",
+          "event_date_end": "2026-08-24",
+          "result": "R16",
+          "points_earned": 25,
           "live": true,
-          "out": true
+          "out": false
         }
       ]
     },
@@ -13750,9 +13668,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -14082,9 +13998,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -14270,9 +14184,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -14490,9 +14402,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -14645,9 +14555,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -14744,7 +14652,15 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
+          "points_earned": 30
+        },
+        {
+          "event_name": "Winston-Salem Open",
+          "event_type": "250",
+          "event_date_start": "2026-08-24",
+          "event_date_end": "2026-08-24",
+          "result": "R16",
+          "points_earned": 25,
           "live": true,
           "out": true
         }
@@ -14843,9 +14759,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -15047,6 +14961,16 @@
           "event_date_end": "2026-08-14",
           "result": "R64",
           "points_earned": 30
+        },
+        {
+          "event_name": "Winston-Salem Open",
+          "event_type": "250",
+          "event_date_start": "2026-08-24",
+          "event_date_end": "2026-08-24",
+          "result": "R16",
+          "points_earned": 25,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -15127,9 +15051,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -15387,9 +15309,17 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R32",
-          "points_earned": 50,
+          "points_earned": 50
+        },
+        {
+          "event_name": "Winston-Salem Open",
+          "event_type": "250",
+          "event_date_start": "2026-08-24",
+          "event_date_end": "2026-08-24",
+          "result": "R16",
+          "points_earned": 25,
           "live": true,
-          "out": true
+          "out": false
         }
       ]
     },
@@ -15614,9 +15544,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R64",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -15874,9 +15802,7 @@
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-23",
           "result": "R32",
-          "points_earned": 50,
-          "live": true,
-          "out": true
+          "points_earned": 50
         }
       ]
     },
