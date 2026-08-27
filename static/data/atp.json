@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-26T06:11:30.414Z",
+  "updated_at": "2026-08-27T09:06:55.717Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -1228,9 +1228,9 @@
           "event_name": "Winston-Salem Open",
           "event_type": "250",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
-          "result": "R16",
-          "points_earned": 25,
+          "event_date_end": "2026-08-27",
+          "result": "R32",
+          "points_earned": 0,
           "live": true,
           "out": true
         }
@@ -3636,11 +3636,11 @@
           "event_name": "Winston-Salem Open",
           "event_type": "250",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
+          "event_date_end": "2026-08-27",
           "result": "R16",
           "points_earned": 25,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -6212,7 +6212,7 @@
           "event_name": "Winston-Salem Open",
           "event_type": "250",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
+          "event_date_end": "2026-08-27",
           "result": "R16",
           "points_earned": 25,
           "live": true,
@@ -6287,7 +6287,7 @@
           "event_name": "Winston-Salem Open",
           "event_type": "250",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
+          "event_date_end": "2026-08-27",
           "result": "R16",
           "points_earned": 25,
           "live": true,
@@ -6434,9 +6434,9 @@
           "event_name": "Winston-Salem Open",
           "event_type": "250",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
-          "result": "R16",
-          "points_earned": 25,
+          "event_date_end": "2026-08-27",
+          "result": "R32",
+          "points_earned": 0,
           "live": true,
           "out": true
         }
@@ -6606,9 +6606,9 @@
           "event_name": "Winston-Salem Open",
           "event_type": "250",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
-          "result": "R16",
-          "points_earned": 25,
+          "event_date_end": "2026-08-27",
+          "result": "R32",
+          "points_earned": 0,
           "live": true,
           "out": true
         }
@@ -7992,9 +7992,9 @@
           "event_name": "Winston-Salem Open",
           "event_type": "250",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
-          "result": "R16",
-          "points_earned": 25,
+          "event_date_end": "2026-08-27",
+          "result": "R32",
+          "points_earned": 0,
           "live": true,
           "out": true
         }
@@ -8412,11 +8412,11 @@
           "event_name": "Winston-Salem Open",
           "event_type": "250",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
+          "event_date_end": "2026-08-27",
           "result": "R16",
           "points_earned": 25,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -8583,7 +8583,7 @@
           "event_name": "Winston-Salem Open",
           "event_type": "250",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
+          "event_date_end": "2026-08-27",
           "result": "R16",
           "points_earned": 25,
           "live": true,
@@ -8778,9 +8778,9 @@
           "event_name": "Winston-Salem Open",
           "event_type": "250",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
-          "result": "R16",
-          "points_earned": 25,
+          "event_date_end": "2026-08-27",
+          "result": "R32",
+          "points_earned": 0,
           "live": true,
           "out": true
         }
@@ -8957,11 +8957,11 @@
           "event_name": "Winston-Salem Open",
           "event_type": "250",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
+          "event_date_end": "2026-08-27",
           "result": "R16",
           "points_earned": 25,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -9739,11 +9739,11 @@
           "event_name": "Winston-Salem Open",
           "event_type": "250",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
+          "event_date_end": "2026-08-27",
           "result": "R16",
           "points_earned": 25,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -9902,9 +9902,9 @@
           "event_name": "Winston-Salem Open",
           "event_type": "250",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
-          "result": "R16",
-          "points_earned": 25,
+          "event_date_end": "2026-08-27",
+          "result": "R32",
+          "points_earned": 0,
           "live": true,
           "out": true
         }
@@ -10283,9 +10283,9 @@
           "event_name": "Winston-Salem Open",
           "event_type": "250",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
-          "result": "R16",
-          "points_earned": 25,
+          "event_date_end": "2026-08-27",
+          "result": "R32",
+          "points_earned": 0,
           "live": true,
           "out": true
         }
@@ -10711,7 +10711,7 @@
           "event_name": "Winston-Salem Open",
           "event_type": "250",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
+          "event_date_end": "2026-08-27",
           "result": "R16",
           "points_earned": 25,
           "live": true,
@@ -10954,9 +10954,9 @@
           "event_name": "Winston-Salem Open",
           "event_type": "250",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
-          "result": "R16",
-          "points_earned": 25,
+          "event_date_end": "2026-08-27",
+          "result": "R32",
+          "points_earned": 0,
           "live": true,
           "out": true
         }
@@ -11069,8 +11069,8 @@
           "event_name": "Winston-Salem Open",
           "event_type": "250",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
-          "result": "R32",
+          "event_date_end": "2026-08-27",
+          "result": "R64",
           "points_earned": 0,
           "live": true,
           "out": true
@@ -11200,8 +11200,8 @@
           "event_name": "Winston-Salem Open",
           "event_type": "250",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
-          "result": "R32",
+          "event_date_end": "2026-08-27",
+          "result": "R64",
           "points_earned": 0,
           "live": true,
           "out": true
@@ -11435,9 +11435,9 @@
           "event_name": "Winston-Salem Open",
           "event_type": "250",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
-          "result": "R16",
-          "points_earned": 25,
+          "event_date_end": "2026-08-27",
+          "result": "R32",
+          "points_earned": 0,
           "live": true,
           "out": true
         }
@@ -12025,7 +12025,7 @@
           "event_name": "Winston-Salem Open",
           "event_type": "250",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
+          "event_date_end": "2026-08-27",
           "result": "R16",
           "points_earned": 25,
           "live": true,
@@ -12204,8 +12204,8 @@
           "event_name": "Winston-Salem Open",
           "event_type": "250",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
-          "result": "R32",
+          "event_date_end": "2026-08-27",
+          "result": "R64",
           "points_earned": 0,
           "live": true,
           "out": true
@@ -12407,9 +12407,9 @@
           "event_name": "Winston-Salem Open",
           "event_type": "250",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
-          "result": "R16",
-          "points_earned": 25,
+          "event_date_end": "2026-08-27",
+          "result": "R32",
+          "points_earned": 0,
           "live": true,
           "out": true
         }
@@ -12699,8 +12699,8 @@
           "event_name": "Winston-Salem Open",
           "event_type": "250",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
-          "result": "R32",
+          "event_date_end": "2026-08-27",
+          "result": "R64",
           "points_earned": 0,
           "live": true,
           "out": true
@@ -13135,8 +13135,8 @@
           "event_name": "Winston-Salem Open",
           "event_type": "250",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
-          "result": "R32",
+          "event_date_end": "2026-08-27",
+          "result": "R64",
           "points_earned": 0,
           "live": true,
           "out": true
@@ -13427,7 +13427,7 @@
           "event_name": "Winston-Salem Open",
           "event_type": "250",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
+          "event_date_end": "2026-08-27",
           "result": "R16",
           "points_earned": 25,
           "live": true,
@@ -14091,11 +14091,11 @@
           "event_name": "Winston-Salem Open",
           "event_type": "250",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
+          "event_date_end": "2026-08-27",
           "result": "R16",
           "points_earned": 25,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -14247,8 +14247,8 @@
           "event_name": "Winston-Salem Open",
           "event_type": "250",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
-          "result": "R32",
+          "event_date_end": "2026-08-27",
+          "result": "R64",
           "points_earned": 0,
           "live": true,
           "out": true
@@ -14571,7 +14571,7 @@
           "event_name": "Winston-Salem Open",
           "event_type": "250",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
+          "event_date_end": "2026-08-27",
           "result": "R16",
           "points_earned": 25,
           "live": true,
@@ -14967,11 +14967,11 @@
           "event_name": "Winston-Salem Open",
           "event_type": "250",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
+          "event_date_end": "2026-08-27",
           "result": "R16",
           "points_earned": 25,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -15082,11 +15082,11 @@
           "event_name": "Winston-Salem Open",
           "event_type": "250",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
+          "event_date_end": "2026-08-27",
           "result": "R16",
           "points_earned": 25,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -15261,9 +15261,9 @@
           "event_name": "Winston-Salem Open",
           "event_type": "250",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
-          "result": "R16",
-          "points_earned": 25,
+          "event_date_end": "2026-08-27",
+          "result": "R32",
+          "points_earned": 0,
           "live": true,
           "out": true
         }
@@ -15658,9 +15658,9 @@
           "event_name": "Winston-Salem Open",
           "event_type": "250",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
-          "result": "R16",
-          "points_earned": 25,
+          "event_date_end": "2026-08-27",
+          "result": "R32",
+          "points_earned": 0,
           "live": true,
           "out": true
         }
@@ -15862,8 +15862,8 @@
           "event_name": "Winston-Salem Open",
           "event_type": "250",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
-          "result": "R32",
+          "event_date_end": "2026-08-27",
+          "result": "R64",
           "points_earned": 0,
           "live": true,
           "out": true
@@ -16001,8 +16001,8 @@
           "event_name": "Winston-Salem Open",
           "event_type": "250",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
-          "result": "R32",
+          "event_date_end": "2026-08-27",
+          "result": "R64",
           "points_earned": 0,
           "live": true,
           "out": true

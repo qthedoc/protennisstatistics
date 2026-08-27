@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-26T06:11:34.800Z",
+  "updated_at": "2026-08-27T09:07:00.109Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -2938,6 +2938,16 @@
           "event_date_end": "2026-08-24",
           "result": "R32",
           "points_earned": 65
+        },
+        {
+          "event_name": "Abierto GNP Seguros",
+          "event_type": "500",
+          "event_date_start": "2026-08-24",
+          "event_date_end": "2026-08-27",
+          "result": "R16",
+          "points_earned": 60,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -3124,6 +3134,16 @@
           "event_date_end": "2026-08-24",
           "result": "R32",
           "points_earned": 65
+        },
+        {
+          "event_name": "Abierto GNP Seguros",
+          "event_type": "500",
+          "event_date_start": "2026-08-24",
+          "event_date_end": "2026-08-27",
+          "result": "R16",
+          "points_earned": 60,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -3615,6 +3635,16 @@
           "event_date_end": "2026-08-24",
           "result": "R64",
           "points_earned": 10
+        },
+        {
+          "event_name": "Abierto GNP Seguros",
+          "event_type": "500",
+          "event_date_start": "2026-08-24",
+          "event_date_end": "2026-08-27",
+          "result": "R16",
+          "points_earned": 60,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -4650,7 +4680,7 @@
           "event_name": "Abierto GNP Seguros",
           "event_type": "500",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
+          "event_date_end": "2026-08-27",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -5593,7 +5623,7 @@
           "event_name": "Abierto GNP Seguros",
           "event_type": "500",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
+          "event_date_end": "2026-08-27",
           "result": "R16",
           "points_earned": 60,
           "live": true,
@@ -5740,7 +5770,7 @@
           "event_name": "Abierto GNP Seguros",
           "event_type": "500",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
+          "event_date_end": "2026-08-27",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -6064,9 +6094,9 @@
           "event_name": "Abierto GNP Seguros",
           "event_type": "500",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
-          "result": "R32",
-          "points_earned": 0,
+          "event_date_end": "2026-08-27",
+          "result": "R16",
+          "points_earned": 60,
           "live": true,
           "out": false
         }
@@ -6412,11 +6442,11 @@
           "event_name": "Abierto GNP Seguros",
           "event_type": "500",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
-          "result": "R32",
-          "points_earned": 0,
+          "event_date_end": "2026-08-27",
+          "result": "R16",
+          "points_earned": 60,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -6824,9 +6854,9 @@
           "event_name": "Abierto GNP Seguros",
           "event_type": "500",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
-          "result": "R32",
-          "points_earned": 0,
+          "event_date_end": "2026-08-27",
+          "result": "R16",
+          "points_earned": 60,
           "live": true,
           "out": false
         }
@@ -7414,7 +7444,7 @@
           "event_name": "Abierto GNP Seguros",
           "event_type": "500",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
+          "event_date_end": "2026-08-27",
           "result": "R16",
           "points_earned": 60,
           "live": true,
@@ -7618,7 +7648,7 @@
           "event_name": "Abierto GNP Seguros",
           "event_type": "500",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
+          "event_date_end": "2026-08-27",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -7846,7 +7876,7 @@
           "event_name": "Abierto GNP Seguros",
           "event_type": "500",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
+          "event_date_end": "2026-08-27",
           "result": "R16",
           "points_earned": 60,
           "live": true,
@@ -7913,7 +7943,7 @@
           "event_name": "Abierto GNP Seguros",
           "event_type": "500",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
+          "event_date_end": "2026-08-27",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -8301,7 +8331,7 @@
           "event_name": "Abierto GNP Seguros",
           "event_type": "500",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
+          "event_date_end": "2026-08-27",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -9036,7 +9066,7 @@
           "event_name": "Abierto GNP Seguros",
           "event_type": "500",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
+          "event_date_end": "2026-08-27",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -10729,7 +10759,7 @@
           "event_name": "Abierto GNP Seguros",
           "event_type": "500",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
+          "event_date_end": "2026-08-27",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -10940,7 +10970,7 @@
           "event_name": "Abierto GNP Seguros",
           "event_type": "500",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
+          "event_date_end": "2026-08-27",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -11079,7 +11109,7 @@
           "event_name": "Abierto GNP Seguros",
           "event_type": "500",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
+          "event_date_end": "2026-08-27",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -11267,7 +11297,7 @@
           "event_name": "Abierto GNP Seguros",
           "event_type": "500",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
+          "event_date_end": "2026-08-27",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -11430,7 +11460,7 @@
           "event_name": "Abierto GNP Seguros",
           "event_type": "500",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
+          "event_date_end": "2026-08-27",
           "result": "R16",
           "points_earned": 60,
           "live": true,
@@ -11633,7 +11663,7 @@
           "event_name": "Abierto GNP Seguros",
           "event_type": "500",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
+          "event_date_end": "2026-08-27",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -11788,11 +11818,11 @@
           "event_name": "Abierto GNP Seguros",
           "event_type": "500",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
-          "result": "R32",
-          "points_earned": 0,
+          "event_date_end": "2026-08-27",
+          "result": "R16",
+          "points_earned": 60,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -12627,7 +12657,7 @@
           "event_name": "Abierto GNP Seguros",
           "event_type": "500",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
+          "event_date_end": "2026-08-27",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -13749,9 +13779,9 @@
           "event_name": "Abierto GNP Seguros",
           "event_type": "500",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
-          "result": "R32",
-          "points_earned": 0,
+          "event_date_end": "2026-08-27",
+          "result": "R16",
+          "points_earned": 60,
           "live": true,
           "out": false
         }
@@ -13832,9 +13862,9 @@
           "event_name": "Abierto GNP Seguros",
           "event_type": "500",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
-          "result": "R32",
-          "points_earned": 0,
+          "event_date_end": "2026-08-27",
+          "result": "R16",
+          "points_earned": 60,
           "live": true,
           "out": false
         }
@@ -14068,7 +14098,7 @@
           "event_name": "Abierto GNP Seguros",
           "event_type": "500",
           "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-26",
+          "event_date_end": "2026-08-27",
           "result": "R32",
           "points_earned": 0,
           "live": true,
