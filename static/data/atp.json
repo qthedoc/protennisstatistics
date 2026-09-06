@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T06:15:04.583Z",
+  "updated_at": "2026-09-06T06:15:00.017Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -9,14 +9,6 @@
       "country_code": "IT",
       "current_points": 12800,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "F",
-          "points_earned": 1300
-        },
         {
           "event_name": "China Open",
           "event_type": "500",
@@ -138,14 +130,6 @@
       "country_code": "DE",
       "current_points": 7790,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R32",
-          "points_earned": 100
-        },
         {
           "event_name": "China Open",
           "event_type": "500",
@@ -286,7 +270,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R32",
           "points_earned": 100,
           "live": true,
@@ -301,14 +285,6 @@
       "country_code": "ES",
       "current_points": 7160,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "W",
-          "points_earned": 2000
-        },
         {
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
@@ -385,7 +361,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R16",
           "points_earned": 200,
           "live": true,
@@ -400,14 +376,6 @@
       "country_code": "CA",
       "current_points": 4640,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "SF",
-          "points_earned": 800
-        },
         {
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
@@ -572,7 +540,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R32",
           "points_earned": 100,
           "live": true,
@@ -587,14 +555,6 @@
       "country_code": "RS",
       "current_points": 3770,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "SF",
-          "points_earned": 800
-        },
         {
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
@@ -663,7 +623,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R64",
           "points_earned": 50,
           "live": true,
@@ -678,14 +638,6 @@
       "country_code": "IT",
       "current_points": 3720,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R32",
-          "points_earned": 100
-        },
         {
           "event_name": "China Open",
           "event_type": "500",
@@ -882,11 +834,11 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
-          "result": "R32",
-          "points_earned": 100,
+          "event_date_end": "2026-09-06",
+          "result": "R16",
+          "points_earned": 200,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -897,14 +849,6 @@
       "country_code": "AU",
       "current_points": 3650,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "QF",
-          "points_earned": 400
-        },
         {
           "event_name": "China Open",
           "event_type": "500",
@@ -1085,7 +1029,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R32",
           "points_earned": 100,
           "live": true,
@@ -1100,14 +1044,6 @@
       "country_code": "RU",
       "current_points": 3580,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "Hangzhou Open",
           "event_type": "250",
@@ -1296,7 +1232,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R16",
           "points_earned": 200,
           "live": true,
@@ -1311,14 +1247,6 @@
       "country_code": "US",
       "current_points": 3480,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R32",
-          "points_earned": 100
-        },
         {
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
@@ -1483,9 +1411,9 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
-          "result": "R32",
-          "points_earned": 100,
+          "event_date_end": "2026-09-06",
+          "result": "R16",
+          "points_earned": 200,
           "live": true,
           "out": false
         }
@@ -1498,14 +1426,6 @@
       "country_code": "US",
       "current_points": 3475,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "QF",
-          "points_earned": 400
-        },
         {
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
@@ -1646,11 +1566,11 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
-          "result": "R32",
-          "points_earned": 100,
+          "event_date_end": "2026-09-06",
+          "result": "R16",
+          "points_earned": 200,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -1761,7 +1681,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R64",
           "points_earned": 50,
           "live": true,
@@ -1776,14 +1696,6 @@
       "country_code": "US",
       "current_points": 2680,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R32",
-          "points_earned": 100
-        },
         {
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
@@ -1940,7 +1852,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R16",
           "points_earned": 200,
           "live": true,
@@ -2079,7 +1991,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R64",
           "points_earned": 50,
           "live": true,
@@ -2094,14 +2006,6 @@
       "country_code": "IT",
       "current_points": 2605,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "QF",
-          "points_earned": 400
-        },
         {
           "event_name": "Chengdu Open",
           "event_type": "250",
@@ -2242,7 +2146,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R32",
           "points_earned": 100,
           "live": true,
@@ -2257,14 +2161,6 @@
       "country_code": "US",
       "current_points": 2565,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "Hangzhou Open",
           "event_type": "250",
@@ -2445,7 +2341,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R32",
           "points_earned": 100,
           "live": true,
@@ -2460,14 +2356,6 @@
       "country_code": "KZ",
       "current_points": 2525,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R16",
-          "points_earned": 200
-        },
         {
           "event_name": "Hangzhou Open",
           "event_type": "250",
@@ -2656,7 +2544,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R16",
           "points_earned": 200,
           "live": true,
@@ -2671,14 +2559,6 @@
       "country_code": "US",
       "current_points": 2485,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "Chengdu Open",
           "event_type": "250",
@@ -2875,7 +2755,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R32",
           "points_earned": 100,
           "live": true,
@@ -2890,14 +2770,6 @@
       "country_code": "CZ",
       "current_points": 2445,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "China Open",
           "event_type": "500",
@@ -3046,7 +2918,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R32",
           "points_earned": 100,
           "live": true,
@@ -3061,14 +2933,6 @@
       "country_code": "CZ",
       "current_points": 2420,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "QF",
-          "points_earned": 400
-        },
         {
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
@@ -3233,7 +3097,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R16",
           "points_earned": 200,
           "live": true,
@@ -3248,14 +3112,6 @@
       "country_code": "NO",
       "current_points": 2385,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
@@ -3426,14 +3282,6 @@
       "current_points": 2225,
       "points_distribution": [
         {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R32",
-          "points_earned": 100
-        },
-        {
           "event_name": "Brisbane International",
           "event_type": "250",
           "event_date_start": "2026-01-05",
@@ -3573,7 +3421,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R16",
           "points_earned": 200,
           "live": true,
@@ -3588,14 +3436,6 @@
       "country_code": "IT",
       "current_points": 2175,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R32",
-          "points_earned": 100
-        },
         {
           "event_name": "Chengdu Open",
           "event_type": "250",
@@ -3832,9 +3672,9 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
-          "result": "R32",
-          "points_earned": 100,
+          "event_date_end": "2026-09-06",
+          "result": "R16",
+          "points_earned": 200,
           "live": true,
           "out": false
         }
@@ -3987,7 +3827,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R16",
           "points_earned": 200,
           "live": true,
@@ -4002,14 +3842,6 @@
       "country_code": "RU",
       "current_points": 2080,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R16",
-          "points_earned": 200
-        },
         {
           "event_name": "Hangzhou Open",
           "event_type": "250",
@@ -4190,7 +4022,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R32",
           "points_earned": 100,
           "live": true,
@@ -4205,14 +4037,6 @@
       "country_code": "AR",
       "current_points": 1980,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "China Open",
           "event_type": "500",
@@ -4393,9 +4217,9 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
-          "result": "R32",
-          "points_earned": 100,
+          "event_date_end": "2026-09-06",
+          "result": "R16",
+          "points_earned": 200,
           "live": true,
           "out": false
         }
@@ -4408,14 +4232,6 @@
       "country_code": "BR",
       "current_points": 1800,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "European Open",
           "event_type": "250",
@@ -4561,14 +4377,6 @@
       "country_code": "ES",
       "current_points": 1730,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "China Open",
           "event_type": "500",
@@ -4746,14 +4554,6 @@
       "country_code": "CL",
       "current_points": 1688,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "Chengdu Open",
           "event_type": "250",
@@ -4966,7 +4766,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R32",
           "points_earned": 100,
           "live": true,
@@ -4981,14 +4781,6 @@
       "country_code": "FR",
       "current_points": 1683,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R16",
-          "points_earned": 200
-        },
         {
           "event_name": "China Open",
           "event_type": "500",
@@ -5169,7 +4961,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R16",
           "points_earned": 200,
           "live": true,
@@ -5184,14 +4976,6 @@
       "country_code": "FR",
       "current_points": 1545,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
@@ -5402,14 +5186,6 @@
       "current_points": 1440,
       "points_distribution": [
         {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
-        {
           "event_name": "Hangzhou Open",
           "event_type": "250",
           "event_date_start": "2025-09-15",
@@ -5629,7 +5405,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R16",
           "points_earned": 200,
           "live": true,
@@ -5752,9 +5528,9 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
-          "result": "R32",
-          "points_earned": 100,
+          "event_date_end": "2026-09-06",
+          "result": "R16",
+          "points_earned": 200,
           "live": true,
           "out": false
         }
@@ -5767,14 +5543,6 @@
       "country_code": "GB",
       "current_points": 1365,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R32",
-          "points_earned": 100
-        },
         {
           "event_name": "Chengdu Open",
           "event_type": "250",
@@ -5971,7 +5739,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R64",
           "points_earned": 50,
           "live": true,
@@ -5986,14 +5754,6 @@
       "country_code": "IT",
       "current_points": 1349,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "Hangzhou Open",
           "event_type": "250",
@@ -6134,7 +5894,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R64",
           "points_earned": 50,
           "live": true,
@@ -6149,14 +5909,6 @@
       "country_code": "BE",
       "current_points": 1345,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R32",
-          "points_earned": 100
-        },
         {
           "event_name": "Chengdu Open",
           "event_type": "250",
@@ -6345,11 +6097,11 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
-          "result": "R32",
-          "points_earned": 100,
+          "event_date_end": "2026-09-06",
+          "result": "R16",
+          "points_earned": 200,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -6360,14 +6112,6 @@
       "country_code": "PE",
       "current_points": 1310,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "Argentina Open",
           "event_type": "250",
@@ -6516,7 +6260,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R32",
           "points_earned": 100,
           "live": true,
@@ -6599,7 +6343,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R64",
           "points_earned": 50,
           "live": true,
@@ -6614,14 +6358,6 @@
       "country_code": "BE",
       "current_points": 1207,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R32",
-          "points_earned": 100
-        },
         {
           "event_name": "European Open",
           "event_type": "250",
@@ -6754,7 +6490,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R64",
           "points_earned": 50,
           "live": true,
@@ -6853,7 +6589,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R16",
           "points_earned": 200,
           "live": true,
@@ -6944,7 +6680,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R32",
           "points_earned": 100,
           "live": true,
@@ -6959,14 +6695,6 @@
       "country_code": "PT",
       "current_points": 1135,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
@@ -7179,7 +6907,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R64",
           "points_earned": 50,
           "live": true,
@@ -7310,7 +7038,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R64",
           "points_earned": 50,
           "live": true,
@@ -7481,7 +7209,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R32",
           "points_earned": 100,
           "live": true,
@@ -7496,14 +7224,6 @@
       "country_code": "DE",
       "current_points": 1089,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R16",
-          "points_earned": 200
-        },
         {
           "event_name": "Almaty Open",
           "event_type": "250",
@@ -7652,7 +7372,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R32",
           "points_earned": 100,
           "live": true,
@@ -7667,14 +7387,6 @@
       "country_code": "US",
       "current_points": 1070,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
@@ -7855,7 +7567,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R16",
           "points_earned": 200,
           "live": true,
@@ -7994,7 +7706,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R32",
           "points_earned": 100,
           "live": true,
@@ -8009,14 +7721,6 @@
       "country_code": "CA",
       "current_points": 1065,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R32",
-          "points_earned": 100
-        },
         {
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
@@ -8197,11 +7901,11 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
-          "result": "R32",
-          "points_earned": 100,
+          "event_date_end": "2026-09-06",
+          "result": "R16",
+          "points_earned": 200,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -8212,14 +7916,6 @@
       "country_code": "AR",
       "current_points": 1065,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "Hangzhou Open",
           "event_type": "250",
@@ -8408,7 +8104,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R16",
           "points_earned": 200,
           "live": true,
@@ -8423,14 +8119,6 @@
       "country_code": "RU",
       "current_points": 1050,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "China Open",
           "event_type": "500",
@@ -8619,9 +8307,9 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
-          "result": "R32",
-          "points_earned": 100,
+          "event_date_end": "2026-09-06",
+          "result": "R16",
+          "points_earned": 200,
           "live": true,
           "out": false
         }
@@ -8634,14 +8322,6 @@
       "country_code": "AR",
       "current_points": 1044,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
@@ -8846,7 +8526,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R64",
           "points_earned": 50,
           "live": true,
@@ -9025,7 +8705,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R64",
           "points_earned": 50,
           "live": true,
@@ -9040,14 +8720,6 @@
       "country_code": "FR",
       "current_points": 1030,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "Chengdu Open",
           "event_type": "250",
@@ -9228,7 +8900,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R32",
           "points_earned": 100,
           "live": true,
@@ -9243,14 +8915,6 @@
       "country_code": "GR",
       "current_points": 1000,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "Adelaide International",
           "event_type": "250",
@@ -9415,7 +9079,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R16",
           "points_earned": 200,
           "live": true,
@@ -9602,7 +9266,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R64",
           "points_earned": 50,
           "live": true,
@@ -9617,14 +9281,6 @@
       "country_code": "ES",
       "current_points": 990,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R16",
-          "points_earned": 200
-        },
         {
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
@@ -9765,7 +9421,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R32",
           "points_earned": 100,
           "live": true,
@@ -9780,14 +9436,6 @@
       "country_code": "NL",
       "current_points": 975,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "Chengdu Open",
           "event_type": "250",
@@ -9968,7 +9616,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R64",
           "points_earned": 50,
           "live": true,
@@ -9983,14 +9631,6 @@
       "country_code": "DE",
       "current_points": 964,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R32",
-          "points_earned": 100
-        },
         {
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
@@ -10235,7 +9875,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R64",
           "points_earned": 50,
           "live": true,
@@ -10250,14 +9890,6 @@
       "country_code": "CZ",
       "current_points": 960,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R16",
-          "points_earned": 200
-        },
         {
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
@@ -10406,7 +10038,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R64",
           "points_earned": 50,
           "live": true,
@@ -10529,7 +10161,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R64",
           "points_earned": 50,
           "live": true,
@@ -10544,14 +10176,6 @@
       "country_code": "US",
       "current_points": 949,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "Chengdu Open",
           "event_type": "250",
@@ -10805,7 +10429,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R64",
           "points_earned": 50,
           "live": true,
@@ -10820,14 +10444,6 @@
       "country_code": "FR",
       "current_points": 935,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "Hangzhou Open",
           "event_type": "250",
@@ -11032,7 +10648,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R64",
           "points_earned": 50,
           "live": true,
@@ -11047,14 +10663,6 @@
       "country_code": "HU",
       "current_points": 930,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "China Open",
           "event_type": "500",
@@ -11251,7 +10859,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R64",
           "points_earned": 50,
           "live": true,
@@ -11266,14 +10874,6 @@
       "country_code": "RS",
       "current_points": 925,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "China Open",
           "event_type": "500",
@@ -11502,7 +11102,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R64",
           "points_earned": 50,
           "live": true,
@@ -11625,7 +11225,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R64",
           "points_earned": 50,
           "live": true,
@@ -11640,14 +11240,6 @@
       "country_code": "ES",
       "current_points": 899,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "Brisbane International",
           "event_type": "250",
@@ -11764,7 +11356,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R64",
           "points_earned": 50,
           "live": true,
@@ -11779,14 +11371,6 @@
       "country_code": "FR",
       "current_points": 895,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R16",
-          "points_earned": 200
-        },
         {
           "event_name": "Hangzhou Open",
           "event_type": "250",
@@ -12007,7 +11591,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R32",
           "points_earned": 100,
           "live": true,
@@ -12022,14 +11606,6 @@
       "country_code": "US",
       "current_points": 890,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "Hangzhou Open",
           "event_type": "250",
@@ -12151,14 +11727,6 @@
       "country_code": "CZ",
       "current_points": 883,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "Hellenic Championship",
           "event_type": "250",
@@ -12315,7 +11883,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R64",
           "points_earned": 50,
           "live": true,
@@ -12330,14 +11898,6 @@
       "country_code": "PT",
       "current_points": 847,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "Australian Open",
           "event_type": "Grand Slam",
@@ -12414,7 +11974,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R32",
           "points_earned": 100,
           "live": true,
@@ -12429,14 +11989,6 @@
       "country_code": "NL",
       "current_points": 834,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "Chengdu Open",
           "event_type": "250",
@@ -12625,9 +12177,9 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
-          "result": "R32",
-          "points_earned": 100,
+          "event_date_end": "2026-09-06",
+          "result": "R16",
+          "points_earned": 200,
           "live": true,
           "out": false
         }
@@ -12640,14 +12192,6 @@
       "country_code": "PL",
       "current_points": 827,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R32",
-          "points_earned": 100
-        },
         {
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
@@ -12812,7 +12356,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R32",
           "points_earned": 100,
           "live": true,
@@ -12827,14 +12371,6 @@
       "country_code": "US",
       "current_points": 800,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
@@ -13023,7 +12559,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R64",
           "points_earned": 50,
           "live": true,
@@ -13038,14 +12574,6 @@
       "country_code": "FR",
       "current_points": 778,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "Hangzhou Open",
           "event_type": "250",
@@ -13242,7 +12770,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R64",
           "points_earned": 50,
           "live": true,
@@ -13333,7 +12861,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R64",
           "points_earned": 50,
           "live": true,
@@ -13348,14 +12876,6 @@
       "country_code": "AR",
       "current_points": 770,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "Hangzhou Open",
           "event_type": "250",
@@ -13560,7 +13080,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R64",
           "points_earned": 50,
           "live": true,
@@ -13575,14 +13095,6 @@
       "country_code": "US",
       "current_points": 765,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "Chengdu Open",
           "event_type": "250",
@@ -13787,7 +13299,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R64",
           "points_earned": 50,
           "live": true,
@@ -13802,14 +13314,6 @@
       "country_code": "RS",
       "current_points": 764,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
@@ -13942,7 +13446,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R64",
           "points_earned": 50,
           "live": true,
@@ -13957,14 +13461,6 @@
       "country_code": "AU",
       "current_points": 763,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "Almaty Open",
           "event_type": "250",
@@ -14097,7 +13593,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R32",
           "points_earned": 100,
           "live": true,
@@ -14112,14 +13608,6 @@
       "country_code": "US",
       "current_points": 759,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "Australian Open",
           "event_type": "Grand Slam",
@@ -14228,7 +13716,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R32",
           "points_earned": 100,
           "live": true,
@@ -14243,14 +13731,6 @@
       "country_code": "HR",
       "current_points": 751,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "Hangzhou Open",
           "event_type": "250",
@@ -14464,7 +13944,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R64",
           "points_earned": 50,
           "live": true,
@@ -14571,7 +14051,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R32",
           "points_earned": 100,
           "live": true,
@@ -14638,7 +14118,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R64",
           "points_earned": 50,
           "live": true,
@@ -14653,14 +14133,6 @@
       "country_code": "AU",
       "current_points": 709,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "Hangzhou Open",
           "event_type": "250",
@@ -14809,7 +14281,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R64",
           "points_earned": 50,
           "live": true,
@@ -14868,9 +14340,9 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
-          "result": "R32",
-          "points_earned": 100,
+          "event_date_end": "2026-09-06",
+          "result": "R16",
+          "points_earned": 200,
           "live": true,
           "out": false
         }
@@ -14983,7 +14455,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R64",
           "points_earned": 50,
           "live": true,
@@ -14998,14 +14470,6 @@
       "country_code": "FR",
       "current_points": 697,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "Moselle Open",
           "event_type": "250",
@@ -15082,7 +14546,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R64",
           "points_earned": 50,
           "live": true,
@@ -15097,14 +14561,6 @@
       "country_code": "US",
       "current_points": 690,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "Hangzhou Open",
           "event_type": "250",
@@ -15325,7 +14781,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R64",
           "points_earned": 50,
           "live": true,
@@ -15544,7 +15000,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R64",
           "points_earned": 50,
           "live": true,
@@ -15559,14 +15015,6 @@
       "country_code": "IT",
       "current_points": 683,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "Chengdu Open",
           "event_type": "250",
@@ -15739,7 +15187,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R64",
           "points_earned": 50,
           "live": true,
@@ -15754,14 +15202,6 @@
       "country_code": "US",
       "current_points": 675,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "Australian Open",
           "event_type": "Grand Slam",
@@ -15862,7 +15302,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R64",
           "points_earned": 50,
           "live": true,
@@ -15877,14 +15317,6 @@
       "country_code": "AU",
       "current_points": 670,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "Hangzhou Open",
           "event_type": "250",
@@ -16049,7 +15481,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R64",
           "points_earned": 50,
           "live": true,
@@ -16064,14 +15496,6 @@
       "country_code": "HKG",
       "current_points": 668,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R32",
-          "points_earned": 100
-        },
         {
           "event_name": "Chengdu Open",
           "event_type": "250",
@@ -16140,7 +15564,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R64",
           "points_earned": 50,
           "live": true,
@@ -16155,14 +15579,6 @@
       "country_code": "AU",
       "current_points": 659,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "Hangzhou Open",
           "event_type": "250",
@@ -16303,7 +15719,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R64",
           "points_earned": 50,
           "live": true,
@@ -16318,14 +15734,6 @@
       "country_code": "IT",
       "current_points": 656,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
@@ -16474,7 +15882,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R32",
           "points_earned": 100,
           "live": true,
@@ -16489,14 +15897,6 @@
       "country_code": "KZ",
       "current_points": 655,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "Chengdu Open",
           "event_type": "250",
@@ -16637,7 +16037,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R64",
           "points_earned": 50,
           "live": true,
@@ -16652,14 +16052,6 @@
       "country_code": "RU",
       "current_points": 634,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "French Open",
           "event_type": "Grand Slam",
@@ -16696,7 +16088,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R64",
           "points_earned": 50,
           "live": true,
@@ -16711,14 +16103,6 @@
       "country_code": "NL",
       "current_points": 628,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
@@ -16843,7 +16227,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R32",
           "points_earned": 100,
           "live": true,
@@ -16858,14 +16242,6 @@
       "country_code": "GB",
       "current_points": 623,
       "points_distribution": [
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2025-08-25",
-          "event_date_end": "2025-09-07",
-          "result": "R64",
-          "points_earned": 50
-        },
         {
           "event_name": "BNP Paribas Nordic Open",
           "event_type": "250",
@@ -16966,7 +16342,7 @@
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-05",
+          "event_date_end": "2026-09-06",
           "result": "R32",
           "points_earned": 100,
           "live": true,
