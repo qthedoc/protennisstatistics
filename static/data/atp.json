@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T06:16:43.689Z",
+  "updated_at": "2026-09-09T06:16:54.891Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -1853,8 +1853,8 @@
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
           "event_date_end": "2026-09-08",
-          "result": "R16",
-          "points_earned": 200,
+          "result": "QF",
+          "points_earned": 400,
           "live": true,
           "out": false
         }
@@ -7568,10 +7568,10 @@
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
           "event_date_end": "2026-09-08",
-          "result": "R16",
-          "points_earned": 200,
+          "result": "QF",
+          "points_earned": 400,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
