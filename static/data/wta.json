@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T06:17:21.257Z",
+  "updated_at": "2026-09-17T06:17:27.666Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -2375,6 +2375,16 @@
           "event_date_end": "2026-09-12",
           "result": "R16",
           "points_earned": 240
+        },
+        {
+          "event_name": "Guadalajara Open Akron",
+          "event_type": "500",
+          "event_date_start": "2026-09-14",
+          "event_date_end": "2026-09-16",
+          "result": "R16",
+          "points_earned": 60,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -8872,8 +8882,8 @@
           "event_type": "500",
           "event_date_start": "2026-09-14",
           "event_date_end": "2026-09-16",
-          "result": "R32",
-          "points_earned": 0,
+          "result": "R16",
+          "points_earned": 60,
           "live": true,
           "out": false
         }
@@ -9067,10 +9077,10 @@
           "event_type": "500",
           "event_date_start": "2026-09-14",
           "event_date_end": "2026-09-16",
-          "result": "R32",
-          "points_earned": 0,
+          "result": "R16",
+          "points_earned": 60,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -10989,6 +10999,16 @@
           "event_date_end": "2026-09-12",
           "result": "R64",
           "points_earned": 70
+        },
+        {
+          "event_name": "SP Open",
+          "event_type": "250",
+          "event_date_start": "2026-09-14",
+          "event_date_end": "2026-09-16",
+          "result": "R32",
+          "points_earned": 0,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -13769,6 +13789,16 @@
           "event_date_end": "2026-09-12",
           "result": "R64",
           "points_earned": 70
+        },
+        {
+          "event_name": "SP Open",
+          "event_type": "250",
+          "event_date_start": "2026-09-14",
+          "event_date_end": "2026-09-16",
+          "result": "R32",
+          "points_earned": 0,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -14158,6 +14188,16 @@
           "event_date_end": "2026-09-12",
           "result": "R64",
           "points_earned": 70
+        },
+        {
+          "event_name": "SP Open",
+          "event_type": "250",
+          "event_date_start": "2026-09-14",
+          "event_date_end": "2026-09-16",
+          "result": "R32",
+          "points_earned": 0,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -14327,6 +14367,16 @@
           "event_date_end": "2026-09-12",
           "result": "R64",
           "points_earned": 70
+        },
+        {
+          "event_name": "SP Open",
+          "event_type": "250",
+          "event_date_start": "2026-09-14",
+          "event_date_end": "2026-09-16",
+          "result": "R32",
+          "points_earned": 0,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -14489,6 +14539,16 @@
           "event_date_end": "2026-07-20",
           "result": "R32",
           "points_earned": 0
+        },
+        {
+          "event_name": "SP Open",
+          "event_type": "250",
+          "event_date_start": "2026-09-14",
+          "event_date_end": "2026-09-16",
+          "result": "R32",
+          "points_earned": 0,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -14846,6 +14906,16 @@
           "event_date_end": "2026-09-12",
           "result": "R64",
           "points_earned": 70
+        },
+        {
+          "event_name": "SP Open",
+          "event_type": "250",
+          "event_date_start": "2026-09-14",
+          "event_date_end": "2026-09-16",
+          "result": "R32",
+          "points_earned": 0,
+          "live": true,
+          "out": false
         }
       ]
     },
