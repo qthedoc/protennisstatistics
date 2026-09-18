@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-17T06:17:27.666Z",
+  "updated_at": "2026-09-18T06:16:57.394Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -1449,6 +1449,16 @@
           "event_date_end": "2026-09-12",
           "result": "R16",
           "points_earned": 240
+        },
+        {
+          "event_name": "Guadalajara Open Akron",
+          "event_type": "500",
+          "event_date_start": "2026-09-14",
+          "event_date_end": "2026-09-18",
+          "result": "QF",
+          "points_earned": 108,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -2380,9 +2390,9 @@
           "event_name": "Guadalajara Open Akron",
           "event_type": "500",
           "event_date_start": "2026-09-14",
-          "event_date_end": "2026-09-16",
-          "result": "R16",
-          "points_earned": 60,
+          "event_date_end": "2026-09-18",
+          "result": "QF",
+          "points_earned": 108,
           "live": true,
           "out": false
         }
@@ -4306,11 +4316,11 @@
           "event_name": "Guadalajara Open Akron",
           "event_type": "500",
           "event_date_start": "2026-09-14",
-          "event_date_end": "2026-09-16",
-          "result": "R16",
-          "points_earned": 60,
+          "event_date_end": "2026-09-18",
+          "result": "QF",
+          "points_earned": 108,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -4670,7 +4680,7 @@
           "event_name": "Guadalajara Open Akron",
           "event_type": "500",
           "event_date_start": "2026-09-14",
-          "event_date_end": "2026-09-16",
+          "event_date_end": "2026-09-18",
           "result": "R16",
           "points_earned": 60,
           "live": true,
@@ -6910,9 +6920,9 @@
           "event_name": "Guadalajara Open Akron",
           "event_type": "500",
           "event_date_start": "2026-09-14",
-          "event_date_end": "2026-09-16",
-          "result": "R16",
-          "points_earned": 60,
+          "event_date_end": "2026-09-18",
+          "result": "QF",
+          "points_earned": 108,
           "live": true,
           "out": false
         }
@@ -7630,9 +7640,9 @@
           "event_name": "Guadalajara Open Akron",
           "event_type": "500",
           "event_date_start": "2026-09-14",
-          "event_date_end": "2026-09-16",
-          "result": "R32",
-          "points_earned": 0,
+          "event_date_end": "2026-09-18",
+          "result": "QF",
+          "points_earned": 108,
           "live": true,
           "out": false
         }
@@ -7849,7 +7859,7 @@
           "event_name": "Guadalajara Open Akron",
           "event_type": "500",
           "event_date_start": "2026-09-14",
-          "event_date_end": "2026-09-16",
+          "event_date_end": "2026-09-18",
           "result": "R16",
           "points_earned": 60,
           "live": true,
@@ -8881,11 +8891,11 @@
           "event_name": "Guadalajara Open Akron",
           "event_type": "500",
           "event_date_start": "2026-09-14",
-          "event_date_end": "2026-09-16",
-          "result": "R16",
-          "points_earned": 60,
+          "event_date_end": "2026-09-18",
+          "result": "QF",
+          "points_earned": 108,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -9076,7 +9086,7 @@
           "event_name": "Guadalajara Open Akron",
           "event_type": "500",
           "event_date_start": "2026-09-14",
-          "event_date_end": "2026-09-16",
+          "event_date_end": "2026-09-18",
           "result": "R16",
           "points_earned": 60,
           "live": true,
@@ -9392,9 +9402,9 @@
           "event_name": "Guadalajara Open Akron",
           "event_type": "500",
           "event_date_start": "2026-09-14",
-          "event_date_end": "2026-09-16",
-          "result": "R16",
-          "points_earned": 60,
+          "event_date_end": "2026-09-18",
+          "result": "QF",
+          "points_earned": 108,
           "live": true,
           "out": false
         }
@@ -11004,9 +11014,9 @@
           "event_name": "SP Open",
           "event_type": "250",
           "event_date_start": "2026-09-14",
-          "event_date_end": "2026-09-16",
-          "result": "R32",
-          "points_earned": 0,
+          "event_date_end": "2026-09-17",
+          "result": "R16",
+          "points_earned": 30,
           "live": true,
           "out": false
         }
@@ -11360,7 +11370,7 @@
           "event_name": "Guadalajara Open Akron",
           "event_type": "500",
           "event_date_start": "2026-09-14",
-          "event_date_end": "2026-09-16",
+          "event_date_end": "2026-09-18",
           "result": "R16",
           "points_earned": 60,
           "live": true,
@@ -12770,7 +12780,7 @@
           "event_name": "Guadalajara Open Akron",
           "event_type": "500",
           "event_date_start": "2026-09-14",
-          "event_date_end": "2026-09-16",
+          "event_date_end": "2026-09-18",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -13087,7 +13097,7 @@
           "event_name": "Guadalajara Open Akron",
           "event_type": "500",
           "event_date_start": "2026-09-14",
-          "event_date_end": "2026-09-16",
+          "event_date_end": "2026-09-18",
           "result": "R16",
           "points_earned": 60,
           "live": true,
@@ -13412,7 +13422,7 @@
           "event_name": "Guadalajara Open Akron",
           "event_type": "500",
           "event_date_start": "2026-09-14",
-          "event_date_end": "2026-09-16",
+          "event_date_end": "2026-09-18",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -13794,11 +13804,11 @@
           "event_name": "SP Open",
           "event_type": "250",
           "event_date_start": "2026-09-14",
-          "event_date_end": "2026-09-16",
-          "result": "R32",
-          "points_earned": 0,
+          "event_date_end": "2026-09-17",
+          "result": "R16",
+          "points_earned": 30,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -13933,7 +13943,7 @@
           "event_name": "Guadalajara Open Akron",
           "event_type": "500",
           "event_date_start": "2026-09-14",
-          "event_date_end": "2026-09-16",
+          "event_date_end": "2026-09-18",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -14193,7 +14203,7 @@
           "event_name": "SP Open",
           "event_type": "250",
           "event_date_start": "2026-09-14",
-          "event_date_end": "2026-09-16",
+          "event_date_end": "2026-09-17",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -14372,9 +14382,9 @@
           "event_name": "SP Open",
           "event_type": "250",
           "event_date_start": "2026-09-14",
-          "event_date_end": "2026-09-16",
-          "result": "R32",
-          "points_earned": 0,
+          "event_date_end": "2026-09-17",
+          "result": "R16",
+          "points_earned": 30,
           "live": true,
           "out": false
         }
@@ -14544,7 +14554,7 @@
           "event_name": "SP Open",
           "event_type": "250",
           "event_date_start": "2026-09-14",
-          "event_date_end": "2026-09-16",
+          "event_date_end": "2026-09-17",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -14756,7 +14766,7 @@
           "event_name": "Guadalajara Open Akron",
           "event_type": "500",
           "event_date_start": "2026-09-14",
-          "event_date_end": "2026-09-16",
+          "event_date_end": "2026-09-18",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -14911,11 +14921,11 @@
           "event_name": "SP Open",
           "event_type": "250",
           "event_date_start": "2026-09-14",
-          "event_date_end": "2026-09-16",
-          "result": "R32",
-          "points_earned": 0,
+          "event_date_end": "2026-09-17",
+          "result": "R16",
+          "points_earned": 30,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
