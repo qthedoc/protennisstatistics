@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T06:15:20.415Z",
+  "updated_at": "2026-09-20T06:15:14.754Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -1202,14 +1202,6 @@
       "current_points": 4619,
       "points_distribution": [
         {
-          "event_name": "Korea Open",
-          "event_type": "500",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-21",
-          "result": "W",
-          "points_earned": 500
-        },
-        {
           "event_name": "China Open",
           "event_type": "1000",
           "event_date_start": "2025-09-22",
@@ -1456,9 +1448,7 @@
           "event_date_start": "2026-09-14",
           "event_date_end": "2026-09-19",
           "result": "QF",
-          "points_earned": 108,
-          "live": true,
-          "out": true
+          "points_earned": 108
         }
       ]
     },
@@ -1735,14 +1725,6 @@
       "country_code": "RU",
       "current_points": 2588,
       "points_distribution": [
-        {
-          "event_name": "Korea Open",
-          "event_type": "500",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-21",
-          "result": "R16",
-          "points_earned": 60
-        },
         {
           "event_name": "China Open",
           "event_type": "1000",
@@ -2057,14 +2039,6 @@
       "country_code": "RO",
       "current_points": 2464,
       "points_distribution": [
-        {
-          "event_name": "Korea Open",
-          "event_type": "500",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-21",
-          "result": "R16",
-          "points_earned": 60
-        },
         {
           "event_name": "China Open",
           "event_type": "1000",
@@ -2391,10 +2365,8 @@
           "event_type": "500",
           "event_date_start": "2026-09-14",
           "event_date_end": "2026-09-19",
-          "result": "SF",
-          "points_earned": 195,
-          "live": true,
-          "out": false
+          "result": "W",
+          "points_earned": 500
         }
       ]
     },
@@ -3041,14 +3013,6 @@
       "country_code": "RU",
       "current_points": 2076,
       "points_distribution": [
-        {
-          "event_name": "Korea Open",
-          "event_type": "500",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-21",
-          "result": "F",
-          "points_earned": 325
-        },
         {
           "event_name": "China Open",
           "event_type": "1000",
@@ -4318,9 +4282,7 @@
           "event_date_start": "2026-09-14",
           "event_date_end": "2026-09-19",
           "result": "QF",
-          "points_earned": 108,
-          "live": true,
-          "out": true
+          "points_earned": 108
         }
       ]
     },
@@ -4682,9 +4644,7 @@
           "event_date_start": "2026-09-14",
           "event_date_end": "2026-09-19",
           "result": "R16",
-          "points_earned": 60,
-          "live": true,
-          "out": true
+          "points_earned": 60
         }
       ]
     },
@@ -5396,14 +5356,6 @@
       "current_points": 1294,
       "points_distribution": [
         {
-          "event_name": "Korea Open",
-          "event_type": "500",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-21",
-          "result": "SF",
-          "points_earned": 195
-        },
-        {
           "event_name": "China Open",
           "event_type": "1000",
           "event_date_start": "2025-09-22",
@@ -5556,14 +5508,6 @@
       "country_code": "DK",
       "current_points": 1282,
       "points_distribution": [
-        {
-          "event_name": "Korea Open",
-          "event_type": "500",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-21",
-          "result": "QF",
-          "points_earned": 108
-        },
         {
           "event_name": "China Open",
           "event_type": "1000",
@@ -5910,14 +5854,6 @@
       "country_code": "CZ",
       "current_points": 1246,
       "points_distribution": [
-        {
-          "event_name": "Korea Open",
-          "event_type": "500",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-21",
-          "result": "QF",
-          "points_earned": 108
-        },
         {
           "event_name": "China Open",
           "event_type": "1000",
@@ -6922,9 +6858,7 @@
           "event_date_start": "2026-09-14",
           "event_date_end": "2026-09-19",
           "result": "SF",
-          "points_earned": 195,
-          "live": true,
-          "out": true
+          "points_earned": 195
         }
       ]
     },
@@ -7642,9 +7576,7 @@
           "event_date_start": "2026-09-14",
           "event_date_end": "2026-09-19",
           "result": "SF",
-          "points_earned": 195,
-          "live": true,
-          "out": true
+          "points_earned": 195
         }
       ]
     },
@@ -7861,9 +7793,7 @@
           "event_date_start": "2026-09-14",
           "event_date_end": "2026-09-19",
           "result": "R16",
-          "points_earned": 60,
-          "live": true,
-          "out": true
+          "points_earned": 60
         }
       ]
     },
@@ -8365,14 +8295,6 @@
       "country_code": "RO",
       "current_points": 1051,
       "points_distribution": [
-        {
-          "event_name": "Korea Open",
-          "event_type": "500",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-21",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "China Open",
           "event_type": "1000",
@@ -8893,9 +8815,7 @@
           "event_date_start": "2026-09-14",
           "event_date_end": "2026-09-19",
           "result": "QF",
-          "points_earned": 108,
-          "live": true,
-          "out": true
+          "points_earned": 108
         }
       ]
     },
@@ -9088,9 +9008,7 @@
           "event_date_start": "2026-09-14",
           "event_date_end": "2026-09-19",
           "result": "R16",
-          "points_earned": 60,
-          "live": true,
-          "out": true
+          "points_earned": 60
         }
       ]
     },
@@ -9403,10 +9321,8 @@
           "event_type": "500",
           "event_date_start": "2026-09-14",
           "event_date_end": "2026-09-19",
-          "result": "SF",
-          "points_earned": 195,
-          "live": true,
-          "out": false
+          "result": "F",
+          "points_earned": 325
         }
       ]
     },
@@ -10103,14 +10019,6 @@
       "current_points": 990,
       "points_distribution": [
         {
-          "event_name": "Korea Open",
-          "event_type": "500",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-21",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
           "event_name": "China Open",
           "event_type": "1000",
           "event_date_start": "2025-09-22",
@@ -10456,14 +10364,6 @@
       "country_code": "AU",
       "current_points": 966,
       "points_distribution": [
-        {
-          "event_name": "Korea Open",
-          "event_type": "500",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-21",
-          "result": "SF",
-          "points_earned": 195
-        },
         {
           "event_name": "China Open",
           "event_type": "1000",
@@ -11014,11 +10914,11 @@
           "event_name": "SP Open",
           "event_type": "250",
           "event_date_start": "2026-09-14",
-          "event_date_end": "2026-09-18",
-          "result": "QF",
-          "points_earned": 54,
+          "event_date_end": "2026-09-19",
+          "result": "SF",
+          "points_earned": 98,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -11029,14 +10929,6 @@
       "country_code": "US",
       "current_points": 945,
       "points_distribution": [
-        {
-          "event_name": "Korea Open",
-          "event_type": "500",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-21",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "China Open",
           "event_type": "1000",
@@ -11372,9 +11264,7 @@
           "event_date_start": "2026-09-14",
           "event_date_end": "2026-09-19",
           "result": "R16",
-          "points_earned": 60,
-          "live": true,
-          "out": true
+          "points_earned": 60
         }
       ]
     },
@@ -12561,14 +12451,6 @@
       "current_points": 894,
       "points_distribution": [
         {
-          "event_name": "Korea Open",
-          "event_type": "500",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-21",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
           "event_name": "China Open",
           "event_type": "1000",
           "event_date_start": "2025-09-22",
@@ -12782,9 +12664,7 @@
           "event_date_start": "2026-09-14",
           "event_date_end": "2026-09-19",
           "result": "R32",
-          "points_earned": 0,
-          "live": true,
-          "out": true
+          "points_earned": 0
         }
       ]
     },
@@ -13099,9 +12979,7 @@
           "event_date_start": "2026-09-14",
           "event_date_end": "2026-09-19",
           "result": "R16",
-          "points_earned": 60,
-          "live": true,
-          "out": true
+          "points_earned": 60
         }
       ]
     },
@@ -13177,14 +13055,6 @@
       "country_code": "AU",
       "current_points": 883,
       "points_distribution": [
-        {
-          "event_name": "Korea Open",
-          "event_type": "500",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-21",
-          "result": "R16",
-          "points_earned": 60
-        },
         {
           "event_name": "China Open",
           "event_type": "1000",
@@ -13424,9 +13294,7 @@
           "event_date_start": "2026-09-14",
           "event_date_end": "2026-09-19",
           "result": "R32",
-          "points_earned": 0,
-          "live": true,
-          "out": true
+          "points_earned": 0
         }
       ]
     },
@@ -13559,14 +13427,6 @@
       "country_code": "GB",
       "current_points": 845,
       "points_distribution": [
-        {
-          "event_name": "Korea Open",
-          "event_type": "500",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-21",
-          "result": "R16",
-          "points_earned": 60
-        },
         {
           "event_name": "China Open",
           "event_type": "1000",
@@ -13804,7 +13664,7 @@
           "event_name": "SP Open",
           "event_type": "250",
           "event_date_start": "2026-09-14",
-          "event_date_end": "2026-09-18",
+          "event_date_end": "2026-09-19",
           "result": "R16",
           "points_earned": 30,
           "live": true,
@@ -13945,9 +13805,7 @@
           "event_date_start": "2026-09-14",
           "event_date_end": "2026-09-19",
           "result": "R32",
-          "points_earned": 0,
-          "live": true,
-          "out": true
+          "points_earned": 0
         }
       ]
     },
@@ -14203,7 +14061,7 @@
           "event_name": "SP Open",
           "event_type": "250",
           "event_date_start": "2026-09-14",
-          "event_date_end": "2026-09-18",
+          "event_date_end": "2026-09-19",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -14382,11 +14240,11 @@
           "event_name": "SP Open",
           "event_type": "250",
           "event_date_start": "2026-09-14",
-          "event_date_end": "2026-09-18",
-          "result": "QF",
-          "points_earned": 54,
+          "event_date_end": "2026-09-19",
+          "result": "SF",
+          "points_earned": 98,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -14554,7 +14412,7 @@
           "event_name": "SP Open",
           "event_type": "250",
           "event_date_start": "2026-09-14",
-          "event_date_end": "2026-09-18",
+          "event_date_end": "2026-09-19",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -14768,9 +14626,7 @@
           "event_date_start": "2026-09-14",
           "event_date_end": "2026-09-19",
           "result": "R32",
-          "points_earned": 0,
-          "live": true,
-          "out": false
+          "points_earned": 0
         }
       ]
     },
@@ -14781,14 +14637,6 @@
       "country_code": "DE",
       "current_points": 777,
       "points_distribution": [
-        {
-          "event_name": "Korea Open",
-          "event_type": "500",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-21",
-          "result": "R16",
-          "points_earned": 60
-        },
         {
           "event_name": "China Open",
           "event_type": "1000",
@@ -14921,7 +14769,7 @@
           "event_name": "SP Open",
           "event_type": "250",
           "event_date_start": "2026-09-14",
-          "event_date_end": "2026-09-18",
+          "event_date_end": "2026-09-19",
           "result": "R16",
           "points_earned": 30,
           "live": true,
@@ -14936,14 +14784,6 @@
       "country_code": "US",
       "current_points": 769,
       "points_distribution": [
-        {
-          "event_name": "Korea Open",
-          "event_type": "500",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-21",
-          "result": "R16",
-          "points_earned": 60
-        },
         {
           "event_name": "China Open",
           "event_type": "1000",
