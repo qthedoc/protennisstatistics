@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T06:22:27.606Z",
+  "updated_at": "2026-09-22T06:17:00.263Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -3712,6 +3712,16 @@
           "event_date_end": "2026-09-12",
           "result": "R64",
           "points_earned": 70
+        },
+        {
+          "event_name": "Singapore Tennis Open",
+          "event_type": "500",
+          "event_date_start": "2026-09-21",
+          "event_date_end": "2026-09-22",
+          "result": "R16",
+          "points_earned": 60,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -4870,6 +4880,16 @@
           "event_date_end": "2026-09-12",
           "result": "R32",
           "points_earned": 130
+        },
+        {
+          "event_name": "Singapore Tennis Open",
+          "event_type": "500",
+          "event_date_start": "2026-09-21",
+          "event_date_end": "2026-09-22",
+          "result": "R16",
+          "points_earned": 60,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -7502,6 +7522,16 @@
           "event_date_end": "2026-09-12",
           "result": "R64",
           "points_earned": 70
+        },
+        {
+          "event_name": "Singapore Tennis Open",
+          "event_type": "500",
+          "event_date_start": "2026-09-21",
+          "event_date_end": "2026-09-22",
+          "result": "R16",
+          "points_earned": 60,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -8885,11 +8915,9 @@
           "event_name": "SP Open",
           "event_type": "250",
           "event_date_start": "2026-09-14",
-          "event_date_end": "2026-09-19",
+          "event_date_end": "2026-09-21",
           "result": "SF",
-          "points_earned": 98,
-          "live": true,
-          "out": true
+          "points_earned": 98
         }
       ]
     },
@@ -9556,7 +9584,7 @@
           "event_name": "Korea Open",
           "event_type": "250",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-21",
+          "event_date_end": "2026-09-22",
           "result": "R16",
           "points_earned": 30,
           "live": true,
@@ -9706,6 +9734,16 @@
           "event_date_end": "2026-09-12",
           "result": "R64",
           "points_earned": 70
+        },
+        {
+          "event_name": "Singapore Tennis Open",
+          "event_type": "500",
+          "event_date_start": "2026-09-21",
+          "event_date_end": "2026-09-22",
+          "result": "R16",
+          "points_earned": 60,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -10181,6 +10219,16 @@
           "event_date_end": "2026-09-12",
           "result": "R64",
           "points_earned": 70
+        },
+        {
+          "event_name": "Korea Open",
+          "event_type": "250",
+          "event_date_start": "2026-09-21",
+          "event_date_end": "2026-09-22",
+          "result": "R16",
+          "points_earned": 30,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -11605,6 +11653,16 @@
           "event_date_end": "2026-09-12",
           "result": "R64",
           "points_earned": 70
+        },
+        {
+          "event_name": "Korea Open",
+          "event_type": "250",
+          "event_date_start": "2026-09-21",
+          "event_date_end": "2026-09-22",
+          "result": "R16",
+          "points_earned": 30,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -11895,6 +11953,16 @@
           "event_date_end": "2026-09-12",
           "result": "R32",
           "points_earned": 130
+        },
+        {
+          "event_name": "Korea Open",
+          "event_type": "250",
+          "event_date_start": "2026-09-21",
+          "event_date_end": "2026-09-22",
+          "result": "R16",
+          "points_earned": 30,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -12061,7 +12129,7 @@
           "event_name": "Korea Open",
           "event_type": "250",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-21",
+          "event_date_end": "2026-09-22",
           "result": "R16",
           "points_earned": 30,
           "live": true,
@@ -12731,7 +12799,7 @@
           "event_name": "Korea Open",
           "event_type": "250",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-21",
+          "event_date_end": "2026-09-22",
           "result": "R16",
           "points_earned": 30,
           "live": true,
@@ -13048,7 +13116,7 @@
           "event_name": "Singapore Tennis Open",
           "event_type": "500",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-21",
+          "event_date_end": "2026-09-22",
           "result": "R16",
           "points_earned": 60,
           "live": true,
@@ -13316,11 +13384,9 @@
           "event_name": "SP Open",
           "event_type": "250",
           "event_date_start": "2026-09-14",
-          "event_date_end": "2026-09-19",
+          "event_date_end": "2026-09-21",
           "result": "SF",
-          "points_earned": 98,
-          "live": true,
-          "out": true
+          "points_earned": 98
         }
       ]
     },
@@ -13448,7 +13514,7 @@
           "event_name": "Korea Open",
           "event_type": "250",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-21",
+          "event_date_end": "2026-09-22",
           "result": "R16",
           "points_earned": 30,
           "live": true,
@@ -13628,11 +13694,9 @@
           "event_name": "SP Open",
           "event_type": "250",
           "event_date_start": "2026-09-14",
-          "event_date_end": "2026-09-19",
-          "result": "SF",
-          "points_earned": 98,
-          "live": true,
-          "out": false
+          "event_date_end": "2026-09-21",
+          "result": "W",
+          "points_earned": 250
         }
       ]
     },
@@ -13775,11 +13839,9 @@
           "event_name": "SP Open",
           "event_type": "250",
           "event_date_start": "2026-09-14",
-          "event_date_end": "2026-09-19",
+          "event_date_end": "2026-09-21",
           "result": "R16",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -14131,11 +14193,9 @@
           "event_name": "SP Open",
           "event_type": "250",
           "event_date_start": "2026-09-14",
-          "event_date_end": "2026-09-19",
+          "event_date_end": "2026-09-21",
           "result": "R32",
-          "points_earned": 0,
-          "live": true,
-          "out": true
+          "points_earned": 0
         }
       ]
     },
@@ -14344,11 +14404,9 @@
           "event_name": "SP Open",
           "event_type": "250",
           "event_date_start": "2026-09-14",
-          "event_date_end": "2026-09-19",
+          "event_date_end": "2026-09-21",
           "result": "R32",
-          "points_earned": 0,
-          "live": true,
-          "out": true
+          "points_earned": 0
         }
       ]
     },
@@ -14757,7 +14815,7 @@
           "event_name": "Korea Open",
           "event_type": "250",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-21",
+          "event_date_end": "2026-09-22",
           "result": "R16",
           "points_earned": 30,
           "live": true,
@@ -14904,7 +14962,15 @@
           "event_name": "SP Open",
           "event_type": "250",
           "event_date_start": "2026-09-14",
-          "event_date_end": "2026-09-19",
+          "event_date_end": "2026-09-21",
+          "result": "R16",
+          "points_earned": 30
+        },
+        {
+          "event_name": "Korea Open",
+          "event_type": "250",
+          "event_date_start": "2026-09-21",
+          "event_date_end": "2026-09-22",
           "result": "R16",
           "points_earned": 30,
           "live": true,

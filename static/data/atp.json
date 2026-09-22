@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T06:22:20.014Z",
+  "updated_at": "2026-09-22T06:16:53.678Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -726,14 +726,6 @@
       "country_code": "RU",
       "current_points": 3770,
       "points_distribution": [
-        {
-          "event_name": "Hangzhou Open",
-          "event_type": "250",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-23",
-          "result": "QF",
-          "points_earned": 50
-        },
         {
           "event_name": "China Open",
           "event_type": "500",
@@ -1846,14 +1838,6 @@
       "current_points": 2715,
       "points_distribution": [
         {
-          "event_name": "Hangzhou Open",
-          "event_type": "250",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-23",
-          "result": "QF",
-          "points_earned": 50
-        },
-        {
           "event_name": "China Open",
           "event_type": "500",
           "event_date_start": "2025-09-22",
@@ -2336,14 +2320,6 @@
       "country_code": "US",
       "current_points": 2410,
       "points_distribution": [
-        {
-          "event_name": "Chengdu Open",
-          "event_type": "250",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-23",
-          "result": "SF",
-          "points_earned": 100
-        },
         {
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
@@ -3021,14 +2997,6 @@
       "current_points": 2200,
       "points_distribution": [
         {
-          "event_name": "Chengdu Open",
-          "event_type": "250",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-23",
-          "result": "R16",
-          "points_earned": 25
-        },
-        {
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
           "event_date_start": "2025-09-22",
@@ -3269,14 +3237,6 @@
       "country_code": "KZ",
       "current_points": 2185,
       "points_distribution": [
-        {
-          "event_name": "Hangzhou Open",
-          "event_type": "250",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-23",
-          "result": "W",
-          "points_earned": 250
-        },
         {
           "event_name": "China Open",
           "event_type": "500",
@@ -3841,14 +3801,6 @@
       "current_points": 2100,
       "points_distribution": [
         {
-          "event_name": "Chengdu Open",
-          "event_type": "250",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-23",
-          "result": "F",
-          "points_earned": 165
-        },
-        {
           "event_name": "China Open",
           "event_type": "500",
           "event_date_start": "2025-09-22",
@@ -3993,14 +3945,6 @@
       "country_code": "RU",
       "current_points": 1930,
       "points_distribution": [
-        {
-          "event_name": "Hangzhou Open",
-          "event_type": "250",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-23",
-          "result": "R16",
-          "points_earned": 25
-        },
         {
           "event_name": "China Open",
           "event_type": "500",
@@ -4831,14 +4775,6 @@
       "current_points": 1590,
       "points_distribution": [
         {
-          "event_name": "Hangzhou Open",
-          "event_type": "250",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-23",
-          "result": "QF",
-          "points_earned": 50
-        },
-        {
           "event_name": "BNP Paribas Nordic Open",
           "event_type": "250",
           "event_date_start": "2025-10-13",
@@ -5256,14 +5192,6 @@
       "country_code": "CL",
       "current_points": 1565,
       "points_distribution": [
-        {
-          "event_name": "Chengdu Open",
-          "event_type": "250",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-23",
-          "result": "W",
-          "points_earned": 250
-        },
         {
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
@@ -6126,14 +6054,6 @@
       "current_points": 1349,
       "points_distribution": [
         {
-          "event_name": "Hangzhou Open",
-          "event_type": "250",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-23",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2025-09-29",
@@ -6278,14 +6198,6 @@
       "country_code": "BE",
       "current_points": 1345,
       "points_distribution": [
-        {
-          "event_name": "Chengdu Open",
-          "event_type": "250",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-23",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
@@ -6479,14 +6391,6 @@
       "country_code": "GB",
       "current_points": 1275,
       "points_distribution": [
-        {
-          "event_name": "Chengdu Open",
-          "event_type": "250",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-23",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "China Open",
           "event_type": "500",
@@ -6688,14 +6592,6 @@
       "country_code": "NL",
       "current_points": 1258,
       "points_distribution": [
-        {
-          "event_name": "Chengdu Open",
-          "event_type": "250",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-23",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
@@ -7076,14 +6972,6 @@
       "current_points": 1165,
       "points_distribution": [
         {
-          "event_name": "Hangzhou Open",
-          "event_type": "250",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-23",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
           "event_date_start": "2025-09-22",
@@ -7421,14 +7309,6 @@
       "country_code": "AR",
       "current_points": 1155,
       "points_distribution": [
-        {
-          "event_name": "Hangzhou Open",
-          "event_type": "250",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-23",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
@@ -8129,14 +8009,6 @@
       "country_code": "FR",
       "current_points": 1070,
       "points_distribution": [
-        {
-          "event_name": "Chengdu Open",
-          "event_type": "250",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-23",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
@@ -8862,14 +8734,6 @@
       "current_points": 986,
       "points_distribution": [
         {
-          "event_name": "Chengdu Open",
-          "event_type": "250",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-23",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2025-09-29",
@@ -9224,14 +9088,6 @@
       "current_points": 975,
       "points_distribution": [
         {
-          "event_name": "Chengdu Open",
-          "event_type": "250",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-23",
-          "result": "R16",
-          "points_earned": 25
-        },
-        {
           "event_name": "China Open",
           "event_type": "500",
           "event_date_start": "2025-09-22",
@@ -9537,14 +9393,6 @@
       "country_code": "US",
       "current_points": 939,
       "points_distribution": [
-        {
-          "event_name": "Chengdu Open",
-          "event_type": "250",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-23",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
@@ -10593,14 +10441,6 @@
       "current_points": 880,
       "points_distribution": [
         {
-          "event_name": "Hangzhou Open",
-          "event_type": "250",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-23",
-          "result": "R16",
-          "points_earned": 25
-        },
-        {
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
           "event_date_start": "2025-09-22",
@@ -11487,14 +11327,6 @@
       "current_points": 845,
       "points_distribution": [
         {
-          "event_name": "Hangzhou Open",
-          "event_type": "250",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-23",
-          "result": "SF",
-          "points_earned": 100
-        },
-        {
           "event_name": "China Open",
           "event_type": "500",
           "event_date_start": "2025-09-22",
@@ -12260,14 +12092,6 @@
       "current_points": 770,
       "points_distribution": [
         {
-          "event_name": "Hangzhou Open",
-          "event_type": "250",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-23",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
           "event_name": "China Open",
           "event_type": "500",
           "event_date_start": "2025-09-22",
@@ -12823,14 +12647,6 @@
       "current_points": 745,
       "points_distribution": [
         {
-          "event_name": "Hangzhou Open",
-          "event_type": "250",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-23",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
           "event_name": "China Open",
           "event_type": "500",
           "event_date_start": "2025-09-22",
@@ -13056,14 +12872,6 @@
       "current_points": 741,
       "points_distribution": [
         {
-          "event_name": "Hangzhou Open",
-          "event_type": "250",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-23",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
           "event_name": "China Open",
           "event_type": "500",
           "event_date_start": "2025-09-22",
@@ -13232,14 +13040,6 @@
       "country_code": "US",
       "current_points": 730,
       "points_distribution": [
-        {
-          "event_name": "Hangzhou Open",
-          "event_type": "250",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-23",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
@@ -13587,14 +13387,6 @@
       "current_points": 700,
       "points_distribution": [
         {
-          "event_name": "Hangzhou Open",
-          "event_type": "250",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-23",
-          "result": "R16",
-          "points_earned": 25
-        },
-        {
           "event_name": "Almaty Open",
           "event_type": "250",
           "event_date_start": "2025-10-13",
@@ -13747,14 +13539,6 @@
       "country_code": "FR",
       "current_points": 697,
       "points_distribution": [
-        {
-          "event_name": "Chengdu Open",
-          "event_type": "250",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-23",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "China Open",
           "event_type": "500",
@@ -14046,14 +13830,6 @@
       "current_points": 688,
       "points_distribution": [
         {
-          "event_name": "Chengdu Open",
-          "event_type": "250",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-23",
-          "result": "QF",
-          "points_earned": 50
-        },
-        {
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
           "event_date_start": "2025-09-22",
@@ -14262,14 +14038,6 @@
       "country_code": "IT",
       "current_points": 683,
       "points_distribution": [
-        {
-          "event_name": "Chengdu Open",
-          "event_type": "250",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-23",
-          "result": "R16",
-          "points_earned": 25
-        },
         {
           "event_name": "China Open",
           "event_type": "500",
@@ -14907,14 +14675,6 @@
       "country_code": "AU",
       "current_points": 647,
       "points_distribution": [
-        {
-          "event_name": "Hangzhou Open",
-          "event_type": "250",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-23",
-          "result": "R16",
-          "points_earned": 25
-        },
         {
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
@@ -15708,14 +15468,6 @@
       "current_points": 630,
       "points_distribution": [
         {
-          "event_name": "Hangzhou Open",
-          "event_type": "250",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-23",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2025-09-29",
@@ -15884,14 +15636,6 @@
       "country_code": "BA",
       "current_points": 612,
       "points_distribution": [
-        {
-          "event_name": "Hangzhou Open",
-          "event_type": "250",
-          "event_date_start": "2025-09-15",
-          "event_date_end": "2025-09-23",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
