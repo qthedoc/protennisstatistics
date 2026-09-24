@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-23T06:17:23.799Z",
+  "updated_at": "2026-09-24T06:17:25.203Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -8594,6 +8594,16 @@
           "event_date_end": "2026-09-13",
           "result": "R64",
           "points_earned": 50
+        },
+        {
+          "event_name": "Chengdu Open",
+          "event_type": "250",
+          "event_date_start": "2026-09-21",
+          "event_date_end": "2026-09-23",
+          "result": "R16",
+          "points_earned": 25,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -11694,6 +11704,16 @@
           "event_date_end": "2026-09-13",
           "result": "R64",
           "points_earned": 50
+        },
+        {
+          "event_name": "Chengdu Open",
+          "event_type": "250",
+          "event_date_start": "2026-09-21",
+          "event_date_end": "2026-09-23",
+          "result": "R16",
+          "points_earned": 25,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -12636,6 +12656,16 @@
           "event_date_end": "2026-09-13",
           "result": "R64",
           "points_earned": 50
+        },
+        {
+          "event_name": "Chengdu Open",
+          "event_type": "250",
+          "event_date_start": "2026-09-21",
+          "event_date_end": "2026-09-23",
+          "result": "R16",
+          "points_earned": 25,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -14810,6 +14840,16 @@
           "event_date_end": "2026-09-13",
           "result": "R64",
           "points_earned": 50
+        },
+        {
+          "event_name": "Hangzhou Open",
+          "event_type": "250",
+          "event_date_start": "2026-09-21",
+          "event_date_end": "2026-09-23",
+          "result": "R16",
+          "points_earned": 25,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -15626,6 +15666,16 @@
           "event_date_end": "2026-09-13",
           "result": "R64",
           "points_earned": 50
+        },
+        {
+          "event_name": "Hangzhou Open",
+          "event_type": "250",
+          "event_date_start": "2026-09-21",
+          "event_date_end": "2026-09-23",
+          "result": "R16",
+          "points_earned": 25,
+          "live": true,
+          "out": true
         }
       ]
     },
