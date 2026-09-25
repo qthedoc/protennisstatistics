@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T06:17:30.700Z",
+  "updated_at": "2026-09-25T06:17:38.120Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -745,7 +745,7 @@
           "event_name": "Singapore Tennis Open",
           "event_type": "500",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-23",
+          "event_date_end": "2026-09-24",
           "result": "R16",
           "points_earned": 60,
           "live": true,
@@ -2699,6 +2699,16 @@
           "event_date_end": "2026-09-12",
           "result": "R32",
           "points_earned": 130
+        },
+        {
+          "event_name": "Singapore Tennis Open",
+          "event_type": "500",
+          "event_date_start": "2026-09-21",
+          "event_date_end": "2026-09-24",
+          "result": "R16",
+          "points_earned": 60,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -3727,7 +3737,7 @@
           "event_name": "Singapore Tennis Open",
           "event_type": "500",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-23",
+          "event_date_end": "2026-09-24",
           "result": "R16",
           "points_earned": 60,
           "live": true,
@@ -4895,7 +4905,7 @@
           "event_name": "Singapore Tennis Open",
           "event_type": "500",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-23",
+          "event_date_end": "2026-09-24",
           "result": "R16",
           "points_earned": 60,
           "live": true,
@@ -5075,10 +5085,10 @@
           "event_type": "250",
           "event_date_start": "2026-09-21",
           "event_date_end": "2026-09-24",
-          "result": "R32",
-          "points_earned": 0,
+          "result": "R16",
+          "points_earned": 30,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -5261,9 +5271,9 @@
           "event_name": "Singapore Tennis Open",
           "event_type": "500",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-23",
-          "result": "R32",
-          "points_earned": 0,
+          "event_date_end": "2026-09-24",
+          "result": "R16",
+          "points_earned": 60,
           "live": true,
           "out": false
         }
@@ -6116,7 +6126,7 @@
           "event_name": "Singapore Tennis Open",
           "event_type": "500",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-23",
+          "event_date_end": "2026-09-24",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -6456,9 +6466,9 @@
           "event_name": "Singapore Tennis Open",
           "event_type": "500",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-23",
-          "result": "R32",
-          "points_earned": 0,
+          "event_date_end": "2026-09-24",
+          "result": "R16",
+          "points_earned": 60,
           "live": true,
           "out": false
         }
@@ -7038,7 +7048,7 @@
           "event_name": "Singapore Tennis Open",
           "event_type": "500",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-23",
+          "event_date_end": "2026-09-24",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -7587,7 +7597,7 @@
           "event_name": "Singapore Tennis Open",
           "event_type": "500",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-23",
+          "event_date_end": "2026-09-24",
           "result": "R16",
           "points_earned": 60,
           "live": true,
@@ -9809,9 +9819,9 @@
           "event_name": "Singapore Tennis Open",
           "event_type": "500",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-23",
-          "result": "R32",
-          "points_earned": 0,
+          "event_date_end": "2026-09-24",
+          "result": "R16",
+          "points_earned": 60,
           "live": true,
           "out": false
         }
@@ -10295,8 +10305,8 @@
           "event_type": "250",
           "event_date_start": "2026-09-21",
           "event_date_end": "2026-09-24",
-          "result": "R32",
-          "points_earned": 0,
+          "result": "R16",
+          "points_earned": 30,
           "live": true,
           "out": false
         }
@@ -10860,8 +10870,8 @@
           "event_type": "250",
           "event_date_start": "2026-09-21",
           "event_date_end": "2026-09-24",
-          "result": "R32",
-          "points_earned": 0,
+          "result": "R16",
+          "points_earned": 30,
           "live": true,
           "out": false
         }
@@ -11078,7 +11088,7 @@
           "event_name": "Singapore Tennis Open",
           "event_type": "500",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-23",
+          "event_date_end": "2026-09-24",
           "result": "R16",
           "points_earned": 60,
           "live": true,
@@ -13206,7 +13216,7 @@
           "event_name": "Singapore Tennis Open",
           "event_type": "500",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-23",
+          "event_date_end": "2026-09-24",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -14343,8 +14353,8 @@
           "event_type": "250",
           "event_date_start": "2026-09-21",
           "event_date_end": "2026-09-24",
-          "result": "R32",
-          "points_earned": 0,
+          "result": "R16",
+          "points_earned": 30,
           "live": true,
           "out": false
         }
