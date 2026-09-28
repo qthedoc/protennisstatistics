@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-27T06:16:57.513Z",
+  "updated_at": "2026-09-28T06:24:19.448Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -176,7 +176,7 @@
       "name": "Aryna Sabalenka",
       "country": "Belarus",
       "country_code": "BY",
-      "current_points": 7875,
+      "current_points": 7810,
       "points_distribution": [
         {
           "event_name": "Wuhan Open",
@@ -579,7 +579,7 @@
       "name": "Mirra Andreeva",
       "country": "Russia",
       "country_code": "RU",
-      "current_points": 5743,
+      "current_points": 5841,
       "points_distribution": [
         {
           "event_name": "China Open",
@@ -745,11 +745,9 @@
           "event_name": "Singapore Tennis Open",
           "event_type": "500",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-26",
+          "event_date_end": "2026-09-27",
           "result": "QF",
-          "points_earned": 108,
-          "live": true,
-          "out": true
+          "points_earned": 108
         }
       ]
     },
@@ -1580,7 +1578,7 @@
       "name": "Belinda Bencic",
       "country": "Switzerland",
       "country_code": "CH",
-      "current_points": 2935,
+      "current_points": 2925,
       "points_distribution": [
         {
           "event_name": "China Open",
@@ -2385,7 +2383,7 @@
       "name": "Naomi Osaka",
       "country": "Japan",
       "country_code": "JP",
-      "current_points": 2306,
+      "current_points": 2296,
       "points_distribution": [
         {
           "event_name": "China Open",
@@ -2704,11 +2702,9 @@
           "event_name": "Singapore Tennis Open",
           "event_type": "500",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-26",
+          "event_date_end": "2026-09-27",
           "result": "R16",
-          "points_earned": 60,
-          "live": true,
-          "out": true
+          "points_earned": 60
         }
       ]
     },
@@ -2891,11 +2887,9 @@
           "event_name": "Singapore Tennis Open",
           "event_type": "500",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-26",
+          "event_date_end": "2026-09-27",
           "result": "QF",
-          "points_earned": 108,
-          "live": true,
-          "out": true
+          "points_earned": 108
         }
       ]
     },
@@ -2904,7 +2898,7 @@
       "name": "Jasmine Paolini",
       "country": "Italy",
       "country_code": "IT",
-      "current_points": 2123,
+      "current_points": 2122,
       "points_distribution": [
         {
           "event_name": "China Open",
@@ -3038,6 +3032,79 @@
     },
     {
       "rank": 21,
+      "name": "Maja Chwalinska",
+      "country": "Poland",
+      "country_code": "PL",
+      "current_points": 2082,
+      "points_distribution": [
+        {
+          "event_name": "Transylvania Open",
+          "event_type": "250",
+          "event_date_start": "2026-02-02",
+          "event_date_end": "2026-02-07",
+          "result": "QF",
+          "points_earned": 54
+        },
+        {
+          "event_name": "French Open",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-05-25",
+          "event_date_end": "2026-06-06",
+          "result": "F",
+          "points_earned": 1300
+        },
+        {
+          "event_name": "Wimbledon",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-06-29",
+          "event_date_end": "2026-07-11",
+          "result": "R64",
+          "points_earned": 70
+        },
+        {
+          "event_name": "National Bank Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-03",
+          "event_date_end": "2026-08-14",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-24",
+          "result": "R32",
+          "points_earned": 65
+        },
+        {
+          "event_name": "Abierto GNP Seguros",
+          "event_type": "500",
+          "event_date_start": "2026-08-24",
+          "event_date_end": "2026-08-30",
+          "result": "R16",
+          "points_earned": 60
+        },
+        {
+          "event_name": "U.S. Open",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-08-31",
+          "event_date_end": "2026-09-12",
+          "result": "R64",
+          "points_earned": 70
+        },
+        {
+          "event_name": "Singapore Tennis Open",
+          "event_type": "500",
+          "event_date_start": "2026-09-21",
+          "event_date_end": "2026-09-27",
+          "result": "SF",
+          "points_earned": 195
+        }
+      ]
+    },
+    {
+      "rank": 22,
       "name": "Anna Kalinskaya",
       "country": "Russia",
       "country_code": "RU",
@@ -3222,7 +3289,7 @@
       ]
     },
     {
-      "rank": 22,
+      "rank": 23,
       "name": "Madison Keys",
       "country": "United States",
       "country_code": "US",
@@ -3351,7 +3418,7 @@
       ]
     },
     {
-      "rank": 23,
+      "rank": 24,
       "name": "Emma Navarro",
       "country": "United States",
       "country_code": "US",
@@ -3528,7 +3595,7 @@
       ]
     },
     {
-      "rank": 24,
+      "rank": 25,
       "name": "Anastasia Potapova",
       "country": "Austria",
       "country_code": "AT",
@@ -3681,27 +3748,187 @@
       ]
     },
     {
-      "rank": 25,
-      "name": "Maja Chwalinska",
-      "country": "Poland",
-      "country_code": "PL",
-      "current_points": 1888,
+      "rank": 26,
+      "name": "Leylah Annie Fernandez",
+      "country": "Canada",
+      "country_code": "CA",
+      "current_points": 1894,
       "points_distribution": [
         {
-          "event_name": "Transylvania Open",
+          "event_name": "China Open",
+          "event_type": "1000",
+          "event_date_start": "2025-09-22",
+          "event_date_end": "2025-10-05",
+          "result": "R32",
+          "points_earned": 65
+        },
+        {
+          "event_name": "Wuhan Open",
+          "event_type": "1000",
+          "event_date_start": "2025-10-06",
+          "event_date_end": "2025-10-12",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "Japan Open",
           "event_type": "250",
+          "event_date_start": "2025-10-13",
+          "event_date_end": "2025-10-19",
+          "result": "W",
+          "points_earned": 250
+        },
+        {
+          "event_name": "Toray Pan Pacific Open",
+          "event_type": "500",
+          "event_date_start": "2025-10-20",
+          "event_date_end": "2025-10-26",
+          "result": "R16",
+          "points_earned": 60
+        },
+        {
+          "event_name": "Hong Kong Tennis Open",
+          "event_type": "250",
+          "event_date_start": "2025-10-27",
+          "event_date_end": "2025-11-02",
+          "result": "SF",
+          "points_earned": 98
+        },
+        {
+          "event_name": "Brisbane International",
+          "event_type": "500",
+          "event_date_start": "2026-01-05",
+          "event_date_end": "2026-01-11",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "Adelaide International",
+          "event_type": "500",
+          "event_date_start": "2026-01-12",
+          "event_date_end": "2026-01-17",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "Australian Open",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-01-19",
+          "event_date_end": "2026-01-31",
+          "result": "R64",
+          "points_earned": 70
+        },
+        {
+          "event_name": "Mubadala Abu Dhabi Open",
+          "event_type": "500",
           "event_date_start": "2026-02-02",
           "event_date_end": "2026-02-07",
+          "result": "R16",
+          "points_earned": 60
+        },
+        {
+          "event_name": "Qatar TotalEnergies Open",
+          "event_type": "1000",
+          "event_date_start": "2026-02-09",
+          "event_date_end": "2026-02-14",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "Dubai Duty Free Championships",
+          "event_type": "1000",
+          "event_date_start": "2026-02-16",
+          "event_date_end": "2026-02-21",
+          "result": "R32",
+          "points_earned": 65
+        },
+        {
+          "event_name": "BNP Paribas Open",
+          "event_type": "1000",
+          "event_date_start": "2026-03-02",
+          "event_date_end": "2026-03-15",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "Miami Open",
+          "event_type": "1000",
+          "event_date_start": "2026-03-16",
+          "event_date_end": "2026-03-28",
+          "result": "R32",
+          "points_earned": 65
+        },
+        {
+          "event_name": "Credit One Charleston Open",
+          "event_type": "500",
+          "event_date_start": "2026-03-30",
+          "event_date_end": "2026-04-05",
+          "result": "R16",
+          "points_earned": 60
+        },
+        {
+          "event_name": "Porsche Tennis Grand Prix",
+          "event_type": "500",
+          "event_date_start": "2026-04-13",
+          "event_date_end": "2026-04-19",
           "result": "QF",
-          "points_earned": 54
+          "points_earned": 108
+        },
+        {
+          "event_name": "Mutua Madrid Open",
+          "event_type": "1000",
+          "event_date_start": "2026-04-20",
+          "event_date_end": "2026-05-02",
+          "result": "QF",
+          "points_earned": 215
+        },
+        {
+          "event_name": "Internazionali BNL d'Italia",
+          "event_type": "1000",
+          "event_date_start": "2026-05-04",
+          "event_date_end": "2026-05-16",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "Internationaux de Strasbourg",
+          "event_type": "500",
+          "event_date_start": "2026-05-18",
+          "event_date_end": "2026-05-23",
+          "result": "QF",
+          "points_earned": 108
         },
         {
           "event_name": "French Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-05-25",
           "event_date_end": "2026-06-06",
-          "result": "F",
-          "points_earned": 1300
+          "result": "R64",
+          "points_earned": 70
+        },
+        {
+          "event_name": "The HSBC Championships",
+          "event_type": "500",
+          "event_date_start": "2026-06-08",
+          "event_date_end": "2026-06-14",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "Lexus Nottingham Open",
+          "event_type": "250",
+          "event_date_start": "2026-06-15",
+          "event_date_end": "2026-06-21",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "Bad Homburg Open",
+          "event_type": "500",
+          "event_date_start": "2026-06-22",
+          "event_date_end": "2026-06-27",
+          "result": "R16",
+          "points_earned": 60
         },
         {
           "event_name": "Wimbledon",
@@ -3712,51 +3939,49 @@
           "points_earned": 70
         },
         {
+          "event_name": "Mubadala DC Open",
+          "event_type": "500",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-08-03",
+          "result": "R16",
+          "points_earned": 60
+        },
+        {
           "event_name": "National Bank Open",
           "event_type": "1000",
           "event_date_start": "2026-08-03",
           "event_date_end": "2026-08-14",
-          "result": "R64",
-          "points_earned": 10
+          "result": "R16",
+          "points_earned": 120
         },
         {
           "event_name": "Cincinnati Open",
           "event_type": "1000",
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-24",
-          "result": "R32",
-          "points_earned": 65
-        },
-        {
-          "event_name": "Abierto GNP Seguros",
-          "event_type": "500",
-          "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-30",
-          "result": "R16",
-          "points_earned": 60
+          "result": "R64",
+          "points_earned": 10
         },
         {
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
           "event_date_end": "2026-09-12",
-          "result": "R64",
-          "points_earned": 70
+          "result": "R32",
+          "points_earned": 130
         },
         {
           "event_name": "Singapore Tennis Open",
           "event_type": "500",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-26",
-          "result": "SF",
-          "points_earned": 195,
-          "live": true,
-          "out": true
+          "event_date_end": "2026-09-27",
+          "result": "W",
+          "points_earned": 500
         }
       ]
     },
     {
-      "rank": 26,
+      "rank": 27,
       "name": "Marie Bouzkova",
       "country": "Czech Republic",
       "country_code": "CZ",
@@ -3949,7 +4174,7 @@
       ]
     },
     {
-      "rank": 27,
+      "rank": 28,
       "name": "Ekaterina Alexandrova",
       "country": "Russia",
       "country_code": "RU",
@@ -4166,7 +4391,7 @@
       ]
     },
     {
-      "rank": 28,
+      "rank": 29,
       "name": "Sara Bejlek",
       "country": "Czech Republic",
       "country_code": "CZ",
@@ -4327,7 +4552,7 @@
       ]
     },
     {
-      "rank": 29,
+      "rank": 30,
       "name": "Ann Li",
       "country": "United States",
       "country_code": "US",
@@ -4560,7 +4785,7 @@
       ]
     },
     {
-      "rank": 30,
+      "rank": 31,
       "name": "Diane Parry",
       "country": "France",
       "country_code": "FR",
@@ -4689,246 +4914,11 @@
       ]
     },
     {
-      "rank": 31,
-      "name": "Leylah Annie Fernandez",
-      "country": "Canada",
-      "country_code": "CA",
-      "current_points": 1454,
-      "points_distribution": [
-        {
-          "event_name": "China Open",
-          "event_type": "1000",
-          "event_date_start": "2025-09-22",
-          "event_date_end": "2025-10-05",
-          "result": "R32",
-          "points_earned": 65
-        },
-        {
-          "event_name": "Wuhan Open",
-          "event_type": "1000",
-          "event_date_start": "2025-10-06",
-          "event_date_end": "2025-10-12",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "Japan Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "W",
-          "points_earned": 250
-        },
-        {
-          "event_name": "Toray Pan Pacific Open",
-          "event_type": "500",
-          "event_date_start": "2025-10-20",
-          "event_date_end": "2025-10-26",
-          "result": "R16",
-          "points_earned": 60
-        },
-        {
-          "event_name": "Hong Kong Tennis Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "SF",
-          "points_earned": 98
-        },
-        {
-          "event_name": "Brisbane International",
-          "event_type": "500",
-          "event_date_start": "2026-01-05",
-          "event_date_end": "2026-01-11",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "Adelaide International",
-          "event_type": "500",
-          "event_date_start": "2026-01-12",
-          "event_date_end": "2026-01-17",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "Australian Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-01-19",
-          "event_date_end": "2026-01-31",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "Mubadala Abu Dhabi Open",
-          "event_type": "500",
-          "event_date_start": "2026-02-02",
-          "event_date_end": "2026-02-07",
-          "result": "R16",
-          "points_earned": 60
-        },
-        {
-          "event_name": "Qatar TotalEnergies Open",
-          "event_type": "1000",
-          "event_date_start": "2026-02-09",
-          "event_date_end": "2026-02-14",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "Dubai Duty Free Championships",
-          "event_type": "1000",
-          "event_date_start": "2026-02-16",
-          "event_date_end": "2026-02-21",
-          "result": "R32",
-          "points_earned": 65
-        },
-        {
-          "event_name": "BNP Paribas Open",
-          "event_type": "1000",
-          "event_date_start": "2026-03-02",
-          "event_date_end": "2026-03-15",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "Miami Open",
-          "event_type": "1000",
-          "event_date_start": "2026-03-16",
-          "event_date_end": "2026-03-28",
-          "result": "R32",
-          "points_earned": 65
-        },
-        {
-          "event_name": "Credit One Charleston Open",
-          "event_type": "500",
-          "event_date_start": "2026-03-30",
-          "event_date_end": "2026-04-05",
-          "result": "R16",
-          "points_earned": 60
-        },
-        {
-          "event_name": "Porsche Tennis Grand Prix",
-          "event_type": "500",
-          "event_date_start": "2026-04-13",
-          "event_date_end": "2026-04-19",
-          "result": "QF",
-          "points_earned": 108
-        },
-        {
-          "event_name": "Mutua Madrid Open",
-          "event_type": "1000",
-          "event_date_start": "2026-04-20",
-          "event_date_end": "2026-05-02",
-          "result": "QF",
-          "points_earned": 215
-        },
-        {
-          "event_name": "Internazionali BNL d'Italia",
-          "event_type": "1000",
-          "event_date_start": "2026-05-04",
-          "event_date_end": "2026-05-16",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "Internationaux de Strasbourg",
-          "event_type": "500",
-          "event_date_start": "2026-05-18",
-          "event_date_end": "2026-05-23",
-          "result": "QF",
-          "points_earned": 108
-        },
-        {
-          "event_name": "French Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-05-25",
-          "event_date_end": "2026-06-06",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "The HSBC Championships",
-          "event_type": "500",
-          "event_date_start": "2026-06-08",
-          "event_date_end": "2026-06-14",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "Lexus Nottingham Open",
-          "event_type": "250",
-          "event_date_start": "2026-06-15",
-          "event_date_end": "2026-06-21",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "Bad Homburg Open",
-          "event_type": "500",
-          "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-27",
-          "result": "R16",
-          "points_earned": 60
-        },
-        {
-          "event_name": "Wimbledon",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-06-29",
-          "event_date_end": "2026-07-11",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "Mubadala DC Open",
-          "event_type": "500",
-          "event_date_start": "2026-07-27",
-          "event_date_end": "2026-08-03",
-          "result": "R16",
-          "points_earned": 60
-        },
-        {
-          "event_name": "National Bank Open",
-          "event_type": "1000",
-          "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-14",
-          "result": "R16",
-          "points_earned": 120
-        },
-        {
-          "event_name": "Cincinnati Open",
-          "event_type": "1000",
-          "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-24",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-12",
-          "result": "R32",
-          "points_earned": 130
-        },
-        {
-          "event_name": "Singapore Tennis Open",
-          "event_type": "500",
-          "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-26",
-          "result": "SF",
-          "points_earned": 195,
-          "live": true,
-          "out": false
-        }
-      ]
-    },
-    {
       "rank": 32,
       "name": "Jelena Ostapenko",
       "country": "Latvia",
       "country_code": "LV",
-      "current_points": 1452,
+      "current_points": 1481,
       "points_distribution": [
         {
           "event_name": "China Open",
@@ -5094,11 +5084,9 @@
           "event_name": "Korea Open",
           "event_type": "250",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-26",
+          "event_date_end": "2026-09-27",
           "result": "R16",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -5107,7 +5095,7 @@
       "name": "Maria Sakkari",
       "country": "Greece",
       "country_code": "GR",
-      "current_points": 1355,
+      "current_points": 1462,
       "points_distribution": [
         {
           "event_name": "China Open",
@@ -5281,11 +5269,9 @@
           "event_name": "Singapore Tennis Open",
           "event_type": "500",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-26",
+          "event_date_end": "2026-09-27",
           "result": "QF",
-          "points_earned": 108,
-          "live": true,
-          "out": true
+          "points_earned": 108
         }
       ]
     },
@@ -5774,6 +5760,368 @@
     },
     {
       "rank": 37,
+      "name": "Talia Gibson",
+      "country": "Australia",
+      "country_code": "AU",
+      "current_points": 1301,
+      "points_distribution": [
+        {
+          "event_name": "Hong Kong Tennis Open",
+          "event_type": "250",
+          "event_date_start": "2025-10-27",
+          "event_date_end": "2025-11-02",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "Brisbane International",
+          "event_type": "500",
+          "event_date_start": "2026-01-05",
+          "event_date_end": "2026-01-11",
+          "result": "R64",
+          "points_earned": 0
+        },
+        {
+          "event_name": "Hobart International",
+          "event_type": "250",
+          "event_date_start": "2026-01-12",
+          "event_date_end": "2026-01-17",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "Australian Open",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-01-19",
+          "event_date_end": "2026-01-31",
+          "result": "R64",
+          "points_earned": 70
+        },
+        {
+          "event_name": "BNP Paribas Open",
+          "event_type": "1000",
+          "event_date_start": "2026-03-02",
+          "event_date_end": "2026-03-15",
+          "result": "QF",
+          "points_earned": 215
+        },
+        {
+          "event_name": "Miami Open",
+          "event_type": "1000",
+          "event_date_start": "2026-03-16",
+          "event_date_end": "2026-03-28",
+          "result": "R16",
+          "points_earned": 120
+        },
+        {
+          "event_name": "Mutua Madrid Open",
+          "event_type": "1000",
+          "event_date_start": "2026-04-20",
+          "event_date_end": "2026-05-02",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "Internazionali BNL d'Italia",
+          "event_type": "1000",
+          "event_date_start": "2026-05-04",
+          "event_date_end": "2026-05-16",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "Internationaux de Strasbourg",
+          "event_type": "500",
+          "event_date_start": "2026-05-18",
+          "event_date_end": "2026-05-23",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "French Open",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-05-25",
+          "event_date_end": "2026-06-06",
+          "result": "R64",
+          "points_earned": 70
+        },
+        {
+          "event_name": "Lexus Nottingham Open",
+          "event_type": "250",
+          "event_date_start": "2026-06-15",
+          "event_date_end": "2026-06-21",
+          "result": "QF",
+          "points_earned": 54
+        },
+        {
+          "event_name": "Lexus Eastbourne Open",
+          "event_type": "250",
+          "event_date_start": "2026-06-22",
+          "event_date_end": "2026-06-27",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "Wimbledon",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-06-29",
+          "event_date_end": "2026-07-11",
+          "result": "R64",
+          "points_earned": 70
+        },
+        {
+          "event_name": "The Memphis Classic",
+          "event_type": "250",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-08-02",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "National Bank Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-03",
+          "event_date_end": "2026-08-14",
+          "result": "R32",
+          "points_earned": 65
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-24",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "U.S. Open",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-08-31",
+          "event_date_end": "2026-09-12",
+          "result": "R64",
+          "points_earned": 70
+        },
+        {
+          "event_name": "Singapore Tennis Open",
+          "event_type": "500",
+          "event_date_start": "2026-09-21",
+          "event_date_end": "2026-09-27",
+          "result": "F",
+          "points_earned": 325
+        }
+      ]
+    },
+    {
+      "rank": 38,
+      "name": "Xinyu Wang",
+      "country": "China",
+      "country_code": "CN",
+      "current_points": 1288,
+      "points_distribution": [
+        {
+          "event_name": "China Open",
+          "event_type": "1000",
+          "event_date_start": "2025-09-22",
+          "event_date_end": "2025-10-05",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "Wuhan Open",
+          "event_type": "1000",
+          "event_date_start": "2025-10-06",
+          "event_date_end": "2025-10-12",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "Ningbo Open",
+          "event_type": "500",
+          "event_date_start": "2025-10-13",
+          "event_date_end": "2025-10-19",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "Toray Pan Pacific Open",
+          "event_type": "500",
+          "event_date_start": "2025-10-20",
+          "event_date_end": "2025-10-26",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "ASB Classic",
+          "event_type": "250",
+          "event_date_start": "2026-01-05",
+          "event_date_end": "2026-01-11",
+          "result": "F",
+          "points_earned": 163
+        },
+        {
+          "event_name": "Hobart International",
+          "event_type": "250",
+          "event_date_start": "2026-01-12",
+          "event_date_end": "2026-01-17",
+          "result": "R16",
+          "points_earned": 30
+        },
+        {
+          "event_name": "Australian Open",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-01-19",
+          "event_date_end": "2026-01-31",
+          "result": "R16",
+          "points_earned": 240
+        },
+        {
+          "event_name": "Transylvania Open",
+          "event_type": "250",
+          "event_date_start": "2026-02-02",
+          "event_date_end": "2026-02-07",
+          "result": "QF",
+          "points_earned": 54
+        },
+        {
+          "event_name": "Qatar TotalEnergies Open",
+          "event_type": "1000",
+          "event_date_start": "2026-02-09",
+          "event_date_end": "2026-02-14",
+          "result": "R32",
+          "points_earned": 65
+        },
+        {
+          "event_name": "ATX Open",
+          "event_type": "250",
+          "event_date_start": "2026-02-23",
+          "event_date_end": "2026-03-01",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "BNP Paribas Open",
+          "event_type": "1000",
+          "event_date_start": "2026-03-02",
+          "event_date_end": "2026-03-15",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "Miami Open",
+          "event_type": "1000",
+          "event_date_start": "2026-03-16",
+          "event_date_end": "2026-03-28",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "Open Capfinances Rouen Metropole",
+          "event_type": "250",
+          "event_date_start": "2026-04-13",
+          "event_date_end": "2026-04-19",
+          "result": "R16",
+          "points_earned": 30
+        },
+        {
+          "event_name": "Mutua Madrid Open",
+          "event_type": "1000",
+          "event_date_start": "2026-04-20",
+          "event_date_end": "2026-05-02",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "Internazionali BNL d'Italia",
+          "event_type": "1000",
+          "event_date_start": "2026-05-04",
+          "event_date_end": "2026-05-16",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "Internationaux de Strasbourg",
+          "event_type": "500",
+          "event_date_start": "2026-05-18",
+          "event_date_end": "2026-05-23",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "French Open",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-05-25",
+          "event_date_end": "2026-06-06",
+          "result": "R64",
+          "points_earned": 70
+        },
+        {
+          "event_name": "Berlin Tennis Open",
+          "event_type": "500",
+          "event_date_start": "2026-06-15",
+          "event_date_end": "2026-06-21",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "Bad Homburg Open",
+          "event_type": "500",
+          "event_date_start": "2026-06-22",
+          "event_date_end": "2026-06-27",
+          "result": "SF",
+          "points_earned": 195
+        },
+        {
+          "event_name": "Wimbledon",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-06-29",
+          "event_date_end": "2026-07-11",
+          "result": "R64",
+          "points_earned": 70
+        },
+        {
+          "event_name": "Mubadala DC Open",
+          "event_type": "500",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-08-03",
+          "result": "R16",
+          "points_earned": 60
+        },
+        {
+          "event_name": "National Bank Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-03",
+          "event_date_end": "2026-08-14",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-24",
+          "result": "R32",
+          "points_earned": 65
+        },
+        {
+          "event_name": "U.S. Open",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-08-31",
+          "event_date_end": "2026-09-12",
+          "result": "R64",
+          "points_earned": 70
+        },
+        {
+          "event_name": "Singapore Tennis Open",
+          "event_type": "500",
+          "event_date_start": "2026-09-21",
+          "event_date_end": "2026-09-27",
+          "result": "QF",
+          "points_earned": 108
+        }
+      ]
+    },
+    {
+      "rank": 39,
       "name": "Liudmila Samsonova",
       "country": "Russia",
       "country_code": "RU",
@@ -5990,7 +6338,7 @@
       ]
     },
     {
-      "rank": 38,
+      "rank": 40,
       "name": "Donna Vekic",
       "country": "Croatia",
       "country_code": "HR",
@@ -6136,16 +6484,191 @@
           "event_name": "Singapore Tennis Open",
           "event_type": "500",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-26",
+          "event_date_end": "2026-09-27",
           "result": "R32",
-          "points_earned": 0,
-          "live": true,
-          "out": true
+          "points_earned": 0
         }
       ]
     },
     {
-      "rank": 39,
+      "rank": 41,
+      "name": "Kimberly Birrell",
+      "country": "Australia",
+      "country_code": "AU",
+      "current_points": 1255,
+      "points_distribution": [
+        {
+          "event_name": "China Open",
+          "event_type": "1000",
+          "event_date_start": "2025-09-22",
+          "event_date_end": "2025-10-05",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "Chennai Open",
+          "event_type": "250",
+          "event_date_start": "2025-10-27",
+          "event_date_end": "2025-11-02",
+          "result": "F",
+          "points_earned": 163
+        },
+        {
+          "event_name": "Brisbane International",
+          "event_type": "500",
+          "event_date_start": "2026-01-05",
+          "event_date_end": "2026-01-11",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "Adelaide International",
+          "event_type": "500",
+          "event_date_start": "2026-01-12",
+          "event_date_end": "2026-01-17",
+          "result": "SF",
+          "points_earned": 195
+        },
+        {
+          "event_name": "Australian Open",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-01-19",
+          "event_date_end": "2026-01-31",
+          "result": "R64",
+          "points_earned": 70
+        },
+        {
+          "event_name": "Dubai Duty Free Championships",
+          "event_type": "1000",
+          "event_date_start": "2026-02-16",
+          "event_date_end": "2026-02-21",
+          "result": "R32",
+          "points_earned": 65
+        },
+        {
+          "event_name": "ATX Open",
+          "event_type": "250",
+          "event_date_start": "2026-02-23",
+          "event_date_end": "2026-03-01",
+          "result": "SF",
+          "points_earned": 98
+        },
+        {
+          "event_name": "BNP Paribas Open",
+          "event_type": "1000",
+          "event_date_start": "2026-03-02",
+          "event_date_end": "2026-03-15",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "Miami Open",
+          "event_type": "1000",
+          "event_date_start": "2026-03-16",
+          "event_date_end": "2026-03-28",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "Mutua Madrid Open",
+          "event_type": "1000",
+          "event_date_start": "2026-04-20",
+          "event_date_end": "2026-05-02",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "French Open",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-05-25",
+          "event_date_end": "2026-06-06",
+          "result": "R64",
+          "points_earned": 70
+        },
+        {
+          "event_name": "Libema Open",
+          "event_type": "250",
+          "event_date_start": "2026-06-08",
+          "event_date_end": "2026-06-13",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "Lexus Nottingham Open",
+          "event_type": "250",
+          "event_date_start": "2026-06-15",
+          "event_date_end": "2026-06-21",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "Lexus Eastbourne Open",
+          "event_type": "250",
+          "event_date_start": "2026-06-22",
+          "event_date_end": "2026-06-27",
+          "result": "R16",
+          "points_earned": 30
+        },
+        {
+          "event_name": "Wimbledon",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-06-29",
+          "event_date_end": "2026-07-11",
+          "result": "R64",
+          "points_earned": 70
+        },
+        {
+          "event_name": "The Memphis Classic",
+          "event_type": "250",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-08-02",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "National Bank Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-03",
+          "event_date_end": "2026-08-14",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-24",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "Abierto GNP Seguros",
+          "event_type": "500",
+          "event_date_start": "2026-08-24",
+          "event_date_end": "2026-08-30",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "U.S. Open",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-08-31",
+          "event_date_end": "2026-09-12",
+          "result": "R64",
+          "points_earned": 70
+        },
+        {
+          "event_name": "Korea Open",
+          "event_type": "250",
+          "event_date_start": "2026-09-21",
+          "event_date_end": "2026-09-27",
+          "result": "W",
+          "points_earned": 250
+        }
+      ]
+    },
+    {
+      "rank": 42,
       "name": "Hailey Baptiste",
       "country": "United States",
       "country_code": "US",
@@ -6274,121 +6797,49 @@
       ]
     },
     {
-      "rank": 40,
-      "name": "Xinyu Wang",
-      "country": "China",
-      "country_code": "CN",
-      "current_points": 1195,
+      "rank": 43,
+      "name": "Barbora Krejcikova",
+      "country": "Czech Republic",
+      "country_code": "CZ",
+      "current_points": 1198,
       "points_distribution": [
         {
           "event_name": "China Open",
           "event_type": "1000",
           "event_date_start": "2025-09-22",
           "event_date_end": "2025-10-05",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "Wuhan Open",
-          "event_type": "1000",
-          "event_date_start": "2025-10-06",
-          "event_date_end": "2025-10-12",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "Ningbo Open",
-          "event_type": "500",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
           "result": "R32",
-          "points_earned": 0
+          "points_earned": 65
         },
         {
-          "event_name": "Toray Pan Pacific Open",
+          "event_name": "United Cup",
           "event_type": "500",
-          "event_date_start": "2025-10-20",
-          "event_date_end": "2025-10-26",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "ASB Classic",
-          "event_type": "250",
           "event_date_start": "2026-01-05",
           "event_date_end": "2026-01-11",
-          "result": "F",
-          "points_earned": 163
+          "result": "QF",
+          "points_earned": 108
         },
         {
           "event_name": "Hobart International",
           "event_type": "250",
           "event_date_start": "2026-01-12",
           "event_date_end": "2026-01-17",
-          "result": "R16",
-          "points_earned": 30
+          "result": "R32",
+          "points_earned": 0
         },
         {
           "event_name": "Australian Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-01-19",
           "event_date_end": "2026-01-31",
-          "result": "R16",
-          "points_earned": 240
-        },
-        {
-          "event_name": "Transylvania Open",
-          "event_type": "250",
-          "event_date_start": "2026-02-02",
-          "event_date_end": "2026-02-07",
-          "result": "QF",
-          "points_earned": 54
-        },
-        {
-          "event_name": "Qatar TotalEnergies Open",
-          "event_type": "1000",
-          "event_date_start": "2026-02-09",
-          "event_date_end": "2026-02-14",
-          "result": "R32",
-          "points_earned": 65
-        },
-        {
-          "event_name": "ATX Open",
-          "event_type": "250",
-          "event_date_start": "2026-02-23",
-          "event_date_end": "2026-03-01",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "BNP Paribas Open",
-          "event_type": "1000",
-          "event_date_start": "2026-03-02",
-          "event_date_end": "2026-03-15",
           "result": "R64",
-          "points_earned": 10
+          "points_earned": 70
         },
         {
-          "event_name": "Miami Open",
+          "event_name": "Dubai Duty Free Championships",
           "event_type": "1000",
-          "event_date_start": "2026-03-16",
-          "event_date_end": "2026-03-28",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "Open Capfinances Rouen Metropole",
-          "event_type": "250",
-          "event_date_start": "2026-04-13",
-          "event_date_end": "2026-04-19",
-          "result": "R16",
-          "points_earned": 30
-        },
-        {
-          "event_name": "Mutua Madrid Open",
-          "event_type": "1000",
-          "event_date_start": "2026-04-20",
-          "event_date_end": "2026-05-02",
+          "event_date_start": "2026-02-16",
+          "event_date_end": "2026-02-21",
           "result": "R64",
           "points_earned": 10
         },
@@ -6401,14 +6852,6 @@
           "points_earned": 10
         },
         {
-          "event_name": "Internationaux de Strasbourg",
-          "event_type": "500",
-          "event_date_start": "2026-05-18",
-          "event_date_end": "2026-05-23",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
           "event_name": "French Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-05-25",
@@ -6417,36 +6860,44 @@
           "points_earned": 70
         },
         {
-          "event_name": "Berlin Tennis Open",
-          "event_type": "500",
-          "event_date_start": "2026-06-15",
-          "event_date_end": "2026-06-21",
-          "result": "R32",
-          "points_earned": 0
+          "event_name": "Libema Open",
+          "event_type": "250",
+          "event_date_start": "2026-06-08",
+          "event_date_end": "2026-06-13",
+          "result": "SF",
+          "points_earned": 98
         },
         {
-          "event_name": "Bad Homburg Open",
-          "event_type": "500",
+          "event_name": "Lexus Eastbourne Open",
+          "event_type": "250",
           "event_date_start": "2026-06-22",
           "event_date_end": "2026-06-27",
-          "result": "SF",
-          "points_earned": 195
+          "result": "R32",
+          "points_earned": 0
         },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
           "event_date_start": "2026-06-29",
           "event_date_end": "2026-07-11",
-          "result": "R64",
-          "points_earned": 70
+          "result": "R16",
+          "points_earned": 240
         },
         {
-          "event_name": "Mubadala DC Open",
-          "event_type": "500",
-          "event_date_start": "2026-07-27",
-          "event_date_end": "2026-08-03",
-          "result": "R16",
-          "points_earned": 60
+          "event_name": "Athens Open",
+          "event_type": "250",
+          "event_date_start": "2026-07-13",
+          "event_date_end": "2026-07-19",
+          "result": "W",
+          "points_earned": 250
+        },
+        {
+          "event_name": "Livesport Prague Open",
+          "event_type": "250",
+          "event_date_start": "2026-07-20",
+          "event_date_end": "2026-07-26",
+          "result": "SF",
+          "points_earned": 98
         },
         {
           "event_name": "National Bank Open",
@@ -6461,8 +6912,8 @@
           "event_type": "1000",
           "event_date_start": "2026-08-10",
           "event_date_end": "2026-08-24",
-          "result": "R32",
-          "points_earned": 65
+          "result": "R64",
+          "points_earned": 10
         },
         {
           "event_name": "U.S. Open",
@@ -6476,16 +6927,14 @@
           "event_name": "Singapore Tennis Open",
           "event_type": "500",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-26",
-          "result": "QF",
-          "points_earned": 108,
-          "live": true,
-          "out": true
+          "event_date_end": "2026-09-27",
+          "result": "R32",
+          "points_earned": 0
         }
       ]
     },
     {
-      "rank": 41,
+      "rank": 44,
       "name": "Clara Tauson",
       "country": "Denmark",
       "country_code": "DK",
@@ -6686,7 +7135,7 @@
       ]
     },
     {
-      "rank": 42,
+      "rank": 45,
       "name": "Yuliia Starodubtseva",
       "country": "Ukraine",
       "country_code": "UA",
@@ -6847,7 +7296,7 @@
       ]
     },
     {
-      "rank": 43,
+      "rank": 46,
       "name": "Daria Snigur",
       "country": "Ukraine",
       "country_code": "UA",
@@ -6928,36 +7377,12 @@
       ]
     },
     {
-      "rank": 44,
-      "name": "Barbora Krejcikova",
-      "country": "Czech Republic",
-      "country_code": "CZ",
-      "current_points": 1139,
+      "rank": 47,
+      "name": "Oleksandra Oliynykova",
+      "country": "Ukraine",
+      "country_code": "UA",
+      "current_points": 1126,
       "points_distribution": [
-        {
-          "event_name": "China Open",
-          "event_type": "1000",
-          "event_date_start": "2025-09-22",
-          "event_date_end": "2025-10-05",
-          "result": "R32",
-          "points_earned": 65
-        },
-        {
-          "event_name": "United Cup",
-          "event_type": "500",
-          "event_date_start": "2026-01-05",
-          "event_date_end": "2026-01-11",
-          "result": "QF",
-          "points_earned": 108
-        },
-        {
-          "event_name": "Hobart International",
-          "event_type": "250",
-          "event_date_start": "2026-01-12",
-          "event_date_end": "2026-01-17",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Australian Open",
           "event_type": "Grand Slam",
@@ -6967,10 +7392,34 @@
           "points_earned": 70
         },
         {
-          "event_name": "Dubai Duty Free Championships",
+          "event_name": "Transylvania Open",
+          "event_type": "250",
+          "event_date_start": "2026-02-02",
+          "event_date_end": "2026-02-07",
+          "result": "SF",
+          "points_earned": 98
+        },
+        {
+          "event_name": "Credit One Charleston Open",
+          "event_type": "500",
+          "event_date_start": "2026-03-30",
+          "event_date_end": "2026-04-05",
+          "result": "R64",
+          "points_earned": 0
+        },
+        {
+          "event_name": "Open Capfinances Rouen Metropole",
+          "event_type": "250",
+          "event_date_start": "2026-04-13",
+          "event_date_end": "2026-04-19",
+          "result": "R16",
+          "points_earned": 30
+        },
+        {
+          "event_name": "Mutua Madrid Open",
           "event_type": "1000",
-          "event_date_start": "2026-02-16",
-          "event_date_end": "2026-02-21",
+          "event_date_start": "2026-04-20",
+          "event_date_end": "2026-05-02",
           "result": "R64",
           "points_earned": 10
         },
@@ -6979,56 +7428,48 @@
           "event_type": "1000",
           "event_date_start": "2026-05-04",
           "event_date_end": "2026-05-16",
-          "result": "R64",
-          "points_earned": 10
+          "result": "R32",
+          "points_earned": 65
+        },
+        {
+          "event_name": "Internationaux de Strasbourg",
+          "event_type": "500",
+          "event_date_start": "2026-05-18",
+          "event_date_end": "2026-05-23",
+          "result": "R16",
+          "points_earned": 60
         },
         {
           "event_name": "French Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-05-25",
           "event_date_end": "2026-06-06",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "Libema Open",
-          "event_type": "250",
-          "event_date_start": "2026-06-08",
-          "event_date_end": "2026-06-13",
-          "result": "SF",
-          "points_earned": 98
-        },
-        {
-          "event_name": "Lexus Eastbourne Open",
-          "event_type": "250",
-          "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-27",
           "result": "R32",
-          "points_earned": 0
+          "points_earned": 130
         },
         {
           "event_name": "Wimbledon",
           "event_type": "Grand Slam",
           "event_date_start": "2026-06-29",
           "event_date_end": "2026-07-11",
-          "result": "R16",
-          "points_earned": 240
+          "result": "R64",
+          "points_earned": 70
         },
         {
-          "event_name": "Athens Open",
+          "event_name": "UniCredit Iasi Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-19",
-          "result": "W",
-          "points_earned": 250
+          "event_date_end": "2026-07-20",
+          "result": "SF",
+          "points_earned": 98
         },
         {
-          "event_name": "Livesport Prague Open",
+          "event_name": "MSC Hamburg Ladies Open",
           "event_type": "250",
           "event_date_start": "2026-07-20",
           "event_date_end": "2026-07-26",
-          "result": "SF",
-          "points_earned": 98
+          "result": "R16",
+          "points_earned": 30
         },
         {
           "event_name": "National Bank Open",
@@ -7047,6 +7488,14 @@
           "points_earned": 10
         },
         {
+          "event_name": "Abierto GNP Seguros",
+          "event_type": "500",
+          "event_date_start": "2026-08-24",
+          "event_date_end": "2026-08-30",
+          "result": "R16",
+          "points_earned": 60
+        },
+        {
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
@@ -7058,16 +7507,14 @@
           "event_name": "Singapore Tennis Open",
           "event_type": "500",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-26",
-          "result": "R32",
-          "points_earned": 0,
-          "live": true,
-          "out": false
+          "event_date_end": "2026-09-27",
+          "result": "R16",
+          "points_earned": 60
         }
       ]
     },
     {
-      "rank": 45,
+      "rank": 48,
       "name": "Magdalena Frech",
       "country": "Poland",
       "country_code": "PL",
@@ -7260,7 +7707,7 @@
       ]
     },
     {
-      "rank": 46,
+      "rank": 49,
       "name": "Janice Tjen",
       "country": "INA",
       "country_code": "INA",
@@ -7477,146 +7924,7 @@
       ]
     },
     {
-      "rank": 47,
-      "name": "Oleksandra Oliynykova",
-      "country": "Ukraine",
-      "country_code": "UA",
-      "current_points": 1115,
-      "points_distribution": [
-        {
-          "event_name": "Australian Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-01-19",
-          "event_date_end": "2026-01-31",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "Transylvania Open",
-          "event_type": "250",
-          "event_date_start": "2026-02-02",
-          "event_date_end": "2026-02-07",
-          "result": "SF",
-          "points_earned": 98
-        },
-        {
-          "event_name": "Credit One Charleston Open",
-          "event_type": "500",
-          "event_date_start": "2026-03-30",
-          "event_date_end": "2026-04-05",
-          "result": "R64",
-          "points_earned": 0
-        },
-        {
-          "event_name": "Open Capfinances Rouen Metropole",
-          "event_type": "250",
-          "event_date_start": "2026-04-13",
-          "event_date_end": "2026-04-19",
-          "result": "R16",
-          "points_earned": 30
-        },
-        {
-          "event_name": "Mutua Madrid Open",
-          "event_type": "1000",
-          "event_date_start": "2026-04-20",
-          "event_date_end": "2026-05-02",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "Internazionali BNL d'Italia",
-          "event_type": "1000",
-          "event_date_start": "2026-05-04",
-          "event_date_end": "2026-05-16",
-          "result": "R32",
-          "points_earned": 65
-        },
-        {
-          "event_name": "Internationaux de Strasbourg",
-          "event_type": "500",
-          "event_date_start": "2026-05-18",
-          "event_date_end": "2026-05-23",
-          "result": "R16",
-          "points_earned": 60
-        },
-        {
-          "event_name": "French Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-05-25",
-          "event_date_end": "2026-06-06",
-          "result": "R32",
-          "points_earned": 130
-        },
-        {
-          "event_name": "Wimbledon",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-06-29",
-          "event_date_end": "2026-07-11",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "UniCredit Iasi Open",
-          "event_type": "250",
-          "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-20",
-          "result": "SF",
-          "points_earned": 98
-        },
-        {
-          "event_name": "MSC Hamburg Ladies Open",
-          "event_type": "250",
-          "event_date_start": "2026-07-20",
-          "event_date_end": "2026-07-26",
-          "result": "R16",
-          "points_earned": 30
-        },
-        {
-          "event_name": "National Bank Open",
-          "event_type": "1000",
-          "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-14",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "Cincinnati Open",
-          "event_type": "1000",
-          "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-24",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "Abierto GNP Seguros",
-          "event_type": "500",
-          "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-30",
-          "result": "R16",
-          "points_earned": 60
-        },
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-12",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "Singapore Tennis Open",
-          "event_type": "500",
-          "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-26",
-          "result": "R16",
-          "points_earned": 60,
-          "live": true,
-          "out": true
-        }
-      ]
-    },
-    {
-      "rank": 48,
+      "rank": 50,
       "name": "Anhelina Kalinina",
       "country": "Ukraine",
       "country_code": "UA",
@@ -7729,7 +8037,7 @@
       ]
     },
     {
-      "rank": 49,
+      "rank": 51,
       "name": "Karolina Pliskova",
       "country": "Czech Republic",
       "country_code": "CZ",
@@ -7834,7 +8142,7 @@
       ]
     },
     {
-      "rank": 50,
+      "rank": 52,
       "name": "Mayar Sherif",
       "country": "Egypt",
       "country_code": "EG",
@@ -7899,7 +8207,7 @@
       ]
     },
     {
-      "rank": 51,
+      "rank": 53,
       "name": "Tamara Korpatsch",
       "country": "Germany",
       "country_code": "DE",
@@ -8004,7 +8312,7 @@
       ]
     },
     {
-      "rank": 52,
+      "rank": 54,
       "name": "Qinwen Zheng",
       "country": "China",
       "country_code": "CN",
@@ -8125,7 +8433,7 @@
       ]
     },
     {
-      "rank": 53,
+      "rank": 55,
       "name": "Katerina Siniakova",
       "country": "Czech Republic",
       "country_code": "CZ",
@@ -8278,7 +8586,7 @@
       ]
     },
     {
-      "rank": 54,
+      "rank": 56,
       "name": "Katie Boulter",
       "country": "United Kingdom",
       "country_code": "GB",
@@ -8455,7 +8763,7 @@
       ]
     },
     {
-      "rank": 55,
+      "rank": 57,
       "name": "Shuai Zhang",
       "country": "China",
       "country_code": "CN",
@@ -8648,7 +8956,7 @@
       ]
     },
     {
-      "rank": 56,
+      "rank": 58,
       "name": "Zeynep Sonmez",
       "country": "TUR",
       "country_code": "TUR",
@@ -8841,7 +9149,7 @@
       ]
     },
     {
-      "rank": 57,
+      "rank": 59,
       "name": "Paula Badosa Gibert",
       "country": "Spain",
       "country_code": "ES",
@@ -9002,7 +9310,7 @@
       ]
     },
     {
-      "rank": 58,
+      "rank": 60,
       "name": "Jaqueline Cristian",
       "country": "Romania",
       "country_code": "RO",
@@ -9171,7 +9479,7 @@
       ]
     },
     {
-      "rank": 59,
+      "rank": 61,
       "name": "Lilli Tagger",
       "country": "Austria",
       "country_code": "AT",
@@ -9284,11 +9592,11 @@
       ]
     },
     {
-      "rank": 60,
-      "name": "Kimberly Birrell",
-      "country": "Australia",
-      "country_code": "AU",
-      "current_points": 1034,
+      "rank": 62,
+      "name": "Elena Gabriela Ruse",
+      "country": "Romania",
+      "country_code": "RO",
+      "current_points": 1033,
       "points_distribution": [
         {
           "event_name": "China Open",
@@ -9299,19 +9607,11 @@
           "points_earned": 10
         },
         {
-          "event_name": "Chennai Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "F",
-          "points_earned": 163
-        },
-        {
           "event_name": "Brisbane International",
           "event_type": "500",
           "event_date_start": "2026-01-05",
           "event_date_end": "2026-01-11",
-          "result": "R32",
+          "result": "R64",
           "points_earned": 0
         },
         {
@@ -9319,32 +9619,32 @@
           "event_type": "500",
           "event_date_start": "2026-01-12",
           "event_date_end": "2026-01-17",
-          "result": "SF",
-          "points_earned": 195
+          "result": "R32",
+          "points_earned": 0
         },
         {
           "event_name": "Australian Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-01-19",
           "event_date_end": "2026-01-31",
-          "result": "R64",
-          "points_earned": 70
+          "result": "R32",
+          "points_earned": 130
+        },
+        {
+          "event_name": "Transylvania Open",
+          "event_type": "250",
+          "event_date_start": "2026-02-02",
+          "event_date_end": "2026-02-07",
+          "result": "R32",
+          "points_earned": 0
         },
         {
           "event_name": "Dubai Duty Free Championships",
           "event_type": "1000",
           "event_date_start": "2026-02-16",
           "event_date_end": "2026-02-21",
-          "result": "R32",
-          "points_earned": 65
-        },
-        {
-          "event_name": "ATX Open",
-          "event_type": "250",
-          "event_date_start": "2026-02-23",
-          "event_date_end": "2026-03-01",
-          "result": "SF",
-          "points_earned": 98
+          "result": "R64",
+          "points_earned": 10
         },
         {
           "event_name": "BNP Paribas Open",
@@ -9363,10 +9663,26 @@
           "points_earned": 10
         },
         {
+          "event_name": "Upper Austria Ladies Linz",
+          "event_type": "500",
+          "event_date_start": "2026-04-06",
+          "event_date_end": "2026-04-12",
+          "result": "SF",
+          "points_earned": 195
+        },
+        {
           "event_name": "Mutua Madrid Open",
           "event_type": "1000",
           "event_date_start": "2026-04-20",
           "event_date_end": "2026-05-02",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "Internazionali BNL d'Italia",
+          "event_type": "1000",
+          "event_date_start": "2026-05-04",
+          "event_date_end": "2026-05-16",
           "result": "R64",
           "points_earned": 10
         },
@@ -9383,8 +9699,274 @@
           "event_type": "250",
           "event_date_start": "2026-06-08",
           "event_date_end": "2026-06-13",
+          "result": "QF",
+          "points_earned": 54
+        },
+        {
+          "event_name": "Bad Homburg Open",
+          "event_type": "500",
+          "event_date_start": "2026-06-22",
+          "event_date_end": "2026-06-27",
+          "result": "SF",
+          "points_earned": 195
+        },
+        {
+          "event_name": "Wimbledon",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-06-29",
+          "event_date_end": "2026-07-11",
+          "result": "R64",
+          "points_earned": 70
+        },
+        {
+          "event_name": "UniCredit Iasi Open",
+          "event_type": "250",
+          "event_date_start": "2026-07-13",
+          "event_date_end": "2026-07-20",
           "result": "R32",
           "points_earned": 0
+        },
+        {
+          "event_name": "National Bank Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-03",
+          "event_date_end": "2026-08-14",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-24",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "U.S. Open",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-08-31",
+          "event_date_end": "2026-09-12",
+          "result": "R64",
+          "points_earned": 70
+        },
+        {
+          "event_name": "Korea Open",
+          "event_type": "250",
+          "event_date_start": "2026-09-21",
+          "event_date_end": "2026-09-27",
+          "result": "QF",
+          "points_earned": 54
+        }
+      ]
+    },
+    {
+      "rank": 63,
+      "name": "Lanlana Tararudee",
+      "country": "THA",
+      "country_code": "THA",
+      "current_points": 1032,
+      "points_distribution": [
+        {
+          "event_name": "Chennai Open",
+          "event_type": "250",
+          "event_date_start": "2025-10-27",
+          "event_date_end": "2025-11-02",
+          "result": "SF",
+          "points_earned": 98
+        },
+        {
+          "event_name": "Australian Open",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-01-19",
+          "event_date_end": "2026-01-31",
+          "result": "R64",
+          "points_earned": 70
+        },
+        {
+          "event_name": "BNP Paribas Open",
+          "event_type": "1000",
+          "event_date_start": "2026-03-02",
+          "event_date_end": "2026-03-15",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "Wimbledon",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-06-29",
+          "event_date_end": "2026-07-11",
+          "result": "R64",
+          "points_earned": 70
+        },
+        {
+          "event_name": "Livesport Prague Open",
+          "event_type": "250",
+          "event_date_start": "2026-07-20",
+          "event_date_end": "2026-07-26",
+          "result": "QF",
+          "points_earned": 54
+        },
+        {
+          "event_name": "National Bank Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-03",
+          "event_date_end": "2026-08-14",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "U.S. Open",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-08-31",
+          "event_date_end": "2026-09-12",
+          "result": "R64",
+          "points_earned": 70
+        },
+        {
+          "event_name": "Korea Open",
+          "event_type": "250",
+          "event_date_start": "2026-09-21",
+          "event_date_end": "2026-09-27",
+          "result": "QF",
+          "points_earned": 54
+        }
+      ]
+    },
+    {
+      "rank": 64,
+      "name": "Anna Bondar",
+      "country": "Hungary",
+      "country_code": "HU",
+      "current_points": 1029,
+      "points_distribution": [
+        {
+          "event_name": "China Open",
+          "event_type": "1000",
+          "event_date_start": "2025-09-22",
+          "event_date_end": "2025-10-05",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "Guangzhou Open",
+          "event_type": "250",
+          "event_date_start": "2025-10-20",
+          "event_date_end": "2025-10-26",
+          "result": "R16",
+          "points_earned": 30
+        },
+        {
+          "event_name": "Jiangxi Open",
+          "event_type": "250",
+          "event_date_start": "2025-10-27",
+          "event_date_end": "2025-11-02",
+          "result": "R16",
+          "points_earned": 30
+        },
+        {
+          "event_name": "Brisbane International",
+          "event_type": "500",
+          "event_date_start": "2026-01-05",
+          "event_date_end": "2026-01-11",
+          "result": "R64",
+          "points_earned": 0
+        },
+        {
+          "event_name": "Hobart International",
+          "event_type": "250",
+          "event_date_start": "2026-01-12",
+          "event_date_end": "2026-01-17",
+          "result": "QF",
+          "points_earned": 54
+        },
+        {
+          "event_name": "Australian Open",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-01-19",
+          "event_date_end": "2026-01-31",
+          "result": "R64",
+          "points_earned": 70
+        },
+        {
+          "event_name": "Transylvania Open",
+          "event_type": "250",
+          "event_date_start": "2026-02-02",
+          "event_date_end": "2026-02-07",
+          "result": "R16",
+          "points_earned": 30
+        },
+        {
+          "event_name": "ATX Open",
+          "event_type": "250",
+          "event_date_start": "2026-02-23",
+          "event_date_end": "2026-03-01",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "BNP Paribas Open",
+          "event_type": "1000",
+          "event_date_start": "2026-03-02",
+          "event_date_end": "2026-03-15",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "Miami Open",
+          "event_type": "1000",
+          "event_date_start": "2026-03-16",
+          "event_date_end": "2026-03-28",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "Credit One Charleston Open",
+          "event_type": "500",
+          "event_date_start": "2026-03-30",
+          "event_date_end": "2026-04-05",
+          "result": "R16",
+          "points_earned": 60
+        },
+        {
+          "event_name": "Open Capfinances Rouen Metropole",
+          "event_type": "250",
+          "event_date_start": "2026-04-13",
+          "event_date_end": "2026-04-19",
+          "result": "QF",
+          "points_earned": 54
+        },
+        {
+          "event_name": "Mutua Madrid Open",
+          "event_type": "1000",
+          "event_date_start": "2026-04-20",
+          "event_date_end": "2026-05-02",
+          "result": "R16",
+          "points_earned": 120
+        },
+        {
+          "event_name": "Internazionali BNL d'Italia",
+          "event_type": "1000",
+          "event_date_start": "2026-05-04",
+          "event_date_end": "2026-05-16",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "Grand Prix De SAR La Princesse Lalla Meryem",
+          "event_type": "250",
+          "event_date_start": "2026-05-18",
+          "event_date_end": "2026-05-23",
+          "result": "QF",
+          "points_earned": 54
+        },
+        {
+          "event_name": "French Open",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-05-25",
+          "event_date_end": "2026-06-06",
+          "result": "R64",
+          "points_earned": 70
         },
         {
           "event_name": "Lexus Nottingham Open",
@@ -9399,8 +9981,8 @@
           "event_type": "250",
           "event_date_start": "2026-06-22",
           "event_date_end": "2026-06-27",
-          "result": "R16",
-          "points_earned": 30
+          "result": "R32",
+          "points_earned": 0
         },
         {
           "event_name": "Wimbledon",
@@ -9411,12 +9993,20 @@
           "points_earned": 70
         },
         {
-          "event_name": "The Memphis Classic",
+          "event_name": "UniCredit Iasi Open",
           "event_type": "250",
-          "event_date_start": "2026-07-27",
-          "event_date_end": "2026-08-02",
-          "result": "R32",
-          "points_earned": 0
+          "event_date_start": "2026-07-13",
+          "event_date_end": "2026-07-20",
+          "result": "R16",
+          "points_earned": 30
+        },
+        {
+          "event_name": "MSC Hamburg Ladies Open",
+          "event_type": "250",
+          "event_date_start": "2026-07-20",
+          "event_date_end": "2026-07-26",
+          "result": "F",
+          "points_earned": 163
         },
         {
           "event_name": "National Bank Open",
@@ -9454,16 +10044,14 @@
           "event_name": "Korea Open",
           "event_type": "250",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-26",
+          "event_date_end": "2026-09-27",
           "result": "SF",
-          "points_earned": 98,
-          "live": true,
-          "out": false
+          "points_earned": 98
         }
       ]
     },
     {
-      "rank": 61,
+      "rank": 65,
       "name": "Tereza Valentova",
       "country": "Czech Republic",
       "country_code": "CZ",
@@ -9608,237 +10196,7 @@
       ]
     },
     {
-      "rank": 62,
-      "name": "Lanlana Tararudee",
-      "country": "THA",
-      "country_code": "THA",
-      "current_points": 998,
-      "points_distribution": [
-        {
-          "event_name": "Chennai Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "SF",
-          "points_earned": 98
-        },
-        {
-          "event_name": "Australian Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-01-19",
-          "event_date_end": "2026-01-31",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "BNP Paribas Open",
-          "event_type": "1000",
-          "event_date_start": "2026-03-02",
-          "event_date_end": "2026-03-15",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "Wimbledon",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-06-29",
-          "event_date_end": "2026-07-11",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "Livesport Prague Open",
-          "event_type": "250",
-          "event_date_start": "2026-07-20",
-          "event_date_end": "2026-07-26",
-          "result": "QF",
-          "points_earned": 54
-        },
-        {
-          "event_name": "National Bank Open",
-          "event_type": "1000",
-          "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-14",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-12",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "Korea Open",
-          "event_type": "250",
-          "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-26",
-          "result": "QF",
-          "points_earned": 54,
-          "live": true,
-          "out": true
-        }
-      ]
-    },
-    {
-      "rank": 63,
-      "name": "Talia Gibson",
-      "country": "Australia",
-      "country_code": "AU",
-      "current_points": 997,
-      "points_distribution": [
-        {
-          "event_name": "Hong Kong Tennis Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "Brisbane International",
-          "event_type": "500",
-          "event_date_start": "2026-01-05",
-          "event_date_end": "2026-01-11",
-          "result": "R64",
-          "points_earned": 0
-        },
-        {
-          "event_name": "Hobart International",
-          "event_type": "250",
-          "event_date_start": "2026-01-12",
-          "event_date_end": "2026-01-17",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "Australian Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-01-19",
-          "event_date_end": "2026-01-31",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "BNP Paribas Open",
-          "event_type": "1000",
-          "event_date_start": "2026-03-02",
-          "event_date_end": "2026-03-15",
-          "result": "QF",
-          "points_earned": 215
-        },
-        {
-          "event_name": "Miami Open",
-          "event_type": "1000",
-          "event_date_start": "2026-03-16",
-          "event_date_end": "2026-03-28",
-          "result": "R16",
-          "points_earned": 120
-        },
-        {
-          "event_name": "Mutua Madrid Open",
-          "event_type": "1000",
-          "event_date_start": "2026-04-20",
-          "event_date_end": "2026-05-02",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "Internazionali BNL d'Italia",
-          "event_type": "1000",
-          "event_date_start": "2026-05-04",
-          "event_date_end": "2026-05-16",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "Internationaux de Strasbourg",
-          "event_type": "500",
-          "event_date_start": "2026-05-18",
-          "event_date_end": "2026-05-23",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "French Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-05-25",
-          "event_date_end": "2026-06-06",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "Lexus Nottingham Open",
-          "event_type": "250",
-          "event_date_start": "2026-06-15",
-          "event_date_end": "2026-06-21",
-          "result": "QF",
-          "points_earned": 54
-        },
-        {
-          "event_name": "Lexus Eastbourne Open",
-          "event_type": "250",
-          "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-27",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "Wimbledon",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-06-29",
-          "event_date_end": "2026-07-11",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "The Memphis Classic",
-          "event_type": "250",
-          "event_date_start": "2026-07-27",
-          "event_date_end": "2026-08-02",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "National Bank Open",
-          "event_type": "1000",
-          "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-14",
-          "result": "R32",
-          "points_earned": 65
-        },
-        {
-          "event_name": "Cincinnati Open",
-          "event_type": "1000",
-          "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-24",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-12",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "Singapore Tennis Open",
-          "event_type": "500",
-          "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-26",
-          "result": "QF",
-          "points_earned": 108,
-          "live": true,
-          "out": false
-        }
-      ]
-    },
-    {
-      "rank": 64,
+      "rank": 66,
       "name": "Maria Camila Osorio Serrano",
       "country": "Colombia",
       "country_code": "CO",
@@ -10015,7 +10373,7 @@
       ]
     },
     {
-      "rank": 65,
+      "rank": 67,
       "name": "Viktorija Golubic",
       "country": "Switzerland",
       "country_code": "CH",
@@ -10152,91 +10510,108 @@
       ]
     },
     {
-      "rank": 66,
-      "name": "Elena Gabriela Ruse",
-      "country": "Romania",
-      "country_code": "RO",
-      "current_points": 991,
+      "rank": 68,
+      "name": "Maria Timofeeva",
+      "country": "UZB",
+      "country_code": "UZB",
+      "current_points": 989,
       "points_distribution": [
         {
-          "event_name": "China Open",
-          "event_type": "1000",
-          "event_date_start": "2025-09-22",
-          "event_date_end": "2025-10-05",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "Brisbane International",
-          "event_type": "500",
-          "event_date_start": "2026-01-05",
-          "event_date_end": "2026-01-11",
-          "result": "R64",
-          "points_earned": 0
-        },
-        {
-          "event_name": "Adelaide International",
-          "event_type": "500",
-          "event_date_start": "2026-01-12",
-          "event_date_end": "2026-01-17",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "Australian Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-01-19",
-          "event_date_end": "2026-01-31",
-          "result": "R32",
-          "points_earned": 130
-        },
-        {
-          "event_name": "Transylvania Open",
+          "event_name": "Chennai Open",
           "event_type": "250",
-          "event_date_start": "2026-02-02",
-          "event_date_end": "2026-02-07",
+          "event_date_start": "2025-10-27",
+          "event_date_end": "2025-11-02",
           "result": "R32",
           "points_earned": 0
         },
         {
-          "event_name": "Dubai Duty Free Championships",
-          "event_type": "1000",
-          "event_date_start": "2026-02-16",
-          "event_date_end": "2026-02-21",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "BNP Paribas Open",
-          "event_type": "1000",
-          "event_date_start": "2026-03-02",
-          "event_date_end": "2026-03-15",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "Miami Open",
-          "event_type": "1000",
-          "event_date_start": "2026-03-16",
-          "event_date_end": "2026-03-28",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "Upper Austria Ladies Linz",
+          "event_name": "Merida Open Akron",
           "event_type": "500",
-          "event_date_start": "2026-04-06",
-          "event_date_end": "2026-04-12",
-          "result": "SF",
-          "points_earned": 195
+          "event_date_start": "2026-02-23",
+          "event_date_end": "2026-03-01",
+          "result": "R32",
+          "points_earned": 0
         },
         {
-          "event_name": "Mutua Madrid Open",
+          "event_name": "Open Capfinances Rouen Metropole",
+          "event_type": "250",
+          "event_date_start": "2026-04-13",
+          "event_date_end": "2026-04-19",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "Wimbledon",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-06-29",
+          "event_date_end": "2026-07-11",
+          "result": "R64",
+          "points_earned": 70
+        },
+        {
+          "event_name": "Athens Open",
+          "event_type": "250",
+          "event_date_start": "2026-07-13",
+          "event_date_end": "2026-07-19",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "Livesport Prague Open",
+          "event_type": "250",
+          "event_date_start": "2026-07-20",
+          "event_date_end": "2026-07-26",
+          "result": "R16",
+          "points_earned": 30
+        },
+        {
+          "event_name": "Cincinnati Open",
           "event_type": "1000",
-          "event_date_start": "2026-04-20",
-          "event_date_end": "2026-05-02",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-24",
           "result": "R64",
           "points_earned": 10
+        },
+        {
+          "event_name": "Abierto GNP Seguros",
+          "event_type": "500",
+          "event_date_start": "2026-08-24",
+          "event_date_end": "2026-08-30",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "U.S. Open",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-08-31",
+          "event_date_end": "2026-09-12",
+          "result": "R64",
+          "points_earned": 70
+        }
+      ]
+    },
+    {
+      "rank": 69,
+      "name": "Alina Korneeva",
+      "country": "Russia",
+      "country_code": "RU",
+      "current_points": 988,
+      "points_distribution": [
+        {
+          "event_name": "Guangzhou Open",
+          "event_type": "250",
+          "event_date_start": "2025-10-20",
+          "event_date_end": "2025-10-26",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "Jiangxi Open",
+          "event_type": "250",
+          "event_date_start": "2025-10-27",
+          "event_date_end": "2025-11-02",
+          "result": "R32",
+          "points_earned": 0
         },
         {
           "event_name": "Internazionali BNL d'Italia",
@@ -10255,20 +10630,189 @@
           "points_earned": 70
         },
         {
-          "event_name": "Libema Open",
+          "event_name": "Wimbledon",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-06-29",
+          "event_date_end": "2026-07-11",
+          "result": "R64",
+          "points_earned": 70
+        },
+        {
+          "event_name": "Athens Open",
           "event_type": "250",
-          "event_date_start": "2026-06-08",
-          "event_date_end": "2026-06-13",
+          "event_date_start": "2026-07-13",
+          "event_date_end": "2026-07-19",
+          "result": "SF",
+          "points_earned": 98
+        },
+        {
+          "event_name": "National Bank Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-03",
+          "event_date_end": "2026-08-14",
+          "result": "R16",
+          "points_earned": 120
+        },
+        {
+          "event_name": "U.S. Open",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-08-31",
+          "event_date_end": "2026-09-12",
+          "result": "R64",
+          "points_earned": 70
+        },
+        {
+          "event_name": "Korea Open",
+          "event_type": "250",
+          "event_date_start": "2026-09-21",
+          "event_date_end": "2026-09-27",
+          "result": "SF",
+          "points_earned": 98
+        }
+      ]
+    },
+    {
+      "rank": 70,
+      "name": "Alycia Parks",
+      "country": "United States",
+      "country_code": "US",
+      "current_points": 985,
+      "points_distribution": [
+        {
+          "event_name": "China Open",
+          "event_type": "1000",
+          "event_date_start": "2025-09-22",
+          "event_date_end": "2025-10-05",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "Japan Open",
+          "event_type": "250",
+          "event_date_start": "2025-10-13",
+          "event_date_end": "2025-10-19",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "Guangzhou Open",
+          "event_type": "250",
+          "event_date_start": "2025-10-20",
+          "event_date_end": "2025-10-26",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "Jiangxi Open",
+          "event_type": "250",
+          "event_date_start": "2025-10-27",
+          "event_date_end": "2025-11-02",
           "result": "QF",
           "points_earned": 54
         },
         {
-          "event_name": "Bad Homburg Open",
+          "event_name": "ASB Classic",
+          "event_type": "250",
+          "event_date_start": "2026-01-05",
+          "event_date_end": "2026-01-11",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "Australian Open",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-01-19",
+          "event_date_end": "2026-01-31",
+          "result": "R64",
+          "points_earned": 70
+        },
+        {
+          "event_name": "Ostrava Open",
+          "event_type": "250",
+          "event_date_start": "2026-02-02",
+          "event_date_end": "2026-02-07",
+          "result": "QF",
+          "points_earned": 54
+        },
+        {
+          "event_name": "Qatar TotalEnergies Open",
+          "event_type": "1000",
+          "event_date_start": "2026-02-09",
+          "event_date_end": "2026-02-14",
+          "result": "R32",
+          "points_earned": 65
+        },
+        {
+          "event_name": "ATX Open",
+          "event_type": "250",
+          "event_date_start": "2026-02-23",
+          "event_date_end": "2026-03-01",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "BNP Paribas Open",
+          "event_type": "1000",
+          "event_date_start": "2026-03-02",
+          "event_date_end": "2026-03-15",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "Miami Open",
+          "event_type": "1000",
+          "event_date_start": "2026-03-16",
+          "event_date_end": "2026-03-28",
+          "result": "R32",
+          "points_earned": 65
+        },
+        {
+          "event_name": "Credit One Charleston Open",
           "event_type": "500",
-          "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-27",
-          "result": "SF",
-          "points_earned": 195
+          "event_date_start": "2026-03-30",
+          "event_date_end": "2026-04-05",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "Upper Austria Ladies Linz",
+          "event_type": "500",
+          "event_date_start": "2026-04-06",
+          "event_date_end": "2026-04-12",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "Porsche Tennis Grand Prix",
+          "event_type": "500",
+          "event_date_start": "2026-04-13",
+          "event_date_end": "2026-04-19",
+          "result": "R16",
+          "points_earned": 60
+        },
+        {
+          "event_name": "Mutua Madrid Open",
+          "event_type": "1000",
+          "event_date_start": "2026-04-20",
+          "event_date_end": "2026-05-02",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "Grand Prix De SAR La Princesse Lalla Meryem",
+          "event_type": "250",
+          "event_date_start": "2026-05-18",
+          "event_date_end": "2026-05-23",
+          "result": "R16",
+          "points_earned": 30
+        },
+        {
+          "event_name": "French Open",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-05-25",
+          "event_date_end": "2026-06-06",
+          "result": "R64",
+          "points_earned": 70
         },
         {
           "event_name": "Wimbledon",
@@ -10279,10 +10823,18 @@
           "points_earned": 70
         },
         {
-          "event_name": "UniCredit Iasi Open",
+          "event_name": "Athens Open",
           "event_type": "250",
           "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-20",
+          "event_date_end": "2026-07-19",
+          "result": "QF",
+          "points_earned": 54
+        },
+        {
+          "event_name": "Livesport Prague Open",
+          "event_type": "250",
+          "event_date_start": "2026-07-20",
+          "event_date_end": "2026-07-26",
           "result": "R32",
           "points_earned": 0
         },
@@ -10303,6 +10855,14 @@
           "points_earned": 10
         },
         {
+          "event_name": "Abierto GNP Seguros",
+          "event_type": "500",
+          "event_date_start": "2026-08-24",
+          "event_date_end": "2026-08-30",
+          "result": "QF",
+          "points_earned": 108
+        },
+        {
           "event_name": "U.S. Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-08-31",
@@ -10311,19 +10871,25 @@
           "points_earned": 70
         },
         {
-          "event_name": "Korea Open",
-          "event_type": "250",
+          "event_name": "Guadalajara Open Akron",
+          "event_type": "500",
+          "event_date_start": "2026-09-14",
+          "event_date_end": "2026-09-19",
+          "result": "R16",
+          "points_earned": 60
+        },
+        {
+          "event_name": "Singapore Tennis Open",
+          "event_type": "500",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-26",
-          "result": "QF",
-          "points_earned": 54,
-          "live": true,
-          "out": true
+          "event_date_end": "2026-09-27",
+          "result": "R16",
+          "points_earned": 60
         }
       ]
     },
     {
-      "rank": 67,
+      "rank": 71,
       "name": "Elisabetta Cocciaretto",
       "country": "Italy",
       "country_code": "IT",
@@ -10484,7 +11050,7 @@
       ]
     },
     {
-      "rank": 68,
+      "rank": 72,
       "name": "Caty McNally",
       "country": "United States",
       "country_code": "US",
@@ -10669,445 +11235,7 @@
       ]
     },
     {
-      "rank": 69,
-      "name": "Anna Bondar",
-      "country": "Hungary",
-      "country_code": "HU",
-      "current_points": 961,
-      "points_distribution": [
-        {
-          "event_name": "China Open",
-          "event_type": "1000",
-          "event_date_start": "2025-09-22",
-          "event_date_end": "2025-10-05",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "Guangzhou Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-20",
-          "event_date_end": "2025-10-26",
-          "result": "R16",
-          "points_earned": 30
-        },
-        {
-          "event_name": "Jiangxi Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R16",
-          "points_earned": 30
-        },
-        {
-          "event_name": "Brisbane International",
-          "event_type": "500",
-          "event_date_start": "2026-01-05",
-          "event_date_end": "2026-01-11",
-          "result": "R64",
-          "points_earned": 0
-        },
-        {
-          "event_name": "Hobart International",
-          "event_type": "250",
-          "event_date_start": "2026-01-12",
-          "event_date_end": "2026-01-17",
-          "result": "QF",
-          "points_earned": 54
-        },
-        {
-          "event_name": "Australian Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-01-19",
-          "event_date_end": "2026-01-31",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "Transylvania Open",
-          "event_type": "250",
-          "event_date_start": "2026-02-02",
-          "event_date_end": "2026-02-07",
-          "result": "R16",
-          "points_earned": 30
-        },
-        {
-          "event_name": "ATX Open",
-          "event_type": "250",
-          "event_date_start": "2026-02-23",
-          "event_date_end": "2026-03-01",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "BNP Paribas Open",
-          "event_type": "1000",
-          "event_date_start": "2026-03-02",
-          "event_date_end": "2026-03-15",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "Miami Open",
-          "event_type": "1000",
-          "event_date_start": "2026-03-16",
-          "event_date_end": "2026-03-28",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "Credit One Charleston Open",
-          "event_type": "500",
-          "event_date_start": "2026-03-30",
-          "event_date_end": "2026-04-05",
-          "result": "R16",
-          "points_earned": 60
-        },
-        {
-          "event_name": "Open Capfinances Rouen Metropole",
-          "event_type": "250",
-          "event_date_start": "2026-04-13",
-          "event_date_end": "2026-04-19",
-          "result": "QF",
-          "points_earned": 54
-        },
-        {
-          "event_name": "Mutua Madrid Open",
-          "event_type": "1000",
-          "event_date_start": "2026-04-20",
-          "event_date_end": "2026-05-02",
-          "result": "R16",
-          "points_earned": 120
-        },
-        {
-          "event_name": "Internazionali BNL d'Italia",
-          "event_type": "1000",
-          "event_date_start": "2026-05-04",
-          "event_date_end": "2026-05-16",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "Grand Prix De SAR La Princesse Lalla Meryem",
-          "event_type": "250",
-          "event_date_start": "2026-05-18",
-          "event_date_end": "2026-05-23",
-          "result": "QF",
-          "points_earned": 54
-        },
-        {
-          "event_name": "French Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-05-25",
-          "event_date_end": "2026-06-06",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "Lexus Nottingham Open",
-          "event_type": "250",
-          "event_date_start": "2026-06-15",
-          "event_date_end": "2026-06-21",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "Lexus Eastbourne Open",
-          "event_type": "250",
-          "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-27",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "Wimbledon",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-06-29",
-          "event_date_end": "2026-07-11",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "UniCredit Iasi Open",
-          "event_type": "250",
-          "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-20",
-          "result": "R16",
-          "points_earned": 30
-        },
-        {
-          "event_name": "MSC Hamburg Ladies Open",
-          "event_type": "250",
-          "event_date_start": "2026-07-20",
-          "event_date_end": "2026-07-26",
-          "result": "F",
-          "points_earned": 163
-        },
-        {
-          "event_name": "National Bank Open",
-          "event_type": "1000",
-          "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-14",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "Cincinnati Open",
-          "event_type": "1000",
-          "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-24",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "Abierto GNP Seguros",
-          "event_type": "500",
-          "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-30",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-12",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "Korea Open",
-          "event_type": "250",
-          "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-26",
-          "result": "SF",
-          "points_earned": 98,
-          "live": true,
-          "out": true
-        }
-      ]
-    },
-    {
-      "rank": 70,
-      "name": "Alycia Parks",
-      "country": "United States",
-      "country_code": "US",
-      "current_points": 957,
-      "points_distribution": [
-        {
-          "event_name": "China Open",
-          "event_type": "1000",
-          "event_date_start": "2025-09-22",
-          "event_date_end": "2025-10-05",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "Japan Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "Guangzhou Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-20",
-          "event_date_end": "2025-10-26",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "Jiangxi Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "QF",
-          "points_earned": 54
-        },
-        {
-          "event_name": "ASB Classic",
-          "event_type": "250",
-          "event_date_start": "2026-01-05",
-          "event_date_end": "2026-01-11",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "Australian Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-01-19",
-          "event_date_end": "2026-01-31",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "Ostrava Open",
-          "event_type": "250",
-          "event_date_start": "2026-02-02",
-          "event_date_end": "2026-02-07",
-          "result": "QF",
-          "points_earned": 54
-        },
-        {
-          "event_name": "Qatar TotalEnergies Open",
-          "event_type": "1000",
-          "event_date_start": "2026-02-09",
-          "event_date_end": "2026-02-14",
-          "result": "R32",
-          "points_earned": 65
-        },
-        {
-          "event_name": "ATX Open",
-          "event_type": "250",
-          "event_date_start": "2026-02-23",
-          "event_date_end": "2026-03-01",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "BNP Paribas Open",
-          "event_type": "1000",
-          "event_date_start": "2026-03-02",
-          "event_date_end": "2026-03-15",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "Miami Open",
-          "event_type": "1000",
-          "event_date_start": "2026-03-16",
-          "event_date_end": "2026-03-28",
-          "result": "R32",
-          "points_earned": 65
-        },
-        {
-          "event_name": "Credit One Charleston Open",
-          "event_type": "500",
-          "event_date_start": "2026-03-30",
-          "event_date_end": "2026-04-05",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "Upper Austria Ladies Linz",
-          "event_type": "500",
-          "event_date_start": "2026-04-06",
-          "event_date_end": "2026-04-12",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "Porsche Tennis Grand Prix",
-          "event_type": "500",
-          "event_date_start": "2026-04-13",
-          "event_date_end": "2026-04-19",
-          "result": "R16",
-          "points_earned": 60
-        },
-        {
-          "event_name": "Mutua Madrid Open",
-          "event_type": "1000",
-          "event_date_start": "2026-04-20",
-          "event_date_end": "2026-05-02",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "Grand Prix De SAR La Princesse Lalla Meryem",
-          "event_type": "250",
-          "event_date_start": "2026-05-18",
-          "event_date_end": "2026-05-23",
-          "result": "R16",
-          "points_earned": 30
-        },
-        {
-          "event_name": "French Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-05-25",
-          "event_date_end": "2026-06-06",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "Wimbledon",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-06-29",
-          "event_date_end": "2026-07-11",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "Athens Open",
-          "event_type": "250",
-          "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-19",
-          "result": "QF",
-          "points_earned": 54
-        },
-        {
-          "event_name": "Livesport Prague Open",
-          "event_type": "250",
-          "event_date_start": "2026-07-20",
-          "event_date_end": "2026-07-26",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "National Bank Open",
-          "event_type": "1000",
-          "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-14",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "Cincinnati Open",
-          "event_type": "1000",
-          "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-24",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "Abierto GNP Seguros",
-          "event_type": "500",
-          "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-30",
-          "result": "QF",
-          "points_earned": 108
-        },
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-12",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "Guadalajara Open Akron",
-          "event_type": "500",
-          "event_date_start": "2026-09-14",
-          "event_date_end": "2026-09-19",
-          "result": "R16",
-          "points_earned": 60
-        },
-        {
-          "event_name": "Singapore Tennis Open",
-          "event_type": "500",
-          "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-26",
-          "result": "R16",
-          "points_earned": 60,
-          "live": true,
-          "out": true
-        }
-      ]
-    },
-    {
-      "rank": 71,
+      "rank": 73,
       "name": "Ashlyn Krueger",
       "country": "United States",
       "country_code": "US",
@@ -11244,7 +11372,538 @@
       ]
     },
     {
-      "rank": 72,
+      "rank": 74,
+      "name": "Katie Volynets",
+      "country": "United States",
+      "country_code": "US",
+      "current_points": 935,
+      "points_distribution": [
+        {
+          "event_name": "China Open",
+          "event_type": "1000",
+          "event_date_start": "2025-09-22",
+          "event_date_end": "2025-10-05",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "Japan Open",
+          "event_type": "250",
+          "event_date_start": "2025-10-13",
+          "event_date_end": "2025-10-19",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "Guangzhou Open",
+          "event_type": "250",
+          "event_date_start": "2025-10-20",
+          "event_date_end": "2025-10-26",
+          "result": "QF",
+          "points_earned": 54
+        },
+        {
+          "event_name": "Hobart International",
+          "event_type": "250",
+          "event_date_start": "2026-01-12",
+          "event_date_end": "2026-01-17",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "Australian Open",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-01-19",
+          "event_date_end": "2026-01-31",
+          "result": "R64",
+          "points_earned": 70
+        },
+        {
+          "event_name": "Ostrava Open",
+          "event_type": "250",
+          "event_date_start": "2026-02-02",
+          "event_date_end": "2026-02-07",
+          "result": "SF",
+          "points_earned": 98
+        },
+        {
+          "event_name": "ATX Open",
+          "event_type": "250",
+          "event_date_start": "2026-02-23",
+          "event_date_end": "2026-03-01",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "BNP Paribas Open",
+          "event_type": "1000",
+          "event_date_start": "2026-03-02",
+          "event_date_end": "2026-03-15",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "Miami Open",
+          "event_type": "1000",
+          "event_date_start": "2026-03-16",
+          "event_date_end": "2026-03-28",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "Credit One Charleston Open",
+          "event_type": "500",
+          "event_date_start": "2026-03-30",
+          "event_date_end": "2026-04-05",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "Upper Austria Ladies Linz",
+          "event_type": "500",
+          "event_date_start": "2026-04-06",
+          "event_date_end": "2026-04-12",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "Open Capfinances Rouen Metropole",
+          "event_type": "250",
+          "event_date_start": "2026-04-13",
+          "event_date_end": "2026-04-19",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "Mutua Madrid Open",
+          "event_type": "1000",
+          "event_date_start": "2026-04-20",
+          "event_date_end": "2026-05-02",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "French Open",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-05-25",
+          "event_date_end": "2026-06-06",
+          "result": "R64",
+          "points_earned": 70
+        },
+        {
+          "event_name": "Libema Open",
+          "event_type": "250",
+          "event_date_start": "2026-06-08",
+          "event_date_end": "2026-06-13",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "Lexus Nottingham Open",
+          "event_type": "250",
+          "event_date_start": "2026-06-15",
+          "event_date_end": "2026-06-21",
+          "result": "R16",
+          "points_earned": 30
+        },
+        {
+          "event_name": "The Memphis Classic",
+          "event_type": "250",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-08-02",
+          "result": "QF",
+          "points_earned": 54
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-24",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "U.S. Open",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-08-31",
+          "event_date_end": "2026-09-12",
+          "result": "R64",
+          "points_earned": 70
+        },
+        {
+          "event_name": "Korea Open",
+          "event_type": "250",
+          "event_date_start": "2026-09-21",
+          "event_date_end": "2026-09-27",
+          "result": "QF",
+          "points_earned": 54
+        }
+      ]
+    },
+    {
+      "rank": 75,
+      "name": "Maya Joint",
+      "country": "Australia",
+      "country_code": "AU",
+      "current_points": 934,
+      "points_distribution": [
+        {
+          "event_name": "China Open",
+          "event_type": "1000",
+          "event_date_start": "2025-09-22",
+          "event_date_end": "2025-10-05",
+          "result": "R32",
+          "points_earned": 65
+        },
+        {
+          "event_name": "Wuhan Open",
+          "event_type": "1000",
+          "event_date_start": "2025-10-06",
+          "event_date_end": "2025-10-12",
+          "result": "R32",
+          "points_earned": 65
+        },
+        {
+          "event_name": "Toray Pan Pacific Open",
+          "event_type": "500",
+          "event_date_start": "2025-10-20",
+          "event_date_end": "2025-10-26",
+          "result": "R16",
+          "points_earned": 60
+        },
+        {
+          "event_name": "Hong Kong Tennis Open",
+          "event_type": "250",
+          "event_date_start": "2025-10-27",
+          "event_date_end": "2025-11-02",
+          "result": "SF",
+          "points_earned": 98
+        },
+        {
+          "event_name": "United Cup",
+          "event_type": "500",
+          "event_date_start": "2026-01-05",
+          "event_date_end": "2026-01-11",
+          "result": "QF",
+          "points_earned": 108
+        },
+        {
+          "event_name": "Adelaide International",
+          "event_type": "500",
+          "event_date_start": "2026-01-12",
+          "event_date_end": "2026-01-17",
+          "result": "QF",
+          "points_earned": 108
+        },
+        {
+          "event_name": "Australian Open",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-01-19",
+          "event_date_end": "2026-01-31",
+          "result": "R64",
+          "points_earned": 70
+        },
+        {
+          "event_name": "Mubadala Abu Dhabi Open",
+          "event_type": "500",
+          "event_date_start": "2026-02-02",
+          "event_date_end": "2026-02-07",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "Qatar TotalEnergies Open",
+          "event_type": "1000",
+          "event_date_start": "2026-02-09",
+          "event_date_end": "2026-02-14",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "Dubai Duty Free Championships",
+          "event_type": "1000",
+          "event_date_start": "2026-02-16",
+          "event_date_end": "2026-02-21",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "BNP Paribas Open",
+          "event_type": "1000",
+          "event_date_start": "2026-03-02",
+          "event_date_end": "2026-03-15",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "Internazionali BNL d'Italia",
+          "event_type": "1000",
+          "event_date_start": "2026-05-04",
+          "event_date_end": "2026-05-16",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "Internationaux de Strasbourg",
+          "event_type": "500",
+          "event_date_start": "2026-05-18",
+          "event_date_end": "2026-05-23",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "French Open",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-05-25",
+          "event_date_end": "2026-06-06",
+          "result": "R64",
+          "points_earned": 70
+        },
+        {
+          "event_name": "Lexus Nottingham Open",
+          "event_type": "250",
+          "event_date_start": "2026-06-15",
+          "event_date_end": "2026-06-21",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "Lexus Eastbourne Open",
+          "event_type": "250",
+          "event_date_start": "2026-06-22",
+          "event_date_end": "2026-06-27",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "Wimbledon",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-06-29",
+          "event_date_end": "2026-07-11",
+          "result": "R64",
+          "points_earned": 70
+        },
+        {
+          "event_name": "Livesport Prague Open",
+          "event_type": "250",
+          "event_date_start": "2026-07-20",
+          "event_date_end": "2026-07-26",
+          "result": "R16",
+          "points_earned": 30
+        },
+        {
+          "event_name": "The Memphis Classic",
+          "event_type": "250",
+          "event_date_start": "2026-07-27",
+          "event_date_end": "2026-08-02",
+          "result": "R16",
+          "points_earned": 30
+        },
+        {
+          "event_name": "National Bank Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-03",
+          "event_date_end": "2026-08-14",
+          "result": "R32",
+          "points_earned": 65
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-24",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "Abierto GNP Seguros",
+          "event_type": "500",
+          "event_date_start": "2026-08-24",
+          "event_date_end": "2026-08-30",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "U.S. Open",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-08-31",
+          "event_date_end": "2026-09-12",
+          "result": "R64",
+          "points_earned": 70
+        },
+        {
+          "event_name": "Korea Open",
+          "event_type": "250",
+          "event_date_start": "2026-09-21",
+          "event_date_end": "2026-09-27",
+          "result": "F",
+          "points_earned": 163
+        }
+      ]
+    },
+    {
+      "rank": 76,
+      "name": "Kamilla Rakhimova",
+      "country": "UZB",
+      "country_code": "UZB",
+      "current_points": 929,
+      "points_distribution": [
+        {
+          "event_name": "China Open",
+          "event_type": "1000",
+          "event_date_start": "2025-09-22",
+          "event_date_end": "2025-10-05",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "Guangzhou Open",
+          "event_type": "250",
+          "event_date_start": "2025-10-20",
+          "event_date_end": "2025-10-26",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "Hong Kong Tennis Open",
+          "event_type": "250",
+          "event_date_start": "2025-10-27",
+          "event_date_end": "2025-11-02",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "Australian Open",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-01-19",
+          "event_date_end": "2026-01-31",
+          "result": "R64",
+          "points_earned": 70
+        },
+        {
+          "event_name": "Transylvania Open",
+          "event_type": "250",
+          "event_date_start": "2026-02-02",
+          "event_date_end": "2026-02-07",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "Dubai Duty Free Championships",
+          "event_type": "1000",
+          "event_date_start": "2026-02-16",
+          "event_date_end": "2026-02-21",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "ATX Open",
+          "event_type": "250",
+          "event_date_start": "2026-02-23",
+          "event_date_end": "2026-03-01",
+          "result": "R16",
+          "points_earned": 30
+        },
+        {
+          "event_name": "BNP Paribas Open",
+          "event_type": "1000",
+          "event_date_start": "2026-03-02",
+          "event_date_end": "2026-03-15",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "Miami Open",
+          "event_type": "1000",
+          "event_date_start": "2026-03-16",
+          "event_date_end": "2026-03-28",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "Open Capfinances Rouen Metropole",
+          "event_type": "250",
+          "event_date_start": "2026-04-13",
+          "event_date_end": "2026-04-19",
+          "result": "R16",
+          "points_earned": 30
+        },
+        {
+          "event_name": "Mutua Madrid Open",
+          "event_type": "1000",
+          "event_date_start": "2026-04-20",
+          "event_date_end": "2026-05-02",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "Internazionali BNL d'Italia",
+          "event_type": "1000",
+          "event_date_start": "2026-05-04",
+          "event_date_end": "2026-05-16",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "French Open",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-05-25",
+          "event_date_end": "2026-06-06",
+          "result": "R64",
+          "points_earned": 70
+        },
+        {
+          "event_name": "The HSBC Championships",
+          "event_type": "500",
+          "event_date_start": "2026-06-08",
+          "event_date_end": "2026-06-14",
+          "result": "QF",
+          "points_earned": 108
+        },
+        {
+          "event_name": "Wimbledon",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-06-29",
+          "event_date_end": "2026-07-11",
+          "result": "R64",
+          "points_earned": 70
+        },
+        {
+          "event_name": "National Bank Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-03",
+          "event_date_end": "2026-08-14",
+          "result": "R32",
+          "points_earned": 65
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-24",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "U.S. Open",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-08-31",
+          "event_date_end": "2026-09-12",
+          "result": "R32",
+          "points_earned": 130
+        },
+        {
+          "event_name": "Korea Open",
+          "event_type": "250",
+          "event_date_start": "2026-09-21",
+          "event_date_end": "2026-09-27",
+          "result": "R16",
+          "points_earned": 30
+        }
+      ]
+    },
+    {
+      "rank": 77,
       "name": "Mccartney Kessler",
       "country": "United States",
       "country_code": "US",
@@ -11429,7 +12088,80 @@
       ]
     },
     {
-      "rank": 73,
+      "rank": 78,
+      "name": "Kaitlin Quevedo",
+      "country": "Spain",
+      "country_code": "ES",
+      "current_points": 920,
+      "points_distribution": [
+        {
+          "event_name": "ASB Classic",
+          "event_type": "250",
+          "event_date_start": "2026-01-05",
+          "event_date_end": "2026-01-11",
+          "result": "R16",
+          "points_earned": 30
+        },
+        {
+          "event_name": "Transylvania Open",
+          "event_type": "250",
+          "event_date_start": "2026-02-02",
+          "event_date_end": "2026-02-07",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "Mutua Madrid Open",
+          "event_type": "1000",
+          "event_date_start": "2026-04-20",
+          "event_date_end": "2026-05-02",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "French Open",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-05-25",
+          "event_date_end": "2026-06-06",
+          "result": "R64",
+          "points_earned": 70
+        },
+        {
+          "event_name": "UniCredit Iasi Open",
+          "event_type": "250",
+          "event_date_start": "2026-07-13",
+          "event_date_end": "2026-07-20",
+          "result": "R16",
+          "points_earned": 30
+        },
+        {
+          "event_name": "MSC Hamburg Ladies Open",
+          "event_type": "250",
+          "event_date_start": "2026-07-20",
+          "event_date_end": "2026-07-26",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "U.S. Open",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-08-31",
+          "event_date_end": "2026-09-12",
+          "result": "R64",
+          "points_earned": 70
+        },
+        {
+          "event_name": "SP Open",
+          "event_type": "250",
+          "event_date_start": "2026-09-14",
+          "event_date_end": "2026-09-21",
+          "result": "W",
+          "points_earned": 250
+        }
+      ]
+    },
+    {
+      "rank": 79,
       "name": "Panna Udvardy",
       "country": "Hungary",
       "country_code": "HU",
@@ -11590,7 +12322,7 @@
       ]
     },
     {
-      "rank": 74,
+      "rank": 80,
       "name": "Magda Linette",
       "country": "Poland",
       "country_code": "PL",
@@ -11768,16 +12500,14 @@
           "event_name": "Korea Open",
           "event_type": "250",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-26",
+          "event_date_end": "2026-09-27",
           "result": "R32",
-          "points_earned": 0,
-          "live": true,
-          "out": true
+          "points_earned": 0
         }
       ]
     },
     {
-      "rank": 75,
+      "rank": 81,
       "name": "Petra Marcinko",
       "country": "Croatia",
       "country_code": "HR",
@@ -11914,341 +12644,7 @@
       ]
     },
     {
-      "rank": 76,
-      "name": "Kamilla Rakhimova",
-      "country": "UZB",
-      "country_code": "UZB",
-      "current_points": 912,
-      "points_distribution": [
-        {
-          "event_name": "China Open",
-          "event_type": "1000",
-          "event_date_start": "2025-09-22",
-          "event_date_end": "2025-10-05",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "Guangzhou Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-20",
-          "event_date_end": "2025-10-26",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "Hong Kong Tennis Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "Australian Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-01-19",
-          "event_date_end": "2026-01-31",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "Transylvania Open",
-          "event_type": "250",
-          "event_date_start": "2026-02-02",
-          "event_date_end": "2026-02-07",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "Dubai Duty Free Championships",
-          "event_type": "1000",
-          "event_date_start": "2026-02-16",
-          "event_date_end": "2026-02-21",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "ATX Open",
-          "event_type": "250",
-          "event_date_start": "2026-02-23",
-          "event_date_end": "2026-03-01",
-          "result": "R16",
-          "points_earned": 30
-        },
-        {
-          "event_name": "BNP Paribas Open",
-          "event_type": "1000",
-          "event_date_start": "2026-03-02",
-          "event_date_end": "2026-03-15",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "Miami Open",
-          "event_type": "1000",
-          "event_date_start": "2026-03-16",
-          "event_date_end": "2026-03-28",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "Open Capfinances Rouen Metropole",
-          "event_type": "250",
-          "event_date_start": "2026-04-13",
-          "event_date_end": "2026-04-19",
-          "result": "R16",
-          "points_earned": 30
-        },
-        {
-          "event_name": "Mutua Madrid Open",
-          "event_type": "1000",
-          "event_date_start": "2026-04-20",
-          "event_date_end": "2026-05-02",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "Internazionali BNL d'Italia",
-          "event_type": "1000",
-          "event_date_start": "2026-05-04",
-          "event_date_end": "2026-05-16",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "French Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-05-25",
-          "event_date_end": "2026-06-06",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "The HSBC Championships",
-          "event_type": "500",
-          "event_date_start": "2026-06-08",
-          "event_date_end": "2026-06-14",
-          "result": "QF",
-          "points_earned": 108
-        },
-        {
-          "event_name": "Wimbledon",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-06-29",
-          "event_date_end": "2026-07-11",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "National Bank Open",
-          "event_type": "1000",
-          "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-14",
-          "result": "R32",
-          "points_earned": 65
-        },
-        {
-          "event_name": "Cincinnati Open",
-          "event_type": "1000",
-          "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-24",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-12",
-          "result": "R32",
-          "points_earned": 130
-        },
-        {
-          "event_name": "Korea Open",
-          "event_type": "250",
-          "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-26",
-          "result": "R16",
-          "points_earned": 30,
-          "live": true,
-          "out": true
-        }
-      ]
-    },
-    {
-      "rank": 77,
-      "name": "Katie Volynets",
-      "country": "United States",
-      "country_code": "US",
-      "current_points": 908,
-      "points_distribution": [
-        {
-          "event_name": "China Open",
-          "event_type": "1000",
-          "event_date_start": "2025-09-22",
-          "event_date_end": "2025-10-05",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "Japan Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "Guangzhou Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-20",
-          "event_date_end": "2025-10-26",
-          "result": "QF",
-          "points_earned": 54
-        },
-        {
-          "event_name": "Hobart International",
-          "event_type": "250",
-          "event_date_start": "2026-01-12",
-          "event_date_end": "2026-01-17",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "Australian Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-01-19",
-          "event_date_end": "2026-01-31",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "Ostrava Open",
-          "event_type": "250",
-          "event_date_start": "2026-02-02",
-          "event_date_end": "2026-02-07",
-          "result": "SF",
-          "points_earned": 98
-        },
-        {
-          "event_name": "ATX Open",
-          "event_type": "250",
-          "event_date_start": "2026-02-23",
-          "event_date_end": "2026-03-01",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "BNP Paribas Open",
-          "event_type": "1000",
-          "event_date_start": "2026-03-02",
-          "event_date_end": "2026-03-15",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "Miami Open",
-          "event_type": "1000",
-          "event_date_start": "2026-03-16",
-          "event_date_end": "2026-03-28",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "Credit One Charleston Open",
-          "event_type": "500",
-          "event_date_start": "2026-03-30",
-          "event_date_end": "2026-04-05",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "Upper Austria Ladies Linz",
-          "event_type": "500",
-          "event_date_start": "2026-04-06",
-          "event_date_end": "2026-04-12",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "Open Capfinances Rouen Metropole",
-          "event_type": "250",
-          "event_date_start": "2026-04-13",
-          "event_date_end": "2026-04-19",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "Mutua Madrid Open",
-          "event_type": "1000",
-          "event_date_start": "2026-04-20",
-          "event_date_end": "2026-05-02",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "French Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-05-25",
-          "event_date_end": "2026-06-06",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "Libema Open",
-          "event_type": "250",
-          "event_date_start": "2026-06-08",
-          "event_date_end": "2026-06-13",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "Lexus Nottingham Open",
-          "event_type": "250",
-          "event_date_start": "2026-06-15",
-          "event_date_end": "2026-06-21",
-          "result": "R16",
-          "points_earned": 30
-        },
-        {
-          "event_name": "The Memphis Classic",
-          "event_type": "250",
-          "event_date_start": "2026-07-27",
-          "event_date_end": "2026-08-02",
-          "result": "QF",
-          "points_earned": 54
-        },
-        {
-          "event_name": "Cincinnati Open",
-          "event_type": "1000",
-          "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-24",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-12",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "Korea Open",
-          "event_type": "250",
-          "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-26",
-          "result": "QF",
-          "points_earned": 54,
-          "live": true,
-          "out": true
-        }
-      ]
-    },
-    {
-      "rank": 78,
+      "rank": 82,
       "name": "Yulia Putintseva",
       "country": "Kazakhstan",
       "country_code": "KZ",
@@ -12425,7 +12821,7 @@
       ]
     },
     {
-      "rank": 79,
+      "rank": 83,
       "name": "Antonia Ruzic",
       "country": "Croatia",
       "country_code": "HR",
@@ -12610,7 +13006,7 @@
       ]
     },
     {
-      "rank": 80,
+      "rank": 84,
       "name": "Tatjana Maria",
       "country": "Germany",
       "country_code": "DE",
@@ -12835,90 +13231,7 @@
       ]
     },
     {
-      "rank": 81,
-      "name": "Alina Korneeva",
-      "country": "Russia",
-      "country_code": "RU",
-      "current_points": 892,
-      "points_distribution": [
-        {
-          "event_name": "Guangzhou Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-20",
-          "event_date_end": "2025-10-26",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "Jiangxi Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "Internazionali BNL d'Italia",
-          "event_type": "1000",
-          "event_date_start": "2026-05-04",
-          "event_date_end": "2026-05-16",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "French Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-05-25",
-          "event_date_end": "2026-06-06",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "Wimbledon",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-06-29",
-          "event_date_end": "2026-07-11",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "Athens Open",
-          "event_type": "250",
-          "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-19",
-          "result": "SF",
-          "points_earned": 98
-        },
-        {
-          "event_name": "National Bank Open",
-          "event_type": "1000",
-          "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-14",
-          "result": "R16",
-          "points_earned": 120
-        },
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-12",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "Korea Open",
-          "event_type": "250",
-          "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-26",
-          "result": "SF",
-          "points_earned": 98,
-          "live": true,
-          "out": true
-        }
-      ]
-    },
-    {
-      "rank": 82,
+      "rank": 85,
       "name": "Xiyu Wang",
       "country": "China",
       "country_code": "CN",
@@ -12999,7 +13312,7 @@
       ]
     },
     {
-      "rank": 83,
+      "rank": 86,
       "name": "Hanne Vandewinkel",
       "country": "Belgium",
       "country_code": "BE",
@@ -13064,7 +13377,7 @@
       ]
     },
     {
-      "rank": 84,
+      "rank": 87,
       "name": "Daria Kasatkina",
       "country": "Australia",
       "country_code": "AU",
@@ -13226,16 +13539,14 @@
           "event_name": "Singapore Tennis Open",
           "event_type": "500",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-26",
+          "event_date_end": "2026-09-27",
           "result": "R32",
-          "points_earned": 0,
-          "live": true,
-          "out": true
+          "points_earned": 0
         }
       ]
     },
     {
-      "rank": 85,
+      "rank": 88,
       "name": "Darja Vidmanova",
       "country": "Czech Republic",
       "country_code": "CZ",
@@ -13324,7 +13635,7 @@
       ]
     },
     {
-      "rank": 86,
+      "rank": 89,
       "name": "Anna Blinkova",
       "country": "France",
       "country_code": "FR",
@@ -13501,88 +13812,7 @@
       ]
     },
     {
-      "rank": 87,
-      "name": "Maria Timofeeva",
-      "country": "UZB",
-      "country_code": "UZB",
-      "current_points": 873,
-      "points_distribution": [
-        {
-          "event_name": "Chennai Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "Merida Open Akron",
-          "event_type": "500",
-          "event_date_start": "2026-02-23",
-          "event_date_end": "2026-03-01",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "Open Capfinances Rouen Metropole",
-          "event_type": "250",
-          "event_date_start": "2026-04-13",
-          "event_date_end": "2026-04-19",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "Wimbledon",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-06-29",
-          "event_date_end": "2026-07-11",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "Athens Open",
-          "event_type": "250",
-          "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-19",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "Livesport Prague Open",
-          "event_type": "250",
-          "event_date_start": "2026-07-20",
-          "event_date_end": "2026-07-26",
-          "result": "R16",
-          "points_earned": 30
-        },
-        {
-          "event_name": "Cincinnati Open",
-          "event_type": "1000",
-          "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-24",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "Abierto GNP Seguros",
-          "event_type": "500",
-          "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-30",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-12",
-          "result": "R64",
-          "points_earned": 70
-        }
-      ]
-    },
-    {
-      "rank": 88,
+      "rank": 90,
       "name": "Mananchaya Sawangkaew",
       "country": "THA",
       "country_code": "THA",
@@ -13624,16 +13854,63 @@
           "event_name": "Korea Open",
           "event_type": "250",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-26",
+          "event_date_end": "2026-09-27",
           "result": "R32",
-          "points_earned": 0,
-          "live": true,
-          "out": true
+          "points_earned": 0
         }
       ]
     },
     {
-      "rank": 89,
+      "rank": 91,
+      "name": "Taylah Preston",
+      "country": "Australia",
+      "country_code": "AU",
+      "current_points": 848,
+      "points_distribution": [
+        {
+          "event_name": "Hobart International",
+          "event_type": "250",
+          "event_date_start": "2026-01-12",
+          "event_date_end": "2026-01-17",
+          "result": "SF",
+          "points_earned": 98
+        },
+        {
+          "event_name": "Australian Open",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-01-19",
+          "event_date_end": "2026-01-31",
+          "result": "R64",
+          "points_earned": 70
+        },
+        {
+          "event_name": "Lexus Nottingham Open",
+          "event_type": "250",
+          "event_date_start": "2026-06-15",
+          "event_date_end": "2026-06-21",
+          "result": "R16",
+          "points_earned": 30
+        },
+        {
+          "event_name": "U.S. Open",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-08-31",
+          "event_date_end": "2026-09-12",
+          "result": "R64",
+          "points_earned": 70
+        },
+        {
+          "event_name": "Korea Open",
+          "event_type": "250",
+          "event_date_start": "2026-09-21",
+          "event_date_end": "2026-09-27",
+          "result": "QF",
+          "points_earned": 54
+        }
+      ]
+    },
+    {
+      "rank": 92,
       "name": "Taylor Townsend",
       "country": "United States",
       "country_code": "US",
@@ -13738,80 +14015,7 @@
       ]
     },
     {
-      "rank": 90,
-      "name": "Kaitlin Quevedo",
-      "country": "Spain",
-      "country_code": "ES",
-      "current_points": 833,
-      "points_distribution": [
-        {
-          "event_name": "ASB Classic",
-          "event_type": "250",
-          "event_date_start": "2026-01-05",
-          "event_date_end": "2026-01-11",
-          "result": "R16",
-          "points_earned": 30
-        },
-        {
-          "event_name": "Transylvania Open",
-          "event_type": "250",
-          "event_date_start": "2026-02-02",
-          "event_date_end": "2026-02-07",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "Mutua Madrid Open",
-          "event_type": "1000",
-          "event_date_start": "2026-04-20",
-          "event_date_end": "2026-05-02",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "French Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-05-25",
-          "event_date_end": "2026-06-06",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "UniCredit Iasi Open",
-          "event_type": "250",
-          "event_date_start": "2026-07-13",
-          "event_date_end": "2026-07-20",
-          "result": "R16",
-          "points_earned": 30
-        },
-        {
-          "event_name": "MSC Hamburg Ladies Open",
-          "event_type": "250",
-          "event_date_start": "2026-07-20",
-          "event_date_end": "2026-07-26",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-12",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "SP Open",
-          "event_type": "250",
-          "event_date_start": "2026-09-14",
-          "event_date_end": "2026-09-21",
-          "result": "W",
-          "points_earned": 250
-        }
-      ]
-    },
-    {
-      "rank": 91,
+      "rank": 93,
       "name": "Solana Sierra",
       "country": "Argentina",
       "country_code": "AR",
@@ -13956,7 +14160,7 @@
       ]
     },
     {
-      "rank": 92,
+      "rank": 94,
       "name": "Renata Zarazua",
       "country": "Mexico",
       "country_code": "MX",
@@ -14094,16 +14298,119 @@
           "event_name": "Korea Open",
           "event_type": "250",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-26",
+          "event_date_end": "2026-09-27",
           "result": "R32",
-          "points_earned": 0,
-          "live": true,
-          "out": true
+          "points_earned": 0
         }
       ]
     },
     {
-      "rank": 93,
+      "rank": 95,
+      "name": "Sinja Kraus",
+      "country": "Austria",
+      "country_code": "AT",
+      "current_points": 817,
+      "points_distribution": [
+        {
+          "event_name": "ASB Classic",
+          "event_type": "250",
+          "event_date_start": "2026-01-05",
+          "event_date_end": "2026-01-11",
+          "result": "R16",
+          "points_earned": 30
+        },
+        {
+          "event_name": "Ostrava Open",
+          "event_type": "250",
+          "event_date_start": "2026-02-02",
+          "event_date_end": "2026-02-07",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "Miami Open",
+          "event_type": "1000",
+          "event_date_start": "2026-03-16",
+          "event_date_end": "2026-03-28",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "Upper Austria Ladies Linz",
+          "event_type": "500",
+          "event_date_start": "2026-04-06",
+          "event_date_end": "2026-04-12",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "Mutua Madrid Open",
+          "event_type": "1000",
+          "event_date_start": "2026-04-20",
+          "event_date_end": "2026-05-02",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "Internazionali BNL d'Italia",
+          "event_type": "1000",
+          "event_date_start": "2026-05-04",
+          "event_date_end": "2026-05-16",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "French Open",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-05-25",
+          "event_date_end": "2026-06-06",
+          "result": "R64",
+          "points_earned": 70
+        },
+        {
+          "event_name": "Bad Homburg Open",
+          "event_type": "500",
+          "event_date_start": "2026-06-22",
+          "event_date_end": "2026-06-27",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "Wimbledon",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-06-29",
+          "event_date_end": "2026-07-11",
+          "result": "R64",
+          "points_earned": 70
+        },
+        {
+          "event_name": "MSC Hamburg Ladies Open",
+          "event_type": "250",
+          "event_date_start": "2026-07-20",
+          "event_date_end": "2026-07-26",
+          "result": "R16",
+          "points_earned": 30
+        },
+        {
+          "event_name": "Cincinnati Open",
+          "event_type": "1000",
+          "event_date_start": "2026-08-10",
+          "event_date_end": "2026-08-24",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "U.S. Open",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-08-31",
+          "event_date_end": "2026-09-12",
+          "result": "R64",
+          "points_earned": 70
+        }
+      ]
+    },
+    {
+      "rank": 96,
       "name": "Jessica Bouzas Maneiro",
       "country": "Spain",
       "country_code": "ES",
@@ -14320,163 +14627,7 @@
       ]
     },
     {
-      "rank": 94,
-      "name": "Taylah Preston",
-      "country": "Australia",
-      "country_code": "AU",
-      "current_points": 809,
-      "points_distribution": [
-        {
-          "event_name": "Hobart International",
-          "event_type": "250",
-          "event_date_start": "2026-01-12",
-          "event_date_end": "2026-01-17",
-          "result": "SF",
-          "points_earned": 98
-        },
-        {
-          "event_name": "Australian Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-01-19",
-          "event_date_end": "2026-01-31",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "Lexus Nottingham Open",
-          "event_type": "250",
-          "event_date_start": "2026-06-15",
-          "event_date_end": "2026-06-21",
-          "result": "R16",
-          "points_earned": 30
-        },
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-12",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "Korea Open",
-          "event_type": "250",
-          "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-26",
-          "result": "QF",
-          "points_earned": 54,
-          "live": true,
-          "out": true
-        }
-      ]
-    },
-    {
-      "rank": 95,
-      "name": "Sinja Kraus",
-      "country": "Austria",
-      "country_code": "AT",
-      "current_points": 795,
-      "points_distribution": [
-        {
-          "event_name": "ASB Classic",
-          "event_type": "250",
-          "event_date_start": "2026-01-05",
-          "event_date_end": "2026-01-11",
-          "result": "R16",
-          "points_earned": 30
-        },
-        {
-          "event_name": "Ostrava Open",
-          "event_type": "250",
-          "event_date_start": "2026-02-02",
-          "event_date_end": "2026-02-07",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "Miami Open",
-          "event_type": "1000",
-          "event_date_start": "2026-03-16",
-          "event_date_end": "2026-03-28",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "Upper Austria Ladies Linz",
-          "event_type": "500",
-          "event_date_start": "2026-04-06",
-          "event_date_end": "2026-04-12",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "Mutua Madrid Open",
-          "event_type": "1000",
-          "event_date_start": "2026-04-20",
-          "event_date_end": "2026-05-02",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "Internazionali BNL d'Italia",
-          "event_type": "1000",
-          "event_date_start": "2026-05-04",
-          "event_date_end": "2026-05-16",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "French Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-05-25",
-          "event_date_end": "2026-06-06",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "Bad Homburg Open",
-          "event_type": "500",
-          "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-27",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "Wimbledon",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-06-29",
-          "event_date_end": "2026-07-11",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "MSC Hamburg Ladies Open",
-          "event_type": "250",
-          "event_date_start": "2026-07-20",
-          "event_date_end": "2026-07-26",
-          "result": "R16",
-          "points_earned": 30
-        },
-        {
-          "event_name": "Cincinnati Open",
-          "event_type": "1000",
-          "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-24",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-12",
-          "result": "R64",
-          "points_earned": 70
-        }
-      ]
-    },
-    {
-      "rank": 96,
+      "rank": 97,
       "name": "Claire Liu",
       "country": "United States",
       "country_code": "US",
@@ -14541,7 +14692,7 @@
       ]
     },
     {
-      "rank": 97,
+      "rank": 98,
       "name": "Simona Waltert",
       "country": "Switzerland",
       "country_code": "CH",
@@ -14646,7 +14797,80 @@
       ]
     },
     {
-      "rank": 98,
+      "rank": 99,
+      "name": "Julia Grabher",
+      "country": "Austria",
+      "country_code": "AT",
+      "current_points": 787,
+      "points_distribution": [
+        {
+          "event_name": "ASB Classic",
+          "event_type": "250",
+          "event_date_start": "2026-01-05",
+          "event_date_end": "2026-01-11",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "Australian Open",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-01-19",
+          "event_date_end": "2026-01-31",
+          "result": "R64",
+          "points_earned": 70
+        },
+        {
+          "event_name": "Ostrava Open",
+          "event_type": "250",
+          "event_date_start": "2026-02-02",
+          "event_date_end": "2026-02-07",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "Upper Austria Ladies Linz",
+          "event_type": "500",
+          "event_date_start": "2026-04-06",
+          "event_date_end": "2026-04-12",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "Mutua Madrid Open",
+          "event_type": "1000",
+          "event_date_start": "2026-04-20",
+          "event_date_end": "2026-05-02",
+          "result": "R64",
+          "points_earned": 10
+        },
+        {
+          "event_name": "Grand Prix De SAR La Princesse Lalla Meryem",
+          "event_type": "250",
+          "event_date_start": "2026-05-18",
+          "event_date_end": "2026-05-23",
+          "result": "R32",
+          "points_earned": 0
+        },
+        {
+          "event_name": "French Open",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-05-25",
+          "event_date_end": "2026-06-06",
+          "result": "R64",
+          "points_earned": 70
+        },
+        {
+          "event_name": "U.S. Open",
+          "event_type": "Grand Slam",
+          "event_date_start": "2026-08-31",
+          "event_date_end": "2026-09-12",
+          "result": "R64",
+          "points_earned": 70
+        }
+      ]
+    },
+    {
+      "rank": 100,
       "name": "Emma Raducanu",
       "country": "United Kingdom",
       "country_code": "GB",
@@ -14747,364 +14971,6 @@
           "event_date_end": "2026-06-14",
           "result": "F",
           "points_earned": 325
-        }
-      ]
-    },
-    {
-      "rank": 99,
-      "name": "Maya Joint",
-      "country": "Australia",
-      "country_code": "AU",
-      "current_points": 781,
-      "points_distribution": [
-        {
-          "event_name": "China Open",
-          "event_type": "1000",
-          "event_date_start": "2025-09-22",
-          "event_date_end": "2025-10-05",
-          "result": "R32",
-          "points_earned": 65
-        },
-        {
-          "event_name": "Wuhan Open",
-          "event_type": "1000",
-          "event_date_start": "2025-10-06",
-          "event_date_end": "2025-10-12",
-          "result": "R32",
-          "points_earned": 65
-        },
-        {
-          "event_name": "Toray Pan Pacific Open",
-          "event_type": "500",
-          "event_date_start": "2025-10-20",
-          "event_date_end": "2025-10-26",
-          "result": "R16",
-          "points_earned": 60
-        },
-        {
-          "event_name": "Hong Kong Tennis Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "SF",
-          "points_earned": 98
-        },
-        {
-          "event_name": "United Cup",
-          "event_type": "500",
-          "event_date_start": "2026-01-05",
-          "event_date_end": "2026-01-11",
-          "result": "QF",
-          "points_earned": 108
-        },
-        {
-          "event_name": "Adelaide International",
-          "event_type": "500",
-          "event_date_start": "2026-01-12",
-          "event_date_end": "2026-01-17",
-          "result": "QF",
-          "points_earned": 108
-        },
-        {
-          "event_name": "Australian Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-01-19",
-          "event_date_end": "2026-01-31",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "Mubadala Abu Dhabi Open",
-          "event_type": "500",
-          "event_date_start": "2026-02-02",
-          "event_date_end": "2026-02-07",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "Qatar TotalEnergies Open",
-          "event_type": "1000",
-          "event_date_start": "2026-02-09",
-          "event_date_end": "2026-02-14",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "Dubai Duty Free Championships",
-          "event_type": "1000",
-          "event_date_start": "2026-02-16",
-          "event_date_end": "2026-02-21",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "BNP Paribas Open",
-          "event_type": "1000",
-          "event_date_start": "2026-03-02",
-          "event_date_end": "2026-03-15",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "Internazionali BNL d'Italia",
-          "event_type": "1000",
-          "event_date_start": "2026-05-04",
-          "event_date_end": "2026-05-16",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "Internationaux de Strasbourg",
-          "event_type": "500",
-          "event_date_start": "2026-05-18",
-          "event_date_end": "2026-05-23",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "French Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-05-25",
-          "event_date_end": "2026-06-06",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "Lexus Nottingham Open",
-          "event_type": "250",
-          "event_date_start": "2026-06-15",
-          "event_date_end": "2026-06-21",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "Lexus Eastbourne Open",
-          "event_type": "250",
-          "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-27",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "Wimbledon",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-06-29",
-          "event_date_end": "2026-07-11",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "Livesport Prague Open",
-          "event_type": "250",
-          "event_date_start": "2026-07-20",
-          "event_date_end": "2026-07-26",
-          "result": "R16",
-          "points_earned": 30
-        },
-        {
-          "event_name": "The Memphis Classic",
-          "event_type": "250",
-          "event_date_start": "2026-07-27",
-          "event_date_end": "2026-08-02",
-          "result": "R16",
-          "points_earned": 30
-        },
-        {
-          "event_name": "National Bank Open",
-          "event_type": "1000",
-          "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-14",
-          "result": "R32",
-          "points_earned": 65
-        },
-        {
-          "event_name": "Cincinnati Open",
-          "event_type": "1000",
-          "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-24",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "Abierto GNP Seguros",
-          "event_type": "500",
-          "event_date_start": "2026-08-24",
-          "event_date_end": "2026-08-30",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-12",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "Korea Open",
-          "event_type": "250",
-          "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-26",
-          "result": "SF",
-          "points_earned": 98,
-          "live": true,
-          "out": false
-        }
-      ]
-    },
-    {
-      "rank": 100,
-      "name": "Eva Lys",
-      "country": "Germany",
-      "country_code": "DE",
-      "current_points": 747,
-      "points_distribution": [
-        {
-          "event_name": "China Open",
-          "event_type": "1000",
-          "event_date_start": "2025-09-22",
-          "event_date_end": "2025-10-05",
-          "result": "QF",
-          "points_earned": 215
-        },
-        {
-          "event_name": "Toray Pan Pacific Open",
-          "event_type": "500",
-          "event_date_start": "2025-10-20",
-          "event_date_end": "2025-10-26",
-          "result": "R16",
-          "points_earned": 60
-        },
-        {
-          "event_name": "Hong Kong Tennis Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R16",
-          "points_earned": 30
-        },
-        {
-          "event_name": "Australian Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-01-19",
-          "event_date_end": "2026-01-31",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "Miami Open",
-          "event_type": "1000",
-          "event_date_start": "2026-03-16",
-          "event_date_end": "2026-03-28",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "Credit One Charleston Open",
-          "event_type": "500",
-          "event_date_start": "2026-03-30",
-          "event_date_end": "2026-04-05",
-          "result": "R64",
-          "points_earned": 0
-        },
-        {
-          "event_name": "Porsche Tennis Grand Prix",
-          "event_type": "500",
-          "event_date_start": "2026-04-13",
-          "event_date_end": "2026-04-19",
-          "result": "R16",
-          "points_earned": 60
-        },
-        {
-          "event_name": "Mutua Madrid Open",
-          "event_type": "1000",
-          "event_date_start": "2026-04-20",
-          "event_date_end": "2026-05-02",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "Internazionali BNL d'Italia",
-          "event_type": "1000",
-          "event_date_start": "2026-05-04",
-          "event_date_end": "2026-05-16",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "French Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-05-25",
-          "event_date_end": "2026-06-06",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "Berlin Tennis Open",
-          "event_type": "500",
-          "event_date_start": "2026-06-15",
-          "event_date_end": "2026-06-21",
-          "result": "R16",
-          "points_earned": 60
-        },
-        {
-          "event_name": "Bad Homburg Open",
-          "event_type": "500",
-          "event_date_start": "2026-06-22",
-          "event_date_end": "2026-06-27",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
-          "event_name": "Wimbledon",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-06-29",
-          "event_date_end": "2026-07-11",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "National Bank Open",
-          "event_type": "1000",
-          "event_date_start": "2026-08-03",
-          "event_date_end": "2026-08-14",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "Cincinnati Open",
-          "event_type": "1000",
-          "event_date_start": "2026-08-10",
-          "event_date_end": "2026-08-24",
-          "result": "R64",
-          "points_earned": 10
-        },
-        {
-          "event_name": "U.S. Open",
-          "event_type": "Grand Slam",
-          "event_date_start": "2026-08-31",
-          "event_date_end": "2026-09-12",
-          "result": "R64",
-          "points_earned": 70
-        },
-        {
-          "event_name": "SP Open",
-          "event_type": "250",
-          "event_date_start": "2026-09-14",
-          "event_date_end": "2026-09-21",
-          "result": "R16",
-          "points_earned": 30
-        },
-        {
-          "event_name": "Korea Open",
-          "event_type": "250",
-          "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-26",
-          "result": "R32",
-          "points_earned": 0,
-          "live": true,
-          "out": true
         }
       ]
     }
