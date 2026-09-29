@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T06:24:12.143Z",
+  "updated_at": "2026-09-29T06:17:53.150Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -283,14 +283,6 @@
       "country_code": "ES",
       "current_points": 5060,
       "points_distribution": [
-        {
-          "event_name": "Japan Open Tennis Championships",
-          "event_type": "500",
-          "event_date_start": "2025-09-22",
-          "event_date_end": "2025-09-30",
-          "result": "W",
-          "points_earned": 500
-        },
         {
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
@@ -914,9 +906,9 @@
           "event_name": "Hangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-27",
-          "result": "QF",
-          "points_earned": 50,
+          "event_date_end": "2026-09-28",
+          "result": "SF",
+          "points_earned": 100,
           "live": true,
           "out": false
         }
@@ -1138,14 +1130,6 @@
       "country_code": "US",
       "current_points": 3380,
       "points_distribution": [
-        {
-          "event_name": "Japan Open Tennis Championships",
-          "event_type": "500",
-          "event_date_start": "2025-09-22",
-          "event_date_end": "2025-09-30",
-          "result": "R32",
-          "points_earned": 25
-        },
         {
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
@@ -1694,14 +1678,6 @@
       "country_code": "US",
       "current_points": 2880,
       "points_distribution": [
-        {
-          "event_name": "Japan Open Tennis Championships",
-          "event_type": "500",
-          "event_date_start": "2025-09-22",
-          "event_date_end": "2025-09-30",
-          "result": "F",
-          "points_earned": 330
-        },
         {
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
@@ -2484,14 +2460,6 @@
       "current_points": 2335,
       "points_distribution": [
         {
-          "event_name": "Japan Open Tennis Championships",
-          "event_type": "500",
-          "event_date_start": "2025-09-22",
-          "event_date_end": "2025-09-30",
-          "result": "QF",
-          "points_earned": 100
-        },
-        {
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2025-09-29",
@@ -2832,7 +2800,7 @@
           "event_name": "Chengdu Open",
           "event_type": "250",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-27",
+          "event_date_end": "2026-09-28",
           "result": "R16",
           "points_earned": 25,
           "live": true,
@@ -2847,14 +2815,6 @@
       "country_code": "IT",
       "current_points": 2200,
       "points_distribution": [
-        {
-          "event_name": "Japan Open Tennis Championships",
-          "event_type": "500",
-          "event_date_start": "2025-09-22",
-          "event_date_end": "2025-09-30",
-          "result": "R16",
-          "points_earned": 50
-        },
         {
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
@@ -3281,14 +3241,6 @@
       "country_code": "NO",
       "current_points": 2145,
       "points_distribution": [
-        {
-          "event_name": "Japan Open Tennis Championships",
-          "event_type": "500",
-          "event_date_start": "2025-09-22",
-          "event_date_end": "2025-09-30",
-          "result": "SF",
-          "points_earned": 200
-        },
         {
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
@@ -4000,9 +3952,9 @@
           "event_name": "Hangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-27",
-          "result": "QF",
-          "points_earned": 50,
+          "event_date_end": "2026-09-28",
+          "result": "SF",
+          "points_earned": 100,
           "live": true,
           "out": false
         }
@@ -4654,9 +4606,9 @@
           "event_name": "Chengdu Open",
           "event_type": "250",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-27",
-          "result": "QF",
-          "points_earned": 50,
+          "event_date_end": "2026-09-28",
+          "result": "SF",
+          "points_earned": 100,
           "live": true,
           "out": false
         }
@@ -5034,7 +4986,7 @@
           "event_name": "Hangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-27",
+          "event_date_end": "2026-09-28",
           "result": "R16",
           "points_earned": 25,
           "live": true,
@@ -5049,14 +5001,6 @@
       "country_code": "CL",
       "current_points": 1565,
       "points_distribution": [
-        {
-          "event_name": "Japan Open Tennis Championships",
-          "event_type": "500",
-          "event_date_start": "2025-09-22",
-          "event_date_end": "2025-09-30",
-          "result": "R32",
-          "points_earned": 25
-        },
         {
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
@@ -5261,7 +5205,7 @@
           "event_name": "Chengdu Open",
           "event_type": "250",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-27",
+          "event_date_end": "2026-09-28",
           "result": "R16",
           "points_earned": 25,
           "live": true,
@@ -5276,14 +5220,6 @@
       "country_code": "FR",
       "current_points": 1535,
       "points_distribution": [
-        {
-          "event_name": "Japan Open Tennis Championships",
-          "event_type": "500",
-          "event_date_start": "2025-09-22",
-          "event_date_end": "2025-09-30",
-          "result": "R32",
-          "points_earned": 25
-        },
         {
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
@@ -5678,14 +5614,6 @@
       "country_code": "US",
       "current_points": 1460,
       "points_distribution": [
-        {
-          "event_name": "Japan Open Tennis Championships",
-          "event_type": "500",
-          "event_date_start": "2025-09-22",
-          "event_date_end": "2025-09-30",
-          "result": "R32",
-          "points_earned": 25
-        },
         {
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
@@ -6258,14 +6186,6 @@
       "country_code": "BE",
       "current_points": 1320,
       "points_distribution": [
-        {
-          "event_name": "Japan Open Tennis Championships",
-          "event_type": "500",
-          "event_date_start": "2025-09-22",
-          "event_date_end": "2025-09-30",
-          "result": "R16",
-          "points_earned": 50
-        },
         {
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
@@ -6840,7 +6760,7 @@
           "event_name": "Chengdu Open",
           "event_type": "250",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-27",
+          "event_date_end": "2026-09-28",
           "result": "R16",
           "points_earned": 25,
           "live": true,
@@ -6987,9 +6907,9 @@
           "event_name": "Chengdu Open",
           "event_type": "250",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-27",
-          "result": "QF",
-          "points_earned": 50,
+          "event_date_end": "2026-09-28",
+          "result": "SF",
+          "points_earned": 100,
           "live": true,
           "out": false
         }
@@ -7559,14 +7479,6 @@
       "current_points": 1155,
       "points_distribution": [
         {
-          "event_name": "Japan Open Tennis Championships",
-          "event_type": "500",
-          "event_date_start": "2025-09-22",
-          "event_date_end": "2025-09-30",
-          "result": "R32",
-          "points_earned": 25
-        },
-        {
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2025-09-29",
@@ -7746,11 +7658,11 @@
           "event_name": "Chengdu Open",
           "event_type": "250",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-27",
-          "result": "QF",
-          "points_earned": 50,
+          "event_date_end": "2026-09-28",
+          "result": "SF",
+          "points_earned": 100,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -7761,14 +7673,6 @@
       "country_code": "IT",
       "current_points": 1128,
       "points_distribution": [
-        {
-          "event_name": "Japan Open Tennis Championships",
-          "event_type": "500",
-          "event_date_start": "2025-09-22",
-          "event_date_end": "2025-09-30",
-          "result": "R16",
-          "points_earned": 50
-        },
         {
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
@@ -8067,14 +7971,6 @@
       "country_code": "PT",
       "current_points": 1070,
       "points_distribution": [
-        {
-          "event_name": "Japan Open Tennis Championships",
-          "event_type": "500",
-          "event_date_start": "2025-09-22",
-          "event_date_end": "2025-09-30",
-          "result": "R16",
-          "points_earned": 50
-        },
         {
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
@@ -8472,7 +8368,7 @@
           "event_name": "Hangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-27",
+          "event_date_end": "2026-09-28",
           "result": "R16",
           "points_earned": 25,
           "live": true,
@@ -8487,14 +8383,6 @@
       "country_code": "AR",
       "current_points": 1044,
       "points_distribution": [
-        {
-          "event_name": "Japan Open Tennis Championships",
-          "event_type": "500",
-          "event_date_start": "2025-09-22",
-          "event_date_end": "2025-09-30",
-          "result": "R32",
-          "points_earned": 25
-        },
         {
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
@@ -8699,7 +8587,7 @@
           "event_name": "Chengdu Open",
           "event_type": "250",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-27",
+          "event_date_end": "2026-09-28",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -9007,7 +8895,7 @@
           "event_name": "Chengdu Open",
           "event_type": "250",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-27",
+          "event_date_end": "2026-09-28",
           "result": "R16",
           "points_earned": 25,
           "live": true,
@@ -9387,7 +9275,7 @@
           "event_name": "Chengdu Open",
           "event_type": "250",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-27",
+          "event_date_end": "2026-09-28",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -9502,7 +9390,7 @@
           "event_name": "Hangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-27",
+          "event_date_end": "2026-09-28",
           "result": "R16",
           "points_earned": 25,
           "live": true,
@@ -9753,7 +9641,7 @@
           "event_name": "Chengdu Open",
           "event_type": "250",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-27",
+          "event_date_end": "2026-09-28",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -10191,7 +10079,7 @@
           "event_name": "Hangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-27",
+          "event_date_end": "2026-09-28",
           "result": "R16",
           "points_earned": 25,
           "live": true,
@@ -10410,7 +10298,7 @@
           "event_name": "Hangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-27",
+          "event_date_end": "2026-09-28",
           "result": "QF",
           "points_earned": 50,
           "live": true,
@@ -10565,7 +10453,7 @@
           "event_name": "Chengdu Open",
           "event_type": "250",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-27",
+          "event_date_end": "2026-09-28",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -10580,14 +10468,6 @@
       "country_code": "ES",
       "current_points": 875,
       "points_distribution": [
-        {
-          "event_name": "Japan Open Tennis Championships",
-          "event_type": "500",
-          "event_date_start": "2025-09-22",
-          "event_date_end": "2025-09-30",
-          "result": "R32",
-          "points_earned": 25
-        },
         {
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
@@ -10733,14 +10613,6 @@
       "country_code": "US",
       "current_points": 874,
       "points_distribution": [
-        {
-          "event_name": "Japan Open Tennis Championships",
-          "event_type": "500",
-          "event_date_start": "2025-09-22",
-          "event_date_end": "2025-09-30",
-          "result": "R16",
-          "points_earned": 50
-        },
         {
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
@@ -11015,14 +10887,6 @@
       "country_code": "DE",
       "current_points": 849,
       "points_distribution": [
-        {
-          "event_name": "Japan Open Tennis Championships",
-          "event_type": "500",
-          "event_date_start": "2025-09-22",
-          "event_date_end": "2025-09-30",
-          "result": "R16",
-          "points_earned": 50
-        },
         {
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
@@ -11436,7 +11300,7 @@
           "event_name": "Chengdu Open",
           "event_type": "250",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-27",
+          "event_date_end": "2026-09-28",
           "result": "R16",
           "points_earned": 25,
           "live": true,
@@ -11881,7 +11745,7 @@
           "event_name": "Hangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-27",
+          "event_date_end": "2026-09-28",
           "result": "R16",
           "points_earned": 25,
           "live": true,
@@ -12099,14 +11963,6 @@
       "current_points": 790,
       "points_distribution": [
         {
-          "event_name": "Japan Open Tennis Championships",
-          "event_type": "500",
-          "event_date_start": "2025-09-22",
-          "event_date_end": "2025-09-30",
-          "result": "QF",
-          "points_earned": 100
-        },
-        {
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2025-09-29",
@@ -12211,14 +12067,6 @@
       "country_code": "CZ",
       "current_points": 770,
       "points_distribution": [
-        {
-          "event_name": "Japan Open Tennis Championships",
-          "event_type": "500",
-          "event_date_start": "2025-09-22",
-          "event_date_end": "2025-09-30",
-          "result": "R32",
-          "points_earned": 25
-        },
         {
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
@@ -12576,7 +12424,7 @@
           "event_name": "Chengdu Open",
           "event_type": "250",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-27",
+          "event_date_end": "2026-09-28",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -12591,14 +12439,6 @@
       "country_code": "RS",
       "current_points": 764,
       "points_distribution": [
-        {
-          "event_name": "Japan Open Tennis Championships",
-          "event_type": "500",
-          "event_date_start": "2025-09-22",
-          "event_date_end": "2025-09-30",
-          "result": "R32",
-          "points_earned": 25
-        },
         {
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
@@ -13125,7 +12965,7 @@
           "event_name": "Chengdu Open",
           "event_type": "250",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-27",
+          "event_date_end": "2026-09-28",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -13481,7 +13321,7 @@
           "event_name": "Chengdu Open",
           "event_type": "250",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-27",
+          "event_date_end": "2026-09-28",
           "result": "QF",
           "points_earned": 50,
           "live": true,
@@ -13644,7 +13484,7 @@
           "event_name": "Hangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-27",
+          "event_date_end": "2026-09-28",
           "result": "R16",
           "points_earned": 25,
           "live": true,
@@ -13831,7 +13671,7 @@
           "event_name": "Chengdu Open",
           "event_type": "250",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-27",
+          "event_date_end": "2026-09-28",
           "result": "R16",
           "points_earned": 25,
           "live": true,
@@ -13890,11 +13730,11 @@
           "event_name": "Hangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-27",
-          "result": "QF",
-          "points_earned": 50,
+          "event_date_end": "2026-09-28",
+          "result": "SF",
+          "points_earned": 100,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -13905,14 +13745,6 @@
       "country_code": "US",
       "current_points": 688,
       "points_distribution": [
-        {
-          "event_name": "Japan Open Tennis Championships",
-          "event_type": "500",
-          "event_date_start": "2025-09-22",
-          "event_date_end": "2025-09-30",
-          "result": "R32",
-          "points_earned": 25
-        },
         {
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
@@ -14182,11 +14014,11 @@
           "event_name": "Hangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-27",
-          "result": "QF",
-          "points_earned": 50,
+          "event_date_end": "2026-09-28",
+          "result": "SF",
+          "points_earned": 100,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -14281,7 +14113,7 @@
           "event_name": "Hangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-27",
+          "event_date_end": "2026-09-28",
           "result": "QF",
           "points_earned": 50,
           "live": true,
@@ -14751,7 +14583,7 @@
           "event_name": "Hangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-27",
+          "event_date_end": "2026-09-28",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -14842,7 +14674,7 @@
           "event_name": "Hangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-27",
+          "event_date_end": "2026-09-28",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -15441,7 +15273,7 @@
           "event_name": "Hangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-27",
+          "event_date_end": "2026-09-28",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -15709,7 +15541,7 @@
           "event_name": "Hangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-27",
+          "event_date_end": "2026-09-28",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -15792,7 +15624,7 @@
           "event_name": "Hangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-09-21",
-          "event_date_end": "2026-09-27",
+          "event_date_end": "2026-09-28",
           "result": "QF",
           "points_earned": 50,
           "live": true,
