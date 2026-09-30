@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T06:17:57.605Z",
+  "updated_at": "2026-09-30T06:18:16.404Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -9588,6 +9588,16 @@
           "event_date_end": "2026-09-12",
           "result": "R64",
           "points_earned": 70
+        },
+        {
+          "event_name": "China Open",
+          "event_type": "1000",
+          "event_date_start": "2026-09-28",
+          "event_date_end": "2026-09-30",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -9757,6 +9767,16 @@
           "event_date_end": "2026-09-27",
           "result": "QF",
           "points_earned": 54
+        },
+        {
+          "event_name": "China Open",
+          "event_type": "1000",
+          "event_date_start": "2026-09-28",
+          "event_date_end": "2026-09-30",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -10587,6 +10607,16 @@
           "event_date_end": "2026-09-12",
           "result": "R64",
           "points_earned": 70
+        },
+        {
+          "event_name": "China Open",
+          "event_type": "1000",
+          "event_date_start": "2026-09-28",
+          "event_date_end": "2026-09-30",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -11231,6 +11261,16 @@
           "event_date_end": "2026-09-12",
           "result": "R64",
           "points_earned": 70
+        },
+        {
+          "event_name": "China Open",
+          "event_type": "1000",
+          "event_date_start": "2026-09-28",
+          "event_date_end": "2026-09-30",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -13631,6 +13671,16 @@
           "event_date_end": "2026-09-19",
           "result": "R32",
           "points_earned": 0
+        },
+        {
+          "event_name": "China Open",
+          "event_type": "1000",
+          "event_date_start": "2026-09-28",
+          "event_date_end": "2026-09-30",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": true
         }
       ]
     },
