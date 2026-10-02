@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T06:18:26.513Z",
+  "updated_at": "2026-10-02T11:50:54.498Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -748,6 +748,16 @@
           "event_date_end": "2026-09-27",
           "result": "QF",
           "points_earned": 108
+        },
+        {
+          "event_name": "China Open",
+          "event_type": "1000",
+          "event_date_start": "2026-09-28",
+          "event_date_end": "2026-10-02",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -917,6 +927,16 @@
           "event_date_end": "2026-09-12",
           "result": "QF",
           "points_earned": 430
+        },
+        {
+          "event_name": "China Open",
+          "event_type": "1000",
+          "event_date_start": "2026-09-28",
+          "event_date_end": "2026-10-02",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -1199,6 +1219,16 @@
           "event_date_end": "2026-09-12",
           "result": "R32",
           "points_earned": 130
+        },
+        {
+          "event_name": "China Open",
+          "event_type": "1000",
+          "event_date_start": "2026-09-28",
+          "event_date_end": "2026-10-02",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -2085,6 +2115,16 @@
           "event_date_end": "2026-09-12",
           "result": "R32",
           "points_earned": 130
+        },
+        {
+          "event_name": "China Open",
+          "event_type": "1000",
+          "event_date_start": "2026-09-28",
+          "event_date_end": "2026-10-02",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -2496,6 +2536,16 @@
           "event_date_end": "2026-09-12",
           "result": "R16",
           "points_earned": 240
+        },
+        {
+          "event_name": "China Open",
+          "event_type": "1000",
+          "event_date_start": "2026-09-28",
+          "event_date_end": "2026-10-02",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -3027,6 +3077,16 @@
           "event_date_end": "2026-09-12",
           "result": "R32",
           "points_earned": 130
+        },
+        {
+          "event_name": "China Open",
+          "event_type": "1000",
+          "event_date_start": "2026-09-28",
+          "event_date_end": "2026-10-02",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -3100,6 +3160,16 @@
           "event_date_end": "2026-09-27",
           "result": "SF",
           "points_earned": 195
+        },
+        {
+          "event_name": "China Open",
+          "event_type": "1000",
+          "event_date_start": "2026-09-28",
+          "event_date_end": "2026-10-02",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -3744,6 +3814,16 @@
           "event_date_end": "2026-09-12",
           "result": "R16",
           "points_earned": 240
+        },
+        {
+          "event_name": "China Open",
+          "event_type": "1000",
+          "event_date_start": "2026-09-28",
+          "event_date_end": "2026-10-02",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -4387,6 +4467,16 @@
           "event_date_end": "2026-09-12",
           "result": "R32",
           "points_earned": 130
+        },
+        {
+          "event_name": "China Open",
+          "event_type": "1000",
+          "event_date_start": "2026-09-28",
+          "event_date_end": "2026-10-02",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -4548,6 +4638,16 @@
           "event_date_end": "2026-09-19",
           "result": "QF",
           "points_earned": 108
+        },
+        {
+          "event_name": "China Open",
+          "event_type": "1000",
+          "event_date_start": "2026-09-28",
+          "event_date_end": "2026-10-02",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -4910,6 +5010,16 @@
           "event_date_end": "2026-09-19",
           "result": "R16",
           "points_earned": 60
+        },
+        {
+          "event_name": "China Open",
+          "event_type": "1000",
+          "event_date_start": "2026-09-28",
+          "event_date_end": "2026-10-02",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -5401,6 +5511,16 @@
           "event_date_end": "2026-09-12",
           "result": "R32",
           "points_earned": 130
+        },
+        {
+          "event_name": "China Open",
+          "event_type": "1000",
+          "event_date_start": "2026-09-28",
+          "event_date_end": "2026-10-02",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -5755,6 +5875,16 @@
           "event_date_end": "2026-09-19",
           "result": "F",
           "points_earned": 325
+        },
+        {
+          "event_name": "China Open",
+          "event_type": "1000",
+          "event_date_start": "2026-09-28",
+          "event_date_end": "2026-10-02",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -5913,9 +6043,9 @@
           "event_name": "China Open",
           "event_type": "1000",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-01",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-10-02",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": true
         }
@@ -6344,6 +6474,16 @@
           "event_date_end": "2026-09-19",
           "result": "SF",
           "points_earned": 195
+        },
+        {
+          "event_name": "China Open",
+          "event_type": "1000",
+          "event_date_start": "2026-09-28",
+          "event_date_end": "2026-10-02",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -6674,6 +6814,16 @@
           "event_date_end": "2026-09-27",
           "result": "W",
           "points_earned": 250
+        },
+        {
+          "event_name": "China Open",
+          "event_type": "1000",
+          "event_date_start": "2026-09-28",
+          "event_date_end": "2026-10-02",
+          "result": "R32",
+          "points_earned": 65,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -7141,6 +7291,16 @@
           "event_date_end": "2026-09-12",
           "result": "R64",
           "points_earned": 70
+        },
+        {
+          "event_name": "China Open",
+          "event_type": "1000",
+          "event_date_start": "2026-09-28",
+          "event_date_end": "2026-10-02",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -7302,6 +7462,16 @@
           "event_date_end": "2026-09-12",
           "result": "R32",
           "points_earned": 130
+        },
+        {
+          "event_name": "China Open",
+          "event_type": "1000",
+          "event_date_start": "2026-09-28",
+          "event_date_end": "2026-10-02",
+          "result": "R32",
+          "points_earned": 65,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -7388,7 +7558,7 @@
           "event_name": "China Open",
           "event_type": "1000",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-01",
+          "event_date_end": "2026-10-02",
           "result": "R16",
           "points_earned": 120,
           "live": true,
@@ -7535,9 +7705,9 @@
           "event_name": "China Open",
           "event_type": "1000",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-01",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-10-02",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": true
         }
@@ -7738,11 +7908,11 @@
           "event_name": "China Open",
           "event_type": "1000",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-01",
+          "event_date_end": "2026-10-02",
           "result": "R16",
           "points_earned": 120,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -7965,11 +8135,11 @@
           "event_name": "China Open",
           "event_type": "1000",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-01",
+          "event_date_end": "2026-10-02",
           "result": "R16",
           "points_earned": 120,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -8088,9 +8258,9 @@
           "event_name": "China Open",
           "event_type": "1000",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-01",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-10-02",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": true
         }
@@ -8373,9 +8543,9 @@
           "event_name": "China Open",
           "event_type": "1000",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-01",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-10-02",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": true
         }
@@ -8499,6 +8669,16 @@
           "event_date_end": "2026-09-12",
           "result": "QF",
           "points_earned": 430
+        },
+        {
+          "event_name": "China Open",
+          "event_type": "1000",
+          "event_date_start": "2026-09-28",
+          "event_date_end": "2026-10-02",
+          "result": "R32",
+          "points_earned": 65,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -8652,6 +8832,16 @@
           "event_date_end": "2026-09-12",
           "result": "R64",
           "points_earned": 70
+        },
+        {
+          "event_name": "China Open",
+          "event_type": "1000",
+          "event_date_start": "2026-09-28",
+          "event_date_end": "2026-10-02",
+          "result": "R32",
+          "points_earned": 65,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -8834,11 +9024,11 @@
           "event_name": "China Open",
           "event_type": "1000",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-01",
+          "event_date_end": "2026-10-02",
           "result": "R16",
           "points_earned": 120,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -9230,9 +9420,9 @@
           "event_name": "China Open",
           "event_type": "1000",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-01",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-10-02",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": true
         }
@@ -9396,6 +9586,16 @@
           "event_date_end": "2026-09-21",
           "result": "SF",
           "points_earned": 98
+        },
+        {
+          "event_name": "China Open",
+          "event_type": "1000",
+          "event_date_start": "2026-09-28",
+          "event_date_end": "2026-10-02",
+          "result": "R32",
+          "points_earned": 65,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -9683,9 +9883,9 @@
           "event_name": "China Open",
           "event_type": "1000",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-01",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-10-02",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": true
         }
@@ -9862,11 +10062,11 @@
           "event_name": "China Open",
           "event_type": "1000",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-01",
+          "event_date_end": "2026-10-02",
           "result": "R16",
           "points_earned": 120,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -9940,6 +10140,16 @@
           "event_date_end": "2026-09-27",
           "result": "QF",
           "points_earned": 54
+        },
+        {
+          "event_name": "China Open",
+          "event_type": "1000",
+          "event_date_start": "2026-09-28",
+          "event_date_end": "2026-10-02",
+          "result": "R32",
+          "points_earned": 65,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -10162,9 +10372,9 @@
           "event_name": "China Open",
           "event_type": "1000",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-01",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-10-02",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": true
         }
@@ -10489,6 +10699,16 @@
           "event_date_end": "2026-09-12",
           "result": "R64",
           "points_earned": 70
+        },
+        {
+          "event_name": "China Open",
+          "event_type": "1000",
+          "event_date_start": "2026-09-28",
+          "event_date_end": "2026-10-02",
+          "result": "R32",
+          "points_earned": 65,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -10631,7 +10851,7 @@
           "event_name": "China Open",
           "event_type": "1000",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-01",
+          "event_date_end": "2026-10-02",
           "result": "R16",
           "points_earned": 120,
           "live": true,
@@ -10722,11 +10942,11 @@
           "event_name": "China Open",
           "event_type": "1000",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-01",
+          "event_date_end": "2026-10-02",
           "result": "R16",
           "points_earned": 120,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -11025,6 +11245,16 @@
           "event_date_end": "2026-09-27",
           "result": "R16",
           "points_earned": 60
+        },
+        {
+          "event_name": "China Open",
+          "event_type": "1000",
+          "event_date_start": "2026-09-28",
+          "event_date_end": "2026-10-02",
+          "result": "R32",
+          "points_earned": 65,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -11376,9 +11606,9 @@
           "event_name": "China Open",
           "event_type": "1000",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-01",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-10-02",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": true
         }
@@ -11523,9 +11753,9 @@
           "event_name": "China Open",
           "event_type": "1000",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-01",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-10-02",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": false
         }
@@ -11697,6 +11927,16 @@
           "event_date_end": "2026-09-27",
           "result": "QF",
           "points_earned": 54
+        },
+        {
+          "event_name": "China Open",
+          "event_type": "1000",
+          "event_date_start": "2026-09-28",
+          "event_date_end": "2026-10-02",
+          "result": "R32",
+          "points_earned": 65,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -11903,9 +12143,9 @@
           "event_name": "China Open",
           "event_type": "1000",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-01",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-10-02",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": true
         }
@@ -12069,6 +12309,16 @@
           "event_date_end": "2026-09-27",
           "result": "R16",
           "points_earned": 30
+        },
+        {
+          "event_name": "China Open",
+          "event_type": "1000",
+          "event_date_start": "2026-09-28",
+          "event_date_end": "2026-10-02",
+          "result": "R32",
+          "points_earned": 65,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -12488,6 +12738,16 @@
           "event_date_end": "2026-09-19",
           "result": "R16",
           "points_earned": 60
+        },
+        {
+          "event_name": "China Open",
+          "event_type": "1000",
+          "event_date_start": "2026-09-28",
+          "event_date_end": "2026-10-02",
+          "result": "R32",
+          "points_earned": 65,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -12673,6 +12933,16 @@
           "event_date_end": "2026-09-27",
           "result": "R32",
           "points_earned": 0
+        },
+        {
+          "event_name": "China Open",
+          "event_type": "1000",
+          "event_date_start": "2026-09-28",
+          "event_date_end": "2026-10-02",
+          "result": "R32",
+          "points_earned": 65,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -13712,6 +13982,16 @@
           "event_date_end": "2026-09-27",
           "result": "R32",
           "points_earned": 0
+        },
+        {
+          "event_name": "China Open",
+          "event_type": "1000",
+          "event_date_start": "2026-09-28",
+          "event_date_end": "2026-10-02",
+          "result": "R32",
+          "points_earned": 65,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -13806,9 +14086,9 @@
           "event_name": "China Open",
           "event_type": "1000",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-01",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-10-02",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": true
         }
@@ -14091,7 +14371,7 @@
           "event_name": "China Open",
           "event_type": "1000",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-01",
+          "event_date_end": "2026-10-02",
           "result": "R16",
           "points_earned": 120,
           "live": true,
@@ -14496,9 +14776,9 @@
           "event_name": "China Open",
           "event_type": "1000",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-01",
-          "result": "R16",
-          "points_earned": 120,
+          "event_date_end": "2026-10-02",
+          "result": "R32",
+          "points_earned": 65,
           "live": true,
           "out": false
         }
@@ -14611,7 +14891,7 @@
           "event_name": "China Open",
           "event_type": "1000",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-01",
+          "event_date_end": "2026-10-02",
           "result": "R16",
           "points_earned": 120,
           "live": true,
