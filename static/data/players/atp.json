@@ -151,6 +151,10 @@
     "name": "Mackenzie Mcdonald",
     "country": "USA"
   },
+  "18348": {
+    "name": "Pedro Sakamoto",
+    "country": "BRA"
+  },
   "18477": {
     "name": "Hugo Dellien",
     "country": "BOL"
@@ -226,6 +230,10 @@
   "23099": {
     "name": "Hernan Casanova",
     "country": "ARG"
+  },
+  "23142": {
+    "name": "Dmitry Popko",
+    "country": "KAZ"
   },
   "23298": {
     "name": "Kimmer Coppejans",
@@ -646,6 +654,10 @@
   "36858": {
     "name": "Thiago Seyboth Wild",
     "country": "BRA"
+  },
+  "36897": {
+    "name": "Evan Zhu",
+    "country": "USA"
   },
   "37492": {
     "name": "Andres Andrade",
@@ -1655,6 +1667,10 @@
     "name": "Guy Den Ouden",
     "country": "NED"
   },
+  "84237": {
+    "name": "Sander Jong",
+    "country": "NED"
+  },
   "84377": {
     "name": "Mika Brunold",
     "country": "SUI"
@@ -1707,6 +1723,10 @@
     "name": "Juan Manuel La Serna",
     "country": "ARG"
   },
+  "86348": {
+    "name": "Gerard Campana Lee",
+    "country": "KOR"
+  },
   "86351": {
     "name": "Tom Gentzsch",
     "country": "GER"
@@ -1758,6 +1778,10 @@
   "88931": {
     "name": "Yannik Kelm",
     "country": "GER"
+  },
+  "89099": {
+    "name": "Joao Eduardo Schiessl",
+    "country": "BRA"
   },
   "89108": {
     "name": "Colton Smith",
