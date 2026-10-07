@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-06T06:17:45.802Z",
+  "updated_at": "2026-10-07T06:16:33.975Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -262,11 +262,9 @@
           "event_name": "China Open",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "QF",
-          "points_earned": 100,
-          "live": true,
-          "out": true
+          "points_earned": 100
         }
       ]
     },
@@ -353,11 +351,9 @@
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
-          "result": "SF",
-          "points_earned": 200,
-          "live": true,
-          "out": false
+          "event_date_end": "2026-10-06",
+          "result": "W",
+          "points_earned": 500
         }
       ]
     },
@@ -733,11 +729,9 @@
           "event_name": "China Open",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "SF",
-          "points_earned": 200,
-          "live": true,
-          "out": true
+          "points_earned": 200
         }
       ]
     },
@@ -920,11 +914,9 @@
           "event_name": "China Open",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "R32",
-          "points_earned": 25,
-          "live": true,
-          "out": true
+          "points_earned": 25
         }
       ]
     },
@@ -1131,11 +1123,9 @@
           "event_name": "China Open",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "R32",
-          "points_earned": 25,
-          "live": true,
-          "out": true
+          "points_earned": 25
         }
       ]
     },
@@ -1302,11 +1292,9 @@
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "R16",
-          "points_earned": 50,
-          "live": true,
-          "out": true
+          "points_earned": 50
         }
       ]
     },
@@ -1497,11 +1485,9 @@
           "event_name": "China Open",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
-          "result": "SF",
-          "points_earned": 200,
-          "live": true,
-          "out": false
+          "event_date_end": "2026-10-06",
+          "result": "F",
+          "points_earned": 330
         }
       ]
     },
@@ -1620,11 +1606,9 @@
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "QF",
-          "points_earned": 100,
-          "live": true,
-          "out": true
+          "points_earned": 100
         }
       ]
     },
@@ -1711,11 +1695,9 @@
           "event_name": "China Open",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
-          "result": "SF",
-          "points_earned": 200,
-          "live": true,
-          "out": false
+          "event_date_end": "2026-10-06",
+          "result": "W",
+          "points_earned": 500
         }
       ]
     },
@@ -1866,11 +1848,9 @@
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "R32",
-          "points_earned": 25,
-          "live": true,
-          "out": true
+          "points_earned": 25
         }
       ]
     },
@@ -2013,11 +1993,9 @@
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "R32",
-          "points_earned": 25,
-          "live": true,
-          "out": true
+          "points_earned": 25
         }
       ]
     },
@@ -2184,11 +2162,9 @@
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "SF",
-          "points_earned": 200,
-          "live": true,
-          "out": true
+          "points_earned": 200
         }
       ]
     },
@@ -2347,11 +2323,9 @@
           "event_name": "China Open",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "R16",
-          "points_earned": 50,
-          "live": true,
-          "out": true
+          "points_earned": 50
         }
       ]
     },
@@ -2534,11 +2508,9 @@
           "event_name": "China Open",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "R32",
-          "points_earned": 25,
-          "live": true,
-          "out": true
+          "points_earned": 25
         }
       ]
     },
@@ -2697,11 +2669,9 @@
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "R32",
-          "points_earned": 25,
-          "live": true,
-          "out": true
+          "points_earned": 25
         }
       ]
     },
@@ -2900,11 +2870,9 @@
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "R32",
-          "points_earned": 25,
-          "live": true,
-          "out": true
+          "points_earned": 25
         }
       ]
     },
@@ -3087,11 +3055,9 @@
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
-          "result": "SF",
-          "points_earned": 200,
-          "live": true,
-          "out": false
+          "event_date_end": "2026-10-06",
+          "result": "F",
+          "points_earned": 330
         }
       ]
     },
@@ -3282,11 +3248,9 @@
           "event_name": "China Open",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "QF",
-          "points_earned": 100,
-          "live": true,
-          "out": true
+          "points_earned": 100
         }
       ]
     },
@@ -3525,11 +3489,9 @@
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "R16",
-          "points_earned": 50,
-          "live": true,
-          "out": true
+          "points_earned": 50
         }
       ]
     },
@@ -3720,11 +3682,9 @@
           "event_name": "China Open",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "R32",
-          "points_earned": 25,
-          "live": true,
-          "out": true
+          "points_earned": 25
         }
       ]
     },
@@ -3915,11 +3875,9 @@
           "event_name": "China Open",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "QF",
-          "points_earned": 100,
-          "live": true,
-          "out": true
+          "points_earned": 100
         }
       ]
     },
@@ -4086,11 +4044,9 @@
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "R32",
-          "points_earned": 25,
-          "live": true,
-          "out": true
+          "points_earned": 25
         }
       ]
     },
@@ -4410,11 +4366,9 @@
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "R32",
-          "points_earned": 25,
-          "live": true,
-          "out": true
+          "points_earned": 25
         }
       ]
     },
@@ -4613,11 +4567,9 @@
           "event_name": "China Open",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "QF",
-          "points_earned": 100,
-          "live": true,
-          "out": true
+          "points_earned": 100
         }
       ]
     },
@@ -4744,11 +4696,9 @@
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "R32",
-          "points_earned": 25,
-          "live": true,
-          "out": true
+          "points_earned": 25
         }
       ]
     },
@@ -5116,11 +5066,9 @@
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "R16",
-          "points_earned": 50,
-          "live": true,
-          "out": true
+          "points_earned": 50
         }
       ]
     },
@@ -5359,11 +5307,9 @@
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "R32",
-          "points_earned": 25,
-          "live": true,
-          "out": true
+          "points_earned": 25
         }
       ]
     },
@@ -5570,11 +5516,9 @@
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "R16",
-          "points_earned": 50,
-          "live": true,
-          "out": true
+          "points_earned": 50
         }
       ]
     },
@@ -5910,11 +5854,9 @@
           "event_name": "China Open",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "SF",
-          "points_earned": 200,
-          "live": true,
-          "out": true
+          "points_earned": 200
         }
       ]
     },
@@ -6105,11 +6047,9 @@
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "R32",
-          "points_earned": 25,
-          "live": true,
-          "out": true
+          "points_earned": 25
         }
       ]
     },
@@ -6276,11 +6216,9 @@
           "event_name": "China Open",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "R32",
-          "points_earned": 25,
-          "live": true,
-          "out": true
+          "points_earned": 25
         }
       ]
     },
@@ -6367,11 +6305,9 @@
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "R32",
-          "points_earned": 25,
-          "live": true,
-          "out": true
+          "points_earned": 25
         }
       ]
     },
@@ -6522,11 +6458,9 @@
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "R16",
-          "points_earned": 50,
-          "live": true,
-          "out": true
+          "points_earned": 50
         }
       ]
     },
@@ -6717,11 +6651,9 @@
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "R32",
-          "points_earned": 25,
-          "live": true,
-          "out": true
+          "points_earned": 25
         }
       ]
     },
@@ -6920,11 +6852,9 @@
           "event_name": "China Open",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "R32",
-          "points_earned": 25,
-          "live": true,
-          "out": true
+          "points_earned": 25
         }
       ]
     },
@@ -7131,11 +7061,9 @@
           "event_name": "China Open",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "R32",
-          "points_earned": 25,
-          "live": true,
-          "out": true
+          "points_earned": 25
         }
       ]
     },
@@ -7334,11 +7262,9 @@
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "QF",
-          "points_earned": 100,
-          "live": true,
-          "out": true
+          "points_earned": 100
         }
       ]
     },
@@ -7521,11 +7447,9 @@
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "R16",
-          "points_earned": 50,
-          "live": true,
-          "out": true
+          "points_earned": 50
         }
       ]
     },
@@ -7717,11 +7641,9 @@
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "R32",
-          "points_earned": 25,
-          "live": true,
-          "out": true
+          "points_earned": 25
         }
       ]
     },
@@ -7880,11 +7802,9 @@
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "R16",
-          "points_earned": 50,
-          "live": true,
-          "out": true
+          "points_earned": 50
         }
       ]
     },
@@ -8083,11 +8003,9 @@
           "event_name": "China Open",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "R32",
-          "points_earned": 25,
-          "live": true,
-          "out": true
+          "points_earned": 25
         }
       ]
     },
@@ -8286,11 +8204,9 @@
           "event_name": "China Open",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "R16",
-          "points_earned": 50,
-          "live": true,
-          "out": true
+          "points_earned": 50
         }
       ]
     },
@@ -8441,11 +8357,9 @@
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "SF",
-          "points_earned": 200,
-          "live": true,
-          "out": true
+          "points_earned": 200
         }
       ]
     },
@@ -8813,11 +8727,9 @@
           "event_name": "China Open",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "R32",
-          "points_earned": 25,
-          "live": true,
-          "out": true
+          "points_earned": 25
         }
       ]
     },
@@ -8936,11 +8848,9 @@
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "QF",
-          "points_earned": 100,
-          "live": true,
-          "out": true
+          "points_earned": 100
         }
       ]
     },
@@ -9163,11 +9073,9 @@
           "event_name": "China Open",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "R32",
-          "points_earned": 25,
-          "live": true,
-          "out": true
+          "points_earned": 25
         }
       ]
     },
@@ -9302,11 +9210,9 @@
           "event_name": "China Open",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "R32",
-          "points_earned": 25,
-          "live": true,
-          "out": true
+          "points_earned": 25
         }
       ]
     },
@@ -9489,11 +9395,9 @@
           "event_name": "China Open",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "R32",
-          "points_earned": 25,
-          "live": true,
-          "out": true
+          "points_earned": 25
         }
       ]
     },
@@ -9556,11 +9460,9 @@
           "event_name": "China Open",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "R16",
-          "points_earned": 50,
-          "live": true,
-          "out": true
+          "points_earned": 50
         }
       ]
     },
@@ -9936,11 +9838,9 @@
           "event_name": "China Open",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "R32",
-          "points_earned": 25,
-          "live": true,
-          "out": true
+          "points_earned": 25
         }
       ]
     },
@@ -10107,11 +10007,9 @@
           "event_name": "China Open",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "R16",
-          "points_earned": 50,
-          "live": true,
-          "out": true
+          "points_earned": 50
         }
       ]
     },
@@ -10214,11 +10112,9 @@
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "R16",
-          "points_earned": 50,
-          "live": true,
-          "out": true
+          "points_earned": 50
         }
       ]
     },
@@ -11077,11 +10973,9 @@
           "event_name": "China Open",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "R32",
-          "points_earned": 25,
-          "live": true,
-          "out": true
+          "points_earned": 25
         }
       ]
     },
@@ -12553,11 +12447,9 @@
           "event_name": "China Open",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "R32",
-          "points_earned": 25,
-          "live": true,
-          "out": true
+          "points_earned": 25
         }
       ]
     },
@@ -12644,11 +12536,9 @@
           "event_name": "Japan Open Tennis Championships",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "QF",
-          "points_earned": 100,
-          "live": true,
-          "out": true
+          "points_earned": 100
         }
       ]
     },
@@ -13057,11 +12947,9 @@
           "event_name": "China Open",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "R16",
-          "points_earned": 50,
-          "live": true,
-          "out": true
+          "points_earned": 50
         }
       ]
     },
@@ -13872,11 +13760,9 @@
           "event_name": "China Open",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "R16",
-          "points_earned": 50,
-          "live": true,
-          "out": true
+          "points_earned": 50
         }
       ]
     },
@@ -15019,11 +14905,9 @@
           "event_name": "China Open",
           "event_type": "500",
           "event_date_start": "2026-09-28",
-          "event_date_end": "2026-10-05",
+          "event_date_end": "2026-10-06",
           "result": "R16",
-          "points_earned": 50,
-          "live": true,
-          "out": true
+          "points_earned": 50
         }
       ]
     },
