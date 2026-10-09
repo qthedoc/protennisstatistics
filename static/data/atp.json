@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-08T06:18:45.285Z",
+  "updated_at": "2026-10-09T06:17:56.872Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -1488,6 +1488,16 @@
           "event_date_end": "2026-10-06",
           "result": "F",
           "points_earned": 330
+        },
+        {
+          "event_name": "Shanghai Rolex Masters",
+          "event_type": "1000",
+          "event_date_start": "2026-10-05",
+          "event_date_end": "2026-10-09",
+          "result": "R16",
+          "points_earned": 100,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -5857,6 +5867,16 @@
           "event_date_end": "2026-10-06",
           "result": "SF",
           "points_earned": 200
+        },
+        {
+          "event_name": "Shanghai Rolex Masters",
+          "event_type": "1000",
+          "event_date_start": "2026-10-05",
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -6313,9 +6333,9 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-07",
-          "result": "R16",
-          "points_earned": 100,
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
           "live": true,
           "out": false
         }
@@ -6471,6 +6491,16 @@
           "event_date_end": "2026-10-06",
           "result": "R16",
           "points_earned": 50
+        },
+        {
+          "event_name": "Shanghai Rolex Masters",
+          "event_type": "1000",
+          "event_date_start": "2026-10-05",
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -6664,6 +6694,16 @@
           "event_date_end": "2026-10-06",
           "result": "R32",
           "points_earned": 25
+        },
+        {
+          "event_name": "Shanghai Rolex Masters",
+          "event_type": "1000",
+          "event_date_start": "2026-10-05",
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -6865,6 +6905,16 @@
           "event_date_end": "2026-10-06",
           "result": "R32",
           "points_earned": 25
+        },
+        {
+          "event_name": "Shanghai Rolex Masters",
+          "event_type": "1000",
+          "event_date_start": "2026-10-05",
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -7074,6 +7124,16 @@
           "event_date_end": "2026-10-06",
           "result": "R32",
           "points_earned": 25
+        },
+        {
+          "event_name": "Shanghai Rolex Masters",
+          "event_type": "1000",
+          "event_date_start": "2026-10-05",
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -7460,6 +7520,16 @@
           "event_date_end": "2026-10-06",
           "result": "R16",
           "points_earned": 50
+        },
+        {
+          "event_name": "Shanghai Rolex Masters",
+          "event_type": "1000",
+          "event_date_start": "2026-10-05",
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -7557,6 +7627,16 @@
           "event_date_end": "2026-09-13",
           "result": "R32",
           "points_earned": 100
+        },
+        {
+          "event_name": "Shanghai Rolex Masters",
+          "event_type": "1000",
+          "event_date_start": "2026-10-05",
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -7654,6 +7734,16 @@
           "event_date_end": "2026-10-06",
           "result": "R32",
           "points_earned": 25
+        },
+        {
+          "event_name": "Shanghai Rolex Masters",
+          "event_type": "1000",
+          "event_date_start": "2026-10-05",
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -7820,9 +7910,9 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-07",
-          "result": "R16",
-          "points_earned": 100,
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
           "live": true,
           "out": false
         }
@@ -8026,6 +8116,16 @@
           "event_date_end": "2026-10-06",
           "result": "R32",
           "points_earned": 25
+        },
+        {
+          "event_name": "Shanghai Rolex Masters",
+          "event_type": "1000",
+          "event_date_start": "2026-10-05",
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -8232,9 +8332,9 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-07",
-          "result": "R16",
-          "points_earned": 100,
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
           "live": true,
           "out": false
         }
@@ -8390,6 +8490,16 @@
           "event_date_end": "2026-10-06",
           "result": "SF",
           "points_earned": 200
+        },
+        {
+          "event_name": "Shanghai Rolex Masters",
+          "event_type": "1000",
+          "event_date_start": "2026-10-05",
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -8760,6 +8870,16 @@
           "event_date_end": "2026-10-06",
           "result": "R32",
           "points_earned": 25
+        },
+        {
+          "event_name": "Shanghai Rolex Masters",
+          "event_type": "1000",
+          "event_date_start": "2026-10-05",
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -8881,6 +9001,16 @@
           "event_date_end": "2026-10-06",
           "result": "QF",
           "points_earned": 100
+        },
+        {
+          "event_name": "Shanghai Rolex Masters",
+          "event_type": "1000",
+          "event_date_start": "2026-10-05",
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -9106,6 +9236,16 @@
           "event_date_end": "2026-10-06",
           "result": "R32",
           "points_earned": 25
+        },
+        {
+          "event_name": "Shanghai Rolex Masters",
+          "event_type": "1000",
+          "event_date_start": "2026-10-05",
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -9243,6 +9383,16 @@
           "event_date_end": "2026-10-06",
           "result": "R32",
           "points_earned": 25
+        },
+        {
+          "event_name": "Shanghai Rolex Masters",
+          "event_type": "1000",
+          "event_date_start": "2026-10-05",
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -9428,6 +9578,16 @@
           "event_date_end": "2026-10-06",
           "result": "R32",
           "points_earned": 25
+        },
+        {
+          "event_name": "Shanghai Rolex Masters",
+          "event_type": "1000",
+          "event_date_start": "2026-10-05",
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -9498,9 +9658,9 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-07",
-          "result": "R16",
-          "points_earned": 100,
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
           "live": true,
           "out": false
         }
@@ -9693,9 +9853,9 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-07",
-          "result": "R16",
-          "points_earned": 100,
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
           "live": true,
           "out": false
         }
@@ -9891,6 +10051,16 @@
           "event_date_end": "2026-10-06",
           "result": "R32",
           "points_earned": 25
+        },
+        {
+          "event_name": "Shanghai Rolex Masters",
+          "event_type": "1000",
+          "event_date_start": "2026-10-05",
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -10060,6 +10230,16 @@
           "event_date_end": "2026-10-06",
           "result": "R16",
           "points_earned": 50
+        },
+        {
+          "event_name": "Shanghai Rolex Masters",
+          "event_type": "1000",
+          "event_date_start": "2026-10-05",
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -10170,9 +10350,9 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-07",
-          "result": "R16",
-          "points_earned": 100,
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
           "live": true,
           "out": true
         }
@@ -10421,9 +10601,9 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-07",
-          "result": "R16",
-          "points_earned": 100,
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
           "live": true,
           "out": false
         }
@@ -10756,6 +10936,16 @@
           "event_date_end": "2026-09-29",
           "result": "QF",
           "points_earned": 50
+        },
+        {
+          "event_name": "Shanghai Rolex Masters",
+          "event_type": "1000",
+          "event_date_start": "2026-10-05",
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -10909,6 +11099,16 @@
           "event_date_end": "2026-09-29",
           "result": "R32",
           "points_earned": 0
+        },
+        {
+          "event_name": "Shanghai Rolex Masters",
+          "event_type": "1000",
+          "event_date_start": "2026-10-05",
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -11046,6 +11246,16 @@
           "event_date_end": "2026-10-06",
           "result": "R32",
           "points_earned": 25
+        },
+        {
+          "event_name": "Shanghai Rolex Masters",
+          "event_type": "1000",
+          "event_date_start": "2026-10-05",
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -11445,9 +11655,9 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-07",
-          "result": "R16",
-          "points_earned": 100,
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
           "live": true,
           "out": false
         }
@@ -11627,6 +11837,16 @@
           "event_date_end": "2026-09-29",
           "result": "R16",
           "points_earned": 25
+        },
+        {
+          "event_name": "Shanghai Rolex Masters",
+          "event_type": "1000",
+          "event_date_start": "2026-10-05",
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -11676,6 +11896,16 @@
           "event_date_end": "2026-09-13",
           "result": "R64",
           "points_earned": 50
+        },
+        {
+          "event_name": "Shanghai Rolex Masters",
+          "event_type": "1000",
+          "event_date_start": "2026-10-05",
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -11866,9 +12096,9 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-07",
-          "result": "R16",
-          "points_earned": 100,
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
           "live": true,
           "out": true
         }
@@ -12274,6 +12504,16 @@
           "event_date_end": "2026-09-13",
           "result": "R64",
           "points_earned": 50
+        },
+        {
+          "event_name": "Shanghai Rolex Masters",
+          "event_type": "1000",
+          "event_date_start": "2026-10-05",
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -12545,9 +12785,9 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-07",
-          "result": "R16",
-          "points_earned": 100,
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
           "live": true,
           "out": false
         }
@@ -12848,6 +13088,16 @@
           "event_date_end": "2026-09-29",
           "result": "R32",
           "points_earned": 0
+        },
+        {
+          "event_name": "Shanghai Rolex Masters",
+          "event_type": "1000",
+          "event_date_start": "2026-10-05",
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -12985,6 +13235,16 @@
           "event_date_end": "2026-09-13",
           "result": "R64",
           "points_earned": 50
+        },
+        {
+          "event_name": "Shanghai Rolex Masters",
+          "event_type": "1000",
+          "event_date_start": "2026-10-05",
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -13055,9 +13315,9 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-07",
-          "result": "R16",
-          "points_earned": 100,
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
           "live": true,
           "out": false
         }
@@ -13226,9 +13486,9 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-07",
-          "result": "R16",
-          "points_earned": 100,
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
           "live": true,
           "out": true
         }
@@ -13469,9 +13729,9 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-07",
-          "result": "R16",
-          "points_earned": 100,
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
           "live": true,
           "out": true
         }
@@ -13595,6 +13855,16 @@
           "event_date_end": "2026-09-13",
           "result": "R64",
           "points_earned": 50
+        },
+        {
+          "event_name": "Shanghai Rolex Masters",
+          "event_type": "1000",
+          "event_date_start": "2026-10-05",
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -13825,9 +14095,9 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-07",
-          "result": "R16",
-          "points_earned": 100,
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
           "live": true,
           "out": false
         }
@@ -13908,11 +14178,11 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-07",
+          "event_date_end": "2026-10-09",
           "result": "R16",
           "points_earned": 100,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -14079,9 +14349,9 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-07",
-          "result": "R16",
-          "points_earned": 100,
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
           "live": true,
           "out": true
         }
@@ -14258,9 +14528,9 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-07",
-          "result": "R16",
-          "points_earned": 100,
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
           "live": true,
           "out": true
         }
@@ -14641,6 +14911,16 @@
           "event_date_end": "2026-09-13",
           "result": "R64",
           "points_earned": 50
+        },
+        {
+          "event_name": "Shanghai Rolex Masters",
+          "event_type": "1000",
+          "event_date_start": "2026-10-05",
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -14848,9 +15128,9 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-07",
-          "result": "R16",
-          "points_earned": 100,
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
           "live": true,
           "out": true
         }
@@ -15088,6 +15368,16 @@
           "event_date_end": "2026-10-06",
           "result": "R16",
           "points_earned": 50
+        },
+        {
+          "event_name": "Shanghai Rolex Masters",
+          "event_type": "1000",
+          "event_date_start": "2026-10-05",
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -15182,9 +15472,9 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-07",
-          "result": "R16",
-          "points_earned": 100,
+          "event_date_end": "2026-10-09",
+          "result": "R32",
+          "points_earned": 50,
           "live": true,
           "out": true
         }
