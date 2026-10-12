@@ -831,6 +831,10 @@
     "name": "Mei Yamaguchi",
     "country": "JPN"
   },
+  "43027": {
+    "name": "Anna Kubareva",
+    "country": "BLR"
+  },
   "43263": {
     "name": "Sada Nahimana",
     "country": "BDI"
@@ -865,6 +869,10 @@
   },
   "44349": {
     "name": "Simona Waltert",
+    "country": "SUI"
+  },
+  "44444": {
+    "name": "Marie Mettraux",
     "country": "SUI"
   },
   "44510": {
@@ -1010,6 +1018,10 @@
   "50297": {
     "name": "Anastasia Tikhonova",
     "country": "RUS"
+  },
+  "50619": {
+    "name": "Naho Sato",
+    "country": "JPN"
   },
   "50859": {
     "name": "Alessandra Mazzola",
@@ -1194,6 +1206,10 @@
   "57761": {
     "name": "Madison Sieg",
     "country": "USA"
+  },
+  "57873": {
+    "name": "Oceane Babel",
+    "country": "FRA"
   },
   "57891": {
     "name": "Hibah Shaikh",
@@ -1943,6 +1959,10 @@
     "name": "Mika Stojsavljevic",
     "country": "GBR"
   },
+  "86048": {
+    "name": "Yuno Kitahara",
+    "country": "JPN"
+  },
   "86330": {
     "name": "Julia Adams",
     "country": "USA"
@@ -1954,6 +1974,10 @@
   "87185": {
     "name": "Alena Kovackova",
     "country": "CZE"
+  },
+  "87186": {
+    "name": "Charo Esquiva Banuls",
+    "country": "ESP"
   },
   "87187": {
     "name": "Laura Samson",
@@ -2003,6 +2027,10 @@
     "name": "Isabella Maria Serban",
     "country": "ROU"
   },
+  "90082": {
+    "name": "Jiayi Wang",
+    "country": "CHN"
+  },
   "90390": {
     "name": "Mia Pohankova",
     "country": "SVK"
@@ -2042,5 +2070,9 @@
   "98857": {
     "name": "Jana Kovackova",
     "country": "CZE"
+  },
+  "100576": {
+    "name": "Xinran Sun",
+    "country": "CHN"
   }
 }
