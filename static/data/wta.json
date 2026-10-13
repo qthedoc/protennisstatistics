@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T06:27:14.345Z",
+  "updated_at": "2026-10-13T06:20:18.972Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -2738,6 +2738,16 @@
           "event_date_end": "2026-09-27",
           "result": "R16",
           "points_earned": 60
+        },
+        {
+          "event_name": "Wuhan Open",
+          "event_type": "1000",
+          "event_date_start": "2026-10-12",
+          "event_date_end": "2026-10-12",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -4515,6 +4525,16 @@
           "event_date_end": "2026-10-11",
           "result": "R32",
           "points_earned": 65
+        },
+        {
+          "event_name": "Wuhan Open",
+          "event_type": "1000",
+          "event_date_start": "2026-10-12",
+          "event_date_end": "2026-10-12",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -5006,6 +5026,16 @@
           "event_date_end": "2026-10-11",
           "result": "R64",
           "points_earned": 10
+        },
+        {
+          "event_name": "Wuhan Open",
+          "event_type": "1000",
+          "event_date_start": "2026-10-12",
+          "event_date_end": "2026-10-12",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -5360,6 +5390,16 @@
           "event_date_end": "2026-10-11",
           "result": "R32",
           "points_earned": 65
+        },
+        {
+          "event_name": "Wuhan Open",
+          "event_type": "1000",
+          "event_date_start": "2026-10-12",
+          "event_date_end": "2026-10-12",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -5505,6 +5545,16 @@
           "event_date_end": "2026-10-11",
           "result": "R32",
           "points_earned": 65
+        },
+        {
+          "event_name": "Wuhan Open",
+          "event_type": "1000",
+          "event_date_start": "2026-10-12",
+          "event_date_end": "2026-10-12",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -6060,6 +6110,16 @@
           "event_date_end": "2026-10-11",
           "result": "R64",
           "points_earned": 10
+        },
+        {
+          "event_name": "Wuhan Open",
+          "event_type": "1000",
+          "event_date_start": "2026-10-12",
+          "event_date_end": "2026-10-12",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -6857,6 +6917,16 @@
           "event_date_end": "2026-10-11",
           "result": "R64",
           "points_earned": 10
+        },
+        {
+          "event_name": "Wuhan Open",
+          "event_type": "1000",
+          "event_date_start": "2026-10-12",
+          "event_date_end": "2026-10-12",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -8571,6 +8641,16 @@
           "event_date_end": "2026-10-11",
           "result": "R64",
           "points_earned": 10
+        },
+        {
+          "event_name": "Wuhan Open",
+          "event_type": "1000",
+          "event_date_start": "2026-10-12",
+          "event_date_end": "2026-10-12",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -10157,6 +10237,16 @@
           "event_date_end": "2026-10-11",
           "result": "R64",
           "points_earned": 10
+        },
+        {
+          "event_name": "Wuhan Open",
+          "event_type": "1000",
+          "event_date_start": "2026-10-12",
+          "event_date_end": "2026-10-12",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -10801,6 +10891,16 @@
           "event_date_end": "2026-10-11",
           "result": "R64",
           "points_earned": 10
+        },
+        {
+          "event_name": "Wuhan Open",
+          "event_type": "1000",
+          "event_date_start": "2026-10-12",
+          "event_date_end": "2026-10-12",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -12630,6 +12730,16 @@
           "event_date_end": "2026-09-27",
           "result": "R32",
           "points_earned": 0
+        },
+        {
+          "event_name": "Wuhan Open",
+          "event_type": "1000",
+          "event_date_start": "2026-10-12",
+          "event_date_end": "2026-10-12",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -13494,6 +13604,16 @@
           "event_date_end": "2026-09-12",
           "result": "R64",
           "points_earned": 70
+        },
+        {
+          "event_name": "Wuhan Open",
+          "event_type": "1000",
+          "event_date_start": "2026-10-12",
+          "event_date_end": "2026-10-12",
+          "result": "R16",
+          "points_earned": 120,
+          "live": true,
+          "out": false
         }
       ]
     },
