@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-16T06:16:28.312Z",
+  "updated_at": "2026-10-17T06:14:22.871Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -887,10 +887,10 @@
           "event_type": "1000",
           "event_date_start": "2026-10-12",
           "event_date_end": "2026-10-16",
-          "result": "R16",
-          "points_earned": 120,
+          "result": "QF",
+          "points_earned": 215,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -1326,8 +1326,8 @@
           "event_type": "1000",
           "event_date_start": "2026-10-12",
           "event_date_end": "2026-10-16",
-          "result": "R16",
-          "points_earned": 120,
+          "result": "QF",
+          "points_earned": 215,
           "live": true,
           "out": false
         }
@@ -3251,8 +3251,8 @@
           "event_type": "1000",
           "event_date_start": "2026-10-12",
           "event_date_end": "2026-10-16",
-          "result": "R16",
-          "points_earned": 120,
+          "result": "QF",
+          "points_earned": 215,
           "live": true,
           "out": false
         }
@@ -4896,10 +4896,10 @@
           "event_type": "1000",
           "event_date_start": "2026-10-12",
           "event_date_end": "2026-10-16",
-          "result": "R16",
-          "points_earned": 120,
+          "result": "QF",
+          "points_earned": 215,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -5556,10 +5556,10 @@
           "event_type": "1000",
           "event_date_start": "2026-10-12",
           "event_date_end": "2026-10-16",
-          "result": "R16",
-          "points_earned": 120,
+          "result": "QF",
+          "points_earned": 215,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
