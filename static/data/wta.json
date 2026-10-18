@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T06:14:22.871Z",
+  "updated_at": "2026-10-18T06:14:52.513Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -9,14 +9,6 @@
       "country_code": "KZ",
       "current_points": 9696,
       "points_distribution": [
-        {
-          "event_name": "Ningbo Open",
-          "event_type": "500",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "W",
-          "points_earned": 500
-        },
         {
           "event_name": "Toray Pan Pacific Open",
           "event_type": "500",
@@ -278,7 +270,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R32",
           "points_earned": 65,
           "live": true,
@@ -293,14 +285,6 @@
       "country_code": "RU",
       "current_points": 6371,
       "points_distribution": [
-        {
-          "event_name": "Ningbo Open",
-          "event_type": "500",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R16",
-          "points_earned": 60
-        },
         {
           "event_name": "Brisbane International",
           "event_type": "500",
@@ -586,7 +570,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R32",
           "points_earned": 65,
           "live": true,
@@ -886,7 +870,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "QF",
           "points_earned": 215,
           "live": true,
@@ -901,14 +885,6 @@
       "country_code": "CZ",
       "current_points": 4773,
       "points_distribution": [
-        {
-          "event_name": "Ningbo Open",
-          "event_type": "500",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R16",
-          "points_earned": 60
-        },
         {
           "event_name": "Toray Pan Pacific Open",
           "event_type": "500",
@@ -1025,7 +1001,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R16",
           "points_earned": 120,
           "live": true,
@@ -1040,14 +1016,6 @@
       "country_code": "CZ",
       "current_points": 4679,
       "points_distribution": [
-        {
-          "event_name": "Japan Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Toray Pan Pacific Open",
           "event_type": "500",
@@ -1325,11 +1293,11 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
-          "result": "QF",
-          "points_earned": 215,
+          "event_date_end": "2026-10-17",
+          "result": "SF",
+          "points_earned": 390,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -1440,7 +1408,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R32",
           "points_earned": 65,
           "live": true,
@@ -1611,7 +1579,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R16",
           "points_earned": 120,
           "live": true,
@@ -1626,14 +1594,6 @@
       "country_code": "CH",
       "current_points": 2760,
       "points_distribution": [
-        {
-          "event_name": "Ningbo Open",
-          "event_type": "500",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "QF",
-          "points_earned": 108
-        },
         {
           "event_name": "Toray Pan Pacific Open",
           "event_type": "500",
@@ -1766,7 +1726,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R32",
           "points_earned": 65,
           "live": true,
@@ -1781,14 +1741,6 @@
       "country_code": "RU",
       "current_points": 2643,
       "points_distribution": [
-        {
-          "event_name": "Ningbo Open",
-          "event_type": "500",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "SF",
-          "points_earned": 195
-        },
         {
           "event_name": "Toray Pan Pacific Open",
           "event_type": "500",
@@ -1961,7 +1913,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "QF",
           "points_earned": 215,
           "live": true,
@@ -1976,14 +1928,6 @@
       "country_code": "BE",
       "current_points": 2540,
       "points_distribution": [
-        {
-          "event_name": "Japan Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R16",
-          "points_earned": 30
-        },
         {
           "event_name": "United Cup",
           "event_type": "500",
@@ -2148,7 +2092,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -2163,14 +2107,6 @@
       "country_code": "CA",
       "current_points": 2502,
       "points_distribution": [
-        {
-          "event_name": "Ningbo Open",
-          "event_type": "500",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Toray Pan Pacific Open",
           "event_type": "500",
@@ -2268,14 +2204,6 @@
       "country_code": "RO",
       "current_points": 2424,
       "points_distribution": [
-        {
-          "event_name": "Japan Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "SF",
-          "points_earned": 98
-        },
         {
           "event_name": "Hong Kong Tennis Open",
           "event_type": "250",
@@ -2416,7 +2344,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -2537,14 +2465,6 @@
       "current_points": 2351,
       "points_distribution": [
         {
-          "event_name": "Japan Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R16",
-          "points_earned": 30
-        },
-        {
           "event_name": "Australian Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-01-19",
@@ -2649,14 +2569,6 @@
       "country_code": "PHI",
       "current_points": 2241,
       "points_distribution": [
-        {
-          "event_name": "Japan Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Guangzhou Open",
           "event_type": "250",
@@ -2853,7 +2765,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -3250,9 +3162,9 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
-          "result": "QF",
-          "points_earned": 215,
+          "event_date_end": "2026-10-17",
+          "result": "SF",
+          "points_earned": 390,
           "live": true,
           "out": false
         }
@@ -3386,14 +3298,6 @@
       "country_code": "RU",
       "current_points": 1906,
       "points_distribution": [
-        {
-          "event_name": "Ningbo Open",
-          "event_type": "500",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "F",
-          "points_earned": 325
-        },
         {
           "event_name": "Toray Pan Pacific Open",
           "event_type": "500",
@@ -3590,7 +3494,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -3605,14 +3509,6 @@
       "country_code": "CA",
       "current_points": 1839,
       "points_distribution": [
-        {
-          "event_name": "Japan Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "W",
-          "points_earned": 250
-        },
         {
           "event_name": "Toray Pan Pacific Open",
           "event_type": "500",
@@ -3825,7 +3721,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R16",
           "points_earned": 120,
           "live": true,
@@ -4155,14 +4051,6 @@
       "current_points": 1763,
       "points_distribution": [
         {
-          "event_name": "Japan Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R16",
-          "points_earned": 30
-        },
-        {
           "event_name": "Brisbane International",
           "event_type": "500",
           "event_date_start": "2026-01-05",
@@ -4334,7 +4222,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R32",
           "points_earned": 65,
           "live": true,
@@ -4481,7 +4369,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R32",
           "points_earned": 65,
           "live": true,
@@ -4660,7 +4548,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -4675,14 +4563,6 @@
       "country_code": "US",
       "current_points": 1648,
       "points_distribution": [
-        {
-          "event_name": "Japan Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R16",
-          "points_earned": 30
-        },
         {
           "event_name": "Guangzhou Open",
           "event_type": "250",
@@ -4895,7 +4775,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "QF",
           "points_earned": 215,
           "live": true,
@@ -5042,7 +4922,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -5057,14 +4937,6 @@
       "country_code": "IT",
       "current_points": 1528,
       "points_distribution": [
-        {
-          "event_name": "Ningbo Open",
-          "event_type": "500",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "SF",
-          "points_earned": 195
-        },
         {
           "event_name": "Australian Open",
           "event_type": "Grand Slam",
@@ -5181,7 +5053,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R16",
           "points_earned": 120,
           "live": true,
@@ -5360,11 +5232,11 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
-          "result": "QF",
-          "points_earned": 215,
+          "event_date_end": "2026-10-17",
+          "result": "SF",
+          "points_earned": 390,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -5375,14 +5247,6 @@
       "country_code": "GR",
       "current_points": 1492,
       "points_distribution": [
-        {
-          "event_name": "Japan Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Toray Pan Pacific Open",
           "event_type": "500",
@@ -5555,7 +5419,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "QF",
           "points_earned": 215,
           "live": true,
@@ -5710,7 +5574,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -5895,14 +5759,6 @@
       "current_points": 1294,
       "points_distribution": [
         {
-          "event_name": "Japan Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
           "event_name": "Toray Pan Pacific Open",
           "event_type": "500",
           "event_date_start": "2025-10-20",
@@ -6074,7 +5930,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -6089,14 +5945,6 @@
       "country_code": "CN",
       "current_points": 1288,
       "points_distribution": [
-        {
-          "event_name": "Ningbo Open",
-          "event_type": "500",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Toray Pan Pacific Open",
           "event_type": "500",
@@ -6285,7 +6133,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -6472,7 +6320,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -6732,7 +6580,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R32",
           "points_earned": 65,
           "live": true,
@@ -6747,14 +6595,6 @@
       "country_code": "RU",
       "current_points": 1229,
       "points_distribution": [
-        {
-          "event_name": "Ningbo Open",
-          "event_type": "500",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R16",
-          "points_earned": 60
-        },
         {
           "event_name": "Brisbane International",
           "event_type": "500",
@@ -6951,7 +6791,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R32",
           "points_earned": 65,
           "live": true,
@@ -6966,14 +6806,6 @@
       "country_code": "UA",
       "current_points": 1165,
       "points_distribution": [
-        {
-          "event_name": "Ningbo Open",
-          "event_type": "500",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R16",
-          "points_earned": 60
-        },
         {
           "event_name": "Jiangxi Open",
           "event_type": "250",
@@ -7122,7 +6954,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -7137,14 +6969,6 @@
       "country_code": "US",
       "current_points": 1155,
       "points_distribution": [
-        {
-          "event_name": "Japan Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Brisbane International",
           "event_type": "500",
@@ -7591,7 +7415,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R16",
           "points_earned": 120,
           "live": true,
@@ -7722,7 +7546,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -8160,7 +7984,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -8175,14 +7999,6 @@
       "country_code": "DK",
       "current_points": 1065,
       "points_distribution": [
-        {
-          "event_name": "Ningbo Open",
-          "event_type": "500",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Brisbane International",
           "event_type": "500",
@@ -8363,7 +8179,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -8378,14 +8194,6 @@
       "country_code": "GB",
       "current_points": 1062,
       "points_distribution": [
-        {
-          "event_name": "Japan Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R16",
-          "points_earned": 30
-        },
         {
           "event_name": "Toray Pan Pacific Open",
           "event_type": "500",
@@ -8550,7 +8358,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -8681,7 +8489,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -8876,7 +8684,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R32",
           "points_earned": 65,
           "live": true,
@@ -9222,14 +9030,6 @@
       "current_points": 1022,
       "points_distribution": [
         {
-          "event_name": "Ningbo Open",
-          "event_type": "500",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R16",
-          "points_earned": 60
-        },
-        {
           "event_name": "Chennai Open",
           "event_type": "250",
           "event_date_start": "2025-10-27",
@@ -9409,7 +9209,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -9500,7 +9300,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R32",
           "points_earned": 65,
           "live": true,
@@ -9515,14 +9315,6 @@
       "country_code": "RO",
       "current_points": 1016,
       "points_distribution": [
-        {
-          "event_name": "Japan Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "SF",
-          "points_earned": 98
-        },
         {
           "event_name": "Toray Pan Pacific Open",
           "event_type": "500",
@@ -9668,14 +9460,6 @@
       "country_code": "CZ",
       "current_points": 1004,
       "points_distribution": [
-        {
-          "event_name": "Japan Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "F",
-          "points_earned": 163
-        },
         {
           "event_name": "Brisbane International",
           "event_type": "500",
@@ -9903,14 +9687,6 @@
       "current_points": 985,
       "points_distribution": [
         {
-          "event_name": "Japan Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
           "event_name": "Guangzhou Open",
           "event_type": "250",
           "event_date_start": "2025-10-20",
@@ -10119,14 +9895,6 @@
       "country_code": "IT",
       "current_points": 975,
       "points_distribution": [
-        {
-          "event_name": "Japan Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Guangzhou Open",
           "event_type": "250",
@@ -10492,7 +10260,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -10671,7 +10439,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -10686,14 +10454,6 @@
       "country_code": "US",
       "current_points": 962,
       "points_distribution": [
-        {
-          "event_name": "Japan Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R16",
-          "points_earned": 30
-        },
         {
           "event_name": "Brisbane International",
           "event_type": "500",
@@ -10810,7 +10570,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R16",
           "points_earned": 120,
           "live": true,
@@ -11166,7 +10926,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R32",
           "points_earned": 65,
           "live": true,
@@ -11398,14 +11158,6 @@
       "country_code": "CH",
       "current_points": 938,
       "points_distribution": [
-        {
-          "event_name": "Japan Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "QF",
-          "points_earned": 54
-        },
         {
           "event_name": "Toray Pan Pacific Open",
           "event_type": "500",
@@ -11972,14 +11724,6 @@
       "current_points": 907,
       "points_distribution": [
         {
-          "event_name": "Ningbo Open",
-          "event_type": "500",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
           "event_name": "ASB Classic",
           "event_type": "250",
           "event_date_start": "2026-01-05",
@@ -12286,14 +12030,6 @@
       "current_points": 904,
       "points_distribution": [
         {
-          "event_name": "Ningbo Open",
-          "event_type": "500",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
           "event_name": "Guangzhou Open",
           "event_type": "250",
           "event_date_start": "2025-10-20",
@@ -12441,7 +12177,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R32",
           "points_earned": 65,
           "live": true,
@@ -12797,7 +12533,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -12976,7 +12712,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -13035,7 +12771,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -13465,7 +13201,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 10,
           "live": true,
@@ -13480,14 +13216,6 @@
       "country_code": "US",
       "current_points": 851,
       "points_distribution": [
-        {
-          "event_name": "Japan Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Guangzhou Open",
           "event_type": "250",
@@ -13644,7 +13372,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R32",
           "points_earned": 65,
           "live": true,
@@ -13862,14 +13590,6 @@
       "current_points": 835,
       "points_distribution": [
         {
-          "event_name": "Ningbo Open",
-          "event_type": "500",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
           "event_name": "Guangzhou Open",
           "event_type": "250",
           "event_date_start": "2025-10-20",
@@ -13929,7 +13649,7 @@
           "event_name": "Wuhan Open",
           "event_type": "1000",
           "event_date_start": "2026-10-12",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R32",
           "points_earned": 65,
           "live": true,
@@ -14137,14 +13857,6 @@
       "country_code": "HR",
       "current_points": 823,
       "points_distribution": [
-        {
-          "event_name": "Ningbo Open",
-          "event_type": "500",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Hobart International",
           "event_type": "250",
@@ -14387,14 +14099,6 @@
       "country_code": "US",
       "current_points": 805,
       "points_distribution": [
-        {
-          "event_name": "Ningbo Open",
-          "event_type": "500",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "QF",
-          "points_earned": 108
-        },
         {
           "event_name": "Toray Pan Pacific Open",
           "event_type": "500",
@@ -14783,14 +14487,6 @@
       "country_code": "ES",
       "current_points": 750,
       "points_distribution": [
-        {
-          "event_name": "Japan Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R16",
-          "points_earned": 30
-        },
         {
           "event_name": "Guangzhou Open",
           "event_type": "250",

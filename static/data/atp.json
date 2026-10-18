@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17T06:14:20.073Z",
+  "updated_at": "2026-10-18T06:14:47.026Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -254,11 +254,11 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
-          "result": "QF",
-          "points_earned": 200,
+          "event_date_end": "2026-10-17",
+          "result": "SF",
+          "points_earned": 400,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -353,7 +353,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R32",
           "points_earned": 50,
           "live": true,
@@ -532,7 +532,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R32",
           "points_earned": 50,
           "live": true,
@@ -547,14 +547,6 @@
       "country_code": "RU",
       "current_points": 4010,
       "points_distribution": [
-        {
-          "event_name": "Almaty Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "W",
-          "points_earned": 250
-        },
         {
           "event_name": "Erste Bank Open",
           "event_type": "500",
@@ -735,11 +727,11 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
-          "result": "QF",
-          "points_earned": 200,
+          "event_date_end": "2026-10-17",
+          "result": "SF",
+          "points_earned": 400,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -750,14 +742,6 @@
       "country_code": "CA",
       "current_points": 3890,
       "points_distribution": [
-        {
-          "event_name": "European Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "W",
-          "points_earned": 250
-        },
         {
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
@@ -922,7 +906,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R16",
           "points_earned": 100,
           "live": true,
@@ -937,14 +921,6 @@
       "country_code": "IT",
       "current_points": 3680,
       "points_distribution": [
-        {
-          "event_name": "Almaty Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "QF",
-          "points_earned": 50
-        },
         {
           "event_name": "Erste Bank Open",
           "event_type": "500",
@@ -1133,7 +1109,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -1304,7 +1280,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R32",
           "points_earned": 50,
           "live": true,
@@ -1499,7 +1475,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "QF",
           "points_earned": 200,
           "live": true,
@@ -1630,7 +1606,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R32",
           "points_earned": 50,
           "live": true,
@@ -1721,7 +1697,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -1876,7 +1852,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R32",
           "points_earned": 50,
           "live": true,
@@ -2031,9 +2007,9 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
-          "result": "QF",
-          "points_earned": 200,
+          "event_date_end": "2026-10-17",
+          "result": "SF",
+          "points_earned": 400,
           "live": true,
           "out": false
         }
@@ -2202,7 +2178,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R32",
           "points_earned": 50,
           "live": true,
@@ -2365,7 +2341,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R16",
           "points_earned": 100,
           "live": true,
@@ -2552,7 +2528,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R32",
           "points_earned": 50,
           "live": true,
@@ -2723,7 +2699,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "QF",
           "points_earned": 200,
           "live": true,
@@ -2738,14 +2714,6 @@
       "country_code": "US",
       "current_points": 2335,
       "points_distribution": [
-        {
-          "event_name": "Almaty Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R16",
-          "points_earned": 25
-        },
         {
           "event_name": "Erste Bank Open",
           "event_type": "500",
@@ -2926,7 +2894,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R32",
           "points_earned": 50,
           "live": true,
@@ -2941,14 +2909,6 @@
       "country_code": "CZ",
       "current_points": 2310,
       "points_distribution": [
-        {
-          "event_name": "European Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "F",
-          "points_earned": 165
-        },
         {
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
@@ -3113,7 +3073,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R32",
           "points_earned": 50,
           "live": true,
@@ -3308,7 +3268,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R32",
           "points_earned": 50,
           "live": true,
@@ -3323,14 +3283,6 @@
       "country_code": "IT",
       "current_points": 2200,
       "points_distribution": [
-        {
-          "event_name": "Almaty Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R16",
-          "points_earned": 25
-        },
         {
           "event_name": "Erste Bank Open",
           "event_type": "500",
@@ -3551,7 +3503,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -3746,7 +3698,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R16",
           "points_earned": 100,
           "live": true,
@@ -3941,7 +3893,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -3956,14 +3908,6 @@
       "country_code": "NO",
       "current_points": 2145,
       "points_distribution": [
-        {
-          "event_name": "BNP Paribas Nordic Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "W",
-          "points_earned": 250
-        },
         {
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
@@ -4112,7 +4056,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "QF",
           "points_earned": 200,
           "live": true,
@@ -4127,14 +4071,6 @@
       "country_code": "IT",
       "current_points": 2010,
       "points_distribution": [
-        {
-          "event_name": "European Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "QF",
-          "points_earned": 50
-        },
         {
           "event_name": "Erste Bank Open",
           "event_type": "500",
@@ -4251,7 +4187,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -4266,14 +4202,6 @@
       "country_code": "ES",
       "current_points": 1930,
       "points_distribution": [
-        {
-          "event_name": "European Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "QF",
-          "points_earned": 50
-        },
         {
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
@@ -4438,9 +4366,9 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
-          "result": "QF",
-          "points_earned": 200,
+          "event_date_end": "2026-10-17",
+          "result": "SF",
+          "points_earned": 400,
           "live": true,
           "out": false
         }
@@ -4453,14 +4381,6 @@
       "country_code": "RU",
       "current_points": 1900,
       "points_distribution": [
-        {
-          "event_name": "Almaty Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R16",
-          "points_earned": 25
-        },
         {
           "event_name": "Erste Bank Open",
           "event_type": "500",
@@ -4641,7 +4561,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R16",
           "points_earned": 100,
           "live": true,
@@ -4780,7 +4700,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -4795,14 +4715,6 @@
       "country_code": "BR",
       "current_points": 1750,
       "points_distribution": [
-        {
-          "event_name": "European Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
@@ -5152,7 +5064,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -5167,14 +5079,6 @@
       "country_code": "AR",
       "current_points": 1590,
       "points_distribution": [
-        {
-          "event_name": "BNP Paribas Nordic Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "QF",
-          "points_earned": 50
-        },
         {
           "event_name": "Erste Bank Open",
           "event_type": "500",
@@ -5403,7 +5307,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -5418,14 +5322,6 @@
       "country_code": "FR",
       "current_points": 1575,
       "points_distribution": [
-        {
-          "event_name": "BNP Paribas Nordic Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "F",
-          "points_earned": 165
-        },
         {
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
@@ -5614,7 +5510,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -5954,7 +5850,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R16",
           "points_earned": 100,
           "live": true,
@@ -5969,14 +5865,6 @@
       "country_code": "US",
       "current_points": 1460,
       "points_distribution": [
-        {
-          "event_name": "Almaty Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "SF",
-          "points_earned": 100
-        },
         {
           "event_name": "Erste Bank Open",
           "event_type": "500",
@@ -6149,7 +6037,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -6328,7 +6216,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -6343,14 +6231,6 @@
       "country_code": "GB",
       "current_points": 1413,
       "points_distribution": [
-        {
-          "event_name": "BNP Paribas Nordic Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Australian Open",
           "event_type": "Grand Slam",
@@ -6427,7 +6307,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -6442,14 +6322,6 @@
       "country_code": "IT",
       "current_points": 1386,
       "points_distribution": [
-        {
-          "event_name": "European Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Erste Bank Open",
           "event_type": "500",
@@ -6582,7 +6454,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -6597,14 +6469,6 @@
       "country_code": "BE",
       "current_points": 1320,
       "points_distribution": [
-        {
-          "event_name": "European Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
@@ -6777,7 +6641,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R16",
           "points_earned": 100,
           "live": true,
@@ -6980,7 +6844,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -6995,14 +6859,6 @@
       "country_code": "NL",
       "current_points": 1258,
       "points_distribution": [
-        {
-          "event_name": "European Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R16",
-          "points_earned": 25
-        },
         {
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
@@ -7191,7 +7047,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R16",
           "points_earned": 100,
           "live": true,
@@ -7206,14 +7062,6 @@
       "country_code": "CA",
       "current_points": 1245,
       "points_distribution": [
-        {
-          "event_name": "BNP Paribas Nordic Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "SF",
-          "points_earned": 100
-        },
         {
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
@@ -7579,7 +7427,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R16",
           "points_earned": 100,
           "live": true,
@@ -7686,7 +7534,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -7793,7 +7641,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -7808,14 +7656,6 @@
       "country_code": "IT",
       "current_points": 1168,
       "points_distribution": [
-        {
-          "event_name": "BNP Paribas Nordic Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R16",
-          "points_earned": 25
-        },
         {
           "event_name": "Erste Bank Open",
           "event_type": "500",
@@ -7956,7 +7796,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -8159,7 +7999,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -8174,14 +8014,6 @@
       "country_code": "FR",
       "current_points": 1107,
       "points_distribution": [
-        {
-          "event_name": "European Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
@@ -8362,7 +8194,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R32",
           "points_earned": 50,
           "live": true,
@@ -8517,7 +8349,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -8532,14 +8364,6 @@
       "country_code": "BE",
       "current_points": 1078,
       "points_distribution": [
-        {
-          "event_name": "European Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "SF",
-          "points_earned": 100
-        },
         {
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
@@ -8889,7 +8713,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -9020,7 +8844,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -9035,14 +8859,6 @@
       "country_code": "AR",
       "current_points": 1044,
       "points_distribution": [
-        {
-          "event_name": "European Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
@@ -9247,7 +9063,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -9394,7 +9210,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -9581,7 +9397,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -9656,7 +9472,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "QF",
           "points_earned": 200,
           "live": true,
@@ -9671,14 +9487,6 @@
       "country_code": "DE",
       "current_points": 976,
       "points_distribution": [
-        {
-          "event_name": "European Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R16",
-          "points_earned": 25
-        },
         {
           "event_name": "Hellenic Championship",
           "event_type": "250",
@@ -9843,7 +9651,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -9858,14 +9666,6 @@
       "country_code": "NL",
       "current_points": 975,
       "points_distribution": [
-        {
-          "event_name": "BNP Paribas Nordic Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Erste Bank Open",
           "event_type": "500",
@@ -10038,7 +9838,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -10053,14 +9853,6 @@
       "country_code": "DE",
       "current_points": 949,
       "points_distribution": [
-        {
-          "event_name": "Almaty Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "QF",
-          "points_earned": 50
-        },
         {
           "event_name": "Hellenic Championship",
           "event_type": "250",
@@ -10217,7 +10009,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -10332,7 +10124,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -10347,14 +10139,6 @@
       "country_code": "RS",
       "current_points": 925,
       "points_distribution": [
-        {
-          "event_name": "BNP Paribas Nordic Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R16",
-          "points_earned": 25
-        },
         {
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
@@ -10575,7 +10359,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -10711,14 +10495,6 @@
       "country_code": "HU",
       "current_points": 880,
       "points_distribution": [
-        {
-          "event_name": "Almaty Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "QF",
-          "points_earned": 50
-        },
         {
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
@@ -10907,7 +10683,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -10922,14 +10698,6 @@
       "country_code": "AU",
       "current_points": 877,
       "points_distribution": [
-        {
-          "event_name": "Almaty Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "SF",
-          "points_earned": 100
-        },
         {
           "event_name": "Brisbane International",
           "event_type": "250",
@@ -11070,7 +10838,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -11217,7 +10985,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R32",
           "points_earned": 50,
           "live": true,
@@ -11369,14 +11137,6 @@
       "country_code": "DE",
       "current_points": 849,
       "points_distribution": [
-        {
-          "event_name": "European Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Erste Bank Open",
           "event_type": "500",
@@ -11605,7 +11365,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -11792,7 +11552,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -11851,7 +11611,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -11866,14 +11626,6 @@
       "country_code": "PL",
       "current_points": 805,
       "points_distribution": [
-        {
-          "event_name": "BNP Paribas Nordic Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R16",
-          "points_earned": 25
-        },
         {
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
@@ -12038,7 +11790,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -12053,14 +11805,6 @@
       "country_code": "FR",
       "current_points": 805,
       "points_distribution": [
-        {
-          "event_name": "Almaty Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "F",
-          "points_earned": 165
-        },
         {
           "event_name": "Erste Bank Open",
           "event_type": "500",
@@ -12443,7 +12187,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -12458,14 +12202,6 @@
       "country_code": "US",
       "current_points": 790,
       "points_distribution": [
-        {
-          "event_name": "BNP Paribas Nordic Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "QF",
-          "points_earned": 50
-        },
         {
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
@@ -12703,7 +12439,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -12807,14 +12543,6 @@
       "country_code": "AR",
       "current_points": 770,
       "points_distribution": [
-        {
-          "event_name": "BNP Paribas Nordic Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Erste Bank Open",
           "event_type": "500",
@@ -13003,7 +12731,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -13018,14 +12746,6 @@
       "country_code": "RS",
       "current_points": 764,
       "points_distribution": [
-        {
-          "event_name": "Almaty Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Erste Bank Open",
           "event_type": "500",
@@ -13142,7 +12862,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -13217,7 +12937,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -13232,14 +12952,6 @@
       "country_code": "HR",
       "current_points": 741,
       "points_distribution": [
-        {
-          "event_name": "BNP Paribas Nordic Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R16",
-          "points_earned": 25
-        },
         {
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
@@ -13380,7 +13092,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -13395,14 +13107,6 @@
       "country_code": "US",
       "current_points": 730,
       "points_distribution": [
-        {
-          "event_name": "BNP Paribas Nordic Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R16",
-          "points_earned": 25
-        },
         {
           "event_name": "Erste Bank Open",
           "event_type": "500",
@@ -13615,7 +13319,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -13746,7 +13450,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -13973,7 +13677,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R32",
           "points_earned": 50,
           "live": true,
@@ -14056,7 +13760,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -14071,14 +13775,6 @@
       "country_code": "AU",
       "current_points": 711,
       "points_distribution": [
-        {
-          "event_name": "Almaty Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R16",
-          "points_earned": 25
-        },
         {
           "event_name": "Brisbane International",
           "event_type": "250",
@@ -14227,7 +13923,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -14242,14 +13938,6 @@
       "country_code": "IT",
       "current_points": 700,
       "points_distribution": [
-        {
-          "event_name": "European Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Australian Open",
           "event_type": "Grand Slam",
@@ -14398,7 +14086,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -14413,14 +14101,6 @@
       "country_code": "IT",
       "current_points": 698,
       "points_distribution": [
-        {
-          "event_name": "BNP Paribas Nordic Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "QF",
-          "points_earned": 50
-        },
         {
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
@@ -14582,14 +14262,6 @@
       "country_code": "US",
       "current_points": 688,
       "points_distribution": [
-        {
-          "event_name": "European Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R16",
-          "points_earned": 25
-        },
         {
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
@@ -14770,7 +14442,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -14982,7 +14654,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -15086,14 +14758,6 @@
       "country_code": "FR",
       "current_points": 656,
       "points_distribution": [
-        {
-          "event_name": "European Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "QF",
-          "points_earned": 50
-        },
         {
           "event_name": "Australian Open",
           "event_type": "Grand Slam",
@@ -15211,7 +14875,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -15310,7 +14974,7 @@
           "event_name": "Shanghai Rolex Masters",
           "event_type": "1000",
           "event_date_start": "2026-10-05",
-          "event_date_end": "2026-10-16",
+          "event_date_end": "2026-10-17",
           "result": "R64",
           "points_earned": 30,
           "live": true,
@@ -15325,14 +14989,6 @@
       "country_code": "NL",
       "current_points": 641,
       "points_distribution": [
-        {
-          "event_name": "BNP Paribas Nordic Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Hong Kong Tennis Open",
           "event_type": "250",
@@ -15454,14 +15110,6 @@
       "country_code": "GB",
       "current_points": 639,
       "points_distribution": [
-        {
-          "event_name": "BNP Paribas Nordic Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R16",
-          "points_earned": 25
-        },
         {
           "event_name": "Erste Bank Open",
           "event_type": "500",
@@ -15672,14 +15320,6 @@
       "country_code": "AU",
       "current_points": 630,
       "points_distribution": [
-        {
-          "event_name": "Almaty Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-13",
-          "event_date_end": "2025-10-19",
-          "result": "R16",
-          "points_earned": 25
-        },
         {
           "event_name": "Hellenic Championship",
           "event_type": "250",
