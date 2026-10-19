@@ -627,6 +627,14 @@
     "name": "Moez Echargui",
     "country": "TUN"
   },
+  "36257": {
+    "name": "Vladyslav Orlov",
+    "country": "UKR"
+  },
+  "36258": {
+    "name": "Nikita Mashtakov",
+    "country": "UKR"
+  },
   "36263": {
     "name": "Corentin Moutet",
     "country": "FRA"
@@ -722,6 +730,10 @@
   "39863": {
     "name": "Sho Shimabukuro",
     "country": "JPN"
+  },
+  "40054": {
+    "name": "Digvijaypratap Singh",
+    "country": "IND"
   },
   "40187": {
     "name": "Andrea Guerrieri",
@@ -1231,6 +1243,14 @@
     "name": "Matheus Pucinelli De Almeida",
     "country": "BRA"
   },
+  "65253": {
+    "name": "Sebastian Gima",
+    "country": "ROU"
+  },
+  "65267": {
+    "name": "Fares Zakaria",
+    "country": "EGY"
+  },
   "65558": {
     "name": "Harry Wendelken",
     "country": "GBR"
@@ -1383,6 +1403,10 @@
     "name": "Mattia Bellucci",
     "country": "ITA"
   },
+  "72877": {
+    "name": "Alibek Kachmazov",
+    "country": "RUS"
+  },
   "73055": {
     "name": "Alexandr Binda",
     "country": "RUS"
@@ -1459,6 +1483,10 @@
     "name": "Raphael Perot",
     "country": "FRA"
   },
+  "76126": {
+    "name": "Keisuke Saitoh",
+    "country": "JPN"
+  },
   "76127": {
     "name": "Luciano Darderi",
     "country": "ITA"
@@ -1486,6 +1514,10 @@
   "78052": {
     "name": "Ioannis Xilas",
     "country": "GRE"
+  },
+  "78282": {
+    "name": "Daniel Siniakov",
+    "country": "CZE"
   },
   "78284": {
     "name": "Timo Legout",
@@ -1535,6 +1567,10 @@
     "name": "Eliakim Coulibaly",
     "country": "CIV"
   },
+  "79683": {
+    "name": "Millen Hurrion",
+    "country": "GBR"
+  },
   "79842": {
     "name": "Olle Wallin",
     "country": "SWE"
@@ -1550,6 +1586,10 @@
   "80391": {
     "name": "Adolfo Daniel Vallejo",
     "country": "PAR"
+  },
+  "80945": {
+    "name": "Branko Djuric",
+    "country": "SRB"
   },
   "81153": {
     "name": "Carl Emil Overbeck",
@@ -1670,6 +1710,10 @@
   "84237": {
     "name": "Sander Jong",
     "country": "NED"
+  },
+  "84352": {
+    "name": "Romain Faucon",
+    "country": "BEL"
   },
   "84377": {
     "name": "Mika Brunold",
