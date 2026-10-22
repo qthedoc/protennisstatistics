@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T06:16:35.439Z",
+  "updated_at": "2026-10-22T06:16:24.948Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -1401,6 +1401,16 @@
           "event_date_end": "2026-10-18",
           "result": "R32",
           "points_earned": 65
+        },
+        {
+          "event_name": "Ningbo Open",
+          "event_type": "500",
+          "event_date_start": "2026-10-19",
+          "event_date_end": "2026-10-21",
+          "result": "R16",
+          "points_earned": 60,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -1849,9 +1859,9 @@
           "event_name": "Ningbo Open",
           "event_type": "500",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-20",
-          "result": "R16",
-          "points_earned": 60,
+          "event_date_end": "2026-10-21",
+          "result": "R32",
+          "points_earned": 0,
           "live": true,
           "out": false
         }
@@ -2004,9 +2014,9 @@
           "event_name": "Ningbo Open",
           "event_type": "500",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-20",
-          "result": "R16",
-          "points_earned": 60,
+          "event_date_end": "2026-10-21",
+          "result": "R32",
+          "points_earned": 0,
           "live": true,
           "out": false
         }
@@ -2191,9 +2201,9 @@
           "event_name": "Ningbo Open",
           "event_type": "500",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-20",
-          "result": "R16",
-          "points_earned": 60,
+          "event_date_end": "2026-10-21",
+          "result": "R32",
+          "points_earned": 0,
           "live": true,
           "out": true
         }
@@ -2451,11 +2461,11 @@
           "event_name": "Ningbo Open",
           "event_type": "500",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-20",
+          "event_date_end": "2026-10-21",
           "result": "R16",
           "points_earned": 60,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -2880,9 +2890,9 @@
           "event_name": "Ningbo Open",
           "event_type": "500",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-20",
-          "result": "R16",
-          "points_earned": 60,
+          "event_date_end": "2026-10-21",
+          "result": "R32",
+          "points_earned": 0,
           "live": true,
           "out": false
         }
@@ -3494,9 +3504,9 @@
           "event_name": "Ningbo Open",
           "event_type": "500",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-20",
-          "result": "R16",
-          "points_earned": 60,
+          "event_date_end": "2026-10-21",
+          "result": "R32",
+          "points_earned": 0,
           "live": true,
           "out": true
         }
@@ -3729,9 +3739,9 @@
           "event_name": "Japan Open",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
-          "result": "R32",
-          "points_earned": 0,
+          "event_date_end": "2026-10-22",
+          "result": "R16",
+          "points_earned": 30,
           "live": true,
           "out": false
         }
@@ -3924,7 +3934,7 @@
           "event_name": "Ningbo Open",
           "event_type": "500",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-20",
+          "event_date_end": "2026-10-21",
           "result": "R16",
           "points_earned": 60,
           "live": true,
@@ -4618,7 +4628,7 @@
           "event_name": "Ningbo Open",
           "event_type": "500",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-20",
+          "event_date_end": "2026-10-21",
           "result": "R16",
           "points_earned": 60,
           "live": true,
@@ -4990,7 +5000,7 @@
           "event_name": "Ningbo Open",
           "event_type": "500",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-20",
+          "event_date_end": "2026-10-21",
           "result": "R16",
           "points_earned": 60,
           "live": true,
@@ -5209,7 +5219,7 @@
           "event_name": "Ningbo Open",
           "event_type": "500",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-20",
+          "event_date_end": "2026-10-21",
           "result": "R16",
           "points_earned": 60,
           "live": true,
@@ -5364,9 +5374,9 @@
           "event_name": "Ningbo Open",
           "event_type": "500",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-20",
-          "result": "R16",
-          "points_earned": 60,
+          "event_date_end": "2026-10-21",
+          "result": "R32",
+          "points_earned": 0,
           "live": true,
           "out": true
         }
@@ -5503,9 +5513,9 @@
           "event_name": "Ningbo Open",
           "event_type": "500",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-20",
-          "result": "R16",
-          "points_earned": 60,
+          "event_date_end": "2026-10-21",
+          "result": "R32",
+          "points_earned": 0,
           "live": true,
           "out": false
         }
@@ -5835,7 +5845,7 @@
           "event_name": "Japan Open",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
+          "event_date_end": "2026-10-22",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -6030,9 +6040,9 @@
           "event_name": "Ningbo Open",
           "event_type": "500",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-20",
-          "result": "R16",
-          "points_earned": 60,
+          "event_date_end": "2026-10-21",
+          "result": "R32",
+          "points_earned": 0,
           "live": true,
           "out": true
         }
@@ -6338,9 +6348,9 @@
           "event_name": "Ningbo Open",
           "event_type": "500",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-20",
-          "result": "R16",
-          "points_earned": 60,
+          "event_date_end": "2026-10-21",
+          "result": "R32",
+          "points_earned": 0,
           "live": true,
           "out": true
         }
@@ -6694,7 +6704,7 @@
           "event_name": "Japan Open",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
+          "event_date_end": "2026-10-22",
           "result": "R16",
           "points_earned": 30,
           "live": true,
@@ -6913,7 +6923,7 @@
           "event_name": "Japan Open",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
+          "event_date_end": "2026-10-22",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -7382,7 +7392,7 @@
           "event_name": "Japan Open",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
+          "event_date_end": "2026-10-22",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -8045,9 +8055,9 @@
           "event_name": "Ningbo Open",
           "event_type": "500",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-20",
-          "result": "R16",
-          "points_earned": 60,
+          "event_date_end": "2026-10-21",
+          "result": "R32",
+          "points_earned": 0,
           "live": true,
           "out": true
         }
@@ -8217,7 +8227,7 @@
           "event_name": "Japan Open",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
+          "event_date_end": "2026-10-22",
           "result": "R16",
           "points_earned": 30,
           "live": true,
@@ -8549,7 +8559,7 @@
           "event_name": "Japan Open",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
+          "event_date_end": "2026-10-22",
           "result": "R16",
           "points_earned": 30,
           "live": true,
@@ -8801,9 +8811,9 @@
           "event_name": "Japan Open",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
-          "result": "R32",
-          "points_earned": 0,
+          "event_date_end": "2026-10-22",
+          "result": "R16",
+          "points_earned": 30,
           "live": true,
           "out": false
         }
@@ -8988,9 +8998,9 @@
           "event_name": "Japan Open",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
-          "result": "R32",
-          "points_earned": 0,
+          "event_date_end": "2026-10-22",
+          "result": "R16",
+          "points_earned": 30,
           "live": true,
           "out": false
         }
@@ -9191,7 +9201,7 @@
           "event_name": "Japan Open",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
+          "event_date_end": "2026-10-22",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -9531,7 +9541,7 @@
           "event_name": "Japan Open",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
+          "event_date_end": "2026-10-22",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -9686,7 +9696,7 @@
           "event_name": "Japan Open",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
+          "event_date_end": "2026-10-22",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -9889,11 +9899,11 @@
           "event_name": "Japan Open",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
-          "result": "R32",
-          "points_earned": 0,
+          "event_date_end": "2026-10-22",
+          "result": "R16",
+          "points_earned": 30,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -10108,9 +10118,9 @@
           "event_name": "Ningbo Open",
           "event_type": "500",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-20",
-          "result": "R16",
-          "points_earned": 60,
+          "event_date_end": "2026-10-21",
+          "result": "R32",
+          "points_earned": 0,
           "live": true,
           "out": true
         }
@@ -10432,9 +10442,9 @@
           "event_name": "Ningbo Open",
           "event_type": "500",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-20",
-          "result": "R16",
-          "points_earned": 60,
+          "event_date_end": "2026-10-21",
+          "result": "R32",
+          "points_earned": 0,
           "live": true,
           "out": true
         }
@@ -10603,9 +10613,9 @@
           "event_name": "Ningbo Open",
           "event_type": "500",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-20",
-          "result": "R16",
-          "points_earned": 60,
+          "event_date_end": "2026-10-21",
+          "result": "R32",
+          "points_earned": 0,
           "live": true,
           "out": true
         }
@@ -11756,9 +11766,9 @@
           "event_name": "Ningbo Open",
           "event_type": "500",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-20",
-          "result": "R16",
-          "points_earned": 60,
+          "event_date_end": "2026-10-21",
+          "result": "R32",
+          "points_earned": 0,
           "live": true,
           "out": true
         }
@@ -12104,7 +12114,7 @@
           "event_name": "Japan Open",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
+          "event_date_end": "2026-10-22",
           "result": "R16",
           "points_earned": 30,
           "live": true,
@@ -12283,7 +12293,7 @@
           "event_name": "Japan Open",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
+          "event_date_end": "2026-10-22",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -12503,7 +12513,7 @@
           "event_name": "Japan Open",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
+          "event_date_end": "2026-10-22",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -12796,11 +12806,11 @@
           "event_name": "Japan Open",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
-          "result": "R32",
-          "points_earned": 0,
+          "event_date_end": "2026-10-22",
+          "result": "R16",
+          "points_earned": 30,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -13217,7 +13227,7 @@
           "event_name": "Japan Open",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
+          "event_date_end": "2026-10-22",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -13380,7 +13390,7 @@
           "event_name": "Japan Open",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
+          "event_date_end": "2026-10-22",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -13584,11 +13594,11 @@
           "event_name": "Japan Open",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
-          "result": "R32",
-          "points_earned": 0,
+          "event_date_end": "2026-10-22",
+          "result": "R16",
+          "points_earned": 30,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -13892,7 +13902,7 @@
           "event_name": "Japan Open",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
+          "event_date_end": "2026-10-22",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -14063,9 +14073,9 @@
           "event_name": "Japan Open",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
-          "result": "R32",
-          "points_earned": 0,
+          "event_date_end": "2026-10-22",
+          "result": "R16",
+          "points_earned": 30,
           "live": true,
           "out": false
         }
@@ -14469,7 +14479,7 @@
           "event_name": "Japan Open",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
+          "event_date_end": "2026-10-22",
           "result": "R32",
           "points_earned": 0,
           "live": true,
