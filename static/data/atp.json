@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-22T06:16:20.576Z",
+  "updated_at": "2026-10-23T06:16:38.511Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -724,6 +724,16 @@
           "event_date_end": "2026-10-18",
           "result": "SF",
           "points_earned": 400
+        },
+        {
+          "event_name": "Almaty Open",
+          "event_type": "250",
+          "event_date_start": "2026-10-19",
+          "event_date_end": "2026-10-22",
+          "result": "R16",
+          "points_earned": 25,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -925,6 +935,16 @@
           "event_date_end": "2026-10-18",
           "result": "R64",
           "points_earned": 30
+        },
+        {
+          "event_name": "Grand Prix Auvergne-Rhone-Alpes",
+          "event_type": "250",
+          "event_date_start": "2026-10-19",
+          "event_date_end": "2026-10-22",
+          "result": "R16",
+          "points_earned": 25,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -2175,6 +2195,16 @@
           "event_date_end": "2026-10-18",
           "result": "R32",
           "points_earned": 50
+        },
+        {
+          "event_name": "Grand Prix Auvergne-Rhone-Alpes",
+          "event_type": "250",
+          "event_date_start": "2026-10-19",
+          "event_date_end": "2026-10-22",
+          "result": "R16",
+          "points_earned": 25,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -2349,7 +2379,7 @@
           "event_name": "Grand Prix Auvergne-Rhone-Alpes",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
+          "event_date_end": "2026-10-22",
           "result": "R16",
           "points_earned": 25,
           "live": true,
@@ -2713,9 +2743,9 @@
           "event_name": "Grand Prix Auvergne-Rhone-Alpes",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
-          "result": "R32",
-          "points_earned": 0,
+          "event_date_end": "2026-10-22",
+          "result": "R16",
+          "points_earned": 25,
           "live": true,
           "out": false
         }
@@ -3096,6 +3126,16 @@
           "event_date_end": "2026-10-18",
           "result": "R16",
           "points_earned": 100
+        },
+        {
+          "event_name": "Almaty Open",
+          "event_type": "250",
+          "event_date_start": "2026-10-19",
+          "event_date_end": "2026-10-22",
+          "result": "R16",
+          "points_earned": 25,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -3273,6 +3313,16 @@
           "event_date_end": "2026-10-18",
           "result": "R32",
           "points_earned": 50
+        },
+        {
+          "event_name": "European Open",
+          "event_type": "250",
+          "event_date_start": "2026-10-19",
+          "event_date_end": "2026-10-22",
+          "result": "R16",
+          "points_earned": 25,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -3674,7 +3724,7 @@
           "event_name": "Almaty Open",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
+          "event_date_end": "2026-10-22",
           "result": "R16",
           "points_earned": 25,
           "live": true,
@@ -3917,7 +3967,7 @@
           "event_name": "Almaty Open",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
+          "event_date_end": "2026-10-22",
           "result": "R16",
           "points_earned": 25,
           "live": true,
@@ -4281,9 +4331,9 @@
           "event_name": "Almaty Open",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
-          "result": "R32",
-          "points_earned": 0,
+          "event_date_end": "2026-10-22",
+          "result": "R16",
+          "points_earned": 25,
           "live": true,
           "out": false
         }
@@ -4420,7 +4470,7 @@
           "event_name": "Grand Prix Auvergne-Rhone-Alpes",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
+          "event_date_end": "2026-10-22",
           "result": "R16",
           "points_earned": 25,
           "live": true,
@@ -4945,7 +4995,7 @@
           "event_name": "Almaty Open",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
+          "event_date_end": "2026-10-22",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -5505,6 +5555,16 @@
           "event_date_end": "2026-10-18",
           "result": "R32",
           "points_earned": 50
+        },
+        {
+          "event_name": "Grand Prix Auvergne-Rhone-Alpes",
+          "event_type": "250",
+          "event_date_start": "2026-10-19",
+          "event_date_end": "2026-10-22",
+          "result": "R16",
+          "points_earned": 25,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -5776,7 +5836,7 @@
           "event_name": "Grand Prix Auvergne-Rhone-Alpes",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
+          "event_date_end": "2026-10-22",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -5987,7 +6047,7 @@
           "event_name": "Grand Prix Auvergne-Rhone-Alpes",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
+          "event_date_end": "2026-10-22",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -6142,7 +6202,7 @@
           "event_name": "Grand Prix Auvergne-Rhone-Alpes",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
+          "event_date_end": "2026-10-22",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -6338,8 +6398,8 @@
           "event_type": "250",
           "event_date_start": "2026-10-19",
           "event_date_end": "2026-10-22",
-          "result": "R32",
-          "points_earned": 0,
+          "result": "R16",
+          "points_earned": 25,
           "live": true,
           "out": false
         }
@@ -6751,7 +6811,7 @@
           "event_name": "Almaty Open",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
+          "event_date_end": "2026-10-22",
           "result": "R16",
           "points_earned": 25,
           "live": true,
@@ -6962,7 +7022,7 @@
           "event_name": "Grand Prix Auvergne-Rhone-Alpes",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
+          "event_date_end": "2026-10-22",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -7158,8 +7218,8 @@
           "event_type": "250",
           "event_date_start": "2026-10-19",
           "event_date_end": "2026-10-22",
-          "result": "R32",
-          "points_earned": 0,
+          "result": "R16",
+          "points_earned": 25,
           "live": true,
           "out": false
         }
@@ -7425,7 +7485,7 @@
           "event_name": "Grand Prix Auvergne-Rhone-Alpes",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
+          "event_date_end": "2026-10-22",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -8202,9 +8262,9 @@
           "event_name": "Grand Prix Auvergne-Rhone-Alpes",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
-          "result": "R32",
-          "points_earned": 0,
+          "event_date_end": "2026-10-22",
+          "result": "R16",
+          "points_earned": 25,
           "live": true,
           "out": false
         }
@@ -8429,7 +8489,7 @@
           "event_name": "Grand Prix Auvergne-Rhone-Alpes",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
+          "event_date_end": "2026-10-22",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -8584,7 +8644,7 @@
           "event_name": "Almaty Open",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
+          "event_date_end": "2026-10-22",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -9444,10 +9504,10 @@
           "event_type": "250",
           "event_date_start": "2026-10-19",
           "event_date_end": "2026-10-22",
-          "result": "R32",
-          "points_earned": 0,
+          "result": "R16",
+          "points_earned": 25,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -9566,7 +9626,7 @@
           "event_name": "Grand Prix Auvergne-Rhone-Alpes",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
+          "event_date_end": "2026-10-22",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -9809,7 +9869,7 @@
           "event_name": "Almaty Open",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
+          "event_date_end": "2026-10-22",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -11016,11 +11076,11 @@
           "event_name": "Almaty Open",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
-          "result": "R32",
-          "points_earned": 0,
+          "event_date_end": "2026-10-22",
+          "result": "R16",
+          "points_earned": 25,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -11267,9 +11327,9 @@
           "event_name": "Grand Prix Auvergne-Rhone-Alpes",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
-          "result": "R32",
-          "points_earned": 0,
+          "event_date_end": "2026-10-22",
+          "result": "R16",
+          "points_earned": 25,
           "live": true,
           "out": false
         }
@@ -11591,7 +11651,7 @@
           "event_name": "Grand Prix Auvergne-Rhone-Alpes",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
+          "event_date_end": "2026-10-22",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -11762,11 +11822,11 @@
           "event_name": "Almaty Open",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
-          "result": "R32",
-          "points_earned": 0,
+          "event_date_end": "2026-10-22",
+          "result": "R16",
+          "points_earned": 25,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -11853,7 +11913,7 @@
           "event_name": "Grand Prix Auvergne-Rhone-Alpes",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
+          "event_date_end": "2026-10-22",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -11936,7 +11996,7 @@
           "event_name": "Almaty Open",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
+          "event_date_end": "2026-10-22",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -12003,7 +12063,7 @@
           "event_name": "Almaty Open",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
+          "event_date_end": "2026-10-22",
           "result": "R16",
           "points_earned": 25,
           "live": true,
@@ -12174,11 +12234,11 @@
           "event_name": "Almaty Open",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
-          "result": "R32",
-          "points_earned": 0,
+          "event_date_end": "2026-10-22",
+          "result": "R16",
+          "points_earned": 25,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -12337,7 +12397,7 @@
           "event_name": "Almaty Open",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
+          "event_date_end": "2026-10-22",
           "result": "R16",
           "points_earned": 25,
           "live": true,
@@ -12822,7 +12882,7 @@
           "event_name": "Grand Prix Auvergne-Rhone-Alpes",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
+          "event_date_end": "2026-10-22",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -13363,7 +13423,7 @@
           "event_name": "Almaty Open",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
+          "event_date_end": "2026-10-22",
           "result": "R16",
           "points_earned": 25,
           "live": true,
@@ -13768,7 +13828,7 @@
           "event_name": "Almaty Open",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
+          "event_date_end": "2026-10-22",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -13956,10 +14016,10 @@
           "event_type": "250",
           "event_date_start": "2026-10-19",
           "event_date_end": "2026-10-22",
-          "result": "R32",
-          "points_earned": 0,
+          "result": "R16",
+          "points_earned": 25,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -14118,7 +14178,7 @@
           "event_name": "Almaty Open",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
+          "event_date_end": "2026-10-22",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -14217,11 +14277,11 @@
           "event_name": "Grand Prix Auvergne-Rhone-Alpes",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
-          "result": "R32",
-          "points_earned": 0,
+          "event_date_end": "2026-10-22",
+          "result": "R16",
+          "points_earned": 25,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -14388,7 +14448,7 @@
           "event_name": "Almaty Open",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
+          "event_date_end": "2026-10-22",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -14877,7 +14937,7 @@
           "event_name": "Grand Prix Auvergne-Rhone-Alpes",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
+          "event_date_end": "2026-10-22",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -15430,7 +15490,7 @@
           "event_name": "Grand Prix Auvergne-Rhone-Alpes",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
+          "event_date_end": "2026-10-22",
           "result": "R16",
           "points_earned": 25,
           "live": true,
@@ -15976,9 +16036,9 @@
           "event_name": "Almaty Open",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
-          "result": "R32",
-          "points_earned": 0,
+          "event_date_end": "2026-10-22",
+          "result": "R16",
+          "points_earned": 25,
           "live": true,
           "out": false
         }
@@ -16268,7 +16328,7 @@
           "event_name": "Grand Prix Auvergne-Rhone-Alpes",
           "event_type": "250",
           "event_date_start": "2026-10-19",
-          "event_date_end": "2026-10-21",
+          "event_date_end": "2026-10-22",
           "result": "R16",
           "points_earned": 25,
           "live": true,
