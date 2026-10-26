@@ -887,6 +887,10 @@
     "name": "Henri Squire",
     "country": "GER"
   },
+  "48631": {
+    "name": "Luca Wiedenmann",
+    "country": "GER"
+  },
   "48825": {
     "name": "Daniil Glinka",
     "country": "EST"
@@ -1711,6 +1715,10 @@
     "name": "Sander Jong",
     "country": "NED"
   },
+  "84323": {
+    "name": "Lukas Pokorny",
+    "country": "SVK"
+  },
   "84352": {
     "name": "Romain Faucon",
     "country": "BEL"
@@ -1870,6 +1878,10 @@
   "91521": {
     "name": "Joao Fonseca",
     "country": "BRA"
+  },
+  "91530": {
+    "name": "Svyatoslav Gulin",
+    "country": "RUS"
   },
   "91721": {
     "name": "Lucio Ratti",
@@ -2094,6 +2106,10 @@
   "111500": {
     "name": "Jack Kennedy",
     "country": "USA"
+  },
+  "111954": {
+    "name": "Pierluigi Basile",
+    "country": "ITA"
   },
   "114185": {
     "name": "Jacopo Vasami",
