@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-29T06:12:36.953Z",
+  "updated_at": "2026-10-30T06:12:36.528Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -246,9 +246,9 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
-          "result": "R32",
-          "points_earned": 25,
+          "event_date_end": "2026-10-29",
+          "result": "R16",
+          "points_earned": 50,
           "live": true,
           "out": false
         }
@@ -353,9 +353,9 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
-          "result": "R32",
-          "points_earned": 25,
+          "event_date_end": "2026-10-29",
+          "result": "R16",
+          "points_earned": 50,
           "live": true,
           "out": false
         }
@@ -532,11 +532,11 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
-          "result": "R32",
-          "points_earned": 25,
+          "event_date_end": "2026-10-29",
+          "result": "R16",
+          "points_earned": 50,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -735,9 +735,9 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
-          "result": "R32",
-          "points_earned": 25,
+          "event_date_end": "2026-10-29",
+          "result": "R16",
+          "points_earned": 50,
           "live": true,
           "out": false
         }
@@ -946,11 +946,11 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
-          "result": "R32",
-          "points_earned": 25,
+          "event_date_end": "2026-10-29",
+          "result": "R16",
+          "points_earned": 50,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -1262,9 +1262,9 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
-          "result": "R32",
-          "points_earned": 25,
+          "event_date_end": "2026-10-29",
+          "result": "R16",
+          "points_earned": 50,
           "live": true,
           "out": false
         }
@@ -1441,7 +1441,7 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
+          "event_date_end": "2026-10-29",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -1636,7 +1636,7 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
+          "event_date_end": "2026-10-29",
           "result": "R16",
           "points_earned": 50,
           "live": true,
@@ -1799,11 +1799,11 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
-          "result": "R32",
-          "points_earned": 25,
+          "event_date_end": "2026-10-29",
+          "result": "R16",
+          "points_earned": 50,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -1898,11 +1898,11 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
-          "result": "R32",
-          "points_earned": 25,
+          "event_date_end": "2026-10-29",
+          "result": "R16",
+          "points_earned": 50,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -2061,9 +2061,9 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
-          "result": "R32",
-          "points_earned": 25,
+          "event_date_end": "2026-10-29",
+          "result": "R16",
+          "points_earned": 50,
           "live": true,
           "out": false
         }
@@ -2248,9 +2248,9 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
-          "result": "R32",
-          "points_earned": 25,
+          "event_date_end": "2026-10-29",
+          "result": "R16",
+          "points_earned": 50,
           "live": true,
           "out": false
         }
@@ -2580,7 +2580,7 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
+          "event_date_end": "2026-10-29",
           "result": "R16",
           "points_earned": 50,
           "live": true,
@@ -2783,7 +2783,7 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
+          "event_date_end": "2026-10-29",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -2978,7 +2978,7 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
+          "event_date_end": "2026-10-29",
           "result": "R16",
           "points_earned": 50,
           "live": true,
@@ -3181,7 +3181,7 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
+          "event_date_end": "2026-10-29",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -3561,9 +3561,9 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
-          "result": "R32",
-          "points_earned": 25,
+          "event_date_end": "2026-10-29",
+          "result": "R16",
+          "points_earned": 50,
           "live": true,
           "out": false
         }
@@ -3764,7 +3764,7 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
+          "event_date_end": "2026-10-29",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -4007,11 +4007,11 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
-          "result": "R32",
-          "points_earned": 25,
+          "event_date_end": "2026-10-29",
+          "result": "R16",
+          "points_earned": 50,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -4210,7 +4210,7 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
+          "event_date_end": "2026-10-29",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -4373,7 +4373,7 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
+          "event_date_end": "2026-10-29",
           "result": "R16",
           "points_earned": 50,
           "live": true,
@@ -4512,11 +4512,11 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
-          "result": "R32",
-          "points_earned": 25,
+          "event_date_end": "2026-10-29",
+          "result": "R16",
+          "points_earned": 50,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -4820,7 +4820,7 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
+          "event_date_end": "2026-10-29",
           "result": "R16",
           "points_earned": 50,
           "live": true,
@@ -5071,7 +5071,7 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
+          "event_date_end": "2026-10-29",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -5298,7 +5298,7 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
+          "event_date_end": "2026-10-29",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -5477,9 +5477,9 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
-          "result": "R32",
-          "points_earned": 25,
+          "event_date_end": "2026-10-29",
+          "result": "R16",
+          "points_earned": 50,
           "live": true,
           "out": false
         }
@@ -5664,7 +5664,7 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
+          "event_date_end": "2026-10-29",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -6060,11 +6060,11 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
-          "result": "R32",
-          "points_earned": 25,
+          "event_date_end": "2026-10-29",
+          "result": "R16",
+          "points_earned": 50,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -6167,9 +6167,9 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
-          "result": "R32",
-          "points_earned": 25,
+          "event_date_end": "2026-10-29",
+          "result": "R16",
+          "points_earned": 50,
           "live": true,
           "out": false
         }
@@ -6322,7 +6322,7 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
+          "event_date_end": "2026-10-29",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -6533,7 +6533,7 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
+          "event_date_end": "2026-10-29",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -6744,7 +6744,7 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
+          "event_date_end": "2026-10-29",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -6947,7 +6947,7 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
+          "event_date_end": "2026-10-29",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -7287,11 +7287,11 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
-          "result": "R32",
-          "points_earned": 25,
+          "event_date_end": "2026-10-29",
+          "result": "R16",
+          "points_earned": 50,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -7402,7 +7402,7 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
+          "event_date_end": "2026-10-29",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -7621,7 +7621,7 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
+          "event_date_end": "2026-10-29",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -7889,7 +7889,7 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
+          "event_date_end": "2026-10-29",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -8012,7 +8012,7 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
+          "event_date_end": "2026-10-29",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -8199,9 +8199,9 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
-          "result": "R32",
-          "points_earned": 25,
+          "event_date_end": "2026-10-29",
+          "result": "R16",
+          "points_earned": 50,
           "live": true,
           "out": false
         }
@@ -8362,9 +8362,9 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
-          "result": "R32",
-          "points_earned": 25,
+          "event_date_end": "2026-10-29",
+          "result": "R16",
+          "points_earned": 50,
           "live": true,
           "out": false
         }
@@ -8774,11 +8774,11 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
-          "result": "R32",
-          "points_earned": 25,
+          "event_date_end": "2026-10-29",
+          "result": "R16",
+          "points_earned": 50,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -9114,11 +9114,11 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
-          "result": "R32",
-          "points_earned": 25,
+          "event_date_end": "2026-10-29",
+          "result": "R16",
+          "points_earned": 50,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -9341,7 +9341,7 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
+          "event_date_end": "2026-10-29",
           "result": "R16",
           "points_earned": 50,
           "live": true,
@@ -9544,7 +9544,7 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
+          "event_date_end": "2026-10-29",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -10359,7 +10359,7 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
+          "event_date_end": "2026-10-29",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -10610,11 +10610,11 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
-          "result": "R32",
-          "points_earned": 25,
+          "event_date_end": "2026-10-29",
+          "result": "R16",
+          "points_earned": 50,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -10797,7 +10797,7 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
+          "event_date_end": "2026-10-29",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -11797,7 +11797,7 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
+          "event_date_end": "2026-10-29",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -12275,7 +12275,7 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
+          "event_date_end": "2026-10-29",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -12607,7 +12607,7 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
+          "event_date_end": "2026-10-29",
           "result": "R16",
           "points_earned": 50,
           "live": true,
@@ -14164,7 +14164,7 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
+          "event_date_end": "2026-10-29",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -14343,7 +14343,7 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
+          "event_date_end": "2026-10-29",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -14458,7 +14458,7 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
+          "event_date_end": "2026-10-29",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -15685,11 +15685,11 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-28",
-          "result": "R32",
-          "points_earned": 25,
+          "event_date_end": "2026-10-29",
+          "result": "R16",
+          "points_earned": 50,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
