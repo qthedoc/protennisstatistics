@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T06:09:50.780Z",
+  "updated_at": "2026-11-01T06:10:38.286Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -1860,8 +1860,8 @@
           "event_type": "500",
           "event_date_start": "2026-10-26",
           "event_date_end": "2026-10-31",
-          "result": "QF",
-          "points_earned": 108,
+          "result": "SF",
+          "points_earned": 195,
           "live": true,
           "out": false
         }
@@ -2070,14 +2070,6 @@
       "current_points": 2393,
       "points_distribution": [
         {
-          "event_name": "Hong Kong Tennis Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "W",
-          "points_earned": 250
-        },
-        {
           "event_name": "Adelaide International",
           "event_type": "500",
           "event_date_start": "2026-01-12",
@@ -2158,14 +2150,6 @@
       "country_code": "RO",
       "current_points": 2386,
       "points_distribution": [
-        {
-          "event_name": "Hong Kong Tennis Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "QF",
-          "points_earned": 54
-        },
         {
           "event_name": "Brisbane International",
           "event_type": "500",
@@ -2550,14 +2534,6 @@
       "current_points": 2241,
       "points_distribution": [
         {
-          "event_name": "Hong Kong Tennis Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R16",
-          "points_earned": 30
-        },
-        {
           "event_name": "ASB Classic",
           "event_type": "250",
           "event_date_start": "2026-01-05",
@@ -2768,14 +2744,6 @@
       "country_code": "CH",
       "current_points": 2222,
       "points_distribution": [
-        {
-          "event_name": "Hong Kong Tennis Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R16",
-          "points_earned": 30
-        },
         {
           "event_name": "United Cup",
           "event_type": "500",
@@ -3163,14 +3131,6 @@
       "country_code": "CA",
       "current_points": 1974,
       "points_distribution": [
-        {
-          "event_name": "Hong Kong Tennis Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "SF",
-          "points_earned": 98
-        },
         {
           "event_name": "Brisbane International",
           "event_type": "500",
@@ -3591,14 +3551,6 @@
       "country_code": "RU",
       "current_points": 1935,
       "points_distribution": [
-        {
-          "event_name": "Hong Kong Tennis Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "QF",
-          "points_earned": 54
-        },
         {
           "event_name": "Brisbane International",
           "event_type": "500",
@@ -4260,14 +4212,6 @@
       "current_points": 1711,
       "points_distribution": [
         {
-          "event_name": "Chennai Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
           "event_name": "Australian Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-01-19",
@@ -4593,14 +4537,6 @@
       "country_code": "US",
       "current_points": 1681,
       "points_distribution": [
-        {
-          "event_name": "Jiangxi Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Brisbane International",
           "event_type": "500",
@@ -5233,14 +5169,6 @@
       "current_points": 1549,
       "points_distribution": [
         {
-          "event_name": "Chennai Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R16",
-          "points_earned": 30
-        },
-        {
           "event_name": "Ostrava Open",
           "event_type": "250",
           "event_date_start": "2026-02-02",
@@ -5534,14 +5462,6 @@
       "country_code": "HR",
       "current_points": 1333,
       "points_distribution": [
-        {
-          "event_name": "Chennai Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "QF",
-          "points_earned": 54
-        },
         {
           "event_name": "ASB Classic",
           "event_type": "250",
@@ -5864,14 +5784,6 @@
       "country_code": "AU",
       "current_points": 1306,
       "points_distribution": [
-        {
-          "event_name": "Hong Kong Tennis Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Brisbane International",
           "event_type": "500",
@@ -6346,7 +6258,7 @@
           "event_name": "Guangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -6361,14 +6273,6 @@
       "country_code": "AU",
       "current_points": 1280,
       "points_distribution": [
-        {
-          "event_name": "Chennai Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "F",
-          "points_earned": 163
-        },
         {
           "event_name": "Brisbane International",
           "event_type": "500",
@@ -6556,14 +6460,6 @@
       "country_code": "ES",
       "current_points": 1279,
       "points_distribution": [
-        {
-          "event_name": "Hong Kong Tennis Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "F",
-          "points_earned": 163
-        },
         {
           "event_name": "Brisbane International",
           "event_type": "500",
@@ -7340,14 +7236,6 @@
       "current_points": 1120,
       "points_distribution": [
         {
-          "event_name": "Chennai Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "W",
-          "points_earned": 250
-        },
-        {
           "event_name": "ASB Classic",
           "event_type": "250",
           "event_date_start": "2026-01-05",
@@ -7567,7 +7455,7 @@
           "event_name": "Guangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R16",
           "points_earned": 30,
           "live": true,
@@ -7582,14 +7470,6 @@
       "country_code": "GB",
       "current_points": 1115,
       "points_distribution": [
-        {
-          "event_name": "Hong Kong Tennis Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "ASB Classic",
           "event_type": "250",
@@ -7915,7 +7795,7 @@
           "event_name": "Guangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R16",
           "points_earned": 30,
           "live": true,
@@ -8294,14 +8174,6 @@
       "current_points": 1091,
       "points_distribution": [
         {
-          "event_name": "Jiangxi Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "F",
-          "points_earned": 163
-        },
-        {
           "event_name": "BNP Paribas Open",
           "event_type": "1000",
           "event_date_start": "2026-03-02",
@@ -8425,9 +8297,9 @@
           "event_name": "Guangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
-          "result": "QF",
-          "points_earned": 54,
+          "event_date_end": "2026-10-31",
+          "result": "SF",
+          "points_earned": 98,
           "live": true,
           "out": false
         }
@@ -8440,14 +8312,6 @@
       "country_code": "UA",
       "current_points": 1090,
       "points_distribution": [
-        {
-          "event_name": "Jiangxi Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "ASB Classic",
           "event_type": "250",
@@ -8812,14 +8676,6 @@
       "current_points": 1083,
       "points_distribution": [
         {
-          "event_name": "Chennai Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "SF",
-          "points_earned": 98
-        },
-        {
           "event_name": "Australian Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-01-19",
@@ -8903,7 +8759,7 @@
           "event_name": "Guangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -9111,14 +8967,6 @@
       "country_code": "DE",
       "current_points": 1070,
       "points_distribution": [
-        {
-          "event_name": "Jiangxi Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "QF",
-          "points_earned": 54
-        },
         {
           "event_name": "Ostrava Open",
           "event_type": "250",
@@ -9557,7 +9405,7 @@
           "event_name": "Guangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "QF",
           "points_earned": 54,
           "live": true,
@@ -9919,14 +9767,6 @@
       "current_points": 987,
       "points_distribution": [
         {
-          "event_name": "Chennai Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R16",
-          "points_earned": 30
-        },
-        {
           "event_name": "Australian Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-01-19",
@@ -10114,7 +9954,7 @@
           "event_name": "Guangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R16",
           "points_earned": 30,
           "live": true,
@@ -10129,14 +9969,6 @@
       "country_code": "US",
       "current_points": 985,
       "points_distribution": [
-        {
-          "event_name": "Jiangxi Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "QF",
-          "points_earned": 54
-        },
         {
           "event_name": "ASB Classic",
           "event_type": "250",
@@ -10349,14 +10181,6 @@
       "current_points": 976,
       "points_distribution": [
         {
-          "event_name": "Hong Kong Tennis Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
           "event_name": "Australian Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-01-19",
@@ -10519,14 +10343,6 @@
       "country_code": "KZ",
       "current_points": 969,
       "points_distribution": [
-        {
-          "event_name": "Jiangxi Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "QF",
-          "points_earned": 54
-        },
         {
           "event_name": "Brisbane International",
           "event_type": "500",
@@ -10691,14 +10507,6 @@
       "current_points": 953,
       "points_distribution": [
         {
-          "event_name": "Jiangxi Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
           "event_name": "ASB Classic",
           "event_type": "250",
           "event_date_start": "2026-01-05",
@@ -10859,14 +10667,6 @@
       "country_code": "IT",
       "current_points": 951,
       "points_distribution": [
-        {
-          "event_name": "Jiangxi Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R16",
-          "points_earned": 30
-        },
         {
           "event_name": "ASB Classic",
           "event_type": "250",
@@ -11385,7 +11185,7 @@
           "event_name": "Guangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R16",
           "points_earned": 30,
           "live": true,
@@ -11400,14 +11200,6 @@
       "country_code": "UZB",
       "current_points": 931,
       "points_distribution": [
-        {
-          "event_name": "Chennai Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Merida Open Akron",
           "event_type": "500",
@@ -11484,7 +11276,7 @@
           "event_name": "Guangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R16",
           "points_earned": 30,
           "live": true,
@@ -11499,14 +11291,6 @@
       "country_code": "FR",
       "current_points": 921,
       "points_distribution": [
-        {
-          "event_name": "Jiangxi Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "W",
-          "points_earned": 250
-        },
         {
           "event_name": "Brisbane International",
           "event_type": "500",
@@ -11668,14 +11452,6 @@
       "country_code": "CH",
       "current_points": 914,
       "points_distribution": [
-        {
-          "event_name": "Jiangxi Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "SF",
-          "points_earned": 98
-        },
         {
           "event_name": "Australian Open",
           "event_type": "Grand Slam",
@@ -11993,14 +11769,6 @@
       "current_points": 913,
       "points_distribution": [
         {
-          "event_name": "Jiangxi Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R16",
-          "points_earned": 30
-        },
-        {
           "event_name": "Brisbane International",
           "event_type": "500",
           "event_date_start": "2026-01-05",
@@ -12204,7 +11972,7 @@
           "event_name": "Guangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R16",
           "points_earned": 30,
           "live": true,
@@ -12335,7 +12103,7 @@
           "event_name": "Guangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R16",
           "points_earned": 30,
           "live": true,
@@ -12514,7 +12282,7 @@
           "event_name": "Guangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -12529,14 +12297,6 @@
       "country_code": "RU",
       "current_points": 895,
       "points_distribution": [
-        {
-          "event_name": "Jiangxi Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Internazionali BNL d'Italia",
           "event_type": "1000",
@@ -12654,7 +12414,7 @@
           "event_name": "Guangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -12825,7 +12585,7 @@
           "event_name": "Guangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -12840,14 +12600,6 @@
       "country_code": "CN",
       "current_points": 869,
       "points_distribution": [
-        {
-          "event_name": "Hong Kong Tennis Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "French Open",
           "event_type": "Grand Slam",
@@ -13206,7 +12958,7 @@
           "event_name": "Guangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -13354,11 +13106,11 @@
           "event_name": "Guangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
-          "result": "QF",
-          "points_earned": 54,
+          "event_date_end": "2026-10-31",
+          "result": "SF",
+          "points_earned": 98,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -13840,14 +13592,6 @@
       "current_points": 813,
       "points_distribution": [
         {
-          "event_name": "Jiangxi Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R32",
-          "points_earned": 0
-        },
-        {
           "event_name": "Australian Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-01-19",
@@ -13931,7 +13675,7 @@
           "event_name": "Guangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R32",
           "points_earned": 0,
           "live": true,
@@ -14043,14 +13787,6 @@
       "country_code": "CN",
       "current_points": 807,
       "points_distribution": [
-        {
-          "event_name": "Hong Kong Tennis Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R16",
-          "points_earned": 30
-        },
         {
           "event_name": "Brisbane International",
           "event_type": "500",
@@ -14228,14 +13964,6 @@
       "country_code": "AU",
       "current_points": 782,
       "points_distribution": [
-        {
-          "event_name": "Hong Kong Tennis Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "SF",
-          "points_earned": 98
-        },
         {
           "event_name": "United Cup",
           "event_type": "500",
@@ -14949,7 +14677,7 @@
           "event_name": "Guangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R16",
           "points_earned": 30,
           "live": true,
@@ -14964,14 +14692,6 @@
       "country_code": "GB",
       "current_points": 752,
       "points_distribution": [
-        {
-          "event_name": "Chennai Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "ASB Classic",
           "event_type": "250",
@@ -15134,14 +14854,6 @@
       "country_code": "ARM",
       "current_points": 736,
       "points_distribution": [
-        {
-          "event_name": "Chennai Open",
-          "event_type": "250",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R32",
-          "points_earned": 0
-        },
         {
           "event_name": "Open Capfinances Rouen Metropole",
           "event_type": "250",

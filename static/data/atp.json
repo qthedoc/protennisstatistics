@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-31T06:09:46.390Z",
+  "updated_at": "2026-11-01T06:10:30.554Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -9,14 +9,6 @@
       "country_code": "IT",
       "current_points": 10450,
       "points_distribution": [
-        {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "W",
-          "points_earned": 1000
-        },
         {
           "event_name": "Nitto ATP Finals",
           "event_type": "1000",
@@ -106,14 +98,6 @@
       "country_code": "DE",
       "current_points": 9750,
       "points_distribution": [
-        {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "SF",
-          "points_earned": 400
-        },
         {
           "event_name": "Australian Open",
           "event_type": "Grand Slam",
@@ -246,11 +230,11 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
-          "result": "QF",
-          "points_earned": 100,
+          "event_date_end": "2026-10-31",
+          "result": "SF",
+          "points_earned": 200,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -261,14 +245,6 @@
       "country_code": "ES",
       "current_points": 5610,
       "points_distribution": [
-        {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R32",
-          "points_earned": 50
-        },
         {
           "event_name": "Nitto ATP Finals",
           "event_type": "1000",
@@ -353,9 +329,9 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
-          "result": "QF",
-          "points_earned": 100,
+          "event_date_end": "2026-10-31",
+          "result": "SF",
+          "points_earned": 200,
           "live": true,
           "out": false
         }
@@ -368,14 +344,6 @@
       "country_code": "US",
       "current_points": 4680,
       "points_distribution": [
-        {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "QF",
-          "points_earned": 200
-        },
         {
           "event_name": "ASB Classic",
           "event_type": "250",
@@ -532,7 +500,7 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R16",
           "points_earned": 50,
           "live": true,
@@ -547,14 +515,6 @@
       "country_code": "RU",
       "current_points": 3860,
       "points_distribution": [
-        {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "QF",
-          "points_earned": 200
-        },
         {
           "event_name": "Brisbane International",
           "event_type": "250",
@@ -735,11 +695,11 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
-          "result": "QF",
-          "points_earned": 100,
+          "event_date_end": "2026-10-31",
+          "result": "SF",
+          "points_earned": 200,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -750,14 +710,6 @@
       "country_code": "IT",
       "current_points": 3690,
       "points_distribution": [
-        {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R32",
-          "points_earned": 50
-        },
         {
           "event_name": "Moselle Open",
           "event_type": "250",
@@ -946,7 +898,7 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R16",
           "points_earned": 50,
           "live": true,
@@ -961,14 +913,6 @@
       "country_code": "CA",
       "current_points": 3515,
       "points_distribution": [
-        {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "F",
-          "points_earned": 650
-        },
         {
           "event_name": "Nitto ATP Finals",
           "event_type": "1000",
@@ -1262,7 +1206,7 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "QF",
           "points_earned": 100,
           "live": true,
@@ -1441,7 +1385,7 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -1456,14 +1400,6 @@
       "country_code": "AU",
       "current_points": 3280,
       "points_distribution": [
-        {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "QF",
-          "points_earned": 200
-        },
         {
           "event_name": "Nitto ATP Finals",
           "event_type": "1000",
@@ -1636,9 +1572,9 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
-          "result": "QF",
-          "points_earned": 100,
+          "event_date_end": "2026-10-31",
+          "result": "SF",
+          "points_earned": 200,
           "live": true,
           "out": false
         }
@@ -1799,7 +1735,7 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R16",
           "points_earned": 50,
           "live": true,
@@ -1898,7 +1834,7 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R16",
           "points_earned": 50,
           "live": true,
@@ -1913,14 +1849,6 @@
       "country_code": "US",
       "current_points": 2995,
       "points_distribution": [
-        {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R16",
-          "points_earned": 100
-        },
         {
           "event_name": "Australian Open",
           "event_type": "Grand Slam",
@@ -2061,11 +1989,11 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
-          "result": "QF",
-          "points_earned": 100,
+          "event_date_end": "2026-10-31",
+          "result": "SF",
+          "points_earned": 200,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -2248,7 +2176,7 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "QF",
           "points_earned": 100,
           "live": true,
@@ -2263,14 +2191,6 @@
       "country_code": "ES",
       "current_points": 2600,
       "points_distribution": [
-        {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R16",
-          "points_earned": 100
-        },
         {
           "event_name": "Brisbane International",
           "event_type": "250",
@@ -2580,7 +2500,7 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R16",
           "points_earned": 50,
           "live": true,
@@ -2595,14 +2515,6 @@
       "country_code": "US",
       "current_points": 2375,
       "points_distribution": [
-        {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R64",
-          "points_earned": 30
-        },
         {
           "event_name": "Hellenic Championship",
           "event_type": "250",
@@ -2783,7 +2695,7 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -2798,14 +2710,6 @@
       "country_code": "US",
       "current_points": 2345,
       "points_distribution": [
-        {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R32",
-          "points_earned": 50
-        },
         {
           "event_name": "Moselle Open",
           "event_type": "250",
@@ -2978,7 +2882,7 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R16",
           "points_earned": 50,
           "live": true,
@@ -2993,14 +2897,6 @@
       "country_code": "AR",
       "current_points": 2310,
       "points_distribution": [
-        {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R16",
-          "points_earned": 100
-        },
         {
           "event_name": "Adelaide International",
           "event_type": "250",
@@ -3181,7 +3077,7 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -3196,14 +3092,6 @@
       "country_code": "KZ",
       "current_points": 2285,
       "points_distribution": [
-        {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "SF",
-          "points_earned": 400
-        },
         {
           "event_name": "Moselle Open",
           "event_type": "250",
@@ -3390,14 +3278,6 @@
       "current_points": 2275,
       "points_distribution": [
         {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R64",
-          "points_earned": 30
-        },
-        {
           "event_name": "Brisbane International",
           "event_type": "250",
           "event_date_start": "2026-01-05",
@@ -3561,9 +3441,9 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
-          "result": "QF",
-          "points_earned": 100,
+          "event_date_end": "2026-10-31",
+          "result": "SF",
+          "points_earned": 200,
           "live": true,
           "out": false
         }
@@ -3576,14 +3456,6 @@
       "country_code": "RU",
       "current_points": 2175,
       "points_distribution": [
-        {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R16",
-          "points_earned": 100
-        },
         {
           "event_name": "Hong Kong Tennis Open",
           "event_type": "250",
@@ -3764,7 +3636,7 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -3779,14 +3651,6 @@
       "country_code": "IT",
       "current_points": 2160,
       "points_distribution": [
-        {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R64",
-          "points_earned": 30
-        },
         {
           "event_name": "Hellenic Championship",
           "event_type": "250",
@@ -4007,7 +3871,7 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R16",
           "points_earned": 50,
           "live": true,
@@ -4022,14 +3886,6 @@
       "country_code": "RU",
       "current_points": 2030,
       "points_distribution": [
-        {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R16",
-          "points_earned": 100
-        },
         {
           "event_name": "Hong Kong Tennis Open",
           "event_type": "250",
@@ -4210,7 +4066,7 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -4225,14 +4081,6 @@
       "country_code": "NO",
       "current_points": 1995,
       "points_distribution": [
-        {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R32",
-          "points_earned": 50
-        },
         {
           "event_name": "ASB Classic",
           "event_type": "250",
@@ -4373,7 +4221,7 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R16",
           "points_earned": 50,
           "live": true,
@@ -4388,14 +4236,6 @@
       "country_code": "IT",
       "current_points": 1920,
       "points_distribution": [
-        {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R32",
-          "points_earned": 50
-        },
         {
           "event_name": "Hellenic Championship",
           "event_type": "250",
@@ -4512,7 +4352,7 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R16",
           "points_earned": 50,
           "live": true,
@@ -4820,7 +4660,7 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R16",
           "points_earned": 50,
           "live": true,
@@ -4835,14 +4675,6 @@
       "country_code": "AR",
       "current_points": 1565,
       "points_distribution": [
-        {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R64",
-          "points_earned": 30
-        },
         {
           "event_name": "Hellenic Championship",
           "event_type": "250",
@@ -5071,7 +4903,7 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -5298,7 +5130,7 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -5313,14 +5145,6 @@
       "country_code": "MON",
       "current_points": 1480,
       "points_distribution": [
-        {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "QF",
-          "points_earned": 200
-        },
         {
           "event_name": "Brisbane International",
           "event_type": "250",
@@ -5477,9 +5301,9 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
-          "result": "QF",
-          "points_earned": 100,
+          "event_date_end": "2026-10-31",
+          "result": "SF",
+          "points_earned": 200,
           "live": true,
           "out": false
         }
@@ -5664,7 +5488,7 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -5881,14 +5705,6 @@
       "current_points": 1410,
       "points_distribution": [
         {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R64",
-          "points_earned": 30
-        },
-        {
           "event_name": "Brisbane International",
           "event_type": "250",
           "event_date_start": "2026-01-05",
@@ -6060,7 +5876,7 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R16",
           "points_earned": 50,
           "live": true,
@@ -6167,7 +5983,7 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "QF",
           "points_earned": 100,
           "live": true,
@@ -6322,7 +6138,7 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -6533,7 +6349,7 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -6744,7 +6560,7 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -6759,14 +6575,6 @@
       "country_code": "BE",
       "current_points": 1260,
       "points_distribution": [
-        {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R32",
-          "points_earned": 50
-        },
         {
           "event_name": "Australian Open",
           "event_type": "Grand Slam",
@@ -6947,7 +6755,7 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -6962,14 +6770,6 @@
       "country_code": "BR",
       "current_points": 1250,
       "points_distribution": [
-        {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R32",
-          "points_earned": 50
-        },
         {
           "event_name": "Australian Open",
           "event_type": "Grand Slam",
@@ -7091,14 +6891,6 @@
       "country_code": "GB",
       "current_points": 1195,
       "points_distribution": [
-        {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R16",
-          "points_earned": 100
-        },
         {
           "event_name": "Moselle Open",
           "event_type": "250",
@@ -7287,7 +7079,7 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R16",
           "points_earned": 50,
           "live": true,
@@ -7402,7 +7194,7 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -7621,7 +7413,7 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -7889,7 +7681,7 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -8012,7 +7804,7 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -8199,11 +7991,11 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
-          "result": "QF",
-          "points_earned": 100,
+          "event_date_end": "2026-10-31",
+          "result": "SF",
+          "points_earned": 200,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -8362,7 +8154,7 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "QF",
           "points_earned": 100,
           "live": true,
@@ -8377,14 +8169,6 @@
       "country_code": "AR",
       "current_points": 1044,
       "points_distribution": [
-        {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R64",
-          "points_earned": 30
-        },
         {
           "event_name": "ASB Classic",
           "event_type": "250",
@@ -8595,14 +8379,6 @@
       "current_points": 1035,
       "points_distribution": [
         {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R64",
-          "points_earned": 30
-        },
-        {
           "event_name": "Adelaide International",
           "event_type": "250",
           "event_date_start": "2026-01-12",
@@ -8774,7 +8550,7 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R16",
           "points_earned": 50,
           "live": true,
@@ -8943,14 +8719,6 @@
       "current_points": 1015,
       "points_distribution": [
         {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R64",
-          "points_earned": 30
-        },
-        {
           "event_name": "Brisbane International",
           "event_type": "250",
           "event_date_start": "2026-01-05",
@@ -9114,7 +8882,7 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R16",
           "points_earned": 50,
           "live": true,
@@ -9129,14 +8897,6 @@
       "country_code": "PT",
       "current_points": 1000,
       "points_distribution": [
-        {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R64",
-          "points_earned": 30
-        },
         {
           "event_name": "Hellenic Championship",
           "event_type": "250",
@@ -9341,7 +9101,7 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "QF",
           "points_earned": 100,
           "live": true,
@@ -9544,7 +9304,7 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -9946,14 +9706,6 @@
       "country_code": "RS",
       "current_points": 930,
       "points_distribution": [
-        {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R32",
-          "points_earned": 50
-        },
         {
           "event_name": "Hellenic Championship",
           "event_type": "250",
@@ -10359,7 +10111,7 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -10374,14 +10126,6 @@
       "country_code": "DE",
       "current_points": 874,
       "points_distribution": [
-        {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R16",
-          "points_earned": 100
-        },
         {
           "event_name": "Moselle Open",
           "event_type": "250",
@@ -10610,7 +10354,7 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R16",
           "points_earned": 50,
           "live": true,
@@ -10625,14 +10369,6 @@
       "country_code": "FR",
       "current_points": 870,
       "points_distribution": [
-        {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R32",
-          "points_earned": 50
-        },
         {
           "event_name": "Moselle Open",
           "event_type": "250",
@@ -10797,7 +10533,7 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -10812,14 +10548,6 @@
       "country_code": "US",
       "current_points": 861,
       "points_distribution": [
-        {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R64",
-          "points_earned": 30
-        },
         {
           "event_name": "Adelaide International",
           "event_type": "250",
@@ -10949,14 +10677,6 @@
       "country_code": "HU",
       "current_points": 860,
       "points_distribution": [
-        {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R64",
-          "points_earned": 30
-        },
         {
           "event_name": "Hong Kong Tennis Open",
           "event_type": "250",
@@ -11343,14 +11063,6 @@
       "country_code": "ES",
       "current_points": 835,
       "points_distribution": [
-        {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R64",
-          "points_earned": 30
-        },
         {
           "event_name": "Adelaide International",
           "event_type": "250",
@@ -11797,7 +11509,7 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -12120,14 +11832,6 @@
       "current_points": 804,
       "points_distribution": [
         {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R64",
-          "points_earned": 30
-        },
-        {
           "event_name": "Brisbane International",
           "event_type": "250",
           "event_date_start": "2026-01-05",
@@ -12275,7 +11979,7 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -12607,7 +12311,7 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "QF",
           "points_earned": 100,
           "live": true,
@@ -12767,14 +12471,6 @@
       "country_code": "AR",
       "current_points": 770,
       "points_distribution": [
-        {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R32",
-          "points_earned": 50
-        },
         {
           "event_name": "Brisbane International",
           "event_type": "250",
@@ -13518,14 +13214,6 @@
       "current_points": 730,
       "points_distribution": [
         {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R64",
-          "points_earned": 30
-        },
-        {
           "event_name": "Hellenic Championship",
           "event_type": "250",
           "event_date_start": "2025-11-03",
@@ -13768,14 +13456,6 @@
       "current_points": 712,
       "points_distribution": [
         {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R64",
-          "points_earned": 30
-        },
-        {
           "event_name": "Hellenic Championship",
           "event_type": "250",
           "event_date_start": "2025-11-03",
@@ -13944,14 +13624,6 @@
       "country_code": "US",
       "current_points": 703,
       "points_distribution": [
-        {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R64",
-          "points_earned": 30
-        },
         {
           "event_name": "Moselle Open",
           "event_type": "250",
@@ -14164,7 +13836,7 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -14343,7 +14015,7 @@
           "event_name": "Swiss Indoors Basel",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -14358,14 +14030,6 @@
       "country_code": "GB",
       "current_points": 686,
       "points_distribution": [
-        {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R64",
-          "points_earned": 30
-        },
         {
           "event_name": "Hellenic Championship",
           "event_type": "250",
@@ -14458,7 +14122,7 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R32",
           "points_earned": 25,
           "live": true,
@@ -14562,14 +14226,6 @@
       "country_code": "US",
       "current_points": 676,
       "points_distribution": [
-        {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R64",
-          "points_earned": 30
-        },
         {
           "event_name": "Hellenic Championship",
           "event_type": "250",
@@ -14869,14 +14525,6 @@
       "current_points": 666,
       "points_distribution": [
         {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R64",
-          "points_earned": 30
-        },
-        {
           "event_name": "Moselle Open",
           "event_type": "250",
           "event_date_start": "2025-11-03",
@@ -15077,14 +14725,6 @@
       "country_code": "IT",
       "current_points": 658,
       "points_distribution": [
-        {
-          "event_name": "Rolex Paris Masters",
-          "event_type": "1000",
-          "event_date_start": "2025-10-27",
-          "event_date_end": "2025-11-02",
-          "result": "R16",
-          "points_earned": 100
-        },
         {
           "event_name": "Moselle Open",
           "event_type": "250",
@@ -15685,7 +15325,7 @@
           "event_name": "Erste Bank Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-30",
+          "event_date_end": "2026-10-31",
           "result": "R16",
           "points_earned": 50,
           "live": true,
