@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-01T06:10:38.286Z",
+  "updated_at": "2026-11-02T06:15:05.383Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -157,11 +157,9 @@
           "event_name": "Toray Pan Pacific Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-31",
+          "event_date_end": "2026-11-01",
           "result": "QF",
-          "points_earned": 108,
-          "live": true,
-          "out": true
+          "points_earned": 108
         }
       ]
     },
@@ -1859,11 +1857,9 @@
           "event_name": "Toray Pan Pacific Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-31",
-          "result": "SF",
-          "points_earned": 195,
-          "live": true,
-          "out": false
+          "event_date_end": "2026-11-01",
+          "result": "W",
+          "points_earned": 500
         }
       ]
     },
@@ -2054,11 +2050,9 @@
           "event_name": "Toray Pan Pacific Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-31",
+          "event_date_end": "2026-11-01",
           "result": "R16",
-          "points_earned": 60,
-          "live": true,
-          "out": true
+          "points_earned": 60
         }
       ]
     },
@@ -2298,11 +2292,9 @@
           "event_name": "Toray Pan Pacific Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-31",
+          "event_date_end": "2026-11-01",
           "result": "R32",
-          "points_earned": 0,
-          "live": true,
-          "out": true
+          "points_earned": 0
         }
       ]
     },
@@ -2518,11 +2510,9 @@
           "event_name": "Toray Pan Pacific Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-31",
+          "event_date_end": "2026-11-01",
           "result": "R16",
-          "points_earned": 60,
-          "live": true,
-          "out": true
+          "points_earned": 60
         }
       ]
     },
@@ -2729,11 +2719,9 @@
           "event_name": "Toray Pan Pacific Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-31",
+          "event_date_end": "2026-11-01",
           "result": "QF",
-          "points_earned": 108,
-          "live": true,
-          "out": true
+          "points_earned": 108
         }
       ]
     },
@@ -3343,11 +3331,9 @@
           "event_name": "Toray Pan Pacific Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-31",
-          "result": "SF",
-          "points_earned": 195,
-          "live": true,
-          "out": false
+          "event_date_end": "2026-11-01",
+          "result": "F",
+          "points_earned": 325
         }
       ]
     },
@@ -4335,11 +4321,9 @@
           "event_name": "Toray Pan Pacific Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-31",
+          "event_date_end": "2026-11-01",
           "result": "R32",
-          "points_earned": 0,
-          "live": true,
-          "out": true
+          "points_earned": 0
         }
       ]
     },
@@ -4522,11 +4506,9 @@
           "event_name": "Toray Pan Pacific Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-31",
+          "event_date_end": "2026-11-01",
           "result": "R32",
-          "points_earned": 0,
-          "live": true,
-          "out": true
+          "points_earned": 0
         }
       ]
     },
@@ -4749,11 +4731,9 @@
           "event_name": "Toray Pan Pacific Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-31",
+          "event_date_end": "2026-11-01",
           "result": "R32",
-          "points_earned": 0,
-          "live": true,
-          "out": true
+          "points_earned": 0
         }
       ]
     },
@@ -5153,11 +5133,9 @@
           "event_name": "Toray Pan Pacific Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-31",
+          "event_date_end": "2026-11-01",
           "result": "R16",
-          "points_earned": 60,
-          "live": true,
-          "out": true
+          "points_earned": 60
         }
       ]
     },
@@ -5300,11 +5278,9 @@
           "event_name": "Toray Pan Pacific Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-31",
+          "event_date_end": "2026-11-01",
           "result": "R32",
-          "points_earned": 0,
-          "live": true,
-          "out": true
+          "points_earned": 0
         }
       ]
     },
@@ -5447,11 +5423,9 @@
           "event_name": "Toray Pan Pacific Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-31",
+          "event_date_end": "2026-11-01",
           "result": "R32",
-          "points_earned": 0,
-          "live": true,
-          "out": true
+          "points_earned": 0
         }
       ]
     },
@@ -5940,11 +5914,9 @@
           "event_name": "Toray Pan Pacific Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-31",
+          "event_date_end": "2026-11-01",
           "result": "R16",
-          "points_earned": 60,
-          "live": true,
-          "out": true
+          "points_earned": 60
         }
       ]
     },
@@ -6143,11 +6115,9 @@
           "event_name": "Toray Pan Pacific Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-31",
+          "event_date_end": "2026-11-01",
           "result": "R32",
-          "points_earned": 0,
-          "live": true,
-          "out": true
+          "points_earned": 0
         }
       ]
     },
@@ -6258,11 +6228,9 @@
           "event_name": "Guangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-31",
+          "event_date_end": "2026-11-01",
           "result": "R32",
-          "points_earned": 0,
-          "live": true,
-          "out": true
+          "points_earned": 0
         }
       ]
     },
@@ -6445,11 +6413,9 @@
           "event_name": "Toray Pan Pacific Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-31",
+          "event_date_end": "2026-11-01",
           "result": "R16",
-          "points_earned": 60,
-          "live": true,
-          "out": true
+          "points_earned": 60
         }
       ]
     },
@@ -6632,11 +6598,9 @@
           "event_name": "Toray Pan Pacific Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-31",
+          "event_date_end": "2026-11-01",
           "result": "R16",
-          "points_earned": 60,
-          "live": true,
-          "out": true
+          "points_earned": 60
         }
       ]
     },
@@ -7455,11 +7419,9 @@
           "event_name": "Guangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-31",
+          "event_date_end": "2026-11-01",
           "result": "R16",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -7795,11 +7757,9 @@
           "event_name": "Guangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-31",
+          "event_date_end": "2026-11-01",
           "result": "R16",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -8297,11 +8257,9 @@
           "event_name": "Guangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-31",
-          "result": "SF",
-          "points_earned": 98,
-          "live": true,
-          "out": false
+          "event_date_end": "2026-11-01",
+          "result": "F",
+          "points_earned": 163
         }
       ]
     },
@@ -8759,11 +8717,9 @@
           "event_name": "Guangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-31",
+          "event_date_end": "2026-11-01",
           "result": "R32",
-          "points_earned": 0,
-          "live": true,
-          "out": true
+          "points_earned": 0
         }
       ]
     },
@@ -9405,11 +9361,9 @@
           "event_name": "Guangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-31",
+          "event_date_end": "2026-11-01",
           "result": "QF",
-          "points_earned": 54,
-          "live": true,
-          "out": true
+          "points_earned": 54
         }
       ]
     },
@@ -9954,11 +9908,9 @@
           "event_name": "Guangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-31",
+          "event_date_end": "2026-11-01",
           "result": "R16",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -10165,11 +10117,9 @@
           "event_name": "Toray Pan Pacific Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-31",
+          "event_date_end": "2026-11-01",
           "result": "QF",
-          "points_earned": 108,
-          "live": true,
-          "out": true
+          "points_earned": 108
         }
       ]
     },
@@ -10328,11 +10278,9 @@
           "event_name": "Toray Pan Pacific Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-31",
+          "event_date_end": "2026-11-01",
           "result": "SF",
-          "points_earned": 195,
-          "live": true,
-          "out": true
+          "points_earned": 195
         }
       ]
     },
@@ -10491,11 +10439,9 @@
           "event_name": "Toray Pan Pacific Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-31",
+          "event_date_end": "2026-11-01",
           "result": "R16",
-          "points_earned": 60,
-          "live": true,
-          "out": true
+          "points_earned": 60
         }
       ]
     },
@@ -11185,11 +11131,9 @@
           "event_name": "Guangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-31",
+          "event_date_end": "2026-11-01",
           "result": "R16",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -11276,11 +11220,9 @@
           "event_name": "Guangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-31",
+          "event_date_end": "2026-11-01",
           "result": "R16",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -11753,11 +11695,9 @@
           "event_name": "Toray Pan Pacific Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-31",
+          "event_date_end": "2026-11-01",
           "result": "R32",
-          "points_earned": 0,
-          "live": true,
-          "out": true
+          "points_earned": 0
         }
       ]
     },
@@ -11972,11 +11912,9 @@
           "event_name": "Guangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-31",
+          "event_date_end": "2026-11-01",
           "result": "R16",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -12103,11 +12041,9 @@
           "event_name": "Guangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-31",
+          "event_date_end": "2026-11-01",
           "result": "R16",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
@@ -12282,11 +12218,9 @@
           "event_name": "Guangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-31",
+          "event_date_end": "2026-11-01",
           "result": "R32",
-          "points_earned": 0,
-          "live": true,
-          "out": true
+          "points_earned": 0
         }
       ]
     },
@@ -12414,11 +12348,9 @@
           "event_name": "Guangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-31",
+          "event_date_end": "2026-11-01",
           "result": "R32",
-          "points_earned": 0,
-          "live": true,
-          "out": true
+          "points_earned": 0
         }
       ]
     },
@@ -12585,11 +12517,9 @@
           "event_name": "Guangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-31",
+          "event_date_end": "2026-11-01",
           "result": "R32",
-          "points_earned": 0,
-          "live": true,
-          "out": true
+          "points_earned": 0
         }
       ]
     },
@@ -12958,11 +12888,9 @@
           "event_name": "Guangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-31",
+          "event_date_end": "2026-11-01",
           "result": "R32",
-          "points_earned": 0,
-          "live": true,
-          "out": true
+          "points_earned": 0
         }
       ]
     },
@@ -13106,11 +13034,9 @@
           "event_name": "Guangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-31",
+          "event_date_end": "2026-11-01",
           "result": "SF",
-          "points_earned": 98,
-          "live": true,
-          "out": true
+          "points_earned": 98
         }
       ]
     },
@@ -13261,11 +13187,9 @@
           "event_name": "Toray Pan Pacific Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-31",
+          "event_date_end": "2026-11-01",
           "result": "R32",
-          "points_earned": 0,
-          "live": true,
-          "out": true
+          "points_earned": 0
         }
       ]
     },
@@ -13675,11 +13599,9 @@
           "event_name": "Guangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-31",
+          "event_date_end": "2026-11-01",
           "result": "R32",
-          "points_earned": 0,
-          "live": true,
-          "out": true
+          "points_earned": 0
         }
       ]
     },
@@ -14144,11 +14066,9 @@
           "event_name": "Toray Pan Pacific Open",
           "event_type": "500",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-31",
+          "event_date_end": "2026-11-01",
           "result": "QF",
-          "points_earned": 108,
-          "live": true,
-          "out": true
+          "points_earned": 108
         }
       ]
     },
@@ -14677,11 +14597,9 @@
           "event_name": "Guangzhou Open",
           "event_type": "250",
           "event_date_start": "2026-10-26",
-          "event_date_end": "2026-10-31",
+          "event_date_end": "2026-11-01",
           "result": "R16",
-          "points_earned": 30,
-          "live": true,
-          "out": true
+          "points_earned": 30
         }
       ]
     },
