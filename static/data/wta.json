@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-04T06:10:39.666Z",
+  "updated_at": "2026-11-05T06:10:54.021Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -2300,9 +2300,9 @@
           "event_name": "Hong Kong Tennis Open",
           "event_type": "250",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-03",
-          "result": "R16",
-          "points_earned": 30,
+          "event_date_end": "2026-11-04",
+          "result": "R32",
+          "points_earned": 0,
           "live": true,
           "out": false
         }
@@ -2737,9 +2737,9 @@
           "event_name": "Hong Kong Tennis Open",
           "event_type": "250",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-03",
-          "result": "R16",
-          "points_earned": 30,
+          "event_date_end": "2026-11-04",
+          "result": "R32",
+          "points_earned": 0,
           "live": true,
           "out": false
         }
@@ -4534,7 +4534,7 @@
           "event_name": "Hong Kong Tennis Open",
           "event_type": "250",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-03",
+          "event_date_end": "2026-11-04",
           "result": "R16",
           "points_earned": 30,
           "live": true,
@@ -5952,11 +5952,11 @@
           "event_name": "Hong Kong Tennis Open",
           "event_type": "250",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-03",
+          "event_date_end": "2026-11-04",
           "result": "R16",
           "points_earned": 30,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -6163,9 +6163,9 @@
           "event_name": "Hong Kong Tennis Open",
           "event_type": "250",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-03",
-          "result": "R16",
-          "points_earned": 30,
+          "event_date_end": "2026-11-04",
+          "result": "R32",
+          "points_earned": 0,
           "live": true,
           "out": false
         }
@@ -6873,9 +6873,9 @@
           "event_name": "Hong Kong Tennis Open",
           "event_type": "250",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-03",
-          "result": "R16",
-          "points_earned": 30,
+          "event_date_end": "2026-11-04",
+          "result": "R32",
+          "points_earned": 0,
           "live": true,
           "out": true
         }
@@ -7487,7 +7487,7 @@
           "event_name": "Chennai Open",
           "event_type": "250",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-03",
+          "event_date_end": "2026-11-04",
           "result": "R16",
           "points_earned": 30,
           "live": true,
@@ -7666,11 +7666,11 @@
           "event_name": "Hong Kong Tennis Open",
           "event_type": "250",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-03",
+          "event_date_end": "2026-11-04",
           "result": "R16",
           "points_earned": 30,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -9449,9 +9449,9 @@
           "event_name": "Hong Kong Tennis Open",
           "event_type": "250",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-03",
-          "result": "R16",
-          "points_earned": 30,
+          "event_date_end": "2026-11-04",
+          "result": "R32",
+          "points_earned": 0,
           "live": true,
           "out": true
         }
@@ -9612,9 +9612,9 @@
           "event_name": "Hong Kong Tennis Open",
           "event_type": "250",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-03",
-          "result": "R16",
-          "points_earned": 30,
+          "event_date_end": "2026-11-04",
+          "result": "R32",
+          "points_earned": 0,
           "live": true,
           "out": true
         }
@@ -10016,9 +10016,9 @@
           "event_name": "Hong Kong Tennis Open",
           "event_type": "250",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-03",
-          "result": "R16",
-          "points_earned": 30,
+          "event_date_end": "2026-11-04",
+          "result": "R32",
+          "points_earned": 0,
           "live": true,
           "out": false
         }
@@ -11249,9 +11249,9 @@
           "event_name": "Chennai Open",
           "event_type": "250",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-03",
-          "result": "R16",
-          "points_earned": 30,
+          "event_date_end": "2026-11-04",
+          "result": "R32",
+          "points_earned": 0,
           "live": true,
           "out": false
         }
@@ -11348,9 +11348,9 @@
           "event_name": "Hong Kong Tennis Open",
           "event_type": "250",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-03",
-          "result": "R16",
-          "points_earned": 30,
+          "event_date_end": "2026-11-04",
+          "result": "R32",
+          "points_earned": 0,
           "live": true,
           "out": true
         }
@@ -11640,9 +11640,9 @@
           "event_name": "Hong Kong Tennis Open",
           "event_type": "250",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-03",
-          "result": "R16",
-          "points_earned": 30,
+          "event_date_end": "2026-11-04",
+          "result": "R32",
+          "points_earned": 0,
           "live": true,
           "out": true
         }
@@ -12366,9 +12366,9 @@
           "event_name": "Chennai Open",
           "event_type": "250",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-03",
-          "result": "R16",
-          "points_earned": 30,
+          "event_date_end": "2026-11-04",
+          "result": "R32",
+          "points_earned": 0,
           "live": true,
           "out": true
         }
@@ -12506,9 +12506,9 @@
           "event_name": "Chennai Open",
           "event_type": "250",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-03",
-          "result": "R16",
-          "points_earned": 30,
+          "event_date_end": "2026-11-04",
+          "result": "R32",
+          "points_earned": 0,
           "live": true,
           "out": true
         }
@@ -12685,9 +12685,9 @@
           "event_name": "Hong Kong Tennis Open",
           "event_type": "250",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-03",
-          "result": "R16",
-          "points_earned": 30,
+          "event_date_end": "2026-11-04",
+          "result": "R32",
+          "points_earned": 0,
           "live": true,
           "out": true
         }
@@ -13061,6 +13061,16 @@
           "event_date_end": "2026-11-01",
           "result": "R32",
           "points_earned": 0
+        },
+        {
+          "event_name": "Hong Kong Tennis Open",
+          "event_type": "250",
+          "event_date_start": "2026-11-02",
+          "event_date_end": "2026-11-04",
+          "result": "R32",
+          "points_earned": 0,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -13365,9 +13375,9 @@
           "event_name": "Hong Kong Tennis Open",
           "event_type": "250",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-03",
-          "result": "R16",
-          "points_earned": 30,
+          "event_date_end": "2026-11-04",
+          "result": "R32",
+          "points_earned": 0,
           "live": true,
           "out": false
         }
@@ -13787,7 +13797,7 @@
           "event_name": "Chennai Open",
           "event_type": "250",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-03",
+          "event_date_end": "2026-11-04",
           "result": "R16",
           "points_earned": 30,
           "live": true,
@@ -14264,11 +14274,11 @@
           "event_name": "Hong Kong Tennis Open",
           "event_type": "250",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-03",
+          "event_date_end": "2026-11-04",
           "result": "R16",
           "points_earned": 30,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -14805,9 +14815,9 @@
           "event_name": "Hong Kong Tennis Open",
           "event_type": "250",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-03",
-          "result": "R16",
-          "points_earned": 30,
+          "event_date_end": "2026-11-04",
+          "result": "R32",
+          "points_earned": 0,
           "live": true,
           "out": true
         }
@@ -15045,6 +15055,16 @@
           "event_date_end": "2026-10-11",
           "result": "R16",
           "points_earned": 120
+        },
+        {
+          "event_name": "Hong Kong Tennis Open",
+          "event_type": "250",
+          "event_date_start": "2026-11-02",
+          "event_date_end": "2026-11-04",
+          "result": "R32",
+          "points_earned": 0,
+          "live": true,
+          "out": true
         }
       ]
     }
