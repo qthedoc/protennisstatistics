@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T06:10:48.559Z",
+  "updated_at": "2026-11-06T06:11:52.329Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -238,9 +238,9 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
-          "result": "R16",
-          "points_earned": 100,
+          "event_date_end": "2026-11-05",
+          "result": "R32",
+          "points_earned": 50,
           "live": true,
           "out": true
         }
@@ -345,7 +345,7 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
+          "event_date_end": "2026-11-05",
           "result": "R16",
           "points_earned": 100,
           "live": true,
@@ -524,7 +524,7 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
+          "event_date_end": "2026-11-05",
           "result": "R16",
           "points_earned": 100,
           "live": true,
@@ -727,9 +727,9 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
-          "result": "R16",
-          "points_earned": 100,
+          "event_date_end": "2026-11-05",
+          "result": "R32",
+          "points_earned": 50,
           "live": true,
           "out": true
         }
@@ -1244,11 +1244,11 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
+          "event_date_end": "2026-11-05",
           "result": "R16",
           "points_earned": 100,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -1431,9 +1431,9 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
-          "result": "R16",
-          "points_earned": 100,
+          "event_date_end": "2026-11-05",
+          "result": "R32",
+          "points_earned": 50,
           "live": true,
           "out": true
         }
@@ -1626,9 +1626,9 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
-          "result": "R16",
-          "points_earned": 100,
+          "event_date_end": "2026-11-05",
+          "result": "R32",
+          "points_earned": 50,
           "live": true,
           "out": true
         }
@@ -1797,9 +1797,9 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
-          "result": "R16",
-          "points_earned": 100,
+          "event_date_end": "2026-11-05",
+          "result": "R32",
+          "points_earned": 50,
           "live": true,
           "out": true
         }
@@ -1904,9 +1904,9 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
-          "result": "R16",
-          "points_earned": 100,
+          "event_date_end": "2026-11-05",
+          "result": "R32",
+          "points_earned": 50,
           "live": true,
           "out": true
         }
@@ -2067,7 +2067,7 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
+          "event_date_end": "2026-11-05",
           "result": "R16",
           "points_earned": 100,
           "live": true,
@@ -2262,7 +2262,7 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
+          "event_date_end": "2026-11-05",
           "result": "R16",
           "points_earned": 100,
           "live": true,
@@ -2787,9 +2787,9 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
-          "result": "R32",
-          "points_earned": 50,
+          "event_date_end": "2026-11-05",
+          "result": "R64",
+          "points_earned": 30,
           "live": true,
           "out": true
         }
@@ -2982,9 +2982,9 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
-          "result": "R16",
-          "points_earned": 100,
+          "event_date_end": "2026-11-05",
+          "result": "R32",
+          "points_earned": 50,
           "live": true,
           "out": true
         }
@@ -3185,9 +3185,9 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
-          "result": "R32",
-          "points_earned": 50,
+          "event_date_end": "2026-11-05",
+          "result": "R64",
+          "points_earned": 30,
           "live": true,
           "out": true
         }
@@ -3557,9 +3557,9 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
-          "result": "R32",
-          "points_earned": 50,
+          "event_date_end": "2026-11-05",
+          "result": "R64",
+          "points_earned": 30,
           "live": true,
           "out": true
         }
@@ -3760,9 +3760,9 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
-          "result": "R32",
-          "points_earned": 50,
+          "event_date_end": "2026-11-05",
+          "result": "R64",
+          "points_earned": 30,
           "live": true,
           "out": true
         }
@@ -4003,9 +4003,9 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
-          "result": "R32",
-          "points_earned": 50,
+          "event_date_end": "2026-11-05",
+          "result": "R64",
+          "points_earned": 30,
           "live": true,
           "out": true
         }
@@ -4206,9 +4206,9 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
-          "result": "R16",
-          "points_earned": 100,
+          "event_date_end": "2026-11-05",
+          "result": "R32",
+          "points_earned": 50,
           "live": true,
           "out": true
         }
@@ -4369,7 +4369,7 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
+          "event_date_end": "2026-11-05",
           "result": "R16",
           "points_earned": 100,
           "live": true,
@@ -4508,11 +4508,11 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
+          "event_date_end": "2026-11-05",
           "result": "R16",
           "points_earned": 100,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -4824,9 +4824,9 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
-          "result": "R32",
-          "points_earned": 50,
+          "event_date_end": "2026-11-05",
+          "result": "R64",
+          "points_earned": 30,
           "live": true,
           "out": true
         }
@@ -5075,11 +5075,11 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
+          "event_date_end": "2026-11-05",
           "result": "R16",
           "points_earned": 100,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -5310,9 +5310,9 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
-          "result": "R32",
-          "points_earned": 50,
+          "event_date_end": "2026-11-05",
+          "result": "R64",
+          "points_earned": 30,
           "live": true,
           "out": true
         }
@@ -5489,9 +5489,9 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
-          "result": "R32",
-          "points_earned": 50,
+          "event_date_end": "2026-11-05",
+          "result": "R64",
+          "points_earned": 30,
           "live": true,
           "out": true
         }
@@ -5684,11 +5684,11 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
+          "event_date_end": "2026-11-05",
           "result": "R16",
           "points_earned": 100,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -6080,9 +6080,9 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
-          "result": "R16",
-          "points_earned": 100,
+          "event_date_end": "2026-11-05",
+          "result": "R32",
+          "points_earned": 50,
           "live": true,
           "out": true
         }
@@ -6195,9 +6195,9 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
-          "result": "R32",
-          "points_earned": 50,
+          "event_date_end": "2026-11-05",
+          "result": "R64",
+          "points_earned": 30,
           "live": true,
           "out": true
         }
@@ -6358,9 +6358,9 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
-          "result": "R32",
-          "points_earned": 50,
+          "event_date_end": "2026-11-05",
+          "result": "R64",
+          "points_earned": 30,
           "live": true,
           "out": true
         }
@@ -6577,9 +6577,9 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
-          "result": "R32",
-          "points_earned": 50,
+          "event_date_end": "2026-11-05",
+          "result": "R64",
+          "points_earned": 30,
           "live": true,
           "out": true
         }
@@ -6796,9 +6796,9 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
-          "result": "R16",
-          "points_earned": 100,
+          "event_date_end": "2026-11-05",
+          "result": "R32",
+          "points_earned": 50,
           "live": true,
           "out": true
         }
@@ -6999,9 +6999,9 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
-          "result": "R32",
-          "points_earned": 50,
+          "event_date_end": "2026-11-05",
+          "result": "R64",
+          "points_earned": 30,
           "live": true,
           "out": true
         }
@@ -7331,9 +7331,9 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
-          "result": "R16",
-          "points_earned": 100,
+          "event_date_end": "2026-11-05",
+          "result": "R32",
+          "points_earned": 50,
           "live": true,
           "out": true
         }
@@ -7454,9 +7454,9 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
-          "result": "R16",
-          "points_earned": 100,
+          "event_date_end": "2026-11-05",
+          "result": "R32",
+          "points_earned": 50,
           "live": true,
           "out": true
         }
@@ -7681,9 +7681,9 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
-          "result": "R32",
-          "points_earned": 50,
+          "event_date_end": "2026-11-05",
+          "result": "R64",
+          "points_earned": 30,
           "live": true,
           "out": true
         }
@@ -7764,9 +7764,9 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
-          "result": "R32",
-          "points_earned": 50,
+          "event_date_end": "2026-11-05",
+          "result": "R64",
+          "points_earned": 30,
           "live": true,
           "out": true
         }
@@ -7967,11 +7967,11 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
+          "event_date_end": "2026-11-05",
           "result": "R16",
           "points_earned": 100,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -8098,7 +8098,7 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
+          "event_date_end": "2026-11-05",
           "result": "R16",
           "points_earned": 100,
           "live": true,
@@ -8293,11 +8293,11 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
+          "event_date_end": "2026-11-05",
           "result": "R16",
           "points_earned": 100,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -8464,11 +8464,11 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
+          "event_date_end": "2026-11-05",
           "result": "R16",
           "points_earned": 100,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -8683,9 +8683,9 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
-          "result": "R32",
-          "points_earned": 50,
+          "event_date_end": "2026-11-05",
+          "result": "R64",
+          "points_earned": 30,
           "live": true,
           "out": true
         }
@@ -9031,9 +9031,9 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
-          "result": "R16",
-          "points_earned": 100,
+          "event_date_end": "2026-11-05",
+          "result": "R32",
+          "points_earned": 50,
           "live": true,
           "out": true
         }
@@ -9218,9 +9218,9 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
-          "result": "R32",
-          "points_earned": 50,
+          "event_date_end": "2026-11-05",
+          "result": "R64",
+          "points_earned": 30,
           "live": true,
           "out": true
         }
@@ -9445,7 +9445,7 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
+          "event_date_end": "2026-11-05",
           "result": "R16",
           "points_earned": 100,
           "live": true,
@@ -9656,9 +9656,9 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
-          "result": "R32",
-          "points_earned": 50,
+          "event_date_end": "2026-11-05",
+          "result": "R64",
+          "points_earned": 30,
           "live": true,
           "out": true
         }
@@ -9932,9 +9932,9 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
-          "result": "R32",
-          "points_earned": 50,
+          "event_date_end": "2026-11-05",
+          "result": "R64",
+          "points_earned": 30,
           "live": true,
           "out": true
         }
@@ -10899,11 +10899,11 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
+          "event_date_end": "2026-11-05",
           "result": "R16",
           "points_earned": 100,
           "live": true,
-          "out": false
+          "out": true
         }
       ]
     },
@@ -11738,9 +11738,9 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
-          "result": "R16",
-          "points_earned": 100,
+          "event_date_end": "2026-11-05",
+          "result": "R32",
+          "points_earned": 50,
           "live": true,
           "out": true
         }
@@ -12361,9 +12361,9 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
-          "result": "R16",
-          "points_earned": 100,
+          "event_date_end": "2026-11-05",
+          "result": "R32",
+          "points_earned": 50,
           "live": true,
           "out": true
         }
@@ -12460,9 +12460,9 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
-          "result": "R32",
-          "points_earned": 50,
+          "event_date_end": "2026-11-05",
+          "result": "R64",
+          "points_earned": 30,
           "live": true,
           "out": true
         }
@@ -13517,9 +13517,9 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
-          "result": "R32",
-          "points_earned": 50,
+          "event_date_end": "2026-11-05",
+          "result": "R64",
+          "points_earned": 30,
           "live": true,
           "out": true
         }
@@ -13608,9 +13608,9 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
-          "result": "R16",
-          "points_earned": 100,
+          "event_date_end": "2026-11-05",
+          "result": "R32",
+          "points_earned": 50,
           "live": true,
           "out": true
         }
@@ -14431,7 +14431,7 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
+          "event_date_end": "2026-11-05",
           "result": "R16",
           "points_earned": 100,
           "live": true,
@@ -15287,9 +15287,9 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
-          "result": "R32",
-          "points_earned": 50,
+          "event_date_end": "2026-11-05",
+          "result": "R64",
+          "points_earned": 30,
           "live": true,
           "out": true
         }
@@ -16217,9 +16217,9 @@
           "event_name": "Rolex Paris Masters",
           "event_type": "1000",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-04",
-          "result": "R32",
-          "points_earned": 50,
+          "event_date_end": "2026-11-05",
+          "result": "R64",
+          "points_earned": 30,
           "live": true,
           "out": true
         }
