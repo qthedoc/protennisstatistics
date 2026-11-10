@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T06:14:47.587Z",
+  "updated_at": "2026-11-10T06:10:31.238Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -10688,11 +10688,9 @@
           "event_name": "Chennai Open",
           "event_type": "250",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-07",
-          "result": "SF",
-          "points_earned": 98,
-          "live": true,
-          "out": false
+          "event_date_end": "2026-11-09",
+          "result": "W",
+          "points_earned": 250
         }
       ]
     },
@@ -11825,11 +11823,9 @@
           "event_name": "Chennai Open",
           "event_type": "250",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-07",
-          "result": "SF",
-          "points_earned": 98,
-          "live": true,
-          "out": false
+          "event_date_end": "2026-11-09",
+          "result": "F",
+          "points_earned": 163
         }
       ]
     },
@@ -11965,11 +11961,9 @@
           "event_name": "Chennai Open",
           "event_type": "250",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-07",
+          "event_date_end": "2026-11-09",
           "result": "R32",
-          "points_earned": 0,
-          "live": true,
-          "out": true
+          "points_earned": 0
         }
       ]
     },
@@ -13096,11 +13090,9 @@
           "event_name": "Chennai Open",
           "event_type": "250",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-07",
+          "event_date_end": "2026-11-09",
           "result": "R32",
-          "points_earned": 0,
-          "live": true,
-          "out": true
+          "points_earned": 0
         }
       ]
     },
@@ -13977,11 +13969,9 @@
           "event_name": "Chennai Open",
           "event_type": "250",
           "event_date_start": "2026-11-02",
-          "event_date_end": "2026-11-07",
+          "event_date_end": "2026-11-09",
           "result": "QF",
-          "points_earned": 54,
-          "live": true,
-          "out": true
+          "points_earned": 54
         }
       ]
     },

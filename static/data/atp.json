@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T06:14:41.046Z",
+  "updated_at": "2026-11-10T06:10:26.834Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -5366,6 +5366,16 @@
           "event_date_end": "2026-11-08",
           "result": "R16",
           "points_earned": 100
+        },
+        {
+          "event_name": "BNP Paribas Nordic Open",
+          "event_type": "250",
+          "event_date_start": "2026-11-09",
+          "event_date_end": "2026-11-09",
+          "result": "R16",
+          "points_earned": 25,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -6066,6 +6076,16 @@
           "event_date_end": "2026-11-08",
           "result": "R32",
           "points_earned": 50
+        },
+        {
+          "event_name": "BNP Paribas Nordic Open",
+          "event_type": "250",
+          "event_date_start": "2026-11-09",
+          "event_date_end": "2026-11-09",
+          "result": "R16",
+          "points_earned": 25,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -6653,6 +6673,16 @@
           "event_date_end": "2026-11-08",
           "result": "R32",
           "points_earned": 50
+        },
+        {
+          "event_name": "BNP Paribas Nordic Open",
+          "event_type": "250",
+          "event_date_start": "2026-11-09",
+          "event_date_end": "2026-11-09",
+          "result": "R16",
+          "points_earned": 25,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -7724,6 +7754,16 @@
           "event_date_end": "2026-11-08",
           "result": "R32",
           "points_earned": 50
+        },
+        {
+          "event_name": "BNP Paribas Nordic Open",
+          "event_type": "250",
+          "event_date_start": "2026-11-09",
+          "event_date_end": "2026-11-09",
+          "result": "R16",
+          "points_earned": 25,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -9731,6 +9771,16 @@
           "event_date_end": "2026-11-08",
           "result": "R64",
           "points_earned": 30
+        },
+        {
+          "event_name": "BNP Paribas Nordic Open",
+          "event_type": "250",
+          "event_date_start": "2026-11-09",
+          "event_date_end": "2026-11-09",
+          "result": "R16",
+          "points_earned": 25,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -10037,6 +10087,16 @@
           "event_date_end": "2026-11-01",
           "result": "R32",
           "points_earned": 25
+        },
+        {
+          "event_name": "BNP Paribas Nordic Open",
+          "event_type": "250",
+          "event_date_start": "2026-11-09",
+          "event_date_end": "2026-11-09",
+          "result": "R16",
+          "points_earned": 25,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -12050,6 +12110,16 @@
           "event_date_end": "2026-11-08",
           "result": "R32",
           "points_earned": 50
+        },
+        {
+          "event_name": "BNP Paribas Nordic Open",
+          "event_type": "250",
+          "event_date_start": "2026-11-09",
+          "event_date_end": "2026-11-09",
+          "result": "R16",
+          "points_earned": 25,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -12211,6 +12281,16 @@
           "event_date_end": "2026-10-25",
           "result": "QF",
           "points_earned": 50
+        },
+        {
+          "event_name": "BNP Paribas Nordic Open",
+          "event_type": "250",
+          "event_date_start": "2026-11-09",
+          "event_date_end": "2026-11-09",
+          "result": "R16",
+          "points_earned": 25,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -15574,6 +15654,16 @@
           "event_date_end": "2026-10-25",
           "result": "R32",
           "points_earned": 0
+        },
+        {
+          "event_name": "BNP Paribas Nordic Open",
+          "event_type": "250",
+          "event_date_start": "2026-11-09",
+          "event_date_end": "2026-11-09",
+          "result": "R16",
+          "points_earned": 25,
+          "live": true,
+          "out": false
         }
       ]
     },
