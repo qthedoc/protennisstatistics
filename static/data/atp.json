@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T06:09:41.006Z",
+  "updated_at": "2026-11-15T06:09:53.477Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -163,14 +163,6 @@
       "current_points": 9450,
       "points_distribution": [
         {
-          "event_name": "Nitto ATP Finals",
-          "event_type": "1000",
-          "event_date_start": "2025-11-10",
-          "event_date_end": "2025-11-16",
-          "result": "W",
-          "points_earned": 1000
-        },
-        {
           "event_name": "Australian Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-01-19",
@@ -251,14 +243,6 @@
       "country_code": "ES",
       "current_points": 6100,
       "points_distribution": [
-        {
-          "event_name": "Nitto ATP Finals",
-          "event_type": "1000",
-          "event_date_start": "2025-11-10",
-          "event_date_end": "2025-11-16",
-          "result": "F",
-          "points_earned": 650
-        },
         {
           "event_name": "Australian Open",
           "event_type": "Grand Slam",
@@ -1266,14 +1250,6 @@
       "current_points": 3410,
       "points_distribution": [
         {
-          "event_name": "Nitto ATP Finals",
-          "event_type": "1000",
-          "event_date_start": "2025-11-10",
-          "event_date_end": "2025-11-16",
-          "result": "SF",
-          "points_earned": 400
-        },
-        {
           "event_name": "Australian Open",
           "event_type": "Grand Slam",
           "event_date_start": "2026-01-19",
@@ -1880,11 +1856,9 @@
           "event_name": "BNP Paribas Nordic Open",
           "event_type": "250",
           "event_date_start": "2026-11-09",
-          "event_date_end": "2026-11-13",
-          "result": "SF",
-          "points_earned": 100,
-          "live": true,
-          "out": false
+          "event_date_end": "2026-11-14",
+          "result": "W",
+          "points_earned": 250
         }
       ]
     },
@@ -1895,14 +1869,6 @@
       "country_code": "CA",
       "current_points": 2875,
       "points_distribution": [
-        {
-          "event_name": "Nitto ATP Finals",
-          "event_type": "1000",
-          "event_date_start": "2025-11-10",
-          "event_date_end": "2025-11-16",
-          "result": "SF",
-          "points_earned": 400
-        },
         {
           "event_name": "Australian Open",
           "event_type": "Grand Slam",
@@ -3925,11 +3891,9 @@
           "event_name": "BNP Paribas Nordic Open",
           "event_type": "250",
           "event_date_start": "2026-11-09",
-          "event_date_end": "2026-11-13",
+          "event_date_end": "2026-11-14",
           "result": "R16",
-          "points_earned": 25,
-          "live": true,
-          "out": true
+          "points_earned": 25
         }
       ]
     },
@@ -4064,11 +4028,9 @@
           "event_name": "BNP Paribas Nordic Open",
           "event_type": "250",
           "event_date_start": "2026-11-09",
-          "event_date_end": "2026-11-13",
+          "event_date_end": "2026-11-14",
           "result": "SF",
-          "points_earned": 100,
-          "live": true,
-          "out": true
+          "points_earned": 100
         }
       ]
     },
@@ -5160,11 +5122,9 @@
           "event_name": "BNP Paribas Nordic Open",
           "event_type": "250",
           "event_date_start": "2026-11-09",
-          "event_date_end": "2026-11-13",
+          "event_date_end": "2026-11-14",
           "result": "SF",
-          "points_earned": 100,
-          "live": true,
-          "out": true
+          "points_earned": 100
         }
       ]
     },
@@ -5411,11 +5371,9 @@
           "event_name": "BNP Paribas Nordic Open",
           "event_type": "250",
           "event_date_start": "2026-11-09",
-          "event_date_end": "2026-11-13",
+          "event_date_end": "2026-11-14",
           "result": "R16",
-          "points_earned": 25,
-          "live": true,
-          "out": true
+          "points_earned": 25
         }
       ]
     },
@@ -6121,11 +6079,9 @@
           "event_name": "BNP Paribas Nordic Open",
           "event_type": "250",
           "event_date_start": "2026-11-09",
-          "event_date_end": "2026-11-13",
+          "event_date_end": "2026-11-14",
           "result": "QF",
-          "points_earned": 50,
-          "live": true,
-          "out": true
+          "points_earned": 50
         }
       ]
     },
@@ -6718,11 +6674,9 @@
           "event_name": "BNP Paribas Nordic Open",
           "event_type": "250",
           "event_date_start": "2026-11-09",
-          "event_date_end": "2026-11-13",
+          "event_date_end": "2026-11-14",
           "result": "QF",
-          "points_earned": 50,
-          "live": true,
-          "out": true
+          "points_earned": 50
         }
       ]
     },
@@ -7114,11 +7068,9 @@
           "event_name": "BNP Paribas Nordic Open",
           "event_type": "250",
           "event_date_start": "2026-11-09",
-          "event_date_end": "2026-11-13",
+          "event_date_end": "2026-11-14",
           "result": "R32",
-          "points_earned": 0,
-          "live": true,
-          "out": true
+          "points_earned": 0
         }
       ]
     },
@@ -7809,11 +7761,9 @@
           "event_name": "BNP Paribas Nordic Open",
           "event_type": "250",
           "event_date_start": "2026-11-09",
-          "event_date_end": "2026-11-13",
+          "event_date_end": "2026-11-14",
           "result": "R16",
-          "points_earned": 25,
-          "live": true,
-          "out": true
+          "points_earned": 25
         }
       ]
     },
@@ -8012,11 +7962,9 @@
           "event_name": "BNP Paribas Nordic Open",
           "event_type": "250",
           "event_date_start": "2026-11-09",
-          "event_date_end": "2026-11-13",
+          "event_date_end": "2026-11-14",
           "result": "R32",
-          "points_earned": 0,
-          "live": true,
-          "out": true
+          "points_earned": 0
         }
       ]
     },
@@ -9333,11 +9281,9 @@
           "event_name": "BNP Paribas Nordic Open",
           "event_type": "250",
           "event_date_start": "2026-11-09",
-          "event_date_end": "2026-11-13",
-          "result": "SF",
-          "points_earned": 100,
-          "live": true,
-          "out": false
+          "event_date_end": "2026-11-14",
+          "result": "F",
+          "points_earned": 165
         }
       ]
     },
@@ -9552,11 +9498,9 @@
           "event_name": "BNP Paribas Nordic Open",
           "event_type": "250",
           "event_date_start": "2026-11-09",
-          "event_date_end": "2026-11-13",
+          "event_date_end": "2026-11-14",
           "result": "R16",
-          "points_earned": 25,
-          "live": true,
-          "out": true
+          "points_earned": 25
         }
       ]
     },
@@ -9836,11 +9780,9 @@
           "event_name": "BNP Paribas Nordic Open",
           "event_type": "250",
           "event_date_start": "2026-11-09",
-          "event_date_end": "2026-11-13",
+          "event_date_end": "2026-11-14",
           "result": "R32",
-          "points_earned": 0,
-          "live": true,
-          "out": true
+          "points_earned": 0
         }
       ]
     },
@@ -10152,11 +10094,9 @@
           "event_name": "BNP Paribas Nordic Open",
           "event_type": "250",
           "event_date_start": "2026-11-09",
-          "event_date_end": "2026-11-13",
+          "event_date_end": "2026-11-14",
           "result": "R32",
-          "points_earned": 0,
-          "live": true,
-          "out": true
+          "points_earned": 0
         }
       ]
     },
@@ -10395,11 +10335,9 @@
           "event_name": "BNP Paribas Nordic Open",
           "event_type": "250",
           "event_date_start": "2026-11-09",
-          "event_date_end": "2026-11-13",
+          "event_date_end": "2026-11-14",
           "result": "R32",
-          "points_earned": 0,
-          "live": true,
-          "out": true
+          "points_earned": 0
         }
       ]
     },
@@ -10622,11 +10560,9 @@
           "event_name": "BNP Paribas Nordic Open",
           "event_type": "250",
           "event_date_start": "2026-11-09",
-          "event_date_end": "2026-11-13",
+          "event_date_end": "2026-11-14",
           "result": "R16",
-          "points_earned": 25,
-          "live": true,
-          "out": true
+          "points_earned": 25
         }
       ]
     },
@@ -11517,11 +11453,9 @@
           "event_name": "BNP Paribas Nordic Open",
           "event_type": "250",
           "event_date_start": "2026-11-09",
-          "event_date_end": "2026-11-13",
+          "event_date_end": "2026-11-14",
           "result": "R32",
-          "points_earned": 0,
-          "live": true,
-          "out": true
+          "points_earned": 0
         }
       ]
     },
@@ -12026,11 +11960,9 @@
           "event_name": "BNP Paribas Nordic Open",
           "event_type": "250",
           "event_date_start": "2026-11-09",
-          "event_date_end": "2026-11-13",
+          "event_date_end": "2026-11-14",
           "result": "R32",
-          "points_earned": 0,
-          "live": true,
-          "out": true
+          "points_earned": 0
         }
       ]
     },
@@ -12205,11 +12137,9 @@
           "event_name": "BNP Paribas Nordic Open",
           "event_type": "250",
           "event_date_start": "2026-11-09",
-          "event_date_end": "2026-11-13",
+          "event_date_end": "2026-11-14",
           "result": "R32",
-          "points_earned": 0,
-          "live": true,
-          "out": true
+          "points_earned": 0
         }
       ]
     },
@@ -12376,11 +12306,9 @@
           "event_name": "BNP Paribas Nordic Open",
           "event_type": "250",
           "event_date_start": "2026-11-09",
-          "event_date_end": "2026-11-13",
+          "event_date_end": "2026-11-14",
           "result": "R32",
-          "points_earned": 0,
-          "live": true,
-          "out": true
+          "points_earned": 0
         }
       ]
     },
@@ -15749,11 +15677,9 @@
           "event_name": "BNP Paribas Nordic Open",
           "event_type": "250",
           "event_date_start": "2026-11-09",
-          "event_date_end": "2026-11-13",
+          "event_date_end": "2026-11-14",
           "result": "R16",
-          "points_earned": 25,
-          "live": true,
-          "out": true
+          "points_earned": 25
         }
       ]
     },
