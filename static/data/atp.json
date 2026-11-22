@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T06:10:03.406Z",
+  "updated_at": "2026-11-22T06:10:03.104Z",
   "source": "rapidapi-tennis-api-atp-wta-itf",
   "players": [
     {
@@ -152,6 +152,16 @@
           "event_date_end": "2026-11-08",
           "result": "R32",
           "points_earned": 50
+        },
+        {
+          "event_name": "Nitto ATP Finals",
+          "event_type": "1000",
+          "event_date_start": "2026-11-16",
+          "event_date_end": "2026-11-21",
+          "result": "SF",
+          "points_earned": 400,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -330,6 +340,16 @@
           "event_date_end": "2026-11-08",
           "result": "W",
           "points_earned": 1000
+        },
+        {
+          "event_name": "Nitto ATP Finals",
+          "event_type": "1000",
+          "event_date_start": "2026-11-16",
+          "event_date_end": "2026-11-21",
+          "result": "SF",
+          "points_earned": 400,
+          "live": true,
+          "out": false
         }
       ]
     },
@@ -507,6 +527,16 @@
           "event_date_end": "2026-11-08",
           "result": "F",
           "points_earned": 650
+        },
+        {
+          "event_name": "Nitto ATP Finals",
+          "event_type": "1000",
+          "event_date_start": "2026-11-16",
+          "event_date_end": "2026-11-21",
+          "result": "SF",
+          "points_earned": 400,
+          "live": true,
+          "out": true
         }
       ]
     },
@@ -708,6 +738,16 @@
           "event_date_end": "2026-11-08",
           "result": "R32",
           "points_earned": 50
+        },
+        {
+          "event_name": "Nitto ATP Finals",
+          "event_type": "1000",
+          "event_date_start": "2026-11-16",
+          "event_date_end": "2026-11-21",
+          "result": "SF",
+          "points_earned": 400,
+          "live": true,
+          "out": true
         }
       ]
     },
